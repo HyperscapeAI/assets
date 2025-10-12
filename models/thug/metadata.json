@@ -1,0 +1,45 @@
+{
+  "name": "thug",
+  "gameId": "thug",
+  "type": "character",
+  "subtype": "humanoid",
+  "description": "a RuneScape 2 inspired thug, no weapons, t-pose",
+  "detailedPrompt": "\"Generate a 3D character asset inspired by RuneScape 2, specifically a thug. The character should be standing in a T-pose for rigging compatibility. He should be masculine with a muscular build, adorned in worn-out and rugged clothing, consistent with the low-poly and pixelated graphics of the 2007 RuneScape style. The thug should have a menacing facial expression with a scar running down one cheek, no weapons but clenched fists. His attire should consist of a torn, dark leather tunic, dirty brown trousers, and worn-out boots, all with distinct texture details to reflect the rough and ready nature of his profession.\"",
+  "generatedAt": "2025-07-22T21:20:20.432Z",
+  "completedAt": "2025-07-22T21:20:20.432Z",
+  "isBaseModel": true,
+  "materialVariants": [],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/thug/thug.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01983400-5c22-7928-9913-57437383b784",
+  "meshyStatus": "completed",
+  "variants": [],
+  "variantCount": 0,
+  "lastVariantGenerated": null,
+  "updatedAt": "2025-07-22T21:20:20.432Z",
+  "isRigged": true,
+  "riggingTaskId": "01983402-448f-70f5-b708-d04328a1ae06",
+  "riggingStatus": "completed",
+  "rigType": "humanoid-standard",
+  "characterHeight": 1.7,
+  "animations": {
+    "basic": {
+      "walking": "animations/walking.glb",
+      "tpose": "t-pose.glb",
+      "running": "animations/running.glb"
+    }
+  },
+  "riggedModelPath": "thug_rigged.glb",
+  "tposeModelPath": "t-pose.glb",
+  "supportsAnimation": true,
+  "animationCompatibility": [
+    "mixamo",
+    "unity",
+    "unreal"
+  ]
+}

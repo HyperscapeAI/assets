@@ -1,0 +1,26 @@
+{
+  "name": "fishing-rod-standard",
+  "gameId": "fishing-rod-standard",
+  "type": "tool",
+  "subtype": "fishing-rod",
+  "description": "Basic fishing rod with clean geometry, simple wood design, low-poly RuneScape 2007 style",
+  "detailedPrompt": "Model Description: \n\nThe model is a basic fishing rod, designed in a simple, straight geometric shape. It is approximately 6 units in length, maintaining a consistent diameter of 0.2 units throughout, except at the ends. The rod is segmented into three even sections, separated by slightly thicker bands of 0.3 units, which will allow for easy retexturing. \n\nThe bottom of the rod flares out to a 0.5 unit diameter, creating a handle, which is 1.5 units in length. The handle is distinguished by a slight curvature for gripping ease. \n\nThe top end of the rod tapers slightly to a point over the last 0.5 unit of its length. Attached to this end is a thin, low-poly line that hangs down 4 units. The line ends with a simple, geometrical hook model. The hook is a basic curve shape, crafted from a 0.1 unit diameter cylindrical geometry, extending 0.4 units in length.\n\nThe entire model is rendered in a neutral grey color, perfect for retexturing. The simple, clean geometry and clear shapes make this model versatile for applying various textures and colors while maintaining the recognizable silhouette of a fishing rod. The style is consistent with the low-poly, old school RuneScape 2007 aesthetic.",
+  "generatedAt": "2025-07-20T03:49:47.759Z",
+  "completedAt": "2025-07-20T03:49:47.759Z",
+  "isBaseModel": false,
+  "materialVariants": [
+    "standard"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/fishing-rod-standard/fishing-rod-standard.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "Base Model Copy (Standard Variant)",
+  "meshyTaskId": "019825ba-f88b-7b5b-9a25-192f8e40426e",
+  "meshyStatus": "completed",
+  "isVariant": true,
+  "baseMaterial": "standard",
+  "parentBaseModel": "fishing-rod-base"
+}

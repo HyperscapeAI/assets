@@ -1,0 +1,31 @@
+{
+  "id": "chainbody-dragon",
+  "gameId": "chainbody-dragon",
+  "name": "chainbody-dragon",
+  "type": "armor",
+  "subtype": "armor",
+  "isBaseModel": false,
+  "isVariant": true,
+  "parentBaseModel": "chainbody",
+  "materialPreset": {
+    "id": "dragon",
+    "displayName": "Dragon",
+    "category": "custom",
+    "tier": 10,
+    "color": "#fa0000",
+    "stylePrompt": "Dragon metal texture, red with matte finish, RuneScape 2007 style"
+  },
+  "workflow": "Meshy AI Retexture",
+  "baseModelTaskId": "01985e11-3e1b-7e49-84ac-795c2361bc68",
+  "retextureTaskId": "01985e3d-d884-7e4e-84fe-982a310c753c",
+  "retextureStatus": "completed",
+  "modelPath": "chainbody-dragon.glb",
+  "conceptArtPath": null,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "generatedAt": "2025-07-31T02:11:10.260Z",
+  "completedAt": "2025-07-31T02:11:10.260Z",
+  "description": "A RuneScape 2 inspired chainbody",
+  "isPlaceholder": false,
+  "gddCompliant": true
+}

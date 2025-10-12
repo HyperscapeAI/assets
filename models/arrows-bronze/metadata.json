@@ -1,0 +1,31 @@
+{
+  "id": "arrows-bronze",
+  "gameId": "arrows-bronze",
+  "name": "arrows-bronze",
+  "type": "ammunition",
+  "subtype": "arrows",
+  "isBaseModel": false,
+  "isVariant": true,
+  "parentBaseModel": "arrows-base",
+  "materialPreset": {
+    "id": "bronze",
+    "displayName": "Bronze",
+    "category": "metal",
+    "tier": 1,
+    "color": "#CD7F32",
+    "stylePrompt": "bronze metal texture, copper brown color, slightly dull metallic finish, RuneScape 2007 style"
+  },
+  "workflow": "Meshy AI Retexture",
+  "baseModelTaskId": "019825de-b568-7b7d-99d3-3958407f0530",
+  "retextureTaskId": "01982b34-727e-71ed-8c2c-fbd7b9a1bbdb",
+  "retextureStatus": "completed",
+  "modelPath": "arrows-bronze.glb",
+  "conceptArtPath": null,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "generatedAt": "2025-07-21T04:19:30.456Z",
+  "completedAt": "2025-07-21T04:19:30.456Z",
+  "description": "Basic arrow with clean geometry, neutral design, low-poly RuneScape 2007 style",
+  "isPlaceholder": false,
+  "gddCompliant": true
+}

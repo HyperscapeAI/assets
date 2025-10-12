@@ -1,0 +1,29 @@
+{
+  "name": "mace",
+  "gameId": "mace",
+  "type": "weapon",
+  "subtype": "weapon",
+  "description": "A RuneScape inspired mace",
+  "detailedPrompt": "A mace weapon stylized in the aesthetic of RuneScape 2007. The mace should feature a robust, cylindrical iron handle with a worn, rustic texture, transitioning into a spherical head adorned with six evenly distributed, diamond-shaped spikes. The spikes should be sharp, protruding, and possess the same rustic iron texture. The entire mace should emit a subtly glowing enchantment, reflecting the iconic magical vibe of RuneScape items.",
+  "generatedAt": "2025-07-22T21:41:45.412Z",
+  "completedAt": "2025-07-22T21:41:45.412Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "dragon"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/mace/mace.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01983414-0629-7931-bb19-409193ecdd6a",
+  "meshyStatus": "completed",
+  "variants": [
+    "mace-dragon"
+  ],
+  "variantCount": 1,
+  "lastVariantGenerated": "mace-dragon",
+  "updatedAt": "2025-07-22T21:42:44.797Z"
+}

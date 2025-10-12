@@ -1,0 +1,30 @@
+{
+  "name": "spiked-helmet",
+  "gameId": "spiked-helmet",
+  "type": "armor",
+  "subtype": "helmet",
+  "description": "a runescape 2 inspired spiked helmet. no base, no stand, only the helmet nothing else no exceptions",
+  "detailedPrompt": "Generate a 3D asset inspired by the art style of Runescape 2007: an intricately designed spiked helmet. This helmet should be void of any base or stand, focusing solely on the object itself. The helmet should exhibit a rugged, worn-out look to reflect the gritty atmosphere of the game. The design should incorporate a series of sharp, menacing spikes protruding from the helmet's surface in a symmetrical pattern. The material of the helmet should resemble aged, weathered iron with a dull, matte finish, hinting at countless battles. The form should be slightly oval, to mimic the shape of a human head, and should feature intricate geometric details, such as engraved patterns around the base and eye slits. Ensure consistency with the Runescape 2007 simplistic, low-poly style.",
+  "generatedAt": "2025-07-28T03:28:46.280Z",
+  "completedAt": "2025-07-28T03:28:46.280Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "bronze"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/spiked-helmet/spiked-helmet.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01984f11-3f55-79e4-b662-db874a8ee09c",
+  "meshyStatus": "completed",
+  "variants": [],
+  "variantCount": 0,
+  "lastVariantGenerated": null,
+  "updatedAt": "2025-07-28T03:28:46.280Z",
+  "normalized": false,
+  "tier": "",
+  "lastModified": "2025-07-31T00:23:40.462Z"
+}

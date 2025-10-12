@@ -1,0 +1,32 @@
+{
+  "name": "shield-mithril",
+  "gameId": "shield-mithril",
+  "type": "weapon",
+  "subtype": "shield",
+  "description": "Basic shield with clean geometry, simple round design, low-poly RuneScape 2007 style",
+  "detailedPrompt": "The basic shield model takes on a traditional round shape with a diameter roughly 1.5 times the length of the average player's arm. It tapers slightly towards the edges, maintaining a consistent thickness throughout. The edge of the shield is reinforced with a simple raised rim, adding some depth to the otherwise flat surface.\n\nThe shield's face is divided into two concentric circles. The outer circle spans the shield's rim to just a quarter way in, while the inner circle forms the shield's center. The space between these two circles is slightly recessed, creating a shallow groove that adds visual interest without complicating the model's geometry.\n\nOn the back of the shield, there's a simple handle for the player to hold. The handle is an elongated oval shape, positioned horizontally and attached securely to the shield's center. The handle stands out slightly from the shield's back, making it clear that it's a separate element.\n\nThe entire shield model is rendered in a neutral gray color. The model's geometry is clean and simple, with a low poly count consistent with the RuneScape 2007 style. This shield's iconic silhouette and basic design make it an ideal base for retexturing with various materials.",
+  "generatedAt": "2025-07-20T04:13:43.932Z",
+  "completedAt": "2025-07-20T04:13:43.932Z",
+  "isBaseModel": false,
+  "materialVariants": [
+    "bronze",
+    "steel",
+    "mithril"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/shield-mithril/shield-mithril.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D → Meshy Retexture API",
+  "meshyTaskId": "0198259b-1d12-7c16-b5b0-1fdf18785e87",
+  "meshyStatus": "completed",
+  "isVariant": true,
+  "baseMaterial": "mithril",
+  "parentBaseModel": "shield-base",
+  "materialStylePrompt": "mithril metal texture, blue-gray color with magical shimmer, fantasy metallic finish, RuneScape 2007 style",
+  "baseModelTaskId": "0198259b-1d12-7c16-b5b0-1fdf18785e87",
+  "retextureTaskId": "01982608-b349-7c6b-9050-21e15c529240",
+  "retextureStatus": "completed"
+}

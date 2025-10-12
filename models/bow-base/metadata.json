@@ -1,0 +1,25 @@
+{
+  "name": "bow-base",
+  "gameId": "bow-base",
+  "type": "weapon",
+  "subtype": "bow",
+  "description": "Basic bow with clean geometry, simple wood design, low-poly RuneScape 2007 style",
+  "detailedPrompt": "Model: Basic Bow\n\n1. Shape and Dimensions: The base model of the bow has a classic, symmetrical, D-shaped design. It's about two to three times as tall as an average RuneScape character. The width is relatively thin, maintaining a consistent thickness throughout the body, tapering slightly towards the tips.\n\n2. Structure: The bow's body is made up of a single, solid, elongated piece curving into a semi-circle at the top and bottom, connecting at the center to form the grip. The bowstring runs from one tip of the bow to the other, forming a tight line that bisects the bow's curve. \n\n3. Details: The grip in the middle is slightly thicker with small horizontal grooves for hand placement, providing a hint of realism without specific textures. The ends of the bow, where the bowstring attaches, feature small, simple, cylindrical shapes for the notches. The bowstring is a thin, straight line with slight angular bends at the points where it attaches to the bow's tips.\n\n4. Colors: The bow, including the grip and notches, is rendered in a neutral gray, while the bowstring is white. No specific wood textures or colors are applied, making it suitable for retexturing.\n\n5. Style: The design maintains the simple, low-poly aesthetic of RuneScape 2007. It has a clean geometry and a clear, iconic silhouette that is easily identifiable as a bow.",
+  "generatedAt": "2025-07-20T02:12:26.085Z",
+  "completedAt": "2025-07-20T02:12:26.085Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "wood",
+    "oak",
+    "willow"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/bow-base/bow-base.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01982598-456a-7b3d-ac1a-5a9c37c194ac",
+  "meshyStatus": "completed"
+}

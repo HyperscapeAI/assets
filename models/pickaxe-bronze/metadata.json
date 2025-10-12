@@ -1,0 +1,31 @@
+{
+  "id": "pickaxe-bronze",
+  "gameId": "pickaxe-bronze",
+  "name": "pickaxe-bronze",
+  "type": "weapon",
+  "subtype": "weapon",
+  "isBaseModel": false,
+  "isVariant": true,
+  "parentBaseModel": "pickaxe",
+  "materialPreset": {
+    "id": "bronze",
+    "displayName": "Bronze",
+    "category": "metal",
+    "tier": 1,
+    "color": "#CD7F32",
+    "stylePrompt": "bronze metal texture, copper brown color, slightly dull metallic finish, RuneScape 2007 style"
+  },
+  "workflow": "Meshy AI Retexture",
+  "baseModelTaskId": "01985448-7ac6-7eda-9822-8cead4230bd0",
+  "retextureTaskId": "0198544a-5971-7b93-9eba-5c6e74612612",
+  "retextureStatus": "completed",
+  "modelPath": "pickaxe-bronze.glb",
+  "conceptArtPath": null,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "generatedAt": "2025-07-29T03:48:16.809Z",
+  "completedAt": "2025-07-29T03:48:16.809Z",
+  "description": "A RuneScape 2 inspired pickaxe",
+  "isPlaceholder": false,
+  "gddCompliant": true
+}

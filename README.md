@@ -1,0 +1,1 @@
+Game assets for the HyperScape project
