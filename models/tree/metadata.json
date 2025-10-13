@@ -1,0 +1,23 @@
+{
+  "name": "tree",
+  "gameId": "tree",
+  "type": "resource",
+  "subtype": "tree",
+  "description": "Default tree",
+  "detailedPrompt": "Default tree",
+  "generatedAt": "2025-07-20T03:12:44.509Z",
+  "completedAt": "2025-07-20T03:12:44.509Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "standard"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/logs-base/logs-base.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "019825cf-2997-7b70-bf44-4bce7bd55e73",
+  "meshyStatus": "completed"
+}
