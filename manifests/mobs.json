@@ -44,7 +44,7 @@
       "rareDrops": []
     },
     "spawnBiomes": ["mistwood_valley", "goblin_wastes"],
-    "modelPath": "/world-assets/forge/goblin/goblin_rigged.glb",
+    "modelPath": "asset://models/goblin/goblin_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 8
   },
@@ -82,7 +82,7 @@
       { "itemId": "coins", "quantity": 8, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["mistwood_valley", "goblin_wastes", "northern_plains"],
-    "modelPath": "/world-assets/forge/thug/thug_rigged.glb",
+    "modelPath": "asset://models/thug/thug_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 12
   },
@@ -120,7 +120,7 @@
       { "itemId": "coins", "quantity": 12, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["goblin_wastes", "northern_plains"],
-    "modelPath": "/world-assets/forge/human/human_rigged.glb",
+    "modelPath": "asset://models/human/human_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 18
   },
@@ -158,7 +158,7 @@
       { "itemId": "coins", "quantity": 25, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["darkwood_forest", "corrupted_ruins"],
-    "modelPath": "/world-assets/forge/troll/troll_rigged.glb",
+    "modelPath": "asset://models/troll/troll_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 35
   },
@@ -196,7 +196,7 @@
       { "itemId": "coins", "quantity": 35, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["darkwood_forest", "corrupted_ruins"],
-    "modelPath": "/world-assets/forge/human/human_rigged.glb",
+    "modelPath": "asset://models/human/human_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 45
   },
@@ -234,7 +234,7 @@
       { "itemId": "coins", "quantity": 45, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["darkwood_forest"],
-    "modelPath": "/world-assets/forge/imp/imp_rigged.glb",
+    "modelPath": "asset://models/imp/imp_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 55
   },
@@ -272,7 +272,7 @@
       { "itemId": "coins", "quantity": 100, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["blasted_lands", "black_knight_fortress"],
-    "modelPath": "/world-assets/forge/human/human_rigged.glb",
+    "modelPath": "asset://models/human/human_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 100
   },
@@ -310,7 +310,7 @@
       { "itemId": "coins", "quantity": 120, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["northern_reaches"],
-    "modelPath": "/world-assets/forge/human/human_rigged.glb",
+    "modelPath": "asset://models/human/human_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 90
   },
@@ -348,7 +348,7 @@
       { "itemId": "coins", "quantity": 150, "chance": 1.0, "isGuaranteed": true }
     ],
     "spawnBiomes": ["blasted_lands"],
-    "modelPath": "/world-assets/forge/human/human_rigged.glb",
+    "modelPath": "asset://models/human/human_rigged.glb",
     "respawnTime": 900000,
     "xpReward": 110
   }

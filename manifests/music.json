@@ -4,7 +4,7 @@
     "name": "Mistwood Melody",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/1.mp3",
+    "path": "asset://music/normal/1.mp3",
     "description": "Peaceful exploration music",
     "duration": 180,
     "mood": "peaceful"
@@ -14,7 +14,7 @@
     "name": "Valley Wanderer",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/2.mp3",
+    "path": "asset://music/normal/2.mp3",
     "description": "Gentle exploration theme",
     "duration": 180,
     "mood": "calm"
@@ -24,7 +24,7 @@
     "name": "Ancient Paths",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/3.mp3",
+    "path": "asset://music/normal/3.mp3",
     "description": "Mysterious ambient track",
     "duration": 180,
     "mood": "mysterious"
@@ -34,7 +34,7 @@
     "name": "Hyperian Dawn",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/4.mp3",
+    "path": "asset://music/normal/4.mp3",
     "description": "Hopeful morning theme",
     "duration": 180,
     "mood": "hopeful"
@@ -44,7 +44,7 @@
     "name": "Forgotten Realm",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/5.mp3",
+    "path": "asset://music/normal/5.mp3",
     "description": "Contemplative exploration",
     "duration": 180,
     "mood": "contemplative"
@@ -54,7 +54,7 @@
     "name": "Twilight Fields",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/6.mp3",
+    "path": "asset://music/normal/6.mp3",
     "description": "Evening exploration theme",
     "duration": 180,
     "mood": "serene"
@@ -64,7 +64,7 @@
     "name": "Whispering Woods",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/7.mp3",
+    "path": "asset://music/normal/7.mp3",
     "description": "Forest ambience",
     "duration": 180,
     "mood": "natural"
@@ -74,7 +74,7 @@
     "name": "Distant Horizons",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/8.mp3",
+    "path": "asset://music/normal/8.mp3",
     "description": "Expansive exploration theme",
     "duration": 180,
     "mood": "expansive"
@@ -84,7 +84,7 @@
     "name": "Starlit Journey",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/9.mp3",
+    "path": "asset://music/normal/9.mp3",
     "description": "Night exploration music",
     "duration": 180,
     "mood": "peaceful"
@@ -94,7 +94,7 @@
     "name": "Emerald Glade",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/10.mp3",
+    "path": "asset://music/normal/10.mp3",
     "description": "Lush forest theme",
     "duration": 180,
     "mood": "vibrant"
@@ -104,7 +104,7 @@
     "name": "Mountain Pass",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/11.mp3",
+    "path": "asset://music/normal/11.mp3",
     "description": "Highland exploration",
     "duration": 180,
     "mood": "majestic"
@@ -114,7 +114,7 @@
     "name": "River's Flow",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/12.mp3",
+    "path": "asset://music/normal/12.mp3",
     "description": "Flowing water theme",
     "duration": 180,
     "mood": "flowing"
@@ -124,7 +124,7 @@
     "name": "Sanctuary",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/13.mp3",
+    "path": "asset://music/normal/13.mp3",
     "description": "Safe haven music",
     "duration": 180,
     "mood": "safe"
@@ -134,7 +134,7 @@
     "name": "Eternal Wanderer",
     "type": "ambient",
     "category": "normal",
-    "path": "/world-assets/music/normal/14.mp3",
+    "path": "asset://music/normal/14.mp3",
     "description": "Epic exploration finale",
     "duration": 180,
     "mood": "epic"
@@ -144,7 +144,7 @@
     "name": "Battle Cry",
     "type": "combat",
     "category": "combat",
-    "path": "/world-assets/music/combat/1.mp3",
+    "path": "asset://music/combat/1.mp3",
     "description": "Intense combat music",
     "duration": 120,
     "mood": "intense"
@@ -154,7 +154,7 @@
     "name": "Clash of Steel",
     "type": "combat",
     "category": "combat",
-    "path": "/world-assets/music/combat/2.mp3",
+    "path": "asset://music/combat/2.mp3",
     "description": "Fast-paced battle theme",
     "duration": 120,
     "mood": "aggressive"
@@ -164,7 +164,7 @@
     "name": "Warrior's Resolve",
     "type": "combat",
     "category": "combat",
-    "path": "/world-assets/music/combat/3.mp3",
+    "path": "asset://music/combat/3.mp3",
     "description": "Heroic combat music",
     "duration": 120,
     "mood": "heroic"
@@ -174,7 +174,7 @@
     "name": "Dark Encounter",
     "type": "combat",
     "category": "combat",
-    "path": "/world-assets/music/combat/4.mp3",
+    "path": "asset://music/combat/4.mp3",
     "description": "Ominous battle theme",
     "duration": 120,
     "mood": "ominous"
