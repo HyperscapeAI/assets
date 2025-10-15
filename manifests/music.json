@@ -1,5 +1,25 @@
 [
   {
+    "id": "intro_1",
+    "name": "Hyperscape Theme I",
+    "type": "theme",
+    "category": "intro",
+    "path": "asset://music/intro/1.mp3",
+    "description": "Main theme music for character selection",
+    "duration": 180,
+    "mood": "epic"
+  },
+  {
+    "id": "intro_2",
+    "name": "Hyperscape Theme II",
+    "type": "theme",
+    "category": "intro",
+    "path": "asset://music/intro/2.mp3",
+    "description": "Alternate theme music for character selection",
+    "duration": 180,
+    "mood": "epic"
+  },
+  {
     "id": "normal_1",
     "name": "Mistwood Melody",
     "type": "ambient",
