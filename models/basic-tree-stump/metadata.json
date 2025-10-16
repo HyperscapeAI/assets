@@ -1,0 +1,30 @@
+{
+  "name": "basic-tree-stump",
+  "gameId": "basic-tree-stump",
+  "type": "resource",
+  "subtype": "resource",
+  "description": "A basic tree stump that you would expect after chopping a tree down with an axe. only the stump no axe in the stump or anything like that ",
+  "detailedPrompt": "Generate a hyper-realistic 3D asset of a freshly chopped tree stump. The stump should display a cylindrical form with a rough, uneven top surface, imitating the irregular pattern created by an axe. The texture should be highly-detailed, showcasing the coarse fibrous grain of the wood, with visible age rings and splinters around the edges. The bark should be richly textured, with a coarse, grooved appearance and a deep, earthy brown color. The stump's base should be rooted in a patch of textured, green grass. No additional objects like an axe or leaves should be present.",
+  "generatedAt": "2025-10-16T08:20:20.087Z",
+  "completedAt": "2025-10-16T08:20:20.087Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "bronze",
+    "steel",
+    "mithril"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/basic-tree-stump/basic-tree-stump.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "0199ec17-4aa2-7886-9d43-f418ac7a8b21",
+  "meshyStatus": "completed",
+  "variants": [],
+  "variantCount": 0,
+  "lastVariantGenerated": null,
+  "updatedAt": "2025-10-16T08:20:20.087Z",
+  "normalized": false
+}
