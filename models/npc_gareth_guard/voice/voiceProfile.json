@@ -1,0 +1,21 @@
+{
+  "npcId": "npc_gareth_guard",
+  "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+  "voiceName": "Unknown",
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75,
+    "style": 0,
+    "useSpeakerBoost": true
+  },
+  "clips": 1,
+  "generatedAt": "2025-10-23T01:48:42.040Z",
+  "metadata": {
+    "totalRequested": 1,
+    "successCount": 1,
+    "failureCount": 0,
+    "durationSeconds": "1.09",
+    "concurrencyLimit": 5
+  }
+}

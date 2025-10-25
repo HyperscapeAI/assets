@@ -1,0 +1,21 @@
+{
+  "npcId": "npc_luna_herbalist",
+  "voiceId": "Xb7hH8MSUJpSbSDYk0k2",
+  "voiceName": "Unknown",
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75,
+    "style": 0,
+    "useSpeakerBoost": true
+  },
+  "clips": 1,
+  "generatedAt": "2025-10-22T23:02:48.264Z",
+  "metadata": {
+    "totalRequested": 1,
+    "successCount": 1,
+    "failureCount": 0,
+    "durationSeconds": "1.42",
+    "concurrencyLimit": 5
+  }
+}
