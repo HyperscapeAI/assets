@@ -1,16 +1,10 @@
-name: Deploy to Railway
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    container: ghcr.io/railwayapp/cli:latest
-    env:
-      SVC_ID: 631bc72d-e2e9-4d40-b914-99bde5bc7e66
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-    steps:
-      - uses: actions/checkout@v3
-      - run: railway up --service=${{ env.SVC_ID }}
+            - name: Railway Deploy
+  # You may pin to the exact commit or the version.
+  # uses: bervProject/railway-deploy@4a1cfdb24551aee5c891e0bc716e8de963c4fbe6
+  uses: bervProject/railway-deploy@0.2.0-beta
+  with:
+    # The specific service target
+    service: 631bc72d-e2e9-4d40-b914-99bde5bc7e66 
+    # Detach option in the railway cli option
+    detach: # optional
+          
