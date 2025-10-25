@@ -5,7 +5,7 @@
   "type": "module",
   "packageManager": "bun@1.1.38",
   "scripts": {
-    "start": "serve -s . -l ${PORT:-3000} --cors"
+    "start": "serve -s . -p ${PORT:-3000} --cors --no-clipboard"
   },
   "keywords": ["hyperscape", "assets", "3d", "static-server"],
   "license": "MIT",

@@ -4,9 +4,9 @@
     "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "npx serve -s . -l $PORT --cors",
-    "healthcheckPath": "/README.md",
-    "healthcheckTimeout": 100,
+    "startCommand": "npx serve@latest -s . -p $PORT --cors --no-clipboard",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   }
