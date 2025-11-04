@@ -38,8 +38,8 @@
       "drops": {
         "defaultDrop": {
           "itemId": "bones",
-          "quantity": 0,
-          "enabled": false
+          "quantity": 1,
+          "enabled": true
         },
         "always": [],
         "common": [],
@@ -156,8 +156,8 @@
       "drops": {
         "defaultDrop": {
           "itemId": "bones",
-          "quantity": 0,
-          "enabled": false
+          "quantity": 1,
+          "enabled": true
         },
         "always": [],
         "common": [],
@@ -736,8 +736,8 @@
       "drops": {
         "defaultDrop": {
           "itemId": "bones",
-          "quantity": 0,
-          "enabled": false
+          "quantity": 1,
+          "enabled": true
         },
         "always": [],
         "common": [],
@@ -858,8 +858,8 @@
       "drops": {
         "defaultDrop": {
           "itemId": "bones",
-          "quantity": 0,
-          "enabled": false
+          "quantity": 1,
+          "enabled": true
         },
         "always": [],
         "common": [],
@@ -2040,7 +2040,7 @@
   ],
   "metadata": {
     "version": "2.0.0",
-    "generatedAt": "2025-11-04T02:49:34.824Z",
+    "generatedAt": "2025-11-04T02:52:15.900Z",
     "totalCount": 13,
     "categories": {
       "mob": 6,

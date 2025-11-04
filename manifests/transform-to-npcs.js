@@ -26,35 +26,25 @@ const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
  * Determine NPC category based on properties
  */
 function determineCategory(char) {
-  // Check if NPC provides quest services (can be attackable or not)
+  // Check if NPC provides quest services
   if (char.services && char.services.includes('quest')) {
     return 'quest';
   }
 
-  if (char.services && char.services.length > 0 && char.canBeAttacked === false) {
-    return 'neutral';
-  } else if (char.canBeAttacked === true) {
-    // Boss indicators: high level, high health
-    const isBoss = char.level >= 20 || char.maxHealth >= 60;
-    return isBoss ? 'boss' : 'mob';
-  } else {
+  // NPCs with services (shops, banks, etc.) are neutral
+  if (char.services && char.services.length > 0) {
     return 'neutral';
   }
+
+  // Combat NPCs: check if boss or regular mob
+  const isBoss = char.level >= 20 || char.maxHealth >= 60;
+  return isBoss ? 'boss' : 'mob';
 }
 
 /**
  * Get default drop item based on NPC type and category
  */
 function getDefaultDrop(char, category) {
-  // Non-attackable NPCs don't drop bones
-  if (char.canBeAttacked === false) {
-    return {
-      itemId: 'bones',
-      quantity: 0,
-      enabled: false
-    };
-  }
-
   // Bosses drop big_bones
   if (category === 'boss') {
     return {
@@ -64,7 +54,7 @@ function getDefaultDrop(char, category) {
     };
   }
 
-  // All other attackable NPCs (mobs, quest NPCs, etc.) drop bones
+  // All other NPCs drop bones (everyone can be attacked)
   return {
     itemId: 'bones',
     quantity: 1,
