@@ -4,7 +4,7 @@
     "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "npx serve@latest -s . -p $PORT --cors --no-clipboard",
+    "startCommand": "bunx serve -s . -p $PORT --cors --no-clipboard",
     "healthcheckPath": "/",
     "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",
