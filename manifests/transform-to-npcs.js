@@ -26,8 +26,8 @@ const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
  * Determine NPC category based on properties
  */
 function determineCategory(char) {
-  // Check if NPC provides quest services
-  if (char.services && char.services.includes('quest') && char.canBeAttacked === false) {
+  // Check if NPC provides quest services (can be attackable or not)
+  if (char.services && char.services.includes('quest')) {
     return 'quest';
   }
 
@@ -46,8 +46,8 @@ function determineCategory(char) {
  * Get default drop item based on NPC type and category
  */
 function getDefaultDrop(char, category) {
-  // Neutral and Quest NPCs don't drop default items
-  if (category === 'neutral' || category === 'quest') {
+  // Non-attackable NPCs don't drop bones
+  if (char.canBeAttacked === false) {
     return {
       itemId: 'bones',
       quantity: 0,
@@ -64,7 +64,7 @@ function getDefaultDrop(char, category) {
     };
   }
 
-  // Regular mobs drop bones
+  // All other attackable NPCs (mobs, quest NPCs, etc.) drop bones
   return {
     itemId: 'bones',
     quantity: 1,
