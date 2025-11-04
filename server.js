@@ -4,9 +4,178 @@ import { ZipWriter, BlobWriter, ZipReader, BlobReader } from '@zip.js/zip.js';
 
 const ROOT_DIR = process.cwd();
 
+// Data directory for Railway volume support
+// Defaults to /data for Railway, falls back to ROOT_DIR for local development
+const DATA_DIR = process.env.DATA_DIR || ROOT_DIR;
+
+// Authentication Configuration
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const SESSION_SECRET = process.env.SESSION_SECRET || generateRandomString(32);
+const SESSION_DURATION_HOURS = parseInt(process.env.SESSION_DURATION_HOURS) || 24;
+
+// Authentication enabled if ADMIN_USERNAME and ADMIN_PASSWORD are set
+const AUTH_ENABLED = !!(ADMIN_USERNAME && ADMIN_PASSWORD);
+
+// Session store (in-memory)
+const sessions = new Map();
+
+// Login attempt tracking (rate limiting)
+const loginAttempts = new Map();
+
+// Helper: Generate random string
+function generateRandomString(length) {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  const randomBytes = crypto.getRandomValues(new Uint8Array(length));
+  for (let i = 0; i < length; i++) {
+    result += chars[randomBytes[i] % chars.length];
+  }
+  return result;
+}
+
+// Helper: Hash password using Web Crypto API
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Helper: Verify password (constant-time comparison)
+async function verifyPassword(inputPassword, username) {
+  if (!ADMIN_PASSWORD || !ADMIN_USERNAME) return false;
+  if (username !== ADMIN_USERNAME) return false;
+
+  const inputHash = await hashPassword(inputPassword);
+  const correctHash = await hashPassword(ADMIN_PASSWORD);
+
+  // Constant-time comparison
+  if (inputHash.length !== correctHash.length) return false;
+  let matches = true;
+  for (let i = 0; i < inputHash.length; i++) {
+    if (inputHash[i] !== correctHash[i]) matches = false;
+  }
+  return matches;
+}
+
+// Helper: Create session
+function createSession(username) {
+  const token = generateRandomString(48);
+  const expiresAt = Date.now() + (SESSION_DURATION_HOURS * 60 * 60 * 1000);
+
+  sessions.set(token, {
+    username,
+    createdAt: Date.now(),
+    expiresAt
+  });
+
+  // Clean up expired sessions
+  cleanupExpiredSessions();
+
+  return token;
+}
+
+// Helper: Validate session
+function validateSession(token) {
+  if (!token) return null;
+
+  const session = sessions.get(token);
+  if (!session) return null;
+
+  if (Date.now() > session.expiresAt) {
+    sessions.delete(token);
+    return null;
+  }
+
+  return session;
+}
+
+// Helper: Delete session
+function deleteSession(token) {
+  sessions.delete(token);
+}
+
+// Helper: Clean up expired sessions
+function cleanupExpiredSessions() {
+  const now = Date.now();
+  for (const [token, session] of sessions.entries()) {
+    if (now > session.expiresAt) {
+      sessions.delete(token);
+    }
+  }
+}
+
+// Helper: Check login rate limit
+function checkLoginRateLimit(username) {
+  const now = Date.now();
+  const attempts = loginAttempts.get(username) || [];
+
+  // Remove attempts older than 15 minutes
+  const recentAttempts = attempts.filter(time => now - time < 15 * 60 * 1000);
+
+  if (recentAttempts.length >= 5) {
+    return false; // Rate limited
+  }
+
+  recentAttempts.push(now);
+  loginAttempts.set(username, recentAttempts);
+  return true;
+}
+
+// Helper: Extract session token from request
+function getSessionToken(request) {
+  const cookie = request.headers.get('Cookie');
+  if (!cookie) return null;
+
+  const cookies = cookie.split(';').map(c => c.trim());
+  for (const c of cookies) {
+    if (c.startsWith('session=')) {
+      return c.substring(8);
+    }
+  }
+  return null;
+}
+
+// Helper: Create auth cookie
+function createAuthCookie(token) {
+  const isProduction = process.env.NODE_ENV === 'production';
+  const maxAge = SESSION_DURATION_HOURS * 60 * 60;
+
+  return `session=${token}; HttpOnly; SameSite=Strict; Max-Age=${maxAge}; Path=/${isProduction ? '; Secure' : ''}`;
+}
+
+// Authentication Middleware
+function requireAuth(request) {
+  if (!AUTH_ENABLED) {
+    return { authorized: true };
+  }
+
+  const token = getSessionToken(request);
+  const session = validateSession(token);
+
+  if (!session) {
+    return {
+      authorized: false,
+      response: new Response(JSON.stringify({
+        success: false,
+        error: 'Unauthorized',
+        requiresAuth: true
+      }), {
+        status: 401,
+        headers: { 'Content-Type': 'application/json' }
+      })
+    };
+  }
+
+  return { authorized: true, session };
+}
+
 // Configuration Management
 let config = null;
-const CONFIG_PATH = join(ROOT_DIR, 'config.json');
+const CONFIG_PATH_VOLUME = join(DATA_DIR, 'config.json'); // Volume config (priority)
+const CONFIG_PATH_REPO = join(ROOT_DIR, 'config.json'); // Repository config (fallback)
 const DEFAULT_CONFIG = {
   server: {
     port: 3000,
@@ -15,7 +184,7 @@ const DEFAULT_CONFIG = {
   cors: {
     allowedOrigins: ["*"],
     allowedMethods: ["GET", "POST", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type"]
+    allowedHeaders: ["Content-Type", "Authorization"]
   },
   directories: {
     assets: ["models", "manifests", "emotes", "music", "world", "web"],
@@ -25,7 +194,10 @@ const DEFAULT_CONFIG = {
   security: {
     maxFileSize: 104857600,
     allowedFileTypes: [".glb", ".json", ".mp3", ".png", ".jpg", ".jpeg", ".woff2", ".vrm"],
-    enableAuth: false
+    enableAuth: AUTH_ENABLED,
+    sessionDurationHours: SESSION_DURATION_HOURS,
+    maxLoginAttempts: 5,
+    loginAttemptWindowMinutes: 15
   },
   features: {
     enableValidation: true,
@@ -42,14 +214,25 @@ const DEFAULT_CONFIG = {
 // Load configuration from file and merge with environment variables
 function loadConfig() {
   try {
-    // Load from file if exists
-    if (existsSync(CONFIG_PATH)) {
-      const fileContent = readFileSync(CONFIG_PATH, 'utf-8');
+    // Load from volume config first, then fall back to repo config
+    let configPath = CONFIG_PATH_VOLUME;
+    if (!existsSync(CONFIG_PATH_VOLUME) && existsSync(CONFIG_PATH_REPO)) {
+      configPath = CONFIG_PATH_REPO;
+      console.log('Using repository config (volume config not found)');
+    } else if (existsSync(CONFIG_PATH_VOLUME)) {
+      console.log('Using volume config');
+    }
+
+    if (existsSync(configPath)) {
+      const fileContent = readFileSync(configPath, 'utf-8');
       config = JSON.parse(fileContent);
     } else {
       // Use default config
       config = { ...DEFAULT_CONFIG };
-      saveConfig(config);
+      // Save to volume if DATA_DIR is set
+      if (DATA_DIR !== ROOT_DIR) {
+        saveConfig(config);
+      }
     }
 
     // Override with environment variables
@@ -57,9 +240,17 @@ function loadConfig() {
     if (process.env.HOST) config.server.host = process.env.HOST;
     if (process.env.CORS_ORIGINS) config.cors.allowedOrigins = process.env.CORS_ORIGINS.split(',');
     if (process.env.MAX_FILE_SIZE) config.security.maxFileSize = parseInt(process.env.MAX_FILE_SIZE);
-    if (process.env.ENABLE_AUTH) config.security.enableAuth = process.env.ENABLE_AUTH === 'true';
+
+    // Auth is auto-enabled if credentials are set
+    config.security.enableAuth = AUTH_ENABLED;
+    config.security.sessionDurationHours = SESSION_DURATION_HOURS;
 
     console.log('Configuration loaded successfully');
+    if (AUTH_ENABLED) {
+      console.log('Authentication ENABLED');
+    } else {
+      console.log('Authentication DISABLED (set ADMIN_USERNAME and ADMIN_PASSWORD to enable)');
+    }
     return config;
   } catch (error) {
     console.error('Error loading config, using defaults:', error);
@@ -71,8 +262,17 @@ function loadConfig() {
 // Save configuration to file
 function saveConfig(newConfig) {
   try {
-    writeFileSync(CONFIG_PATH, JSON.stringify(newConfig, null, 2), 'utf-8');
-    console.log('Configuration saved successfully');
+    // Save to volume if DATA_DIR is set, otherwise save to repo
+    const savePath = DATA_DIR !== ROOT_DIR ? CONFIG_PATH_VOLUME : CONFIG_PATH_REPO;
+
+    // Ensure directory exists
+    const saveDir = dirname(savePath);
+    if (!existsSync(saveDir)) {
+      mkdirSync(saveDir, { recursive: true });
+    }
+
+    writeFileSync(savePath, JSON.stringify(newConfig, null, 2), 'utf-8');
+    console.log(`Configuration saved to ${savePath}`);
     return true;
   } catch (error) {
     console.error('Error saving config:', error);
@@ -143,7 +343,8 @@ function getEnvironmentPath(environment) {
   if (environment === 'production') {
     return ROOT_DIR;
   }
-  return join(ROOT_DIR, environment);
+  // Draft and staging use DATA_DIR (volume on Railway)
+  return join(DATA_DIR, environment);
 }
 
 function getEnvironmentAssetDirs(environment) {
@@ -156,10 +357,10 @@ function validateEnvironment(env) {
 }
 
 function ensureEnvironmentDirectories() {
-  // Create draft and staging directories if they don't exist
+  // Create draft and staging directories in DATA_DIR
   ['draft', 'staging'].forEach(env => {
     ASSET_DIRS.forEach(dir => {
-      const dirPath = join(ROOT_DIR, env, dir);
+      const dirPath = join(DATA_DIR, env, dir);
       try {
         mkdirSync(dirPath, { recursive: true });
       } catch (err) {
@@ -169,8 +370,34 @@ function ensureEnvironmentDirectories() {
   });
 }
 
-// Initialize environment directories on startup
-ensureEnvironmentDirectories();
+// Initialize volume directories (uploads, backups, environments)
+function initializeVolumeDirectories() {
+  try {
+    // Create uploads and backups directories in DATA_DIR
+    const uploadsDir = join(DATA_DIR, 'uploads');
+    const backupsDir = join(DATA_DIR, 'backups');
+
+    if (!existsSync(uploadsDir)) {
+      mkdirSync(uploadsDir, { recursive: true });
+      console.log(`Created uploads directory: ${uploadsDir}`);
+    }
+
+    if (!existsSync(backupsDir)) {
+      mkdirSync(backupsDir, { recursive: true });
+      console.log(`Created backups directory: ${backupsDir}`);
+    }
+
+    // Initialize environment directories
+    ensureEnvironmentDirectories();
+
+    console.log('Volume directories initialized');
+  } catch (error) {
+    console.error('Error initializing volume directories:', error);
+  }
+}
+
+// Initialize volume directories on startup
+initializeVolumeDirectories();
 
 // Helper: Validate path to prevent traversal attacks
 function isValidPath(userPath) {
@@ -276,6 +503,149 @@ Bun.serve({
 
     // API Routes
     if (pathname.startsWith('/api/')) {
+
+      // Health check endpoint (public, no auth required)
+      if (pathname === '/api/health' && request.method === 'GET') {
+        return new Response(JSON.stringify({
+          status: 'healthy',
+          timestamp: new Date().toISOString(),
+          authEnabled: AUTH_ENABLED
+        }), {
+          headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+        });
+      }
+
+      // Authentication status endpoint
+      if (pathname === '/api/auth/status' && request.method === 'GET') {
+        if (!AUTH_ENABLED) {
+          return new Response(JSON.stringify({
+            authenticated: true,
+            authEnabled: false
+          }), {
+            headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+          });
+        }
+
+        const token = getSessionToken(request);
+        const session = validateSession(token);
+
+        return new Response(JSON.stringify({
+          authenticated: !!session,
+          authEnabled: AUTH_ENABLED,
+          username: session ? session.username : null
+        }), {
+          headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+        });
+      }
+
+      // Login endpoint
+      if (pathname === '/api/auth/login' && request.method === 'POST') {
+        try {
+          if (!AUTH_ENABLED) {
+            return new Response(JSON.stringify({
+              success: false,
+              error: 'Authentication is not enabled'
+            }), {
+              status: 400,
+              headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+          }
+
+          const body = await request.json();
+          const { username, password } = body;
+
+          if (!username || !password) {
+            return new Response(JSON.stringify({
+              success: false,
+              error: 'Username and password are required'
+            }), {
+              status: 400,
+              headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+          }
+
+          // Check rate limit
+          if (!checkLoginRateLimit(username)) {
+            return new Response(JSON.stringify({
+              success: false,
+              error: 'Too many login attempts. Please try again in 15 minutes.'
+            }), {
+              status: 429,
+              headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+          }
+
+          // Verify credentials
+          const isValid = await verifyPassword(password, username);
+
+          if (!isValid) {
+            return new Response(JSON.stringify({
+              success: false,
+              error: 'Invalid username or password'
+            }), {
+              status: 401,
+              headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+          }
+
+          // Create session
+          const token = createSession(username);
+          const cookie = createAuthCookie(token);
+
+          console.log(`[${new Date().toISOString()}] User '${username}' logged in`);
+
+          return new Response(JSON.stringify({
+            success: true,
+            message: 'Login successful',
+            username
+          }), {
+            headers: {
+              ...corsHeaders,
+              'Content-Type': 'application/json',
+              'Set-Cookie': cookie
+            }
+          });
+        } catch (error) {
+          console.error('Login error:', error);
+          return new Response(JSON.stringify({
+            success: false,
+            error: 'Login failed'
+          }), {
+            status: 500,
+            headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+          });
+        }
+      }
+
+      // Logout endpoint
+      if (pathname === '/api/auth/logout' && request.method === 'POST') {
+        const token = getSessionToken(request);
+        if (token) {
+          deleteSession(token);
+        }
+
+        const clearCookie = 'session=; HttpOnly; SameSite=Strict; Max-Age=0; Path=/';
+
+        return new Response(JSON.stringify({
+          success: true,
+          message: 'Logged out successfully'
+        }), {
+          headers: {
+            ...corsHeaders,
+            'Content-Type': 'application/json',
+            'Set-Cookie': clearCookie
+          }
+        });
+      }
+
+      // Apply authentication middleware to protected routes
+      const publicEndpoints = ['/api/health', '/api/auth/status', '/api/auth/login', '/api/auth/logout'];
+      if (!publicEndpoints.includes(pathname)) {
+        const authResult = requireAuth(request);
+        if (!authResult.authorized) {
+          return authResult.response;
+        }
+      }
 
       // List all files
       if (pathname === '/api/files' && request.method === 'GET') {
@@ -1938,16 +2308,57 @@ Bun.serve({
       });
     }
 
-    // Serve dashboard
+    // Serve login page (public)
+    if (pathname === '/dashboard/login' || pathname === '/dashboard/login.html') {
+      const file = Bun.file(join(ROOT_DIR, 'dashboard', 'login.html'));
+      return new Response(file, {
+        headers: { ...corsHeaders, 'Content-Type': 'text/html' }
+      });
+    }
+
+    // Serve dashboard (protected)
     if (pathname === '/dashboard' || pathname === '/dashboard/') {
+      // Check authentication
+      if (AUTH_ENABLED) {
+        const token = getSessionToken(request);
+        const session = validateSession(token);
+
+        if (!session) {
+          // Redirect to login page
+          return new Response(null, {
+            status: 302,
+            headers: {
+              ...corsHeaders,
+              'Location': '/dashboard/login'
+            }
+          });
+        }
+      }
+
       const file = Bun.file(join(ROOT_DIR, 'dashboard', 'index.html'));
       return new Response(file, {
         headers: { ...corsHeaders, 'Content-Type': 'text/html' }
       });
     }
 
-    // Serve dashboard assets
+    // Serve dashboard assets (protected)
     if (pathname.startsWith('/dashboard/')) {
+      // Allow access to login page assets without auth
+      const publicAssets = ['login.html', 'login.js'];
+      const isPublicAsset = publicAssets.some(asset => pathname.endsWith(asset));
+
+      if (!isPublicAsset && AUTH_ENABLED) {
+        const token = getSessionToken(request);
+        const session = validateSession(token);
+
+        if (!session) {
+          return new Response('Unauthorized', {
+            status: 401,
+            headers: corsHeaders
+          });
+        }
+      }
+
       const filePath = join(ROOT_DIR, pathname);
       const file = Bun.file(filePath);
 

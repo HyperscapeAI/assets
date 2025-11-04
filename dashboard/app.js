@@ -10,10 +10,55 @@ let sortState = {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  checkAuthStatus();
   loadFiles();
   loadDirectories();
   setupEventListeners();
 });
+
+// Check authentication status
+async function checkAuthStatus() {
+  try {
+    const response = await fetch('/api/auth/status');
+    const data = await response.json();
+
+    // If auth is enabled and user is authenticated, show logout button
+    if (data.authEnabled && data.authenticated) {
+      const logoutBtn = document.getElementById('logoutBtn');
+      if (logoutBtn) {
+        logoutBtn.classList.remove('hidden');
+      }
+    }
+
+    // If auth is enabled but not authenticated, redirect to login
+    if (data.authEnabled && !data.authenticated) {
+      window.location.href = '/dashboard/login';
+    }
+  } catch (error) {
+    console.error('Auth status check error:', error);
+  }
+}
+
+// Logout function
+async function logout() {
+  try {
+    const response = await fetch('/api/auth/logout', {
+      method: 'POST'
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      // Redirect to login page
+      window.location.href = '/dashboard/login';
+    } else {
+      showError('Logout failed');
+    }
+  } catch (error) {
+    console.error('Logout error:', error);
+    showError('Logout failed');
+  }
+}
 
 // Setup event listeners
 function setupEventListeners() {

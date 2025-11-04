@@ -2,3 +2,11 @@
 
 .cursor/rules/kluster-code-verify.mdc
 .kluster
+
+# Volume directories (for local development)
+/data
+/uploads
+/backups
+
+# Environment variables
+.env
