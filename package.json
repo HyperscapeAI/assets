@@ -5,8 +5,8 @@
   "type": "module",
   "packageManager": "bun@1.1.38",
   "scripts": {
-    "start": "bun run server.js",
-    "dev": "bun run --watch server.js"
+    "start": "bun --env-file=.env run server.js",
+    "dev": "bun --env-file=.env run --watch server.js"
   },
   "keywords": ["hyperscape", "assets", "3d", "static-server"],
   "license": "MIT",
