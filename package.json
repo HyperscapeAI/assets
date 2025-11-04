@@ -5,11 +5,13 @@
   "type": "module",
   "packageManager": "bun@1.1.38",
   "scripts": {
-    "start": "serve -s . -p ${PORT:-3000} --cors --no-clipboard"
+    "start": "bun run server.js",
+    "dev": "bun run --watch server.js"
   },
   "keywords": ["hyperscape", "assets", "3d", "static-server"],
   "license": "MIT",
   "dependencies": {
+    "@zip.js/zip.js": "^2.8.8",
     "serve": "^14.2.3"
   },
   "engines": {

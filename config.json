@@ -1,0 +1,31 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "localhost"
+  },
+  "cors": {
+    "allowedOrigins": ["*"],
+    "allowedMethods": ["GET", "POST", "DELETE", "OPTIONS"],
+    "allowedHeaders": ["Content-Type"]
+  },
+  "directories": {
+    "assets": ["models", "manifests", "emotes", "music", "world", "web"],
+    "upload": "uploads",
+    "backups": "backups"
+  },
+  "security": {
+    "maxFileSize": 104857600,
+    "allowedFileTypes": [".glb", ".json", ".mp3", ".png", ".jpg", ".jpeg", ".woff2", ".vrm"],
+    "enableAuth": false
+  },
+  "features": {
+    "enableValidation": true,
+    "enableBackups": true,
+    "autoBackupInterval": 86400000
+  },
+  "ui": {
+    "theme": "dark",
+    "itemsPerPage": 50,
+    "defaultSort": "name"
+  }
+}

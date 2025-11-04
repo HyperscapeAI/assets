@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyperScape Assets Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Three.js for 3D model viewing -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
+  <link rel="stylesheet" href="/dashboard/styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+  <div class="min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-gray-800 border-b border-gray-700">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-3xl font-bold text-blue-400">HyperScape Assets</h1>
+            <p class="text-gray-400 mt-1">Asset Management Dashboard</p>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="text-right">
+              <div class="text-sm text-gray-400">Total Files</div>
+              <div class="text-2xl font-bold text-blue-400" id="totalFiles">-</div>
+            </div>
+            <div class="text-right">
+              <div class="text-sm text-gray-400">Total Size</div>
+              <div class="text-2xl font-bold text-green-400" id="totalSize">-</div>
+            </div>
+            <button onclick="openSettings()" class="p-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors" title="Settings">
+              <svg class="h-6 w-6 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container mx-auto px-4 py-8">
+
+      <!-- Upload Section -->
+      <div class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8 border border-gray-700">
+        <h2 class="text-xl font-bold mb-4 text-blue-400">Upload Files</h2>
+
+        <div class="flex gap-4 mb-4">
+          <div class="flex-1">
+            <label class="block text-sm font-medium mb-2 text-gray-300">Select Directory</label>
+            <select id="uploadDirectory" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="models">models</option>
+              <option value="manifests">manifests</option>
+              <option value="emotes">emotes</option>
+              <option value="music">music</option>
+              <option value="world">world</option>
+              <option value="web">web</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="dropZone" class="border-2 border-dashed border-gray-600 rounded-lg p-12 text-center cursor-pointer hover:border-blue-500 hover:bg-gray-700/50 transition-all">
+          <div class="text-gray-400">
+            <svg class="mx-auto h-12 w-12 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+            </svg>
+            <p class="text-lg mb-2">Drag and drop files here</p>
+            <p class="text-sm">or click to browse</p>
+          </div>
+          <input type="file" id="fileInput" multiple class="hidden">
+        </div>
+
+        <div id="uploadStatus" class="mt-4 hidden"></div>
+        <div id="uploadProgress" class="mt-4 hidden">
+          <div class="bg-gray-700 rounded-full h-2 overflow-hidden">
+            <div id="progressBar" class="bg-blue-500 h-full transition-all duration-300" style="width: 0%"></div>
+          </div>
+          <p class="text-sm text-gray-400 mt-2" id="progressText">Uploading...</p>
+        </div>
+      </div>
+
+      <!-- Filter and Search -->
+      <div class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8 border border-gray-700">
+        <div class="flex flex-wrap gap-4">
+          <div class="flex-1 min-w-64">
+            <label class="block text-sm font-medium mb-2 text-gray-300">Search Files</label>
+            <input type="text" id="searchInput" placeholder="Search by name..." class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div class="flex-1">
+            <label class="block text-sm font-medium mb-2 text-gray-300">Filter by Directory</label>
+            <select id="filterDirectory" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="">All Directories</option>
+              <option value="models">models</option>
+              <option value="manifests">manifests</option>
+              <option value="emotes">emotes</option>
+              <option value="music">music</option>
+              <option value="world">world</option>
+              <option value="web">web</option>
+            </select>
+          </div>
+          <div class="flex-1">
+            <label class="block text-sm font-medium mb-2 text-gray-300">Filter by Type</label>
+            <select id="filterType" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="">All Types</option>
+              <option value=".glb">3D Models (.glb)</option>
+              <option value=".json">JSON (.json)</option>
+              <option value=".mp3">Audio (.mp3)</option>
+              <option value=".png">Images (.png)</option>
+              <option value=".jpg">Images (.jpg)</option>
+              <option value=".woff2">Fonts (.woff2)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Directory Statistics -->
+      <div id="directoryStats" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+        <!-- Dynamic directory cards will be inserted here -->
+      </div>
+
+      <!-- Asset Validator -->
+      <div class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8 border border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-xl font-bold text-blue-400">Asset Reference Validator</h2>
+            <p class="text-sm text-gray-400 mt-1">Check manifest files for missing asset references</p>
+          </div>
+          <button onclick="runValidation()" id="validateBtn" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-medium transition-colors flex items-center gap-2">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            Run Validation
+          </button>
+        </div>
+
+        <!-- Validation Results -->
+        <div id="validationResults" class="hidden">
+          <!-- Summary Stats -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div class="bg-gray-700 rounded-lg p-4">
+              <div class="text-sm text-gray-400 mb-1">Total References</div>
+              <div class="text-3xl font-bold text-blue-400" id="totalRefs">0</div>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-4">
+              <div class="text-sm text-gray-400 mb-1">Valid References</div>
+              <div class="text-3xl font-bold text-green-400" id="validRefs">0</div>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-4">
+              <div class="text-sm text-gray-400 mb-1">Missing References</div>
+              <div class="text-3xl font-bold text-red-400" id="missingRefs">0</div>
+            </div>
+          </div>
+
+          <!-- Filter Options -->
+          <div class="flex items-center gap-4 mb-4">
+            <label class="flex items-center gap-2 text-sm text-gray-300">
+              <input type="checkbox" id="showOnlyIssues" class="rounded bg-gray-700 border-gray-600 text-blue-500 focus:ring-blue-500" onchange="toggleIssuesFilter()">
+              Show only issues
+            </label>
+            <div class="text-xs text-gray-500" id="validationTimestamp"></div>
+          </div>
+
+          <!-- Missing Assets List -->
+          <div id="missingAssetsList" class="space-y-4">
+            <!-- Dynamic content will be inserted here -->
+          </div>
+
+          <!-- No Issues Message -->
+          <div id="noIssuesMessage" class="hidden text-center py-8">
+            <svg class="mx-auto h-16 w-16 text-green-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <p class="text-xl font-semibold text-green-400">All asset references are valid!</p>
+            <p class="text-gray-400 mt-2">No missing files found in manifest references.</p>
+          </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="validationLoading" class="hidden text-center py-8">
+          <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mb-4"></div>
+          <p class="text-gray-400">Validating asset references...</p>
+        </div>
+      </div>
+
+      <!-- Bulk Actions Toolbar -->
+      <div id="bulkActionsToolbar" class="hidden fixed bottom-8 left-1/2 transform -translate-x-1/2 z-40">
+        <div class="bg-gray-800 border border-blue-500 rounded-lg shadow-2xl px-6 py-4 flex items-center gap-6">
+          <div class="flex items-center gap-2">
+            <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span class="text-white font-medium">
+              <span id="selectedCount">0</span> file(s) selected
+            </span>
+          </div>
+          <div class="flex items-center gap-3">
+            <button onclick="bulkDownload()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-medium transition-colors flex items-center gap-2">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+              </svg>
+              Download as ZIP
+            </button>
+            <button onclick="bulkDelete()" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-white font-medium transition-colors flex items-center gap-2">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+              </svg>
+              Delete Selected
+            </button>
+            <button onclick="deselectAll()" class="px-4 py-2 bg-gray-600 hover:bg-gray-700 rounded-lg text-white font-medium transition-colors">
+              Clear Selection
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- File List -->
+      <div class="bg-gray-800 rounded-lg shadow-xl border border-gray-700">
+        <div class="p-6 border-b border-gray-700">
+          <h2 class="text-xl font-bold text-blue-400">Files</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-700">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider w-12">
+                  <input type="checkbox" id="selectAll" onchange="toggleSelectAll()" class="bulk-checkbox cursor-pointer">
+                </th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                  Preview
+                </th>
+                <th class="sortable-header px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider" data-sort="name">
+                  <div class="flex items-center gap-2 cursor-pointer select-none">
+                    <span>Name</span>
+                    <span class="sort-icon">
+                      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5-5 5 5M7 14l5 5 5-5"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </th>
+                <th class="sortable-header px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider" data-sort="path">
+                  <div class="flex items-center gap-2 cursor-pointer select-none">
+                    <span>Path</span>
+                    <span class="sort-icon">
+                      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5-5 5 5M7 14l5 5 5-5"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </th>
+                <th class="sortable-header px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider" data-sort="size">
+                  <div class="flex items-center gap-2 cursor-pointer select-none">
+                    <span>Size</span>
+                    <span class="sort-icon">
+                      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5-5 5 5M7 14l5 5 5-5"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </th>
+                <th class="sortable-header px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider" data-sort="modified">
+                  <div class="flex items-center gap-2 cursor-pointer select-none">
+                    <span>Modified</span>
+                    <span class="sort-icon">
+                      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5-5 5 5M7 14l5 5 5-5"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="fileList" class="divide-y divide-gray-700">
+              <tr>
+                <td colspan="7" class="px-6 py-8 text-center text-gray-400">
+                  <div class="animate-pulse">Loading files...</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- File Preview Modal -->
+  <div id="previewModal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+    <div class="bg-gray-800 rounded-lg max-w-6xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+      <div class="p-6 border-b border-gray-700 flex justify-between items-center flex-shrink-0">
+        <div>
+          <h3 class="text-xl font-bold text-blue-400" id="previewTitle">File Preview</h3>
+          <p class="text-sm text-gray-400 mt-1" id="previewSubtitle"></p>
+        </div>
+        <button onclick="closePreview()" class="text-gray-400 hover:text-white">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div id="previewContent" class="p-6 flex-1 overflow-auto">
+        <!-- Preview content will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+    <div class="bg-gray-800 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+      <div class="p-6 border-b border-gray-700 flex justify-between items-center flex-shrink-0">
+        <div>
+          <h3 class="text-2xl font-bold text-blue-400">Configuration Settings</h3>
+          <p class="text-sm text-gray-400 mt-1">Manage server configuration and preferences</p>
+        </div>
+        <button onclick="closeSettings()" class="text-gray-400 hover:text-white">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-auto p-6">
+        <!-- Settings Tabs -->
+        <div class="mb-6">
+          <div class="border-b border-gray-700 flex gap-2 overflow-x-auto">
+            <button onclick="switchSettingsTab('server')" data-tab="server" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-blue-500 text-blue-400">
+              Server
+            </button>
+            <button onclick="switchSettingsTab('cors')" data-tab="cors" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-400 hover:text-gray-300">
+              CORS
+            </button>
+            <button onclick="switchSettingsTab('directories')" data-tab="directories" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-400 hover:text-gray-300">
+              Directories
+            </button>
+            <button onclick="switchSettingsTab('security')" data-tab="security" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-400 hover:text-gray-300">
+              Security
+            </button>
+            <button onclick="switchSettingsTab('features')" data-tab="features" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-400 hover:text-gray-300">
+              Features
+            </button>
+            <button onclick="switchSettingsTab('ui')" data-tab="ui" class="settings-tab px-4 py-2 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-400 hover:text-gray-300">
+              UI
+            </button>
+          </div>
+        </div>
+
+        <!-- Settings Content -->
+        <div id="settingsContent">
+          <!-- Server Settings -->
+          <div id="serverSettings" class="settings-panel">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">Server Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Port</label>
+                <input type="number" id="config-server-port" min="1" max="65535" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Server port (1-65535). Restart required after change.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Host</label>
+                <input type="text" id="config-server-host" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Server host address. Restart required after change.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORS Settings -->
+          <div id="corsSettings" class="settings-panel hidden">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">CORS Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Allowed Origins</label>
+                <div id="config-cors-allowedOrigins" class="tag-input-container"></div>
+                <p class="text-xs text-gray-500 mt-1">Press Enter to add an origin. Use * for all origins.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Allowed Methods</label>
+                <div id="config-cors-allowedMethods" class="tag-input-container"></div>
+                <p class="text-xs text-gray-500 mt-1">Press Enter to add an HTTP method.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Allowed Headers</label>
+                <div id="config-cors-allowedHeaders" class="tag-input-container"></div>
+                <p class="text-xs text-gray-500 mt-1">Press Enter to add an HTTP header.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Directories Settings -->
+          <div id="directoriesSettings" class="settings-panel hidden">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">Directory Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Asset Directories</label>
+                <div id="config-directories-assets" class="tag-input-container"></div>
+                <p class="text-xs text-gray-500 mt-1">Press Enter to add a directory name.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Upload Directory</label>
+                <input type="text" id="config-directories-upload" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Directory for uploaded files.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Backups Directory</label>
+                <input type="text" id="config-directories-backups" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Directory for backup files.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Security Settings -->
+          <div id="securitySettings" class="settings-panel hidden">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">Security Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Max File Size (bytes)</label>
+                <input type="number" id="config-security-maxFileSize" min="0" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Maximum file upload size in bytes (default: 104857600 = 100MB).</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Allowed File Types</label>
+                <div id="config-security-allowedFileTypes" class="tag-input-container"></div>
+                <p class="text-xs text-gray-500 mt-1">Press Enter to add a file extension (e.g., .glb, .json).</p>
+              </div>
+              <div>
+                <label class="flex items-center gap-2 text-sm font-medium text-gray-300">
+                  <input type="checkbox" id="config-security-enableAuth" class="rounded bg-gray-700 border-gray-600 text-blue-500 focus:ring-blue-500">
+                  Enable Authentication
+                </label>
+                <p class="text-xs text-gray-500 mt-1">Require authentication for API access (feature coming soon).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Features Settings -->
+          <div id="featuresSettings" class="settings-panel hidden">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">Feature Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="flex items-center gap-2 text-sm font-medium text-gray-300">
+                  <input type="checkbox" id="config-features-enableValidation" class="rounded bg-gray-700 border-gray-600 text-blue-500 focus:ring-blue-500">
+                  Enable Asset Validation
+                </label>
+                <p class="text-xs text-gray-500 mt-1">Enable validation of asset references in manifests.</p>
+              </div>
+              <div>
+                <label class="flex items-center gap-2 text-sm font-medium text-gray-300">
+                  <input type="checkbox" id="config-features-enableBackups" class="rounded bg-gray-700 border-gray-600 text-blue-500 focus:ring-blue-500">
+                  Enable Automatic Backups
+                </label>
+                <p class="text-xs text-gray-500 mt-1">Automatically backup assets on schedule.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Auto Backup Interval (ms)</label>
+                <input type="number" id="config-features-autoBackupInterval" min="0" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Backup interval in milliseconds (default: 86400000 = 24 hours).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- UI Settings -->
+          <div id="uiSettings" class="settings-panel hidden">
+            <h4 class="text-lg font-semibold text-gray-200 mb-4">UI Settings</h4>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Theme</label>
+                <select id="config-ui-theme" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                  <option value="dark">Dark</option>
+                  <option value="light">Light</option>
+                </select>
+                <p class="text-xs text-gray-500 mt-1">UI color theme.</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Items Per Page</label>
+                <input type="number" id="config-ui-itemsPerPage" min="10" max="200" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Number of items to display per page (10-200).</p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-300 mb-2">Default Sort</label>
+                <select id="config-ui-defaultSort" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                  <option value="name">Name</option>
+                  <option value="size">Size</option>
+                  <option value="modified">Modified</option>
+                  <option value="path">Path</option>
+                </select>
+                <p class="text-xs text-gray-500 mt-1">Default sort column for file list.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Warning Messages -->
+        <div id="settingsWarning" class="hidden mt-6 p-4 bg-yellow-500/10 border border-yellow-500/50 rounded-lg">
+          <div class="flex items-start gap-3">
+            <svg class="h-5 w-5 text-yellow-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+            </svg>
+            <div>
+              <p class="font-semibold text-yellow-500">Server Restart Required</p>
+              <p class="text-sm text-gray-400 mt-1">Some changes require a server restart to take effect.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="settingsError" class="hidden mt-6 p-4 bg-red-500/10 border border-red-500/50 rounded-lg">
+          <div class="flex items-start gap-3">
+            <svg class="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+              <p class="font-semibold text-red-500">Error</p>
+              <p class="text-sm text-gray-400 mt-1" id="settingsErrorMessage"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings Actions -->
+      <div class="p-6 border-t border-gray-700 flex items-center justify-between gap-4">
+        <div class="flex gap-2">
+          <button onclick="exportConfig()" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-white font-medium transition-colors flex items-center gap-2">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            Export
+          </button>
+          <button onclick="importConfig()" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-white font-medium transition-colors flex items-center gap-2">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+            </svg>
+            Import
+          </button>
+          <input type="file" id="configImportInput" accept=".json" class="hidden">
+        </div>
+        <div class="flex gap-2">
+          <button onclick="resetConfig()" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-white font-medium transition-colors">
+            Reset to Defaults
+          </button>
+          <button onclick="saveConfig()" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-medium transition-colors">
+            Save Configuration
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/dashboard/app.js"></script>
+</body>
+</html>
