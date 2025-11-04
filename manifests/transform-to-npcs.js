@@ -26,6 +26,11 @@ const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
  * Determine NPC category based on properties
  */
 function determineCategory(char) {
+  // Check if NPC provides quest services
+  if (char.services && char.services.includes('quest') && char.canBeAttacked === false) {
+    return 'quest';
+  }
+
   if (char.services && char.services.length > 0 && char.canBeAttacked === false) {
     return 'neutral';
   } else if (char.canBeAttacked === true) {
@@ -41,8 +46,8 @@ function determineCategory(char) {
  * Get default drop item based on NPC type and category
  */
 function getDefaultDrop(char, category) {
-  // Neutral NPCs don't drop default items
-  if (category === 'neutral') {
+  // Neutral and Quest NPCs don't drop default items
+  if (category === 'neutral' || category === 'quest') {
     return {
       itemId: 'bones',
       quantity: 0,
@@ -222,7 +227,8 @@ const output = {
     categories: {
       mob: npcs.filter(n => n.category === 'mob').length,
       boss: npcs.filter(n => n.category === 'boss').length,
-      neutral: npcs.filter(n => n.category === 'neutral').length
+      neutral: npcs.filter(n => n.category === 'neutral').length,
+      quest: npcs.filter(n => n.category === 'quest').length
     },
     structure: 'Standardized NPCData with unified structure for all NPCs'
   }
@@ -236,9 +242,10 @@ console.log(`   Total NPCs: ${output.metadata.totalCount}`);
 console.log(`   - Mobs: ${output.metadata.categories.mob}`);
 console.log(`   - Bosses: ${output.metadata.categories.boss}`);
 console.log(`   - Neutral: ${output.metadata.categories.neutral}`);
+console.log(`   - Quest: ${output.metadata.categories.quest}`);
 console.log('');
 console.log('Key features:');
 console.log('   ✓ Unified structure with flags for all NPCs');
 console.log('   ✓ Default drops (bones/big_bones) for combat NPCs');
 console.log('   ✓ RuneScape-style tiered loot tables');
-console.log('   ✓ Category-based classification (mob/boss/neutral)');
+console.log('   ✓ Category-based classification (mob/boss/neutral/quest)');

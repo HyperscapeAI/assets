@@ -702,7 +702,7 @@
       "id": "quest_giver",
       "name": "Quest Giver",
       "description": "A mysterious figure with tasks for brave adventurers",
-      "category": "neutral",
+      "category": "quest",
       "faction": "town",
       "stats": {
         "level": 1,
@@ -2040,12 +2040,13 @@
   ],
   "metadata": {
     "version": "2.0.0",
-    "generatedAt": "2025-11-04T01:37:53.455Z",
+    "generatedAt": "2025-11-04T02:08:26.216Z",
     "totalCount": 13,
     "categories": {
       "mob": 6,
       "boss": 3,
-      "neutral": 4
+      "neutral": 3,
+      "quest": 1
     },
     "structure": "Standardized NPCData with unified structure for all NPCs"
   }
