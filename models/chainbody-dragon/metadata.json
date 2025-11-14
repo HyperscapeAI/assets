@@ -27,5 +27,14 @@
   "completedAt": "2025-07-31T02:11:10.260Z",
   "description": "A RuneScape 2 inspired chainbody",
   "isPlaceholder": false,
-  "gddCompliant": true
+  "gddCompliant": true,
+  "hasSpriteSheet": true,
+  "spriteCount": 8,
+  "spriteConfig": {
+    "angles": 8,
+    "resolution": 256,
+    "backgroundColor": "transparent"
+  },
+  "lastSpriteGeneration": "2025-10-23T18:41:59.860Z",
+  "updatedAt": "2025-10-23T18:41:59.860Z"
 }

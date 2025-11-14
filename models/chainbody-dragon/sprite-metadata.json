@@ -1,0 +1,21 @@
+{
+  "assetId": "chainbody-dragon",
+  "config": {
+    "angles": 8,
+    "resolution": 256,
+    "backgroundColor": "transparent"
+  },
+  "angles": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "spriteCount": 8,
+  "status": "completed",
+  "generatedAt": "2025-10-23T18:41:59.830Z"
+}

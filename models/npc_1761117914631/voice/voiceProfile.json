@@ -1,0 +1,21 @@
+{
+  "npcId": "npc_1761117914631",
+  "voiceId": "pqHfZKP75CvOlQylNhV4",
+  "voiceName": "Unknown",
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75,
+    "style": 0,
+    "useSpeakerBoost": true
+  },
+  "clips": 4,
+  "generatedAt": "2025-10-22T07:30:03.165Z",
+  "metadata": {
+    "totalRequested": 6,
+    "successCount": 4,
+    "failureCount": 2,
+    "durationSeconds": "2.99",
+    "concurrencyLimit": 5
+  }
+}

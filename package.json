@@ -1,0 +1,18 @@
+{
+  "name": "hyperscape-assets",
+  "version": "1.0.0",
+  "description": "Static asset server for Hyperscape game assets",
+  "type": "module",
+  "packageManager": "bun@1.1.38",
+  "scripts": {
+    "start": "serve -s . -p ${PORT:-3000} --cors --no-clipboard"
+  },
+  "keywords": ["hyperscape", "assets", "3d", "static-server"],
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -46571,12 +46571,7 @@ for (const prop of Object.keys(Module)) {
   };
 })();
 
-// Export using a UMD style export, or ES6 exports if selected
-if (typeof exports === 'object' && typeof module === 'object') {
-  module.exports = PhysX;
-  // This default export looks redundant, but it allows TS to import this
-  // commonjs style module.
-  module.exports.default = PhysX;
-} else if (typeof define === 'function' && define['amd'])
-  define([], () => PhysX);
+// ES6 export only - UMD exports removed to prevent "module is not defined" errors
+// When loaded as ES module in browser, CommonJS module.exports causes errors
+export default PhysX;
 
