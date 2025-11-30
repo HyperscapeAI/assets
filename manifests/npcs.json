@@ -36,16 +36,40 @@
       },
       "always": [],
       "common": [
-        { "itemId": "coins", "minQuantity": 5, "maxQuantity": 15, "chance": 1.0, "rarity": "common" }
+        {
+          "itemId": "coins",
+          "minQuantity": 5,
+          "maxQuantity": 15,
+          "chance": 1.0,
+          "rarity": "common"
+        }
       ],
       "uncommon": [
-        { "itemId": "bronze_sword", "minQuantity": 1, "maxQuantity": 1, "chance": 0.1, "rarity": "uncommon" }
+        {
+          "itemId": "bronze_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.1,
+          "rarity": "uncommon"
+        }
       ],
       "rare": [
-        { "itemId": "steel_sword", "minQuantity": 1, "maxQuantity": 1, "chance": 0.02, "rarity": "rare" }
+        {
+          "itemId": "steel_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        }
       ],
       "veryRare": [
-        { "itemId": "mithril_sword", "minQuantity": 1, "maxQuantity": 1, "chance": 0.002, "rarity": "very_rare" }
+        {
+          "itemId": "mithril_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.002,
+          "rarity": "very_rare"
+        }
       ]
     },
     "services": {
@@ -60,7 +84,14 @@
       "iconPath": "asset://icons/npcs/goblin.png",
       "scale": 0.75
     },
-    "position": { "x": 0, "y": 0, "z": 0 },
-    "spawnBiomes": ["forest", "plains"]
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "spawnBiomes": [
+      "forest",
+      "plains"
+    ]
   }
 ]
