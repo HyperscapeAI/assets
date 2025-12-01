@@ -41,6 +41,16 @@
         "category": "tools"
       },
       {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
+        "category": "tools"
+      },
+      {
         "id": "arrows",
         "itemId": "arrows",
         "name": "Arrows",
@@ -91,6 +101,16 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "Used to light fires",
+        "category": "tools"
+      },
+      {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
         "category": "tools"
       },
       {
@@ -147,6 +167,16 @@
         "category": "tools"
       },
       {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
+        "category": "tools"
+      },
+      {
         "id": "arrows",
         "itemId": "arrows",
         "name": "Arrows",
@@ -200,6 +230,16 @@
         "category": "tools"
       },
       {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
+        "category": "tools"
+      },
+      {
         "id": "arrows",
         "itemId": "arrows",
         "name": "Arrows",
@@ -250,6 +290,16 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "Used to light fires",
+        "category": "tools"
+      },
+      {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
         "category": "tools"
       },
       {
