@@ -468,6 +468,150 @@
     }
   },
   {
+    "id": "bronze_helmet",
+    "name": "Bronze Helmet",
+    "type": "armor",
+    "quantity": 1,
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 60,
+    "weight": 2,
+    "equipSlot": "helmet",
+    "weaponType": null,
+    "equipable": true,
+    "attackType": null,
+    "description": "A basic helmet made of bronze",
+    "examine": "A basic helmet made of bronze",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": "asset://models/spiked-helmet/spiked-helmet.glb",
+    "iconPath": "asset://models/spiked-helmet/concept-art.png",
+    "healAmount": 0,
+    "stats": {
+      "attack": 0,
+      "defense": 0,
+      "strength": 0
+    },
+    "bonuses": {
+      "attack": 0,
+      "strength": 0,
+      "defense": 1,
+      "ranged": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defense": 1 }
+    }
+  },
+  {
+    "id": "bronze_body",
+    "name": "Bronze Chainbody",
+    "type": "armor",
+    "quantity": 1,
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 120,
+    "weight": 5,
+    "equipSlot": "body",
+    "weaponType": null,
+    "equipable": true,
+    "attackType": null,
+    "description": "A basic chainbody made of bronze",
+    "examine": "A basic chainbody made of bronze",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": "asset://models/chainbody/chainbody.glb",
+    "iconPath": "asset://models/chainbody/concept-art.png",
+    "healAmount": 0,
+    "stats": {
+      "attack": 0,
+      "defense": 0,
+      "strength": 0
+    },
+    "bonuses": {
+      "attack": 0,
+      "strength": 0,
+      "defense": 1,
+      "ranged": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defense": 1 }
+    }
+  },
+  {
+    "id": "bronze_legs",
+    "name": "Bronze Legs",
+    "type": "armor",
+    "quantity": 1,
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 100,
+    "weight": 4,
+    "equipSlot": "legs",
+    "weaponType": null,
+    "equipable": true,
+    "attackType": null,
+    "description": "Basic leg armor made of bronze",
+    "examine": "Basic leg armor made of bronze",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/armor.png",
+    "healAmount": 0,
+    "stats": {
+      "attack": 0,
+      "defense": 0,
+      "strength": 0
+    },
+    "bonuses": {
+      "attack": 0,
+      "strength": 0,
+      "defense": 1,
+      "ranged": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defense": 1 }
+    }
+  },
+  {
+    "id": "tinderbox",
+    "name": "Tinderbox",
+    "type": "tool",
+    "quantity": 1,
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 10,
+    "weight": 0.5,
+    "equipSlot": null,
+    "weaponType": null,
+    "equipable": false,
+    "attackType": null,
+    "description": "Used to light fires",
+    "examine": "Used to light fires",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/tools.png",
+    "healAmount": 0,
+    "stats": {
+      "attack": 0,
+      "defense": 0,
+      "strength": 0
+    },
+    "bonuses": {
+      "attack": 0,
+      "strength": 0,
+      "defense": 0,
+      "ranged": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": {}
+    }
+  },
+  {
     "id": "logs",
     "name": "Logs",
     "type": "resource",
