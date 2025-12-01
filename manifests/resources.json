@@ -4,14 +4,103 @@
     "name": "Tree",
     "type": "tree",
     "resourceType": "tree",
-    "modelPath": "asset://models/tree/tree.glb",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "stumpScale": 0.3,
     "harvestSkill": "woodcutting",
-    "requiredLevel": 1,
-    "harvestTime": 3000,
-    "respawnTime": 60000,
+    "toolRequired": "bronze_hatchet",
+    "levelRequired": 1,
+    "baseCycleTicks": 4,
+    "depleteChance": 0.125,
+    "respawnTicks": 80,
     "harvestYield": [
-      { "itemId": "logs", "quantity": 1, "chance": 1.0 }
+      {
+        "itemId": "logs",
+        "itemName": "Logs",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 25,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "id": "tree_oak",
+    "name": "Oak Tree",
+    "type": "tree",
+    "resourceType": "tree",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "stumpScale": 0.3,
+    "harvestSkill": "woodcutting",
+    "toolRequired": "bronze_hatchet",
+    "levelRequired": 15,
+    "baseCycleTicks": 4,
+    "depleteChance": 0.125,
+    "respawnTicks": 14,
+    "harvestYield": [
+      {
+        "itemId": "logs",
+        "itemName": "Logs",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 38,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "id": "tree_willow",
+    "name": "Willow Tree",
+    "type": "tree",
+    "resourceType": "tree",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "stumpScale": 0.3,
+    "harvestSkill": "woodcutting",
+    "toolRequired": "bronze_hatchet",
+    "levelRequired": 30,
+    "baseCycleTicks": 4,
+    "depleteChance": 0.125,
+    "respawnTicks": 14,
+    "harvestYield": [
+      {
+        "itemId": "logs",
+        "itemName": "Logs",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 68,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "id": "fishing_spot_normal",
+    "name": "Fishing Spot",
+    "type": "fishing_spot",
+    "resourceType": "fishing",
+    "modelPath": null,
+    "stumpModelPath": null,
+    "scale": 1.0,
+    "stumpScale": 1.0,
+    "harvestSkill": "fishing",
+    "toolRequired": "fishing_rod",
+    "levelRequired": 1,
+    "baseCycleTicks": 5,
+    "depleteChance": 0,
+    "respawnTicks": 0,
+    "harvestYield": [
+      {
+        "itemId": "raw_shrimps",
+        "itemName": "Raw Shrimps",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 10,
+        "stackable": true
+      }
     ]
   }
 ]
-
