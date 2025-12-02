@@ -5,7 +5,10 @@
     "description": "Open grasslands with gentle rolling hills.",
     "difficultyLevel": 0,
     "terrain": "plains",
-    "resources": ["trees", "fishing_spots"],
+    "resources": [
+      "trees",
+      "fishing_spots"
+    ],
     "mobs": [],
     "fogIntensity": 0.1,
     "ambientSound": "wind_gentle",
@@ -15,7 +18,10 @@
       "fog": "#E8F5E8"
     },
     "color": 5025616,
-    "heightRange": [0.0, 0.2],
+    "heightRange": [
+      0.0,
+      0.2
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.6,
@@ -24,7 +30,10 @@
     "baseHeight": 0.0,
     "heightVariation": 0.1,
     "resourceDensity": 0.5,
-    "resourceTypes": ["trees", "fishing_spots"]
+    "resourceTypes": [
+      "trees",
+      "fishing_spots"
+    ]
   },
   {
     "id": "forest",
@@ -32,8 +41,14 @@
     "description": "Dense woodland areas with abundant trees.",
     "difficultyLevel": 1,
     "terrain": "forest",
-    "resources": ["trees", "fishing_spots"],
-    "mobs": ["goblin", "bandit"],
+    "resources": [
+      "trees",
+      "fishing_spots"
+    ],
+    "mobs": [
+      "goblin",
+      "bandit"
+    ],
     "fogIntensity": 0.4,
     "ambientSound": "forest_mysterious",
     "colorScheme": {
@@ -42,16 +57,25 @@
       "fog": "#B0BEC5"
     },
     "color": 3046706,
-    "heightRange": [0.2, 0.5],
+    "heightRange": [
+      0.2,
+      0.5
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.8,
-    "mobTypes": ["goblin", "bandit"],
+    "mobTypes": [
+      "goblin",
+      "bandit"
+    ],
     "difficulty": 1,
     "baseHeight": 0.0,
     "heightVariation": 0.2,
     "resourceDensity": 0.5,
-    "resourceTypes": ["trees", "fishing_spots"]
+    "resourceTypes": [
+      "trees",
+      "fishing_spots"
+    ]
   },
   {
     "id": "valley",
@@ -59,7 +83,10 @@
     "description": "Low-lying areas between hills and mountains.",
     "difficultyLevel": 0,
     "terrain": "plains",
-    "resources": ["trees", "fishing_spots"],
+    "resources": [
+      "trees",
+      "fishing_spots"
+    ],
     "mobs": [],
     "fogIntensity": 0.2,
     "ambientSound": "wind_plains",
@@ -69,7 +96,10 @@
       "fog": "#F1F8E9"
     },
     "color": 6856504,
-    "heightRange": [0.0, 0.2],
+    "heightRange": [
+      0.0,
+      0.2
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.8,
@@ -78,7 +108,10 @@
     "baseHeight": 0.0,
     "heightVariation": 0.3,
     "resourceDensity": 0.5,
-    "resourceTypes": ["trees", "fishing_spots"]
+    "resourceTypes": [
+      "trees",
+      "fishing_spots"
+    ]
   },
   {
     "id": "mountains",
@@ -86,7 +119,9 @@
     "description": "High elevation rocky peaks with sparse vegetation.",
     "difficultyLevel": 2,
     "terrain": "mountains",
-    "resources": ["trees"],
+    "resources": [
+      "trees"
+    ],
     "mobs": [],
     "fogIntensity": 0.3,
     "ambientSound": "wind_mountain",
@@ -96,7 +131,10 @@
       "fog": "#ECEFF1"
     },
     "color": 7901340,
-    "heightRange": [0.6, 1.0],
+    "heightRange": [
+      0.6,
+      1.0
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.9,
@@ -105,7 +143,9 @@
     "baseHeight": 0.5,
     "heightVariation": 0.5,
     "resourceDensity": 0.3,
-    "resourceTypes": ["trees"]
+    "resourceTypes": [
+      "trees"
+    ]
   },
   {
     "id": "tundra",
@@ -113,7 +153,9 @@
     "description": "Frozen wasteland with ice and snow.",
     "difficultyLevel": 3,
     "terrain": "frozen",
-    "resources": ["fishing_spots"],
+    "resources": [
+      "fishing_spots"
+    ],
     "mobs": [],
     "fogIntensity": 0.5,
     "ambientSound": "wind_arctic",
@@ -123,7 +165,10 @@
       "fog": "#E3F2FD"
     },
     "color": 869281,
-    "heightRange": [0.4, 1.0],
+    "heightRange": [
+      0.4,
+      1.0
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.8,
@@ -132,7 +177,9 @@
     "baseHeight": 0.3,
     "heightVariation": 0.4,
     "resourceDensity": 0.2,
-    "resourceTypes": ["fishing_spots"]
+    "resourceTypes": [
+      "fishing_spots"
+    ]
   },
   {
     "id": "desert",
@@ -140,8 +187,14 @@
     "description": "Arid wasteland with sand dunes and sparse vegetation.",
     "difficultyLevel": 2,
     "terrain": "desert",
-    "resources": ["trees"],
-    "mobs": ["goblin", "bandit", "barbarian"],
+    "resources": [
+      "trees"
+    ],
+    "mobs": [
+      "goblin",
+      "bandit",
+      "barbarian"
+    ],
     "fogIntensity": 0.3,
     "ambientSound": "wind_desolate",
     "colorScheme": {
@@ -150,16 +203,25 @@
       "fog": "#D7CCC8"
     },
     "color": 9268835,
-    "heightRange": [0.1, 0.3],
+    "heightRange": [
+      0.1,
+      0.3
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.6,
-    "mobTypes": ["goblin", "bandit", "barbarian"],
+    "mobTypes": [
+      "goblin",
+      "bandit",
+      "barbarian"
+    ],
     "difficulty": 2,
     "baseHeight": 0.0,
     "heightVariation": 0.15,
     "resourceDensity": 0.3,
-    "resourceTypes": ["trees"]
+    "resourceTypes": [
+      "trees"
+    ]
   },
   {
     "id": "lakes",
@@ -167,7 +229,9 @@
     "description": "Water bodies and fishing spots throughout the world.",
     "difficultyLevel": 0,
     "terrain": "lake",
-    "resources": ["fishing_spots"],
+    "resources": [
+      "fishing_spots"
+    ],
     "mobs": [],
     "fogIntensity": 0.1,
     "ambientSound": "water_gentle",
@@ -177,7 +241,10 @@
       "fog": "#E1F5FE"
     },
     "color": 166097,
-    "heightRange": [0.0, 0.15],
+    "heightRange": [
+      0.0,
+      0.15
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.8,
@@ -186,7 +253,9 @@
     "baseHeight": 0.0,
     "heightVariation": 0.05,
     "resourceDensity": 0.5,
-    "resourceTypes": ["fishing_spots"]
+    "resourceTypes": [
+      "fishing_spots"
+    ]
   },
   {
     "id": "swamp",
@@ -194,8 +263,13 @@
     "description": "Murky wetlands with shallow water and twisted vegetation.",
     "difficultyLevel": 1,
     "terrain": "swamp",
-    "resources": ["trees", "fishing_spots"],
-    "mobs": ["bandit"],
+    "resources": [
+      "trees",
+      "fishing_spots"
+    ],
+    "mobs": [
+      "bandit"
+    ],
     "fogIntensity": 0.7,
     "ambientSound": "swamp_ambient",
     "colorScheme": {
@@ -204,15 +278,23 @@
       "fog": "#9E9E9E"
     },
     "color": 5606191,
-    "heightRange": [0.0, 0.2],
+    "heightRange": [
+      0.0,
+      0.2
+    ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
     "maxSlope": 0.5,
-    "mobTypes": ["bandit"],
+    "mobTypes": [
+      "bandit"
+    ],
     "difficulty": 1,
     "baseHeight": 0.0,
     "heightVariation": 0.15,
     "resourceDensity": 0.4,
-    "resourceTypes": ["trees", "fishing_spots"]
+    "resourceTypes": [
+      "trees",
+      "fishing_spots"
+    ]
   }
 ]

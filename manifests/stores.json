@@ -4,7 +4,11 @@
     "name": "Central General Store",
     "location": {
       "zone": "town_central",
-      "position": { "x": -5, "y": 0, "z": 8 }
+      "position": {
+        "x": -5,
+        "y": 0,
+        "z": 8
+      }
     },
     "buyback": true,
     "buybackRate": 0.5,
@@ -67,7 +71,11 @@
     "name": "Eastern General Store",
     "location": {
       "zone": "town_eastern",
-      "position": { "x": 95, "y": 0, "z": 8 }
+      "position": {
+        "x": 95,
+        "y": 0,
+        "z": 8
+      }
     },
     "buyback": true,
     "buybackRate": 0.5,
@@ -130,7 +138,11 @@
     "name": "Western General Store",
     "location": {
       "zone": "town_western",
-      "position": { "x": -105, "y": 0, "z": 8 }
+      "position": {
+        "x": -105,
+        "y": 0,
+        "z": 8
+      }
     },
     "buyback": true,
     "buybackRate": 0.5,
@@ -193,7 +205,11 @@
     "name": "Northern General Store",
     "location": {
       "zone": "town_northern",
-      "position": { "x": -5, "y": 0, "z": 108 }
+      "position": {
+        "x": -5,
+        "y": 0,
+        "z": 108
+      }
     },
     "buyback": true,
     "buybackRate": 0.5,
@@ -256,7 +272,11 @@
     "name": "Southern General Store",
     "location": {
       "zone": "town_southern",
-      "position": { "x": -5, "y": 0, "z": -92 }
+      "position": {
+        "x": -5,
+        "y": 0,
+        "z": -92
+      }
     },
     "buyback": true,
     "buybackRate": 0.5,
@@ -315,4 +335,3 @@
     ]
   }
 ]
-
