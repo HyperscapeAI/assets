@@ -3,11 +3,10 @@
     "id": "tree_normal",
     "name": "Tree",
     "type": "tree",
-    "resourceType": "tree",
     "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
     "scale": 3.0,
-    "stumpScale": 0.3,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
     "toolRequired": "bronze_hatchet",
     "levelRequired": 1,
@@ -29,11 +28,10 @@
     "id": "tree_oak",
     "name": "Oak Tree",
     "type": "tree",
-    "resourceType": "tree",
     "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
     "scale": 3.0,
-    "stumpScale": 0.3,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
     "toolRequired": "bronze_hatchet",
     "levelRequired": 15,
@@ -55,11 +53,10 @@
     "id": "tree_willow",
     "name": "Willow Tree",
     "type": "tree",
-    "resourceType": "tree",
     "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
     "scale": 3.0,
-    "stumpScale": 0.3,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
     "toolRequired": "bronze_hatchet",
     "levelRequired": 30,
@@ -81,11 +78,10 @@
     "id": "fishing_spot_normal",
     "name": "Fishing Spot",
     "type": "fishing_spot",
-    "resourceType": "fishing",
     "modelPath": null,
-    "stumpModelPath": null,
+    "depletedModelPath": null,
     "scale": 1.0,
-    "stumpScale": 1.0,
+    "depletedScale": 1.0,
     "harvestSkill": "fishing",
     "toolRequired": "fishing_rod",
     "levelRequired": 1,
@@ -100,188 +96,6 @@
         "chance": 1.0,
         "xpAmount": 10,
         "stackable": true
-      }
-    ]
-  },
-  {
-    "id": "ore_copper",
-    "name": "Copper Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 1,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 3,
-    "harvestYield": [
-      {
-        "itemId": "copper_ore",
-        "itemName": "Copper Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 17.5,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_tin",
-    "name": "Tin Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 1,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 3,
-    "harvestYield": [
-      {
-        "itemId": "tin_ore",
-        "itemName": "Tin Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 17.5,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_iron",
-    "name": "Iron Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 15,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 9,
-    "harvestYield": [
-      {
-        "itemId": "iron_ore",
-        "itemName": "Iron Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 35,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_coal",
-    "name": "Coal Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 30,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 49,
-    "harvestYield": [
-      {
-        "itemId": "coal_ore",
-        "itemName": "Coal Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 50,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_mithril",
-    "name": "Mithril Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 55,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 200,
-    "harvestYield": [
-      {
-        "itemId": "mithril_ore",
-        "itemName": "Mithril Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 80,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_adamantite",
-    "name": "Adamantite Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 70,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 400,
-    "harvestYield": [
-      {
-        "itemId": "adamantite_ore",
-        "itemName": "Adamantite Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 95,
-        "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "ore_runite",
-    "name": "Runite Rock",
-    "type": "ore",
-    "resourceType": "ore",
-    "modelPath": "asset://models/ore-copper/copper.glb",
-    "stumpModelPath": null,
-    "scale": 1.0,
-    "stumpScale": 1.0,
-    "harvestSkill": "mining",
-    "toolRequired": "bronze_pickaxe",
-    "levelRequired": 85,
-    "baseCycleTicks": 4,
-    "depleteChance": 0.125,
-    "respawnTicks": 1200,
-    "harvestYield": [
-      {
-        "itemId": "runite_ore",
-        "itemName": "Runite Ore",
-        "quantity": 1,
-        "chance": 1.0,
-        "xpAmount": 125,
-        "stackable": false
       }
     ]
   }

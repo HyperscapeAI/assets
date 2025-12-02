@@ -214,14 +214,16 @@ interface NPCCombatConfig {
   aggressive: boolean;      // Default: false - Attacks on sight?
   retaliates: boolean;      // Default: true - Fights back when attacked?
   aggroRange: number;       // Default: 0 - Detection range for aggressive mobs (tiles)
-  combatRange: number;      // Default: 1.5 - Attack range (tiles)
-  attackSpeed: number;      // Default: 2400 - Milliseconds between attacks
-  respawnTime: number;      // Default: 60000 - Milliseconds to respawn
+  combatRange: number;      // Default: 1 - Attack range (tiles)
+  attackSpeedTicks: number; // Default: 4 - Game ticks between attacks (4 = 2.4s)
+  respawnTicks: number;     // Default: 25 - Game ticks to respawn (25 = 15s)
   xpReward: number;         // Default: 0 - XP on kill
   poisonous: boolean;       // Default: false
   immuneToPoison: boolean;  // Default: false
 }
 ```
+
+**Note:** All timing uses OSRS-style game ticks (1 tick = 600ms). The manifest is the source of truth - no hardcoded minimums are enforced.
 
 ### Movement Configuration
 
@@ -328,9 +330,9 @@ Effects are string-based commands processed by `DialogueSystem.executeEffect()`:
     "aggressive": false,
     "retaliates": true,
     "aggroRange": 8,
-    "combatRange": 5,
-    "attackSpeed": 2400,
-    "respawnTime": 15000
+    "combatRange": 1,
+    "attackSpeedTicks": 4,
+    "respawnTicks": 25
   },
   "movement": {
     "type": "wander",
@@ -463,25 +465,25 @@ Defines harvestable resources like trees, fishing spots, and ore veins.
 
 ```typescript
 interface ExternalResourceData {
-  id: string;                    // Unique resource variant ID (e.g., "tree_normal", "tree_oak")
-  name: string;                  // Display name
-  type: string;                  // "tree" | "fishing_spot" | "ore_vein"
+  id: string;                       // Unique resource variant ID (e.g., "tree_normal", "tree_oak")
+  name: string;                     // Display name
+  type: string;                     // "tree" | "fishing_spot" | "ore_vein"
 
   // Visual
-  modelPath: string | null;      // 3D model when available
-  stumpModelPath: string | null; // Model shown when depleted (trees)
-  scale: number;                 // Model scale
-  stumpScale: number;            // Depleted model scale
+  modelPath: string | null;         // 3D model when available
+  depletedModelPath: string | null; // Model shown when depleted (e.g., tree stump, empty rock)
+  scale: number;                    // Model scale
+  depletedScale: number;            // Depleted model scale
 
   // Harvesting
-  harvestSkill: string;          // "woodcutting" | "fishing" | "mining"
-  toolRequired: string | null;   // Item ID of required tool (e.g., "bronze_hatchet")
-  levelRequired: number;         // Minimum skill level
+  harvestSkill: string;             // "woodcutting" | "fishing" | "mining"
+  toolRequired: string | null;      // Item ID of required tool (e.g., "bronze_hatchet")
+  levelRequired: number;            // Minimum skill level
 
   // Timing (OSRS-style ticks, 1 tick = 600ms)
-  baseCycleTicks: number;        // Ticks between harvest attempts
-  depleteChance: number;         // 0-1 chance to deplete per successful harvest
-  respawnTicks: number;          // Ticks until resource respawns after depletion
+  baseCycleTicks: number;           // Ticks between harvest attempts
+  depleteChance: number;            // 0-1 chance to deplete per successful harvest
+  respawnTicks: number;             // Ticks until resource respawns after depletion
 
   // Yields
   harvestYield: HarvestYield[];
@@ -516,9 +518,9 @@ Higher skill levels reduce cycle time (up to ~30% faster).
   "name": "Tree",
   "type": "tree",
   "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-  "stumpModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+  "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
   "scale": 3.0,
-  "stumpScale": 0.3,
+  "depletedScale": 0.3,
   "harvestSkill": "woodcutting",
   "toolRequired": "bronze_hatchet",
   "levelRequired": 1,
@@ -806,7 +808,7 @@ asset://models/goblin/goblin.vrm
 ### Adding a Resource
 
 1. Add entry to `resources.json`
-2. Create model and stump model (for trees)
+2. Create model and depleted model (e.g., stump for trees, empty rock for ores)
 3. Add spawn points in `world-areas.json`
 
 ### Adding a Store

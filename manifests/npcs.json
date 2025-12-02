@@ -20,8 +20,8 @@
       "retaliates": true,
       "aggroRange": 8,
       "combatRange": 1,
-      "attackSpeed": 2400,
-      "respawnTime": 15000
+      "attackSpeedTicks": 4,
+      "respawnTicks": 25
     },
     "movement": {
       "type": "wander",
