@@ -16,7 +16,7 @@
     },
     "combat": {
       "attackable": true,
-      "aggressive": true,
+      "aggressive": false,
       "retaliates": true,
       "aggroRange": 8,
       "combatRange": 1,
@@ -84,14 +84,113 @@
       "iconPath": "asset://icons/npcs/goblin.png",
       "scale": 0.75
     },
-    "position": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
     "spawnBiomes": [
       "forest",
       "plains"
     ]
+  },
+  {
+    "id": "bank_clerk",
+    "name": "Bank Clerk",
+    "description": "A helpful bank clerk who manages deposits and withdrawals",
+    "category": "neutral",
+    "faction": "town",
+    "stats": {
+      "level": 1,
+      "health": 100,
+      "attack": 1,
+      "strength": 1,
+      "defense": 1,
+      "ranged": 1,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": false,
+      "aggressive": false,
+      "retaliates": false,
+      "aggroRange": 0,
+      "combatRange": 1,
+      "attackSpeed": 2400,
+      "respawnTime": 60000
+    },
+    "movement": {
+      "type": "stationary",
+      "speed": 0,
+      "wanderRadius": 0
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": false,
+        "itemId": "",
+        "quantity": 0
+      },
+      "always": [],
+      "common": [],
+      "uncommon": [],
+      "rare": [],
+      "veryRare": []
+    },
+    "services": {
+      "enabled": true,
+      "types": [
+        "bank"
+      ]
+    },
+    "behavior": {
+      "enabled": false
+    },
+    "dialogue": {
+      "entryNodeId": "greeting",
+      "nodes": [
+        {
+          "id": "greeting",
+          "text": "Welcome to the bank! How may I help you today?",
+          "responses": [
+            {
+              "text": "I'd like to access my bank.",
+              "nextNodeId": "open_bank",
+              "effect": "openBank"
+            },
+            {
+              "text": "What services do you offer?",
+              "nextNodeId": "services_info"
+            },
+            {
+              "text": "Goodbye.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "open_bank",
+          "text": "Of course! Here are your belongings."
+        },
+        {
+          "id": "services_info",
+          "text": "We offer secure storage for your items. You can deposit items to keep them safe, and withdraw them whenever you need.",
+          "responses": [
+            {
+              "text": "I'd like to access my bank.",
+              "nextNodeId": "open_bank",
+              "effect": "openBank"
+            },
+            {
+              "text": "Thanks for the information.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "farewell",
+          "text": "Take care, adventurer!"
+        }
+      ]
+    },
+    "appearance": {
+      "modelPath": "asset://models/human/human_rigged.glb",
+      "iconPath": "asset://icons/npcs/bank_clerk.png",
+      "scale": 1.0
+    },
+    "spawnBiomes": []
   }
 ]

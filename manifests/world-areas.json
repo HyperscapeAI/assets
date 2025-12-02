@@ -13,7 +13,17 @@
       },
       "biomeType": "starter_town",
       "safeZone": true,
-      "npcs": [],
+      "npcs": [
+        {
+          "id": "bank_clerk",
+          "type": "bank",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": -5
+          }
+        }
+      ],
       "resources": [
         {
           "type": "tree",
