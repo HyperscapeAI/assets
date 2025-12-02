@@ -15,6 +15,36 @@
     "description": "General supplies and tools for adventurers starting their journey.",
     "items": [
       {
+        "id": "bronze_sword",
+        "itemId": "bronze_sword",
+        "name": "Bronze Sword",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic sword made of bronze",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_sword",
+        "itemId": "steel_sword",
+        "name": "Steel Sword",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A sturdy sword made of steel",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_sword",
+        "itemId": "mithril_sword",
+        "name": "Mithril Sword",
+        "price": 2000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A legendary sword made of mithril",
+        "category": "weapons"
+      },
+      {
         "id": "bronze_hatchet",
         "itemId": "bronze_hatchet",
         "name": "Bronze Hatchet",
@@ -22,6 +52,16 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A basic bronze hatchet for woodcutting",
+        "category": "tools"
+      },
+      {
+        "id": "bronze_pickaxe",
+        "itemId": "bronze_pickaxe",
+        "name": "Bronze Pickaxe",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic pickaxe for mining",
         "category": "tools"
       },
       {
@@ -45,292 +85,14 @@
         "category": "tools"
       },
       {
-        "id": "bronze_pickaxe",
-        "itemId": "bronze_pickaxe",
-        "name": "Bronze Pickaxe",
-        "price": 50,
+        "id": "logs",
+        "itemId": "logs",
+        "name": "Logs",
+        "price": 5,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A basic pickaxe for mining",
-        "category": "tools"
-      },
-      {
-        "id": "arrows",
-        "itemId": "arrows",
-        "name": "Arrows",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Ammunition for ranged weapons",
-        "category": "ammunition"
-      }
-    ]
-  },
-  {
-    "id": "eastern_store",
-    "name": "Eastern General Store",
-    "location": {
-      "zone": "town_eastern",
-      "position": {
-        "x": 95,
-        "y": 0,
-        "z": 8
-      }
-    },
-    "buyback": true,
-    "buybackRate": 0.5,
-    "description": "Essential supplies for eastern territory explorers.",
-    "items": [
-      {
-        "id": "bronze_hatchet",
-        "itemId": "bronze_hatchet",
-        "name": "Bronze Hatchet",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic bronze hatchet for woodcutting",
-        "category": "tools"
-      },
-      {
-        "id": "fishing_rod",
-        "itemId": "fishing_rod",
-        "name": "Fishing Rod",
-        "price": 30,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A simple fishing rod for catching fish",
-        "category": "tools"
-      },
-      {
-        "id": "tinderbox",
-        "itemId": "tinderbox",
-        "name": "Tinderbox",
-        "price": 10,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to light fires",
-        "category": "tools"
-      },
-      {
-        "id": "bronze_pickaxe",
-        "itemId": "bronze_pickaxe",
-        "name": "Bronze Pickaxe",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic pickaxe for mining",
-        "category": "tools"
-      },
-      {
-        "id": "arrows",
-        "itemId": "arrows",
-        "name": "Arrows",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Ammunition for ranged weapons",
-        "category": "ammunition"
-      }
-    ]
-  },
-  {
-    "id": "western_store",
-    "name": "Western General Store",
-    "location": {
-      "zone": "town_western",
-      "position": {
-        "x": -105,
-        "y": 0,
-        "z": 8
-      }
-    },
-    "buyback": true,
-    "buybackRate": 0.5,
-    "description": "Basic equipment and supplies for western frontier life.",
-    "items": [
-      {
-        "id": "bronze_hatchet",
-        "itemId": "bronze_hatchet",
-        "name": "Bronze Hatchet",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic bronze hatchet for woodcutting",
-        "category": "tools"
-      },
-      {
-        "id": "fishing_rod",
-        "itemId": "fishing_rod",
-        "name": "Fishing Rod",
-        "price": 30,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A simple fishing rod for catching fish",
-        "category": "tools"
-      },
-      {
-        "id": "tinderbox",
-        "itemId": "tinderbox",
-        "name": "Tinderbox",
-        "price": 10,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to light fires",
-        "category": "tools"
-      },
-      {
-        "id": "bronze_pickaxe",
-        "itemId": "bronze_pickaxe",
-        "name": "Bronze Pickaxe",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic pickaxe for mining",
-        "category": "tools"
-      },
-      {
-        "id": "arrows",
-        "itemId": "arrows",
-        "name": "Arrows",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Ammunition for ranged weapons",
-        "category": "ammunition"
-      }
-    ]
-  },
-  {
-    "id": "northern_store",
-    "name": "Northern General Store",
-    "location": {
-      "zone": "town_northern",
-      "position": {
-        "x": -5,
-        "y": 0,
-        "z": 108
-      }
-    },
-    "buyback": true,
-    "buybackRate": 0.5,
-    "description": "Tools and supplies for the harsh northern environment.",
-    "items": [
-      {
-        "id": "bronze_hatchet",
-        "itemId": "bronze_hatchet",
-        "name": "Bronze Hatchet",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic bronze hatchet for woodcutting",
-        "category": "tools"
-      },
-      {
-        "id": "fishing_rod",
-        "itemId": "fishing_rod",
-        "name": "Fishing Rod",
-        "price": 30,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A simple fishing rod for catching fish",
-        "category": "tools"
-      },
-      {
-        "id": "tinderbox",
-        "itemId": "tinderbox",
-        "name": "Tinderbox",
-        "price": 10,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to light fires",
-        "category": "tools"
-      },
-      {
-        "id": "bronze_pickaxe",
-        "itemId": "bronze_pickaxe",
-        "name": "Bronze Pickaxe",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic pickaxe for mining",
-        "category": "tools"
-      },
-      {
-        "id": "arrows",
-        "itemId": "arrows",
-        "name": "Arrows",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Ammunition for ranged weapons",
-        "category": "ammunition"
-      }
-    ]
-  },
-  {
-    "id": "southern_store",
-    "name": "Southern General Store",
-    "location": {
-      "zone": "town_southern",
-      "position": {
-        "x": -5,
-        "y": 0,
-        "z": -92
-      }
-    },
-    "buyback": true,
-    "buybackRate": 0.5,
-    "description": "Essential gear for southern frontier adventures.",
-    "items": [
-      {
-        "id": "bronze_hatchet",
-        "itemId": "bronze_hatchet",
-        "name": "Bronze Hatchet",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic bronze hatchet for woodcutting",
-        "category": "tools"
-      },
-      {
-        "id": "fishing_rod",
-        "itemId": "fishing_rod",
-        "name": "Fishing Rod",
-        "price": 30,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A simple fishing rod for catching fish",
-        "category": "tools"
-      },
-      {
-        "id": "tinderbox",
-        "itemId": "tinderbox",
-        "name": "Tinderbox",
-        "price": 10,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to light fires",
-        "category": "tools"
-      },
-      {
-        "id": "bronze_pickaxe",
-        "itemId": "bronze_pickaxe",
-        "name": "Bronze Pickaxe",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic pickaxe for mining",
-        "category": "tools"
-      },
-      {
-        "id": "arrows",
-        "itemId": "arrows",
-        "name": "Arrows",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Ammunition for ranged weapons",
-        "category": "ammunition"
+        "description": "Wood logs from trees",
+        "category": "resources"
       }
     ]
   }

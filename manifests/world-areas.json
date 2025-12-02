@@ -22,6 +22,16 @@
             "y": 0,
             "z": -5
           }
+        },
+        {
+          "id": "shopkeeper",
+          "type": "general_store",
+          "storeId": "central_store",
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -5
+          }
         }
       ],
       "resources": [
@@ -51,46 +61,6 @@
             "z": -28
           },
           "resourceId": "tree_normal"
-        },
-        {
-          "type": "ore",
-          "subType": "copper",
-          "position": {
-            "x": -15,
-            "y": 0,
-            "z": -10
-          },
-          "resourceId": "ore_copper"
-        },
-        {
-          "type": "ore",
-          "subType": "copper",
-          "position": {
-            "x": -20,
-            "y": 0,
-            "z": -15
-          },
-          "resourceId": "ore_copper"
-        },
-        {
-          "type": "ore",
-          "subType": "tin",
-          "position": {
-            "x": -25,
-            "y": 0,
-            "z": -20
-          },
-          "resourceId": "ore_tin"
-        },
-        {
-          "type": "ore",
-          "subType": "tin",
-          "position": {
-            "x": -30,
-            "y": 0,
-            "z": -25
-          },
-          "resourceId": "ore_tin"
         }
       ],
       "mobSpawns": [

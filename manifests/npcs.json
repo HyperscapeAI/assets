@@ -72,13 +72,6 @@
         }
       ]
     },
-    "services": {
-      "enabled": false,
-      "types": []
-    },
-    "behavior": {
-      "enabled": false
-    },
     "appearance": {
       "modelPath": "asset://models/goblin/goblin.vrm",
       "iconPath": "asset://icons/npcs/goblin.png",
@@ -95,49 +88,19 @@
     "description": "A helpful bank clerk who manages deposits and withdrawals",
     "category": "neutral",
     "faction": "town",
-    "stats": {
-      "level": 1,
-      "health": 100,
-      "attack": 1,
-      "strength": 1,
-      "defense": 1,
-      "ranged": 1,
-      "magic": 1
-    },
     "combat": {
-      "attackable": false,
-      "aggressive": false,
-      "retaliates": false,
-      "aggroRange": 0,
-      "combatRange": 1,
-      "attackSpeed": 2400,
-      "respawnTime": 60000
+      "attackable": false
     },
     "movement": {
       "type": "stationary",
       "speed": 0,
       "wanderRadius": 0
     },
-    "drops": {
-      "defaultDrop": {
-        "enabled": false,
-        "itemId": "",
-        "quantity": 0
-      },
-      "always": [],
-      "common": [],
-      "uncommon": [],
-      "rare": [],
-      "veryRare": []
-    },
     "services": {
       "enabled": true,
       "types": [
         "bank"
       ]
-    },
-    "behavior": {
-      "enabled": false
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -190,7 +153,60 @@
       "modelPath": "asset://models/human/human_rigged.glb",
       "iconPath": "asset://icons/npcs/bank_clerk.png",
       "scale": 1.0
+    }
+  },
+  {
+    "id": "shopkeeper",
+    "name": "Shopkeeper",
+    "description": "A friendly merchant who buys and sells goods",
+    "category": "neutral",
+    "faction": "town",
+    "combat": {
+      "attackable": false
     },
-    "spawnBiomes": []
+    "movement": {
+      "type": "stationary",
+      "speed": 0,
+      "wanderRadius": 0
+    },
+    "services": {
+      "enabled": true,
+      "types": [
+        "shop"
+      ]
+    },
+    "dialogue": {
+      "entryNodeId": "greeting",
+      "nodes": [
+        {
+          "id": "greeting",
+          "text": "Can I help you at all?",
+          "responses": [
+            {
+              "text": "Yes, what are you selling?",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "No thanks.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "trade",
+          "text": "Take a look!"
+        },
+        {
+          "id": "farewell",
+          "text": "Come back anytime."
+        }
+      ]
+    },
+    "appearance": {
+      "modelPath": "asset://models/human/human_rigged.glb",
+      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "scale": 1.0
+    }
   }
 ]
