@@ -468,6 +468,7 @@ interface ExternalResourceData {
   id: string;                       // Unique resource variant ID (e.g., "tree_normal", "tree_oak")
   name: string;                     // Display name
   type: string;                     // "tree" | "fishing_spot" | "ore_vein"
+  examine: string;                  // Text shown when player examines the resource
 
   // Visual
   modelPath: string | null;         // 3D model when available
@@ -517,6 +518,7 @@ Higher skill levels reduce cycle time (up to ~30% faster).
   "id": "tree_normal",
   "name": "Tree",
   "type": "tree",
+  "examine": "A commonly found tree. I can chop it down with a hatchet.",
   "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
   "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
   "scale": 3.0,
