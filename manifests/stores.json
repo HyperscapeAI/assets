@@ -2,14 +2,6 @@
   {
     "id": "central_store",
     "name": "Central General Store",
-    "location": {
-      "zone": "town_central",
-      "position": {
-        "x": -5,
-        "y": 0,
-        "z": 8
-      }
-    },
     "buyback": true,
     "buybackRate": 0.5,
     "description": "General supplies and tools for adventurers starting their journey.",
