@@ -24,7 +24,7 @@
     ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
-    "maxSlope": 0.6,
+    "maxSlope": 0.8,
     "mobTypes": [],
     "difficulty": 0,
     "baseHeight": 0.0,
