@@ -1,0 +1,12 @@
+{
+  "name": "tin-ore",
+  "gameId": "ore_tin",
+  "type": "resource",
+  "subtype": "ore",
+  "description": "A tin ore rock model for mining. Used as a resource node that players can mine with a pickaxe to obtain tin ore.",
+  "hasModel": true,
+  "modelPath": "asset://models/ore-tin/tin.glb",
+  "isPlaceholder": false,
+  "gddCompliant": true,
+  "updatedAt": "2025-12-01T13:35:00.000Z"
+}
