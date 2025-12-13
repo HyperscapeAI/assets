@@ -3,17 +3,17 @@
     "id": "tree_normal",
     "name": "Tree",
     "type": "tree",
-    "examine": "A commonly found tree. I can chop it down with a hatchet.",
-    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
-    "scale": 3.0,
-    "depletedScale": 0.3,
+    "examine": "A tree suitable for woodcutting.",
+    "modelPath": "asset://models/resources/tree-normal.glb",
+    "depletedModelPath": "asset://models/resources/tree-stump.glb",
+    "scale": 1.0,
+    "depletedScale": 0.5,
     "harvestSkill": "woodcutting",
-    "toolRequired": "bronze_hatchet",
+    "toolRequired": "axe",
     "levelRequired": 1,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 80,
+    "respawnTicks": 100,
     "harvestYield": [
       {
         "itemId": "logs",
@@ -21,7 +21,7 @@
         "quantity": 1,
         "chance": 1.0,
         "xpAmount": 25,
-        "stackable": true
+        "stackable": false
       }
     ]
   },
@@ -29,25 +29,25 @@
     "id": "tree_oak",
     "name": "Oak Tree",
     "type": "tree",
-    "examine": "A mighty oak tree. Its wood is valued by skilled woodcutters.",
-    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
-    "scale": 3.0,
-    "depletedScale": 0.3,
+    "examine": "A sturdy oak tree.",
+    "modelPath": "asset://models/resources/tree-oak.glb",
+    "depletedModelPath": "asset://models/resources/tree-stump.glb",
+    "scale": 1.2,
+    "depletedScale": 0.5,
     "harvestSkill": "woodcutting",
-    "toolRequired": "bronze_hatchet",
+    "toolRequired": "axe",
     "levelRequired": 15,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 14,
+    "respawnTicks": 150,
     "harvestYield": [
       {
-        "itemId": "logs",
-        "itemName": "Logs",
+        "itemId": "oak_logs",
+        "itemName": "Oak Logs",
         "quantity": 1,
         "chance": 1.0,
-        "xpAmount": 38,
-        "stackable": true
+        "xpAmount": 37.5,
+        "stackable": false
       }
     ]
   },
@@ -55,24 +55,76 @@
     "id": "tree_willow",
     "name": "Willow Tree",
     "type": "tree",
-    "examine": "A graceful willow tree. Only experienced woodcutters can fell it.",
-    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
-    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
-    "scale": 3.0,
-    "depletedScale": 0.3,
+    "examine": "A willow tree with long drooping branches.",
+    "modelPath": "asset://models/resources/tree-willow.glb",
+    "depletedModelPath": "asset://models/resources/tree-stump.glb",
+    "scale": 1.3,
+    "depletedScale": 0.5,
     "harvestSkill": "woodcutting",
-    "toolRequired": "bronze_hatchet",
+    "toolRequired": "axe",
     "levelRequired": 30,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 14,
+    "respawnTicks": 200,
     "harvestYield": [
       {
-        "itemId": "logs",
-        "itemName": "Logs",
+        "itemId": "willow_logs",
+        "itemName": "Willow Logs",
         "quantity": 1,
         "chance": 1.0,
-        "xpAmount": 68,
+        "xpAmount": 67.5,
+        "stackable": false
+      }
+    ]
+  },
+  {
+    "id": "ore_normal",
+    "name": "Copper Rock",
+    "type": "ore",
+    "examine": "A rock containing copper ore.",
+    "modelPath": "asset://models/resources/rock-copper.glb",
+    "depletedModelPath": "asset://models/resources/rock-depleted.glb",
+    "scale": 1.0,
+    "depletedScale": 0.8,
+    "harvestSkill": "mining",
+    "toolRequired": "pickaxe",
+    "levelRequired": 1,
+    "baseCycleTicks": 4,
+    "depleteChance": 0.125,
+    "respawnTicks": 50,
+    "harvestYield": [
+      {
+        "itemId": "copper_ore",
+        "itemName": "Copper Ore",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 17.5,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "id": "ore_iron",
+    "name": "Iron Rock",
+    "type": "ore",
+    "examine": "A rock containing iron ore.",
+    "modelPath": "asset://models/resources/rock-iron.glb",
+    "depletedModelPath": "asset://models/resources/rock-depleted.glb",
+    "scale": 1.0,
+    "depletedScale": 0.8,
+    "harvestSkill": "mining",
+    "toolRequired": "pickaxe",
+    "levelRequired": 15,
+    "baseCycleTicks": 4,
+    "depleteChance": 0.125,
+    "respawnTicks": 100,
+    "harvestYield": [
+      {
+        "itemId": "iron_ore",
+        "itemName": "Iron Ore",
+        "quantity": 1,
+        "chance": 1.0,
+        "xpAmount": 35,
         "stackable": true
       }
     ]
@@ -81,7 +133,7 @@
     "id": "fishing_spot_normal",
     "name": "Fishing Spot",
     "type": "fishing_spot",
-    "examine": "There are fish swimming in the water here.",
+    "examine": "A good spot to fish.",
     "modelPath": null,
     "depletedModelPath": null,
     "scale": 1.0,
@@ -90,15 +142,99 @@
     "toolRequired": "fishing_rod",
     "levelRequired": 1,
     "baseCycleTicks": 5,
-    "depleteChance": 0,
-    "respawnTicks": 0,
+    "depleteChance": 0.05,
+    "respawnTicks": 200,
     "harvestYield": [
       {
-        "itemId": "raw_shrimps",
-        "itemName": "Raw Shrimps",
+        "itemId": "raw_shrimp",
+        "itemName": "Raw Shrimp",
         "quantity": 1,
-        "chance": 1.0,
+        "chance": 0.7,
         "xpAmount": 10,
+        "stackable": false
+      },
+      {
+        "itemId": "raw_anchovies",
+        "itemName": "Raw Anchovies",
+        "quantity": 1,
+        "chance": 0.3,
+        "xpAmount": 15,
+        "stackable": false
+      }
+    ]
+  },
+  {
+    "id": "fishing_spot_fly",
+    "name": "Fly Fishing Spot",
+    "type": "fishing_spot",
+    "examine": "A river spot good for fly fishing.",
+    "modelPath": null,
+    "depletedModelPath": null,
+    "scale": 1.0,
+    "depletedScale": 1.0,
+    "harvestSkill": "fishing",
+    "toolRequired": "fly_fishing_rod",
+    "levelRequired": 20,
+    "baseCycleTicks": 5,
+    "depleteChance": 0.05,
+    "respawnTicks": 200,
+    "harvestYield": [
+      {
+        "itemId": "raw_trout",
+        "itemName": "Raw Trout",
+        "quantity": 1,
+        "chance": 0.6,
+        "xpAmount": 50,
+        "stackable": false
+      },
+      {
+        "itemId": "raw_salmon",
+        "itemName": "Raw Salmon",
+        "quantity": 1,
+        "chance": 0.4,
+        "xpAmount": 70,
+        "stackable": false
+      }
+    ]
+  },
+  {
+    "id": "herb_patch_normal",
+    "name": "Herb Patch",
+    "type": "herb_patch",
+    "examine": "A patch of herbs growing wild.",
+    "modelPath": "asset://models/resources/herb-patch.glb",
+    "depletedModelPath": "asset://models/resources/herb-patch-depleted.glb",
+    "scale": 0.8,
+    "depletedScale": 0.4,
+    "harvestSkill": "herblore",
+    "toolRequired": null,
+    "levelRequired": 1,
+    "baseCycleTicks": 3,
+    "depleteChance": 0.2,
+    "respawnTicks": 150,
+    "harvestYield": [
+      {
+        "itemId": "guam_leaf",
+        "itemName": "Guam Leaf",
+        "quantity": 1,
+        "chance": 0.5,
+        "xpAmount": 12.5,
+        "stackable": true
+      },
+      {
+        "itemId": "marrentill",
+        "itemName": "Marrentill",
+        "quantity": 1,
+        "chance": 0.3,
+        "xpAmount": 15,
+        "stackable": true
+      },
+      {
+        "itemId": "tarromin",
+        "itemName": "Tarromin",
+        "quantity": 1,
+        "chance": 0.2,
+        "xpAmount": 17.5,
         "stackable": true
       }
     ]

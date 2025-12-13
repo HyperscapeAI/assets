@@ -1,5 +1,20 @@
 [
   {
+    "id": "bones",
+    "name": "Bones",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 1,
+    "weight": 0.5,
+    "description": "The bones of a defeated creature",
+    "examine": "These bones could be buried for prayer experience",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/bones.png"
+  },
+  {
     "id": "bronze_sword",
     "name": "Bronze Sword",
     "type": "weapon",
@@ -108,6 +123,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
+    "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
     "iconPath": "asset://models/hatchet-bronze/concept-art.png",
     "bonuses": {
       "attack": 4,
@@ -157,6 +173,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
+    "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
     "iconPath": "asset://models/pickaxe-bronze/concept-art.png",
     "bonuses": {
       "attack": 4,

@@ -2,14 +2,6 @@
   {
     "id": "plains",
     "name": "Plains",
-<<<<<<< HEAD
-    "description": "Rolling grasslands with scattered trees",
-    "resources": ["tree", "rock", "herb"],
-    "maxSlope": 0.4,
-    "waterLevel": 0,
-    "vegetation": "medium",
-    "dangerLevel": 0
-=======
     "description": "Open grasslands with gentle rolling hills.",
     "difficultyLevel": 0,
     "terrain": "plains",
@@ -42,19 +34,10 @@
       "trees",
       "fishing_spots"
     ]
->>>>>>> origin/main
   },
   {
     "id": "forest",
     "name": "Forest",
-<<<<<<< HEAD
-    "description": "Dense woodland with abundant vegetation",
-    "resources": ["tree", "herb", "mushroom"],
-    "maxSlope": 0.5,
-    "waterLevel": 0,
-    "vegetation": "high",
-    "dangerLevel": 1
-=======
     "description": "Dense woodland areas with abundant trees.",
     "difficultyLevel": 1,
     "terrain": "forest",
@@ -129,29 +112,10 @@
       "trees",
       "fishing_spots"
     ]
->>>>>>> origin/main
   },
   {
     "id": "mountains",
     "name": "Mountains",
-<<<<<<< HEAD
-    "description": "Rocky peaks with sparse vegetation",
-    "resources": ["rock", "ore", "rare_ore"],
-    "maxSlope": 0.8,
-    "waterLevel": 0,
-    "vegetation": "low",
-    "dangerLevel": 3
-  },
-  {
-    "id": "valley",
-    "name": "Valley",
-    "description": "Lush valleys between mountains",
-    "resources": ["tree", "herb", "flower"],
-    "maxSlope": 0.3,
-    "waterLevel": 0,
-    "vegetation": "high",
-    "dangerLevel": 1
-=======
     "description": "High elevation rocky peaks with sparse vegetation.",
     "difficultyLevel": 2,
     "terrain": "mountains",
@@ -182,19 +146,10 @@
     "resourceTypes": [
       "trees"
     ]
->>>>>>> origin/main
   },
   {
     "id": "tundra",
     "name": "Tundra",
-<<<<<<< HEAD
-    "description": "Frozen wasteland with minimal life",
-    "resources": ["rock"],
-    "maxSlope": 0.3,
-    "waterLevel": 0,
-    "vegetation": "minimal",
-    "dangerLevel": 4
-=======
     "description": "Frozen wasteland with ice and snow.",
     "difficultyLevel": 3,
     "terrain": "frozen",
@@ -225,19 +180,10 @@
     "resourceTypes": [
       "fishing_spots"
     ]
->>>>>>> origin/main
   },
   {
     "id": "desert",
     "name": "Desert",
-<<<<<<< HEAD
-    "description": "Arid sands with occasional cacti",
-    "resources": ["rock", "cactus"],
-    "maxSlope": 0.4,
-    "waterLevel": 0,
-    "vegetation": "minimal",
-    "dangerLevel": 2
-=======
     "description": "Arid wasteland with sand dunes and sparse vegetation.",
     "difficultyLevel": 2,
     "terrain": "desert",
@@ -310,29 +256,10 @@
     "resourceTypes": [
       "fishing_spots"
     ]
->>>>>>> origin/main
   },
   {
     "id": "swamp",
     "name": "Swamp",
-<<<<<<< HEAD
-    "description": "Wetlands with murky water",
-    "resources": ["herb", "mushroom", "fish"],
-    "maxSlope": 0.2,
-    "waterLevel": 0.5,
-    "vegetation": "medium",
-    "dangerLevel": 2
-  },
-  {
-    "id": "lakes",
-    "name": "Lakes",
-    "description": "Deep water bodies",
-    "resources": ["fish"],
-    "maxSlope": 0.1,
-    "waterLevel": 1.0,
-    "vegetation": "none",
-    "dangerLevel": 1
-=======
     "description": "Murky wetlands with shallow water and twisted vegetation.",
     "difficultyLevel": 1,
     "terrain": "swamp",
@@ -369,6 +296,5 @@
       "trees",
       "fishing_spots"
     ]
->>>>>>> origin/main
   }
 ]

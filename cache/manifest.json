@@ -1,0 +1,319 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2025-12-10T00:33:31.919Z",
+  "entries": [
+    {
+      "id": "terrain_metalness_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt/dirt_m.png",
+        "/terrain/textures/dirt_ground/dirt_ground_m.png",
+        "/terrain/textures/grass/grass_m.png",
+        "/terrain/textures/leafy_texture/leafy_texture_m.png",
+        "/terrain/textures/rock/rock__m.png",
+        "/terrain/textures/stylized_grass/stylized_grass_m.png"
+      ],
+      "cachedPath": "atlases/terrain_metalness_5a5367d7.bin",
+      "byteSize": 0,
+      "hash": "5a5367d7",
+      "metadata": {
+        "textureCount": 6,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "terrain_normal_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt/dirt_n.png",
+        "/terrain/textures/dirt_ground/dirt_ground_n.png",
+        "/terrain/textures/grass/grass_n.png",
+        "/terrain/textures/leafy_texture/leafy_texture_n.png",
+        "/terrain/textures/rock/rock_n.png",
+        "/terrain/textures/stylized_grass/stylized_grass_n.png",
+        "/terrain/textures/stylized_snow/stylized_snow_n.png",
+        "/terrain/textures/stylized_stone/stylized_stone_n.png"
+      ],
+      "cachedPath": "atlases/terrain_normal_b6cb223d.bin",
+      "byteSize": 0,
+      "hash": "b6cb223d",
+      "metadata": {
+        "textureCount": 8,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "terrain_diffuse_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt/dirt_d.png",
+        "/terrain/textures/dirt_ground/dirt_ground_d.png",
+        "/terrain/textures/grass/grass_d.png",
+        "/terrain/textures/leafy_texture/leafy_texture_d.png",
+        "/terrain/textures/rock/rock_d.png",
+        "/terrain/textures/stylized_grass/stylized_grass_d.png",
+        "/terrain/textures/stylized_snow/stylized_snow_d.png",
+        "/terrain/textures/stylized_stone/stylized_stone_d.png"
+      ],
+      "cachedPath": "atlases/terrain_diffuse_2ee54a16.bin",
+      "byteSize": 0,
+      "hash": "2ee54a16",
+      "metadata": {
+        "textureCount": 8,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "terrain_ao_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt_ground/dirt_ground_ao.png",
+        "/terrain/textures/grass/grass_ao.png",
+        "/terrain/textures/leafy_texture/leafy_texture_ao.png",
+        "/terrain/textures/rock/rock_ao.png"
+      ],
+      "cachedPath": "atlases/terrain_ao_d60a6cfc.bin",
+      "byteSize": 0,
+      "hash": "d60a6cfc",
+      "metadata": {
+        "textureCount": 4,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "terrain_roughness_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt/dirt_r.png",
+        "/terrain/textures/dirt_ground/dirt_ground_r.png",
+        "/terrain/textures/grass/grass_r.png",
+        "/terrain/textures/leafy_texture/leafy_texture_r.png",
+        "/terrain/textures/rock/rock__r.png",
+        "/terrain/textures/stylized_grass/stylized_grass_r.png"
+      ],
+      "cachedPath": "atlases/terrain_roughness_200e847a.bin",
+      "byteSize": 0,
+      "hash": "200e847a",
+      "metadata": {
+        "textureCount": 6,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "terrain_misc_atlas",
+      "type": "texture_atlas",
+      "originalPaths": [
+        "/terrain/textures/dirt/dirt_e.png",
+        "/terrain/textures/dirt/dirt_o.png",
+        "/terrain/textures/rock/rock_dp.png"
+      ],
+      "cachedPath": "atlases/terrain_misc_71f1e15e.bin",
+      "byteSize": 0,
+      "hash": "71f1e15e",
+      "metadata": {
+        "textureCount": 3,
+        "maxSize": 4096
+      }
+    },
+    {
+      "id": "vegetation_ivy_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/ivy/ivy_1.glb",
+        "/vegetation/ivy/ivy_2.glb",
+        "/vegetation/ivy/ivy_3.glb",
+        "/vegetation/ivy/ivy_4.glb",
+        "/vegetation/ivy/ivy_5.glb",
+        "/vegetation/ivy/ivy_6.glb"
+      ],
+      "cachedPath": "batches/vegetation_ivy_c1e4aa50.bin",
+      "byteSize": 0,
+      "hash": "c1e4aa50",
+      "metadata": {
+        "modelCount": 6,
+        "type": "ivy"
+      }
+    },
+    {
+      "id": "vegetation_jungle-trees_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/jungle-trees/jungle_tree_1.glb",
+        "/vegetation/jungle-trees/jungle_tree_2.glb",
+        "/vegetation/jungle-trees/jungle_tree_3.glb",
+        "/vegetation/jungle-trees/palm_tree_1.glb",
+        "/vegetation/jungle-trees/palm_tree_2.glb",
+        "/vegetation/jungle-trees/palm_tree_3.glb",
+        "/vegetation/jungle-trees/tree_large.glb",
+        "/vegetation/jungle-trees/tree_medium.glb",
+        "/vegetation/jungle-trees/tree_small.glb"
+      ],
+      "cachedPath": "batches/vegetation_jungle-trees_f205a4ea.bin",
+      "byteSize": 0,
+      "hash": "f205a4ea",
+      "metadata": {
+        "modelCount": 9,
+        "type": "jungle-trees"
+      }
+    },
+    {
+      "id": "vegetation_garden-trees_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/garden-trees/Bush_1.glb",
+        "/vegetation/garden-trees/Tree_1.glb",
+        "/vegetation/garden-trees/Tree_1_1.glb",
+        "/vegetation/garden-trees/Tree_1_2.glb",
+        "/vegetation/garden-trees/Tree_2_1.glb",
+        "/vegetation/garden-trees/Tree_2_2.glb",
+        "/vegetation/garden-trees/Tree_3_1.glb",
+        "/vegetation/garden-trees/Tree_3_2.glb",
+        "/vegetation/garden-trees/Tree_4_1.glb",
+        "/vegetation/garden-trees/Tree_4_2.glb",
+        "/vegetation/garden-trees/Tree_4_3.glb",
+        "/vegetation/garden-trees/Tree_5_1.glb",
+        "/vegetation/garden-trees/Tree_5_2.glb",
+        "/vegetation/garden-trees/Tree_6_1.glb",
+        "/vegetation/garden-trees/Tree_6_2.glb",
+        "/vegetation/garden-trees/garden-trees.glb",
+        "/vegetation/garden-trees/garden-trees_compressed.glb",
+        "/vegetation/garden-trees/jungle_tree_1.glb",
+        "/vegetation/garden-trees/jungle_tree_2.glb",
+        "/vegetation/garden-trees/jungle_tree_3.glb"
+      ],
+      "cachedPath": "batches/vegetation_garden-trees_b644606c.bin",
+      "byteSize": 0,
+      "hash": "b644606c",
+      "metadata": {
+        "modelCount": 20,
+        "type": "garden-trees"
+      }
+    },
+    {
+      "id": "vegetation_flowers_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/flowers/flowers.glb",
+        "/vegetation/flowers/flowers1.glb",
+        "/vegetation/flowers/flowers10.glb",
+        "/vegetation/flowers/flowers11.glb",
+        "/vegetation/flowers/flowers12.glb",
+        "/vegetation/flowers/flowers13.glb",
+        "/vegetation/flowers/flowers14.glb",
+        "/vegetation/flowers/flowers15.glb",
+        "/vegetation/flowers/flowers2.glb",
+        "/vegetation/flowers/flowers3.glb",
+        "/vegetation/flowers/flowers4.glb",
+        "/vegetation/flowers/flowers5.glb",
+        "/vegetation/flowers/flowers6.glb",
+        "/vegetation/flowers/flowers7.glb",
+        "/vegetation/flowers/flowers8.glb",
+        "/vegetation/flowers/flowers9.glb"
+      ],
+      "cachedPath": "batches/vegetation_flowers_df36f690.bin",
+      "byteSize": 0,
+      "hash": "df36f690",
+      "metadata": {
+        "modelCount": 16,
+        "type": "flowers"
+      }
+    },
+    {
+      "id": "vegetation_fallen_trees_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/fallen_trees/jungle_fallentree_2.glb",
+        "/vegetation/fallen_trees/jungle_fallentree_3.glb",
+        "/vegetation/fallen_trees/jungle_fallentree_4.glb",
+        "/vegetation/fallen_trees/jungle_fallentree_noleaf_2.glb",
+        "/vegetation/fallen_trees/jungle_fallentree_noleaf_3.glb",
+        "/vegetation/fallen_trees/jungle_fallentree_noleaf_4.glb"
+      ],
+      "cachedPath": "batches/vegetation_fallen_trees_55fcfb25.bin",
+      "byteSize": 0,
+      "hash": "55fcfb25",
+      "metadata": {
+        "modelCount": 6,
+        "type": "fallen_trees"
+      }
+    },
+    {
+      "id": "vegetation_bushes_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/bushes/bush.glb",
+        "/vegetation/bushes/bush2.glb",
+        "/vegetation/bushes/bush_1.glb"
+      ],
+      "cachedPath": "batches/vegetation_bushes_81f1ef6f.bin",
+      "byteSize": 0,
+      "hash": "81f1ef6f",
+      "metadata": {
+        "modelCount": 3,
+        "type": "bushes"
+      }
+    },
+    {
+      "id": "vegetation_ferns_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/vegetation/ferns/fern_1.glb",
+        "/vegetation/ferns/fern_2.glb"
+      ],
+      "cachedPath": "batches/vegetation_ferns_81909b31.bin",
+      "byteSize": 0,
+      "hash": "81909b31",
+      "metadata": {
+        "modelCount": 2,
+        "type": "ferns"
+      }
+    },
+    {
+      "id": "rocks_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/rocks/big_rock_v2.glb",
+        "/rocks/med_rock_v2.glb",
+        "/rocks/pathway_rocks/pathway_rock_1.glb",
+        "/rocks/pathway_rocks/pathway_rock_2.glb",
+        "/rocks/pathway_rocks/pathway_rock_3.glb",
+        "/rocks/pathway_rocks/pathway_rock_4.glb",
+        "/rocks/round_rocks/round_rocks_1.glb",
+        "/rocks/round_rocks/round_rocks_2.glb",
+        "/rocks/round_rocks/round_rocks_3.glb",
+        "/rocks/round_rocks/round_rocks_4.glb",
+        "/rocks/round_rocks/round_rocks_5.glb",
+        "/rocks/tall_rocks/tall_rocks_1.glb",
+        "/rocks/tall_rocks/tall_rocks_2.glb",
+        "/rocks/tall_rocks/tall_rocks_3.glb",
+        "/rocks/tall_rocks/tall_rocks_4.glb"
+      ],
+      "cachedPath": "batches/rocks_366ec739.bin",
+      "byteSize": 0,
+      "hash": "366ec739",
+      "metadata": {
+        "modelCount": 15
+      }
+    },
+    {
+      "id": "grass_batch",
+      "type": "instanced_batch",
+      "originalPaths": [
+        "/grass/DesertGrass_v2_fuji.glb",
+        "/grass/FieldLongerGrass_v3_Fuji.glb",
+        "/grass/ToonGrass_v1.3_Guilty.glb",
+        "/grass/grass_1_dream.glb",
+        "/grass/testgrass.glb",
+        "/grass/testgrass_dualquad.glb"
+      ],
+      "cachedPath": "batches/grass_b1f214ff.bin",
+      "byteSize": 0,
+      "hash": "b1f214ff",
+      "metadata": {
+        "modelCount": 6
+      }
+    }
+  ],
+  "totalSize": 0,
+  "hash": "13242fde2a2050b2118c51721b8f235b"
+}
