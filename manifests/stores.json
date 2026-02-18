@@ -1251,8 +1251,6 @@
         "restockTime": 0,
         "description": "Cooked shark, heals 20 HP",
         "category": "cooked_food"
-<<<<<<< HEAD
-=======
       }
     ]
   },
@@ -1861,7 +1859,6 @@
         "restockTime": 0,
         "description": "An uncut onyx gemstone",
         "category": "crafting"
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
       }
     ]
   }

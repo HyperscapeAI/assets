@@ -26,68 +26,99 @@
         {
           "id": "shopkeeper",
           "type": "general_store",
-<<<<<<< HEAD
-          "storeId": "central_store",
-          "position": {
-            "x": -5,
-            "y": 0,
-            "z": -5
-          }
-=======
           "storeId": "general_store",
-          "position": { "x": -8, "y": 0, "z": 5 }
+          "position": {
+            "x": -8,
+            "y": 0,
+            "z": 5
+          }
         },
         {
           "id": "captain_rowan",
           "type": "quest_giver",
-          "position": { "x": 20, "y": 0, "z": 14 }
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": 14
+          }
         },
         {
           "id": "forester_wilma",
           "type": "quest_giver",
-          "position": { "x": 18, "y": 0, "z": -8 }
+          "position": {
+            "x": 18,
+            "y": 0,
+            "z": -8
+          }
         },
         {
           "id": "fisherman_pete",
           "type": "quest_giver",
           "storeId": "fishing_store",
-          "position": { "x": -30, "y": 0, "z": -8 }
+          "position": {
+            "x": -30,
+            "y": 0,
+            "z": -8
+          }
         },
         {
           "id": "torvin",
           "type": "quest_giver",
           "storeId": "sword_store",
-          "position": { "x": -28, "y": 0, "z": 24 }
+          "position": {
+            "x": -28,
+            "y": 0,
+            "z": 24
+          }
         },
         {
           "id": "tanner",
           "type": "tanner",
-          "position": { "x": -22, "y": 0, "z": 22 }
+          "position": {
+            "x": -22,
+            "y": 0,
+            "z": 22
+          }
         },
         {
           "id": "wizard_zamorin",
           "type": "magic_store",
           "storeId": "magic_store",
-          "position": { "x": -14, "y": 0, "z": -12 }
+          "position": {
+            "x": -14,
+            "y": 0,
+            "z": -12
+          }
         },
         {
           "id": "bowyer",
           "type": "range_store",
           "storeId": "range_store",
-          "position": { "x": -18, "y": 0, "z": 10 }
+          "position": {
+            "x": -18,
+            "y": 0,
+            "z": 10
+          }
         },
         {
           "id": "armorer",
           "type": "armor_store",
           "storeId": "armor_store",
-          "position": { "x": -12, "y": 0, "z": 10 }
+          "position": {
+            "x": -12,
+            "y": 0,
+            "z": 10
+          }
         },
         {
           "id": "crafting_supplier",
           "type": "crafting_store",
           "storeId": "crafting_store",
-          "position": { "x": -16, "y": 0, "z": 18 }
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
+          "position": {
+            "x": -16,
+            "y": 0,
+            "z": 18
+          }
         }
       ],
       "resources": [
@@ -192,59 +223,47 @@
         },
         {
           "type": "ore",
-<<<<<<< HEAD
           "position": {
-            "x": 0,
+            "x": -6,
             "y": 0,
-            "z": 10
+            "z": 35
           },
-=======
-          "position": { "x": -6, "y": 0, "z": 35 },
           "resourceId": "ore_gold"
         },
         {
           "type": "ore",
-          "position": { "x": -2, "y": 0, "z": 36 },
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
+          "position": {
+            "x": -2,
+            "y": 0,
+            "z": 36
+          },
           "resourceId": "ore_coal"
         },
         {
           "type": "ore",
-<<<<<<< HEAD
           "position": {
-            "x": 4,
+            "x": 2,
             "y": 0,
-            "z": 10
+            "z": 33
           },
-=======
-          "position": { "x": 2, "y": 0, "z": 33 },
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
           "resourceId": "ore_mithril"
         },
         {
           "type": "ore",
-<<<<<<< HEAD
           "position": {
-            "x": 8,
+            "x": 6,
             "y": 0,
-            "z": 10
+            "z": 38
           },
-=======
-          "position": { "x": 6, "y": 0, "z": 38 },
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
           "resourceId": "ore_adamant"
         },
         {
           "type": "ore",
-<<<<<<< HEAD
           "position": {
-            "x": 12,
+            "x": 10,
             "y": 0,
-            "z": 10
+            "z": 35
           },
-=======
-          "position": { "x": 10, "y": 0, "z": 35 },
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
           "resourceId": "ore_runite"
         }
       ],
@@ -261,25 +280,41 @@
         },
         {
           "mobId": "cow",
-          "position": { "x": -35, "y": 0, "z": 18 },
+          "position": {
+            "x": -35,
+            "y": 0,
+            "z": 18
+          },
           "spawnRadius": 5,
           "maxCount": 4
         },
         {
           "mobId": "dark_wizard",
-          "position": { "x": 45, "y": 0, "z": -30 },
+          "position": {
+            "x": 45,
+            "y": 0,
+            "z": -30
+          },
           "spawnRadius": 5,
           "maxCount": 3
         },
         {
           "mobId": "dark_ranger",
-          "position": { "x": 38, "y": 0, "z": -25 },
+          "position": {
+            "x": 38,
+            "y": 0,
+            "z": -25
+          },
           "spawnRadius": 5,
           "maxCount": 3
         },
         {
           "mobId": "guard",
-          "position": { "x": 0, "y": 0, "z": 10 },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 10
+          },
           "spawnRadius": 8,
           "maxCount": 3
         }
@@ -287,103 +322,152 @@
       "fishing": {
         "enabled": true,
         "spotCount": 8,
-        "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly", "fishing_spot_cage", "fishing_spot_harpoon"]
-<<<<<<< HEAD
+        "spotTypes": [
+          "fishing_spot_net",
+          "fishing_spot_bait",
+          "fishing_spot_fly",
+          "fishing_spot_cage",
+          "fishing_spot_harpoon"
+        ]
       }
-=======
+    },
+    "stations": [
+      {
+        "id": "bank_spawn",
+        "type": "bank",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "bankId": "spawn_bank"
       },
-      "stations": [
-        {
-          "id": "bank_spawn",
-          "type": "bank",
-          "position": { "x": 0, "y": 0, "z": 0 },
-          "bankId": "spawn_bank"
-        },
-        {
-          "id": "furnace_spawn",
-          "type": "furnace",
-          "position": { "x": -24, "y": 0, "z": 28 }
-        },
-        {
-          "id": "anvil_spawn",
-          "type": "anvil",
-          "position": { "x": -21, "y": 0, "z": 28 }
-        },
-        {
-          "id": "altar_spawn",
-          "type": "altar",
-          "position": { "x": 0, "y": 0, "z": -25 }
-        },
-        {
-          "id": "range_spawn",
-          "type": "range",
-          "position": { "x": -26, "y": 0, "z": -4 }
-        },
-        {
-          "id": "air_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "air",
-          "position": { "x": 35, "y": 0, "z": -53 }
-        },
-        {
-          "id": "mind_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "mind",
-          "position": { "x": 42, "y": 0, "z": -49 }
-        },
-        {
-          "id": "water_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "water",
-          "position": { "x": 42, "y": 0, "z": -41 }
-        },
-        {
-          "id": "earth_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "earth",
-          "position": { "x": 35, "y": 0, "z": -37 }
-        },
-        {
-          "id": "fire_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "fire",
-          "position": { "x": 28, "y": 0, "z": -41 }
-        },
-        {
-          "id": "chaos_altar_spawn",
-          "type": "runecrafting_altar",
-          "runeType": "chaos",
-          "position": { "x": 28, "y": 0, "z": -49 }
+      {
+        "id": "furnace_spawn",
+        "type": "furnace",
+        "position": {
+          "x": -24,
+          "y": 0,
+          "z": 28
         }
-      ]
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
-    }
-  },
-  "level1Areas": {
-    "wilderness_test": {
-      "id": "wilderness_test",
-      "name": "The Wastes",
-      "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
-      "difficultyLevel": 1,
-      "bounds": {
-        "minX": 200,
-        "maxX": 300,
-        "minZ": -50,
-        "maxZ": 50
       },
-      "biomeType": "wastes",
-      "safeZone": false,
-      "pvpEnabled": true,
-      "npcs": [],
-      "resources": [],
-      "mobSpawns": [],
-      "fishing": {
-        "enabled": true,
-        "spotCount": 2,
-        "spotTypes": ["fishing_spot_fly"]
+      {
+        "id": "anvil_spawn",
+        "type": "anvil",
+        "position": {
+          "x": -21,
+          "y": 0,
+          "z": 28
+        }
+      },
+      {
+        "id": "altar_spawn",
+        "type": "altar",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -25
+        }
+      },
+      {
+        "id": "range_spawn",
+        "type": "range",
+        "position": {
+          "x": -26,
+          "y": 0,
+          "z": -4
+        }
+      },
+      {
+        "id": "air_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "air",
+        "position": {
+          "x": 35,
+          "y": 0,
+          "z": -53
+        }
+      },
+      {
+        "id": "mind_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "mind",
+        "position": {
+          "x": 42,
+          "y": 0,
+          "z": -49
+        }
+      },
+      {
+        "id": "water_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "water",
+        "position": {
+          "x": 42,
+          "y": 0,
+          "z": -41
+        }
+      },
+      {
+        "id": "earth_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "earth",
+        "position": {
+          "x": 35,
+          "y": 0,
+          "z": -37
+        }
+      },
+      {
+        "id": "fire_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "fire",
+        "position": {
+          "x": 28,
+          "y": 0,
+          "z": -41
+        }
+      },
+      {
+        "id": "chaos_altar_spawn",
+        "type": "runecrafting_altar",
+        "runeType": "chaos",
+        "position": {
+          "x": 28,
+          "y": 0,
+          "z": -49
+        }
       }
+    ]
+  }
+},
+"level1Areas": {
+  "wilderness_test": {
+    "id": "wilderness_test",
+    "name": "The Wastes",
+    "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
+    "difficultyLevel": 1,
+    "bounds": {
+      "minX": 200,
+      "maxX": 300,
+      "minZ": -50,
+      "maxZ": 50
+    },
+    "biomeType": "wastes",
+    "safeZone": false,
+    "pvpEnabled": true,
+    "npcs": [],
+    "resources": [],
+    "mobSpawns": [],
+    "fishing": {
+      "enabled": true,
+      "spotCount": 2,
+      "spotTypes": [
+        "fishing_spot_fly"
+      ]
     }
-  },
-  "level2Areas": {},
-  "level3Areas": {}
+  }
+},
+"level2Areas": {},
+"level3Areas": {}
 }

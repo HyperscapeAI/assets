@@ -614,10 +614,9 @@
     "id": "leather_cowl",
     "name": "Leather Cowl",
     "type": "armor",
-    "value": 15,
+    "value": 25,
     "tier": "leather",
     "equipSlot": "helmet",
-    "value": 25,
     "weight": 0.34,
     "description": "A leather cowl.",
     "examine": "A cowl made of leather.",
@@ -1429,28 +1428,14 @@
     "name": "Amulet of Strength",
     "type": "armor",
     "value": 220,
-    "weight": 0.2,
-    "equipSlot": "amulet",
-    "description": "An amulet that enhances strength",
-    "examine": "An amulet that enhances strength.",
-    "tradeable": true,
-    "rarity": "uncommon",
-    "modelPath": null,
-    "iconPath": "asset://icons/amulet-of-strength.png",
-    "bonuses": {
-      "strength": 8
-    },
-    "inventoryActions": [
-      "Wield",
-      "Use",
-      "Drop",
-      "Examine"
-    ],
     "weight": 0.1,
+    "equipSlot": "amulet",
     "description": "An amulet of all-round power.",
     "examine": "A versatile combat amulet.",
     "tradeable": true,
     "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-strength.png",
     "bonuses": {
       "attackStab": 6,
       "attackSlash": 6,
@@ -1463,114 +1448,175 @@
       "defenseMagic": 6,
       "meleeStrength": 6,
       "prayer": 1
+    },
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "amulet_of_fury",
+    "name": "Amulet of Fury",
+    "type": "armor",
+    "tier": "basic",
+    "value": 75000,
+    "weight": 0.1,
+    "description": "An onyx amulet of fury.",
+    "examine": "One of the most powerful amulets in existence.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "attackStab": 10,
+      "attackSlash": 10,
+      "attackCrush": 10,
+      "attackMagic": 10,
+      "attackRanged": 10,
+      "defenseStab": 15,
+      "defenseSlash": 15,
+      "defenseCrush": 15,
+      "defenseMagic": 15,
+      "defenseRanged": 15,
+      "meleeStrength": 8,
+      "prayer": 5
+    },
+    "equipSlot": "amulet"
+  },
+  {
+    "id": "gold_ring",
+    "name": "Gold Ring",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "ring",
+    "value": 500,
+    "weight": 0.01,
+    "description": "A simple gold ring.",
+    "examine": "A plain gold ring.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {}
+  },
+  {
+    "id": "warrior_ring",
+    "name": "Warrior Ring",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "ring",
+    "value": 15000,
+    "weight": 0.01,
+    "description": "A ring imbued with the power of a warrior.",
+    "examine": "Improves your slash accuracy.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "bonuses": {
+      "attackSlash": 4,
+      "defenseSlash": 4
     }
   },
-{
-  "id": "amulet_of_fury",
-  "name": "Amulet of Fury",
-  "type": "armor",
-  "tier": "basic",
-  "value": 75000,
-  "weight": 0.1,
-  "description": "An onyx amulet of fury.",
-  "examine": "One of the most powerful amulets in existence.",
-  "tradeable": true,
-  "rarity": "rare",
-  "bonuses": {
-    "attackStab": 10,
-    "attackSlash": 10,
-    "attackCrush": 10,
-    "attackMagic": 10,
-    "attackRanged": 10,
-    "defenseStab": 15,
-    "defenseSlash": 15,
-    "defenseCrush": 15,
-    "defenseMagic": 15,
-    "defenseRanged": 15,
-    "meleeStrength": 8,
-    "prayer": 5
+  {
+    "id": "berserker_ring",
+    "name": "Berserker Ring",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "ring",
+    "value": 20000,
+    "weight": 0.01,
+    "description": "A ring imbued with the power of a berserker.",
+    "examine": "Improves your melee damage.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "defenseCrush": 4,
+      "meleeStrength": 4
+    }
+  },
+  {
+    "id": "archers_ring",
+    "name": "Archer's Ring",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "ring",
+    "value": 20000,
+    "weight": 0.01,
+    "description": "A ring imbued with the power of an archer.",
+    "examine": "Improves your ranged accuracy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "attackRanged": 4,
+      "defenseRanged": 4
+    }
+  },
+  {
+    "id": "seers_ring",
+    "name": "Seer's Ring",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "ring",
+    "value": 20000,
+    "weight": 0.01,
+    "description": "A ring imbued with the power of a seer.",
+    "examine": "Improves your magic accuracy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "attackMagic": 6,
+      "defenseMagic": 6
+    }
+  },
+  {
+    "id": "amulet_of_power",
+    "name": "Amulet of Power",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "amulet",
+    "value": 3500,
+    "weight": 0.1,
+    "description": "An amulet of power.",
+    "examine": "A powerful amulet.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "bonuses": {
+      "attackStab": 6,
+      "attackSlash": 6,
+      "attackCrush": 6,
+      "attackMagic": 6,
+      "attackRanged": 6,
+      "defenseStab": 6,
+      "defenseSlash": 6,
+      "defenseCrush": 6,
+      "defenseMagic": 6,
+      "defenseRanged": 6,
+      "meleeStrength": 6,
+      "prayer": 1
+    }
+  },
+  {
+    "id": "amulet_of_glory",
+    "name": "Amulet of Glory",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "amulet",
+    "value": 20000,
+    "weight": 0.1,
+    "description": "An enchanted dragonstone amulet.",
+    "examine": "A very powerful lucky amulet.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "attackStab": 10,
+      "attackSlash": 10,
+      "attackCrush": 10,
+      "attackMagic": 10,
+      "attackRanged": 10,
+      "defenseStab": 3,
+      "defenseSlash": 3,
+      "defenseCrush": 3,
+      "defenseMagic": 3,
+      "defenseRanged": 3,
+      "meleeStrength": 6,
+      "prayer": 3
+    }
   }
-},
-{
-  "id": "gold_ring",
-  "name": "Gold Ring",
-  "type": "armor",
-  "tier": "basic",
-  "equipSlot": "ring",
-  "value": 500,
-  "weight": 0.01,
-  "description": "A simple gold ring.",
-  "examine": "A plain gold ring.",
-  "tradeable": true,
-  "rarity": "common",
-  "bonuses": {}
-},
-{
-  "id": "warrior_ring",
-  "name": "Warrior Ring",
-  "type": "armor",
-  "tier": "basic",
-  "equipSlot": "ring",
-  "value": 15000,
-  "weight": 0.01,
-  "description": "A ring imbued with the power of a warrior.",
-  "examine": "Improves your slash accuracy.",
-  "tradeable": true,
-  "rarity": "uncommon",
-  "bonuses": {
-    "attackSlash": 4,
-    "defenseSlash": 4
-  }
-},
-{
-  "id": "berserker_ring",
-  "name": "Berserker Ring",
-  "type": "armor",
-  "tier": "basic",
-  "equipSlot": "ring",
-  "value": 20000,
-  "weight": 0.01,
-  "description": "A ring imbued with the power of a berserker.",
-  "examine": "Improves your melee damage.",
-  "tradeable": true,
-  "rarity": "rare",
-  "bonuses": {
-    "defenseCrush": 4,
-    "meleeStrength": 4
-  }
-},
-{
-  "id": "archers_ring",
-  "name": "Archer's Ring",
-  "type": "armor",
-  "tier": "basic",
-  "equipSlot": "ring",
-  "value": 20000,
-  "weight": 0.01,
-  "description": "A ring imbued with the power of an archer.",
-  "examine": "Improves your ranged accuracy.",
-  "tradeable": true,
-  "rarity": "rare",
-  "bonuses": {
-    "attackRanged": 4,
-    "defenseRanged": 4
-  }
-},
-{
-  "id": "seers_ring",
-  "name": "Seer's Ring",
-  "type": "armor",
-  "tier": "basic",
-  "equipSlot": "ring",
-  "value": 20000,
-  "weight": 0.01,
-  "description": "A ring imbued with the power of a seer.",
-  "examine": "Improves your magic accuracy.",
-  "tradeable": true,
-  "rarity": "rare",
-  "bonuses": {
-    "attackMagic": 6,
-    "defenseMagic": 6
-  }
-}
 ]

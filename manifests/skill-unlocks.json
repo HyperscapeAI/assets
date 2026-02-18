@@ -553,8 +553,6 @@
         "description": "Rune bar",
         "type": "item"
       }
-<<<<<<< HEAD
-=======
     ],
     "agility": [
       {
@@ -987,7 +985,6 @@
         "description": "Blood runes",
         "type": "item"
       }
->>>>>>> 90c69a5141a97e236ba9981fa8cde2977e8388dd
     ]
   }
 }
