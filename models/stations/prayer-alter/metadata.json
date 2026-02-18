@@ -1,0 +1,32 @@
+{
+  "id": "prayer-alter",
+  "name": "prayer-alter",
+  "gameId": "prayer-alter",
+  "type": "weapon",
+  "subtype": "weapon",
+  "description": "A runescape style player alter",
+  "detailedPrompt": "A runescape style player alter. ${config.style || 'game-ready'} style, clean geometry, game-ready 3D asset.",
+  "generatedAt": "2026-01-23T03:29:28.305Z",
+  "completedAt": "2026-01-23T03:29:28.305Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "wood"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/prayer-alter/prayer-alter.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "019be8e4-4d93-7aa6-b044-5ae15771f43f",
+  "meshyStatus": "completed",
+  "variants": [],
+  "variantCount": 0,
+  "lastVariantGenerated": null,
+  "updatedAt": "2026-01-23T03:29:28.305Z",
+  "normalized": false,
+  "createdBy": null,
+  "walletAddress": null,
+  "isPublic": true
+}

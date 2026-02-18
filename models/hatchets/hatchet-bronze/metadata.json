@@ -1,0 +1,30 @@
+{
+  "name": "hatchet-bronze",
+  "gameId": "hatchet-bronze",
+  "type": "tool",
+  "subtype": "hatchet",
+  "description": "Basic hatchet with clean geometry, neutral design, low-poly RuneScape 2007 style",
+  "detailedPrompt": "The base model of the basic hatchet consists of three main parts: The handle, the head, and the blade. \n\nHandle: The handle is a long, cylindrical shape with a slight curve towards the end to mimic the grip of a real hatchet. The top of the handle is slightly wider where it connects to the head of the hatchet. It is a neutral gray color.\n\nHead: The hatchet head is a rectangular block shape with a slight taper towards the top where it connects to the handle. The bottom part of the head, where it meets the blade, is a curved shape. It is also a neutral gray color. \n\nBlade: The blade is a triangular shape extending from the head of the hatchet, with one side being straight and the other side curving slightly inward. The edge of the blade is sharp and thin, but without any specific texture. It is a slightly lighter gray color than the handle and head. \n\nThe overall geometry of the hatchet is simple and clean, with smooth edges and a low poly count. The silhouette is iconic and easily recognizable as a hatchet. The neutral design and colors make it suitable for retexturing with different materials later.",
+  "generatedAt": "2025-07-20T03:50:40.684Z",
+  "completedAt": "2025-07-20T03:50:40.684Z",
+  "isBaseModel": false,
+  "materialVariants": [
+    "bronze"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/hatchet-bronze/hatchet-bronze.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D → Meshy Retexture API",
+  "meshyTaskId": "019825b7-f789-7b57-b764-5260b6043606",
+  "meshyStatus": "completed",
+  "isVariant": true,
+  "baseMaterial": "bronze",
+  "parentBaseModel": "hatchet-base",
+  "materialStylePrompt": "bronze metal texture, copper brown color, slightly dull metallic finish, RuneScape 2007 style",
+  "baseModelTaskId": "019825b7-f789-7b57-b764-5260b6043606",
+  "retextureTaskId": "019825f3-bf01-7b94-b693-ea174c31e6cd",
+  "retextureStatus": "completed"
+}

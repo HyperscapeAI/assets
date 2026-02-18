@@ -1,0 +1,25 @@
+{
+  "name": "sword-base",
+  "gameId": "sword-base",
+  "type": "weapon",
+  "subtype": "sword",
+  "description": "Basic sword with clean geometry, neutral design, low-poly RuneScape 2007 style",
+  "detailedPrompt": "The basic sword model is designed with a simplistic and modest look, adhering to the low-poly aesthetic of RuneScape 2007. The model is completely symmetrical and has a proportionate, balanced design. \n\nStarting from the top, the sword has a narrow, pointed tip that smoothly tapers down into a straight, double-edged blade. The blade has a length-to-width ratio of roughly 6:1 and slightly widens near the hilt. The blade is uniformly flat, with a thin, centered ridge running from the base to the tip, splitting the blade into two equal halves.\n\nThe crossguard is a simple, straight bar perpendicular to the blade. It extends equally on both sides of the blade, with the length being approximately one-third the width of the blade. It has a rounded rectangular shape, with its width slightly less than that of the blade.\n\nThe hilt, or handle, is a cylindrical shape with a slightly larger diameter at the base, giving it a gentle taper upwards towards the crossguard. It is about one-third the length of the blade, maintaining comfortable proportions. \n\nFinally, the pommel at the base of the hilt is a simple, slightly flattened sphere shape. It is sized to be slightly larger than the diameter of the hilt at its base, providing a balanced end to the sword design.\n\nThe model is rendered in neutral grays, making it suitable for any textures and colors to be applied later. The design is clean",
+  "generatedAt": "2025-07-20T02:09:20.847Z",
+  "completedAt": "2025-07-20T02:09:20.847Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "bronze",
+    "steel",
+    "mithril"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/sword-base/sword-base.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01982595-71ec-7c10-9a13-d92590afd76b",
+  "meshyStatus": "completed"
+}

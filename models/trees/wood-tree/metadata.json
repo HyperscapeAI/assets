@@ -1,0 +1,30 @@
+{
+  "name": "basic-tree",
+  "gameId": "basic-tree",
+  "type": "resource",
+  "subtype": "resource",
+  "description": "A basic tree, high quality, yet chunky, brown tree with green leaves. leaves are evenly spread and distributed so it looks good in a game ",
+  "detailedPrompt": "\"Realistic Style — A high-quality 3D model of a mature tree with a robust, chunky trunk, textured with rough, weathered, dark brown bark. The tree should feature a dense, symmetrical canopy populated with vibrant, glossy green leaves, modeled for a realistic look and feel. The leaf distribution should be even and balanced, ensuring visual appeal from all viewing angles, making it an ideal asset for a game environment.\"",
+  "generatedAt": "2025-10-16T08:06:22.336Z",
+  "completedAt": "2025-10-16T08:06:22.336Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "bronze",
+    "steel",
+    "mithril"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/basic-tree/basic-tree.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "0199ebfc-3a05-79a0-b0d3-f321f3983245",
+  "meshyStatus": "completed",
+  "variants": [],
+  "variantCount": 0,
+  "lastVariantGenerated": null,
+  "updatedAt": "2025-10-16T08:06:22.336Z",
+  "normalized": false
+}

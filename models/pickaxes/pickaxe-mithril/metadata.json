@@ -1,0 +1,31 @@
+{
+  "id": "pickaxe-mithril",
+  "gameId": "pickaxe-mithril",
+  "name": "pickaxe-mithril",
+  "type": "weapon",
+  "subtype": "weapon",
+  "isBaseModel": false,
+  "isVariant": true,
+  "parentBaseModel": "pickaxe",
+  "materialPreset": {
+    "id": "mithril",
+    "displayName": "Mithril",
+    "category": "metal",
+    "tier": 3,
+    "color": "#4169E1",
+    "stylePrompt": "mithril metal texture, blue-gray color with magical shimmer, fantasy metallic finish, RuneScape 2007 style"
+  },
+  "workflow": "Meshy AI Retexture",
+  "baseModelTaskId": "01985448-7ac6-7eda-9822-8cead4230bd0",
+  "retextureTaskId": "0198544c-a6ba-7b93-b745-881b67ebf0f3",
+  "retextureStatus": "completed",
+  "modelPath": "pickaxe-mithril.glb",
+  "conceptArtPath": null,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "generatedAt": "2025-07-29T03:50:51.481Z",
+  "completedAt": "2025-07-29T03:50:51.481Z",
+  "description": "A RuneScape 2 inspired pickaxe",
+  "isPlaceholder": false,
+  "gddCompliant": true
+}

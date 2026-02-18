@@ -1,0 +1,34 @@
+{
+  "name": "pickaxe",
+  "gameId": "pickaxe",
+  "type": "weapon",
+  "subtype": "weapon",
+  "description": "A RuneScape 2 inspired pickaxe",
+  "detailedPrompt": "Generate a 3D asset of a pickaxe, heavily inspired by the RuneScape 2007 aesthetic. The pickaxe should bear a rugged, geometric design, featuring a long, straight wooden handle with a slightly weathered texture, showcasing its use. The pick's head, designed in a symmetrical, angular form, should be made of a rich, dark metal, indicating it's forged from a high-quality ore. The metal should have a slightly worn and used look, with subtle scratches and notches. Ensure the style is consistent with the low-poly and slightly pixelated graphics of the RuneScape 2007 era.",
+  "generatedAt": "2025-07-29T03:46:57.372Z",
+  "completedAt": "2025-07-29T03:46:57.372Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "bronze",
+    "steel",
+    "mithril"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "gdd-assets/pickaxe/pickaxe.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "01985448-7ac6-7eda-9822-8cead4230bd0",
+  "meshyStatus": "completed",
+  "variants": [
+    "pickaxe-bronze",
+    "pickaxe-steel",
+    "pickaxe-mithril"
+  ],
+  "variantCount": 3,
+  "lastVariantGenerated": "pickaxe-mithril",
+  "updatedAt": "2025-07-29T03:50:51.482Z",
+  "normalized": false
+}

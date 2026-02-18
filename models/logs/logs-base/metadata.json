@@ -1,0 +1,23 @@
+{
+  "name": "logs-base",
+  "gameId": "logs-base",
+  "type": "resource",
+  "subtype": "logs",
+  "description": "Basic log with clean geometry, wood texture, low-poly RuneScape 2007 style",
+  "detailedPrompt": "The Basic Log model is a cylindrical shape with a length approximately four times its diameter. The geometry is clean and simple with a low poly count, perfectly fitting for the RuneScape 2007 style. \n\nThe model's ends are flat, emulating a freshly cut log. The body is slightly irregular with gentle bumps and minor indentations to represent a natural wooden texture without being too specific, keeping the model suitable for retexturing later.\n\nThe color is a neutral gray, allowing for easy application of different materials in the future. The log's silhouette is iconic and instantly recognizable, even at a small scale or from a distance. \n\nThe model does not have any additional features such as branches or leaves, keeping the design clean and simple. The log lays flat on its side, making it ideal for stacking or arranging in various configurations.",
+  "generatedAt": "2025-07-20T03:12:44.509Z",
+  "completedAt": "2025-07-20T03:12:44.509Z",
+  "isBaseModel": true,
+  "materialVariants": [
+    "standard"
+  ],
+  "isPlaceholder": false,
+  "hasModel": true,
+  "hasConceptArt": true,
+  "modelPath": "/home/beast/hyperscape/packages/generation/gdd-assets/logs-base/logs-base.glb",
+  "conceptArtUrl": "./concept-art.png",
+  "gddCompliant": true,
+  "workflow": "GPT-4 → GPT-Image-1 → Meshy Image-to-3D (Base Model)",
+  "meshyTaskId": "019825cf-2997-7b70-bf44-4bce7bd55e73",
+  "meshyStatus": "completed"
+}
