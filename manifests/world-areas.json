@@ -439,10 +439,10 @@
         }
       }
     ]
-  }
-},
-"level1Areas": {
-  "wilderness_test": {
+    }
+  },
+  "level1Areas": {
+    "wilderness_test": {
     "id": "wilderness_test",
     "name": "The Wastes",
     "description": "A dangerous zone where players can attack each other. Enter at your own risk.",

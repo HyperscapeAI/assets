@@ -208,25 +208,30 @@
       "depletedScale": 1.0,
       "harvestSkill": "mining",
       "toolRequired": "pickaxe",
-      "levelRequired": 80,
+      "levelRequired": 70,
       "baseCycleTicks": 4,
       "depleteChance": 1.0,
       "respawnTicks": 400,
-      "quantity": 1,
-      "chance": 1.0,
-      "stackable": true
+      "harvestYield": [
+        {
+          "itemId": "adamantite_ore",
+          "itemName": "Adamantite Ore",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 95,
+          "stackable": true
+        },
+        {
+          "itemId": "uncut_ruby",
+          "itemName": "Uncut Ruby",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
+        }
+      ]
     },
     {
-      "itemId": "uncut_ruby",
-      "itemName": "Uncut Ruby",
-      "quantity": 1,
-      "chance": 0.004,
-      "xpAmount": 0,
-      "stackable": false
-    }
-  ]
-},
-{
   "id": "ore_runite",
   "name": "Runite Rock",
   "type": "ore",
