@@ -595,25 +595,6 @@
     ]
   },
   {
-    "id": "thread",
-    "name": "Thread",
-    "type": "tool",
-    "value": 4,
-    "weight": 0.01,
-    "stackable": true,
-    "description": "Thread for sewing leather armor",
-    "examine": "A reel of thread. Has 5 uses before it runs out.",
-    "tradeable": true,
-    "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/thread.png",
-    "inventoryActions": [
-      "Use",
-      "Drop",
-      "Examine"
-    ]
-  },
-  {
     "id": "chisel",
     "name": "Chisel",
     "type": "tool",
@@ -667,22 +648,22 @@
       "Examine"
     ]
   },
-{
-  "id": "knife",
-  "name": "Knife",
-  "type": "tool",
-  "value": 6,
-  "weight": 0.1,
-  "description": "A knife for cutting and fletching",
-  "examine": "A small knife. Useful for whittling wood.",
-  "tradeable": true,
-  "rarity": "common",
-  "modelPath": null,
-  "iconPath": "asset://icons/knife.png",
-  "inventoryActions": [
-    "Use",
-    "Drop",
-    "Examine"
-  ]
-}
+  {
+    "id": "knife",
+    "name": "Knife",
+    "type": "tool",
+    "value": 6,
+    "weight": 0.1,
+    "description": "A knife for cutting and fletching",
+    "examine": "A small knife. Useful for whittling wood.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/knife.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  }
 ]

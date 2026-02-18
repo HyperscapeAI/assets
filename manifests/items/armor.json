@@ -1445,7 +1445,7 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
     "weight": 0.1,
     "description": "An amulet of all-round power.",
     "examine": "A versatile combat amulet.",
