@@ -1,352 +1,1428 @@
 [
   {
-    "id": "leather_gloves",
-    "name": "Leather Gloves",
+    "id": "bronze_full_helm",
+    "name": "Bronze Full Helm",
     "type": "armor",
-    "value": 10,
-    "weight": 0.4,
-    "equipSlot": "gloves",
-    "description": "Basic leather gloves",
-    "examine": "A pair of simple leather gloves.",
+    "tier": "bronze",
+    "equipSlot": "helmet",
+    "value": 44,
+    "weight": 2.2,
+    "description": "A full face helmet made of bronze.",
+    "examine": "A full face helmet made of bronze.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-gloves.png",
     "bonuses": {
-      "defenseStab": 1,
-      "defenseSlash": 2,
-      "defenseCrush": 1,
-      "defenseRanged": 2,
-      "magicDefense": 0
-    },
-    "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseStab": 4,
+      "defenseSlash": 5,
+      "defenseCrush": 3,
+      "defenseMagic": -1,
+      "defenseRanged": 4,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
   },
   {
-    "id": "leather_boots",
-    "name": "Leather Boots",
+    "id": "bronze_platebody",
+    "name": "Bronze Platebody",
     "type": "armor",
-    "value": 12,
-    "weight": 0.5,
-    "equipSlot": "boots",
-    "description": "Basic leather boots",
-    "examine": "A pair of simple leather boots.",
+    "tier": "bronze",
+    "equipSlot": "body",
+    "value": 160,
+    "weight": 9.07,
+    "description": "A body made of bronze.",
+    "examine": "Provides some protection.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-boots.png",
     "bonuses": {
-      "defenseStab": 1,
-      "defenseSlash": 2,
-      "defenseCrush": 1,
-      "defenseRanged": 2,
-      "magicDefense": 0
-    },
+      "defenseStab": 15,
+      "defenseSlash": 14,
+      "defenseCrush": 9,
+      "defenseMagic": -6,
+      "defenseRanged": 14,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "bronze_platelegs",
+    "name": "Bronze Platelegs",
+    "type": "armor",
+    "tier": "bronze",
+    "equipSlot": "legs",
+    "value": 80,
+    "weight": 8.16,
+    "description": "Platelegs made of bronze.",
+    "examine": "These look pretty strong.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 8,
+      "defenseSlash": 7,
+      "defenseCrush": 6,
+      "defenseMagic": -4,
+      "defenseRanged": 7,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "iron_full_helm",
+    "name": "Iron Full Helm",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "helmet",
+    "value": 154,
+    "weight": 2.2,
+    "description": "A full face helmet made of iron.",
+    "examine": "A full face helmet made of iron.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 6,
+      "defenseSlash": 7,
+      "defenseCrush": 5,
+      "defenseMagic": -1,
+      "defenseRanged": 6,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "iron_platebody",
+    "name": "Iron Platebody",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "body",
+    "value": 560,
+    "weight": 9.07,
+    "description": "A body made of iron.",
+    "examine": "Provides fair protection.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 21,
+      "defenseSlash": 20,
+      "defenseCrush": 12,
+      "defenseMagic": -6,
+      "defenseRanged": 20,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "iron_platelegs",
+    "name": "Iron Platelegs",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "legs",
+    "value": 280,
+    "weight": 8.16,
+    "description": "Platelegs made of iron.",
+    "examine": "These look reasonably strong.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 11,
+      "defenseSlash": 10,
+      "defenseCrush": 10,
+      "defenseMagic": -4,
+      "defenseRanged": 10,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "steel_full_helm",
+    "name": "Steel Full Helm",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "helmet",
+    "value": 440,
+    "weight": 2.2,
+    "description": "A full face helmet made of steel.",
+    "examine": "A full face helmet made of steel.",
+    "tradeable": true,
+    "rarity": "common",
     "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
+      "skills": {
+        "defence": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "bonuses": {
+      "defenseStab": 9,
+      "defenseSlash": 10,
+      "defenseCrush": 7,
+      "defenseMagic": -1,
+      "defenseRanged": 9,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "steel_platebody",
+    "name": "Steel Platebody",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "body",
+    "value": 1600,
+    "weight": 9.07,
+    "description": "A body made of steel.",
+    "examine": "Provides good protection.",
+    "tradeable": true,
+    "rarity": "common",
+    "requirements": {
+      "skills": {
+        "defence": 5
+      }
+    },
+    "bonuses": {
+      "defenseStab": 32,
+      "defenseSlash": 31,
+      "defenseCrush": 24,
+      "defenseMagic": -6,
+      "defenseRanged": 31,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "steel_platelegs",
+    "name": "Steel Platelegs",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "legs",
+    "value": 800,
+    "weight": 8.16,
+    "description": "Platelegs made of steel.",
+    "examine": "These look pretty strong.",
+    "tradeable": true,
+    "rarity": "common",
+    "requirements": {
+      "skills": {
+        "defence": 5
+      }
+    },
+    "bonuses": {
+      "defenseStab": 17,
+      "defenseSlash": 16,
+      "defenseCrush": 15,
+      "defenseMagic": -4,
+      "defenseRanged": 16,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "mithril_full_helm",
+    "name": "Mithril Full Helm",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "helmet",
+    "value": 1100,
+    "weight": 2.2,
+    "description": "A full face helmet made of mithril.",
+    "examine": "A full face helmet made of mithril.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "defenseStab": 13,
+      "defenseSlash": 14,
+      "defenseCrush": 11,
+      "defenseMagic": -1,
+      "defenseRanged": 13,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "mithril_platebody",
+    "name": "Mithril Platebody",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "body",
+    "value": 3900,
+    "weight": 9.07,
+    "description": "A body made of mithril.",
+    "examine": "Provides great protection.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "defenseStab": 46,
+      "defenseSlash": 44,
+      "defenseCrush": 38,
+      "defenseMagic": -6,
+      "defenseRanged": 44,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "mithril_platelegs",
+    "name": "Mithril Platelegs",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "legs",
+    "value": 2000,
+    "weight": 8.16,
+    "description": "Platelegs made of mithril.",
+    "examine": "These look very strong.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "defenseStab": 24,
+      "defenseSlash": 22,
+      "defenseCrush": 20,
+      "defenseMagic": -4,
+      "defenseRanged": 22,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "adamant_full_helm",
+    "name": "Adamant Full Helm",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "helmet",
+    "value": 3520,
+    "weight": 2.2,
+    "description": "A full face helmet made of adamantite.",
+    "examine": "A full face helmet made of adamantite.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "defenseStab": 19,
+      "defenseSlash": 21,
+      "defenseCrush": 16,
+      "defenseMagic": -1,
+      "defenseRanged": 19,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "adamant_platebody",
+    "name": "Adamant Platebody",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "body",
+    "value": 10000,
+    "weight": 9.07,
+    "description": "A body made of adamantite.",
+    "examine": "Provides excellent protection.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "defenseStab": 65,
+      "defenseSlash": 63,
+      "defenseCrush": 55,
+      "defenseMagic": -6,
+      "defenseRanged": 63,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "adamant_platelegs",
+    "name": "Adamant Platelegs",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "legs",
+    "value": 6400,
+    "weight": 8.16,
+    "description": "Platelegs made of adamantite.",
+    "examine": "These look incredibly strong.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "defenseStab": 33,
+      "defenseSlash": 31,
+      "defenseCrush": 29,
+      "defenseMagic": -4,
+      "defenseRanged": 31,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "rune_full_helm",
+    "name": "Rune Full Helm",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "helmet",
+    "value": 11000,
+    "weight": 2.2,
+    "description": "A full face helmet made of runite.",
+    "examine": "A full face helmet made of runite.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 30,
+      "defenseSlash": 32,
+      "defenseCrush": 27,
+      "defenseMagic": -1,
+      "defenseRanged": 30,
+      "attackMagic": -6,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "rune_platebody",
+    "name": "Rune Platebody",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "body",
+    "value": 39000,
+    "weight": 9.07,
+    "description": "A body made of runite.",
+    "examine": "Provides the best protection.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 82,
+      "defenseSlash": 80,
+      "defenseCrush": 72,
+      "defenseMagic": -6,
+      "defenseRanged": 80,
+      "attackMagic": -30,
+      "attackRanged": -15
+    }
+  },
+  {
+    "id": "rune_platelegs",
+    "name": "Rune Platelegs",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "legs",
+    "value": 38000,
+    "weight": 8.16,
+    "description": "Platelegs made of runite.",
+    "examine": "These look incredibly strong.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 51,
+      "defenseSlash": 49,
+      "defenseCrush": 47,
+      "defenseMagic": -4,
+      "defenseRanged": 49,
+      "attackMagic": -21,
+      "attackRanged": -11
+    }
+  },
+  {
+    "id": "bronze_kiteshield",
+    "name": "Bronze Kiteshield",
+    "type": "armor",
+    "tier": "bronze",
+    "equipSlot": "shield",
+    "value": 68,
+    "weight": 3.62,
+    "description": "A large shield made of bronze.",
+    "examine": "A large shield made of bronze.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 7,
+      "defenseSlash": 9,
+      "defenseCrush": 8,
+      "defenseMagic": -1,
+      "defenseRanged": 8,
+      "attackMagic": -8,
+      "attackRanged": -3
+    },
+    "iconPath": "asset://icons/shield-bronze.png"
+  },
+  {
+    "id": "iron_kiteshield",
+    "name": "Iron Kiteshield",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "shield",
+    "value": 238,
+    "weight": 3.62,
+    "description": "A large shield made of iron.",
+    "examine": "A large shield made of iron.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 10,
+      "defenseSlash": 12,
+      "defenseCrush": 11,
+      "defenseMagic": -1,
+      "defenseRanged": 11,
+      "attackMagic": -8,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "steel_kiteshield",
+    "name": "Steel Kiteshield",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "shield",
+    "value": 680,
+    "weight": 3.62,
+    "description": "A large shield made of steel.",
+    "examine": "A large shield made of steel.",
+    "tradeable": true,
+    "rarity": "common",
+    "requirements": {
+      "skills": {
+        "defence": 5
+      }
+    },
+    "bonuses": {
+      "defenseStab": 14,
+      "defenseSlash": 16,
+      "defenseCrush": 15,
+      "defenseMagic": -1,
+      "defenseRanged": 15,
+      "attackMagic": -8,
+      "attackRanged": -3
+    },
+    "iconPath": "asset://icons/shield-steel.png"
+  },
+  {
+    "id": "mithril_kiteshield",
+    "name": "Mithril Kiteshield",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "shield",
+    "value": 1690,
+    "weight": 3.62,
+    "description": "A large shield made of mithril.",
+    "examine": "A large shield made of mithril.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "defenseStab": 20,
+      "defenseSlash": 22,
+      "defenseCrush": 21,
+      "defenseMagic": -1,
+      "defenseRanged": 21,
+      "attackMagic": -8,
+      "attackRanged": -3
+    },
+    "iconPath": "asset://icons/shield-mithril.png"
+  },
+  {
+    "id": "adamant_kiteshield",
+    "name": "Adamant Kiteshield",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "shield",
+    "value": 5408,
+    "weight": 3.62,
+    "description": "A large shield made of adamantite.",
+    "examine": "A large shield made of adamantite.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "defenseStab": 27,
+      "defenseSlash": 29,
+      "defenseCrush": 28,
+      "defenseMagic": -1,
+      "defenseRanged": 28,
+      "attackMagic": -8,
+      "attackRanged": -3
+    }
+  },
+  {
+    "id": "rune_kiteshield",
+    "name": "Rune Kiteshield",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "shield",
+    "value": 54400,
+    "weight": 3.62,
+    "description": "A large shield made of runite.",
+    "examine": "A large shield made of runite.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 44,
+      "defenseSlash": 48,
+      "defenseCrush": 46,
+      "defenseMagic": -1,
+      "defenseRanged": 46,
+      "attackMagic": -8,
+      "attackRanged": -3
+    }
   },
   {
     "id": "leather_cowl",
     "name": "Leather Cowl",
     "type": "armor",
     "value": 15,
-    "weight": 0.6,
+    "tier": "leather",
     "equipSlot": "helmet",
-    "description": "A simple leather cowl",
-    "examine": "A leather cowl for basic protection.",
+    "value": 25,
+    "weight": 0.34,
+    "description": "A leather cowl.",
+    "examine": "A cowl made of leather.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-cowl.png",
     "bonuses": {
       "defenseStab": 2,
       "defenseSlash": 3,
-      "defenseCrush": 2,
+      "defenseCrush": 4,
+      "defenseMagic": 2,
       "defenseRanged": 3,
-      "magicDefense": 0
-    },
-    "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
-  },
-  {
-    "id": "leather_vambraces",
-    "name": "Leather Vambraces",
-    "type": "armor",
-    "value": 12,
-    "weight": 0.4,
-    "equipSlot": "gloves",
-    "description": "Leather vambraces for archers",
-    "examine": "Leather armguards for basic protection.",
-    "tradeable": true,
-    "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-vambraces.png",
-    "bonuses": {
-      "defenseStab": 2,
-      "defenseSlash": 3,
-      "defenseCrush": 2,
-      "defenseRanged": 4,
-      "magicDefense": 1
-    },
-    "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "attackRanged": 1
+    }
   },
   {
     "id": "leather_body",
     "name": "Leather Body",
     "type": "armor",
-    "value": 30,
-    "weight": 2,
+    "tier": "leather",
     "equipSlot": "body",
-    "description": "Leather body armor",
-    "examine": "A leather body for basic protection.",
+    "value": 35,
+    "weight": 3.17,
+    "description": "A body made of leather.",
+    "examine": "Better than nothing!",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-body.png",
     "bonuses": {
-      "defenseStab": 5,
-      "defenseSlash": 8,
-      "defenseCrush": 6,
-      "defenseRanged": 8,
-      "magicDefense": 1
-    },
-    "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseStab": 8,
+      "defenseSlash": 9,
+      "defenseCrush": 10,
+      "defenseMagic": 4,
+      "defenseRanged": 9,
+      "attackMagic": -2,
+      "attackRanged": 2
+    }
   },
   {
     "id": "leather_chaps",
     "name": "Leather Chaps",
     "type": "armor",
-    "value": 25,
-    "weight": 1.6,
+    "tier": "leather",
     "equipSlot": "legs",
-    "description": "Leather chaps for protection",
-    "examine": "Leather chaps for basic defense.",
+    "value": 20,
+    "weight": 3.17,
+    "description": "Chaps made of leather.",
+    "examine": "A pair of leather chaps.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/leather-chaps.png",
     "bonuses": {
-      "defenseStab": 4,
-      "defenseSlash": 6,
-      "defenseCrush": 5,
-      "defenseRanged": 6,
-      "magicDefense": 1
-    },
-    "requirements": {
-      "level": 1,
-      "skills": { "defence": 1 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseStab": 2,
+      "defenseSlash": 2,
+      "defenseCrush": 1,
+      "defenseRanged": 2,
+      "defenseMagic": 0,
+      "attackRanged": 4
+    }
   },
   {
     "id": "coif",
     "name": "Coif",
     "type": "armor",
-    "value": 55,
-    "weight": 0.8,
+    "tier": "studded",
     "equipSlot": "helmet",
-    "description": "A protective leather coif",
-    "examine": "A coif made of leather.",
+    "value": 200,
+    "weight": 0.6,
+    "description": "A coif made of leather and chain.",
+    "examine": "Helps protect your head.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/coif.png",
+    "requirements": {
+      "skills": {
+        "ranged": 20
+      }
+    },
     "bonuses": {
       "defenseStab": 4,
-      "defenseSlash": 5,
-      "defenseCrush": 4,
-      "defenseRanged": 6,
-      "magicDefense": 2
-    },
-    "requirements": {
-      "level": 20,
-      "skills": { "defence": 20 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseSlash": 6,
+      "defenseCrush": 8,
+      "defenseMagic": 4,
+      "defenseRanged": 4,
+      "attackRanged": 2
+    }
   },
   {
     "id": "studded_body",
     "name": "Studded Body",
     "type": "armor",
-    "value": 85,
-    "weight": 2.2,
+    "tier": "studded",
     "equipSlot": "body",
-    "description": "Studded leather body armor",
-    "examine": "Leather armor reinforced with steel studs.",
+    "value": 850,
+    "weight": 5.0,
+    "description": "A studded leather body.",
+    "examine": "Studded leather armour.",
     "tradeable": true,
-    "rarity": "uncommon",
-    "modelPath": null,
-    "iconPath": "asset://icons/studded-body.png",
-    "bonuses": {
-      "defenseStab": 8,
-      "defenseSlash": 10,
-      "defenseCrush": 8,
-      "defenseRanged": 12,
-      "magicDefense": 3
-    },
+    "rarity": "common",
     "requirements": {
-      "level": 20,
-      "skills": { "defence": 20 }
+      "skills": {
+        "ranged": 20,
+        "defence": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "bonuses": {
+      "defenseStab": 18,
+      "defenseSlash": 25,
+      "defenseCrush": 22,
+      "defenseMagic": 8,
+      "defenseRanged": 25,
+      "attackMagic": -4,
+      "attackRanged": 8
+    }
   },
   {
     "id": "studded_chaps",
     "name": "Studded Chaps",
     "type": "armor",
-    "value": 75,
-    "weight": 1.8,
+    "tier": "studded",
     "equipSlot": "legs",
-    "description": "Studded leather chaps",
-    "examine": "Leather chaps reinforced with studs.",
+    "value": 750,
+    "weight": 4.53,
+    "description": "Studded leather chaps.",
+    "examine": "Studded leather chaps.",
     "tradeable": true,
-    "rarity": "uncommon",
-    "modelPath": null,
-    "iconPath": "asset://icons/studded-chaps.png",
-    "bonuses": {
-      "defenseStab": 7,
-      "defenseSlash": 9,
-      "defenseCrush": 7,
-      "defenseRanged": 11,
-      "magicDefense": 3
-    },
+    "rarity": "common",
     "requirements": {
-      "level": 20,
-      "skills": { "defence": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
-  },
-  {
-    "id": "green_dhide_vambraces",
-    "name": "Green d'hide vambraces",
-    "type": "armor",
-    "value": 140,
-    "weight": 0.5,
-    "equipSlot": "gloves",
-    "description": "Vambraces made from green dragonhide",
-    "examine": "Tough dragonhide vambraces.",
-    "tradeable": true,
-    "rarity": "rare",
-    "modelPath": null,
-    "iconPath": "asset://icons/green-dhide-vambraces.png",
     "bonuses": {
-      "defenseStab": 10,
-      "defenseSlash": 12,
-      "defenseCrush": 10,
-      "defenseRanged": 15,
-      "magicDefense": 5
-    },
-    "requirements": {
-      "level": 40,
-      "skills": { "defence": 40, "ranged": 40 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
-  },
-  {
-    "id": "green_dhide_chaps",
-    "name": "Green d'hide chaps",
-    "type": "armor",
-    "value": 260,
-    "weight": 1.6,
-    "equipSlot": "legs",
-    "description": "Chaps made from green dragonhide",
-    "examine": "Tough dragonhide chaps.",
-    "tradeable": true,
-    "rarity": "rare",
-    "modelPath": null,
-    "iconPath": "asset://icons/green-dhide-chaps.png",
-    "bonuses": {
-      "defenseStab": 14,
+      "defenseStab": 15,
       "defenseSlash": 16,
-      "defenseCrush": 14,
-      "defenseRanged": 20,
-      "magicDefense": 7
-    },
-    "requirements": {
-      "level": 40,
-      "skills": { "defence": 40, "ranged": 40 }
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseCrush": 17,
+      "defenseMagic": 6,
+      "defenseRanged": 16,
+      "attackMagic": -5,
+      "attackRanged": 6
+    }
   },
   {
     "id": "green_dhide_body",
-    "name": "Green d'hide body",
+    "name": "Green D'hide Body",
     "type": "armor",
-    "value": 420,
-    "weight": 2.2,
+    "tier": "green_dhide",
     "equipSlot": "body",
-    "description": "Body armor made from green dragonhide",
-    "examine": "Tough dragonhide body armor.",
+    "value": 7800,
+    "weight": 6.8,
+    "description": "Made from 100% real dragonhide.",
+    "examine": "Made from 100% real green dragonhide.",
     "tradeable": true,
-    "rarity": "rare",
-    "modelPath": null,
-    "iconPath": "asset://icons/green-dhide-body.png",
-    "bonuses": {
-      "defenseStab": 20,
-      "defenseSlash": 22,
-      "defenseCrush": 20,
-      "defenseRanged": 26,
-      "magicDefense": 9
-    },
+    "rarity": "uncommon",
     "requirements": {
-      "level": 40,
-      "skills": { "defence": 40, "ranged": 40 }
+      "skills": {
+        "ranged": 40,
+        "defence": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "bonuses": {
+      "defenseStab": 18,
+      "defenseSlash": 27,
+      "defenseCrush": 24,
+      "defenseMagic": 20,
+      "defenseRanged": 35,
+      "attackMagic": -15,
+      "attackRanged": 15
+    }
   },
   {
-    "id": "gold_ring",
-    "name": "Gold Ring",
+    "id": "green_dhide_chaps",
+    "name": "Green D'hide Chaps",
     "type": "armor",
-    "value": 80,
-    "weight": 0.1,
-    "equipSlot": "ring",
-    "description": "A simple gold ring",
-    "examine": "A plain gold ring.",
+    "tier": "green_dhide",
+    "equipSlot": "legs",
+    "value": 4300,
+    "weight": 5.4,
+    "description": "Chaps made from green dragonhide.",
+    "examine": "Made from 100% real green dragonhide.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "ranged": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 12,
+      "defenseSlash": 15,
+      "defenseCrush": 18,
+      "defenseMagic": 8,
+      "defenseRanged": 17,
+      "attackMagic": -10,
+      "attackRanged": 8
+    }
+  },
+  {
+    "id": "wizard_hat",
+    "name": "Wizard Hat",
+    "type": "armor",
+    "tier": "wizard",
+    "equipSlot": "helmet",
+    "value": 2,
+    "weight": 0.05,
+    "description": "A pointed hat.",
+    "examine": "A pointed hat. I feel very wizardly.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/gold-ring.png",
     "bonuses": {
-      "defense": 1
+      "attackMagic": 2,
+      "defenseMagic": 2
+    }
+  },
+  {
+    "id": "wizard_robe_top",
+    "name": "Blue Wizard Robe",
+    "type": "armor",
+    "tier": "wizard",
+    "equipSlot": "body",
+    "value": 12,
+    "weight": 1.81,
+    "description": "A blue wizard robe top.",
+    "examine": "I can feel the magic.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "attackMagic": 3,
+      "defenseMagic": 3
+    }
+  },
+  {
+    "id": "wizard_robe_bottom",
+    "name": "Blue Wizard Skirt",
+    "type": "armor",
+    "tier": "wizard",
+    "equipSlot": "legs",
+    "value": 6,
+    "weight": 1.36,
+    "description": "A blue wizard robe skirt.",
+    "examine": "A nice blue skirt.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "attackMagic": 2,
+      "defenseMagic": 2
+    }
+  },
+  {
+    "id": "mystic_hat",
+    "name": "Mystic Hat",
+    "type": "armor",
+    "tier": "mystic",
+    "equipSlot": "helmet",
+    "value": 15000,
+    "weight": 0.5,
+    "description": "A hat imbued with mystic energy.",
+    "examine": "A hat imbued with mystic energy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "bonuses": {
+      "attackMagic": 4,
+      "defenseMagic": 4
+    }
+  },
+  {
+    "id": "mystic_robe_top",
+    "name": "Mystic Robe Top",
+    "type": "armor",
+    "tier": "mystic",
+    "equipSlot": "body",
+    "value": 120000,
+    "weight": 2.0,
+    "description": "A robe imbued with mystic energy.",
+    "examine": "A robe imbued with powerful mystic energy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "attackMagic": 20,
+      "defenseMagic": 20
+    }
+  },
+  {
+    "id": "mystic_robe_bottom",
+    "name": "Mystic Robe Bottom",
+    "type": "armor",
+    "tier": "mystic",
+    "equipSlot": "legs",
+    "value": 80000,
+    "weight": 1.5,
+    "description": "A robe bottom imbued with mystic energy.",
+    "examine": "A robe bottom imbued with powerful mystic energy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "attackMagic": 15,
+      "defenseMagic": 15
+    }
+  },
+  {
+    "id": "leather_boots",
+    "name": "Leather Boots",
+    "type": "armor",
+    "tier": "leather",
+    "equipSlot": "boots",
+    "value": 10,
+    "weight": 0.5,
+    "description": "A pair of leather boots.",
+    "examine": "Basic leather boots.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseSlash": 1,
+      "defenseCrush": 1
+    }
+  },
+  {
+    "id": "bronze_boots",
+    "name": "Bronze Boots",
+    "type": "armor",
+    "tier": "bronze",
+    "equipSlot": "boots",
+    "value": 26,
+    "weight": 1.8,
+    "description": "A pair of bronze boots.",
+    "examine": "Bronze plated boots.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 1,
+      "defenseSlash": 2,
+      "defenseCrush": 3,
+      "defenseMagic": -1,
+      "defenseRanged": 0
+    }
+  },
+  {
+    "id": "iron_boots",
+    "name": "Iron Boots",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "boots",
+    "value": 91,
+    "weight": 1.8,
+    "description": "A pair of iron boots.",
+    "examine": "Iron plated boots.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 2,
+      "defenseSlash": 3,
+      "defenseCrush": 4,
+      "defenseMagic": -1,
+      "defenseRanged": 1
+    }
+  },
+  {
+    "id": "steel_boots",
+    "name": "Steel Boots",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "boots",
+    "value": 260,
+    "weight": 1.8,
+    "description": "A pair of steel boots.",
+    "examine": "Steel plated boots.",
+    "tradeable": true,
+    "rarity": "common",
+    "requirements": {
+      "skills": {
+        "defence": 5
+      }
+    },
+    "bonuses": {
+      "defenseStab": 4,
+      "defenseSlash": 5,
+      "defenseCrush": 6,
+      "defenseMagic": -1,
+      "defenseRanged": 1
+    }
+  },
+  {
+    "id": "mithril_boots",
+    "name": "Mithril Boots",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "boots",
+    "value": 650,
+    "weight": 1.8,
+    "description": "A pair of mithril boots.",
+    "examine": "Mithril plated boots.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "defenseStab": 6,
+      "defenseSlash": 7,
+      "defenseCrush": 8,
+      "defenseMagic": -1,
+      "defenseRanged": 2
+    }
+  },
+  {
+    "id": "adamant_boots",
+    "name": "Adamant Boots",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "boots",
+    "value": 2080,
+    "weight": 1.8,
+    "description": "A pair of adamant boots.",
+    "examine": "Adamantite plated boots.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "defenseStab": 8,
+      "defenseSlash": 9,
+      "defenseCrush": 10,
+      "defenseMagic": -1,
+      "defenseRanged": 3
+    }
+  },
+  {
+    "id": "rune_boots",
+    "name": "Rune Boots",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "boots",
+    "value": 6500,
+    "weight": 1.8,
+    "description": "A pair of rune boots.",
+    "examine": "Runite plated boots.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "defenseStab": 12,
+      "defenseSlash": 13,
+      "defenseCrush": 14,
+      "defenseMagic": -1,
+      "defenseRanged": 5
+    }
+  },
+  {
+    "id": "wizard_boots",
+    "name": "Wizard Boots",
+    "type": "armor",
+    "tier": "wizard",
+    "equipSlot": "boots",
+    "value": 20,
+    "weight": 0.5,
+    "description": "Boots imbued with magical energy.",
+    "examine": "These boots tingle with magical energy.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "magic": 20
+      }
+    },
+    "bonuses": {
+      "attackMagic": 4,
+      "defenseMagic": 4
+    }
+  },
+  {
+    "id": "leather_gloves",
+    "name": "Leather Gloves",
+    "type": "armor",
+    "tier": "leather",
+    "equipSlot": "gloves",
+    "value": 6,
+    "weight": 0.5,
+    "description": "A pair of leather gloves.",
+    "examine": "Basic leather gloves.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseStab": 1,
+      "defenseSlash": 1,
+      "defenseCrush": 2,
+      "defenseRanged": 1
+    }
+  },
+  {
+    "id": "bronze_gloves",
+    "name": "Bronze Gloves",
+    "type": "armor",
+    "tier": "bronze",
+    "equipSlot": "gloves",
+    "value": 26,
+    "weight": 0.5,
+    "description": "A pair of bronze gloves.",
+    "examine": "Bronze gauntlets.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "attackStab": 2,
+      "attackSlash": 2,
+      "attackCrush": 2,
+      "defenseStab": 2,
+      "defenseSlash": 3,
+      "defenseCrush": 1
+    }
+  },
+  {
+    "id": "iron_gloves",
+    "name": "Iron Gloves",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "gloves",
+    "value": 91,
+    "weight": 0.5,
+    "description": "A pair of iron gloves.",
+    "examine": "Iron gauntlets.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "attackStab": 3,
+      "attackSlash": 3,
+      "attackCrush": 3,
+      "defenseStab": 3,
+      "defenseSlash": 4,
+      "defenseCrush": 2,
+      "defenseRanged": 1
+    }
+  },
+  {
+    "id": "steel_gloves",
+    "name": "Steel Gloves",
+    "type": "armor",
+    "tier": "steel",
+    "equipSlot": "gloves",
+    "value": 260,
+    "weight": 0.5,
+    "description": "A pair of steel gloves.",
+    "examine": "Steel gauntlets.",
+    "tradeable": true,
+    "rarity": "common",
+    "requirements": {
+      "skills": {
+        "defence": 5
+      }
+    },
+    "bonuses": {
+      "attackStab": 4,
+      "attackSlash": 4,
+      "attackCrush": 4,
+      "defenseStab": 4,
+      "defenseSlash": 5,
+      "defenseCrush": 3,
+      "defenseRanged": 1
+    }
+  },
+  {
+    "id": "mithril_gloves",
+    "name": "Mithril Gloves",
+    "type": "armor",
+    "tier": "mithril",
+    "equipSlot": "gloves",
+    "value": 650,
+    "weight": 0.5,
+    "description": "A pair of mithril gloves.",
+    "examine": "Mithril gauntlets.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "attackStab": 5,
+      "attackSlash": 5,
+      "attackCrush": 5,
+      "defenseStab": 5,
+      "defenseSlash": 6,
+      "defenseCrush": 4,
+      "defenseRanged": 2
+    }
+  },
+  {
+    "id": "adamant_gloves",
+    "name": "Adamant Gloves",
+    "type": "armor",
+    "tier": "adamant",
+    "equipSlot": "gloves",
+    "value": 2080,
+    "weight": 0.5,
+    "description": "A pair of adamant gloves.",
+    "examine": "Adamantite gauntlets.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "defence": 30
+      }
+    },
+    "bonuses": {
+      "attackStab": 6,
+      "attackSlash": 6,
+      "attackCrush": 6,
+      "defenseStab": 6,
+      "defenseSlash": 7,
+      "defenseCrush": 5,
+      "defenseRanged": 3
+    }
+  },
+  {
+    "id": "rune_gloves",
+    "name": "Rune Gloves",
+    "type": "armor",
+    "tier": "rune",
+    "equipSlot": "gloves",
+    "value": 6500,
+    "weight": 0.5,
+    "description": "A pair of rune gloves.",
+    "examine": "Runite gauntlets.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "defence": 40
+      }
+    },
+    "bonuses": {
+      "attackStab": 8,
+      "attackSlash": 8,
+      "attackCrush": 8,
+      "defenseStab": 8,
+      "defenseSlash": 9,
+      "defenseCrush": 7,
+      "defenseRanged": 4
+    }
+  },
+  {
+    "id": "leather_vambraces",
+    "name": "Leather Vambraces",
+    "type": "armor",
+    "tier": "leather",
+    "equipSlot": "gloves",
+    "value": 15,
+    "weight": 0.5,
+    "description": "Vambraces made of leather.",
+    "examine": "Leather arm guards for ranged combat.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "attackRanged": 4,
+      "defenseStab": 2,
+      "defenseSlash": 2,
+      "defenseCrush": 1
+    }
+  },
+  {
+    "id": "green_dhide_vambraces",
+    "name": "Green D'hide Vambraces",
+    "type": "armor",
+    "tier": "green_dhide",
+    "equipSlot": "gloves",
+    "value": 3000,
+    "weight": 0.5,
+    "description": "Vambraces made of green dragonhide.",
+    "examine": "These vambraces are made from green dragon leather.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "requirements": {
+      "skills": {
+        "ranged": 40
+      }
+    },
+    "bonuses": {
+      "attackMagic": -10,
+      "attackRanged": 8,
+      "defenseStab": 1,
+      "defenseSlash": 2,
+      "defenseCrush": 2,
+      "defenseMagic": 2
+    }
+  },
+  {
+    "id": "mystic_gloves",
+    "name": "Mystic Gloves",
+    "type": "armor",
+    "tier": "mystic",
+    "equipSlot": "gloves",
+    "value": 10000,
+    "weight": 0.5,
+    "description": "Gloves imbued with mystic energy.",
+    "examine": "These gloves tingle with magical energy.",
+    "tradeable": true,
+    "rarity": "rare",
+    "requirements": {
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
+    },
+    "bonuses": {
+      "attackMagic": 3,
+      "defenseMagic": 3
+    }
+  },
+  {
+    "id": "cape",
+    "name": "Cape",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "cape",
+    "value": 30,
+    "weight": 0.4,
+    "description": "A simple cape.",
+    "examine": "A plain cape.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseSlash": 1,
+      "defenseCrush": 1,
+      "defenseRanged": 2
+    }
+  },
+  {
+    "id": "black_cape",
+    "name": "Black Cape",
+    "type": "armor",
+    "tier": "basic",
+    "equipSlot": "cape",
+    "value": 100,
+    "weight": 0.4,
+    "description": "A black cape.",
+    "examine": "A stylish black cape.",
+    "tradeable": true,
+    "rarity": "common",
+    "bonuses": {
+      "defenseSlash": 1,
+      "defenseCrush": 1,
+      "defenseRanged": 2
+    }
+  },
+  {
+    "id": "obsidian_cape",
+    "name": "Obsidian Cape",
+    "type": "armor",
+    "tier": "obsidian",
+    "equipSlot": "cape",
+    "value": 50000,
+    "weight": 0.4,
+    "description": "A cape made from obsidian.",
+    "examine": "A very powerful cape forged from obsidian.",
+    "tradeable": true,
+    "rarity": "rare",
+    "bonuses": {
+      "defenseStab": 9,
+      "defenseSlash": 9,
+      "defenseCrush": 9,
+      "defenseMagic": 9,
+      "defenseRanged": 9
+    }
   },
   {
     "id": "amulet_of_accuracy",
     "name": "Amulet of Accuracy",
     "type": "armor",
-    "value": 200,
-    "weight": 0.2,
+    "tier": "basic",
     "equipSlot": "amulet",
-    "description": "An amulet that improves accuracy",
-    "examine": "An amulet that improves accuracy.",
+    "value": 1000,
+    "weight": 0.1,
+    "description": "An amulet that improves accuracy.",
+    "examine": "It improves your accuracy.",
     "tradeable": true,
-    "rarity": "uncommon",
-    "modelPath": null,
-    "iconPath": "asset://icons/amulet-of-accuracy.png",
+    "rarity": "common",
     "bonuses": {
-      "attack": 4,
+      "attackStab": 4,
+      "attackSlash": 4,
+      "attackCrush": 4,
+      "attackMagic": 4,
       "attackRanged": 4
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    }
   },
   {
     "id": "amulet_of_strength",
@@ -364,76 +1440,137 @@
     "bonuses": {
       "strength": 8
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
-  },
-  {
-    "id": "amulet_of_power",
-    "name": "Amulet of Power",
-    "type": "armor",
-    "value": 450,
-    "weight": 0.2,
-    "equipSlot": "amulet",
-    "description": "A balanced amulet of power",
-    "examine": "An amulet that boosts many stats.",
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+    "weight": 0.1,
+    "description": "An amulet of all-round power.",
+    "examine": "A versatile combat amulet.",
     "tradeable": true,
-    "rarity": "rare",
-    "modelPath": null,
-    "iconPath": "asset://icons/amulet-of-power.png",
+    "rarity": "uncommon",
     "bonuses": {
-      "attack": 6,
-      "strength": 6,
-      "defense": 6,
+      "attackStab": 6,
+      "attackSlash": 6,
+      "attackCrush": 6,
+      "attackMagic": 6,
       "attackRanged": 6,
-      "attackMagic": 6
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+      "defenseStab": 6,
+      "defenseSlash": 6,
+      "defenseCrush": 6,
+      "defenseMagic": 6,
+      "meleeStrength": 6,
+      "prayer": 1
+    }
   },
-  {
-    "id": "amulet_of_glory",
-    "name": "Amulet of Glory",
-    "type": "armor",
-    "value": 1100,
-    "weight": 0.2,
-    "equipSlot": "amulet",
-    "description": "A powerful amulet of glory",
-    "examine": "An amulet prized by adventurers.",
-    "tradeable": true,
-    "rarity": "epic",
-    "modelPath": null,
-    "iconPath": "asset://icons/amulet-of-glory.png",
-    "bonuses": {
-      "attack": 8,
-      "strength": 6,
-      "defense": 8,
-      "attackRanged": 8,
-      "attackMagic": 8,
-      "defenseRanged": 8,
-      "defenseMagic": 8
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
-  },
-  {
-    "id": "amulet_of_fury",
-    "name": "Amulet of Fury",
-    "type": "armor",
-    "value": 2200,
-    "weight": 0.2,
-    "equipSlot": "amulet",
-    "description": "An exceptionally powerful amulet",
-    "examine": "An amulet of unmatched power.",
-    "tradeable": true,
-    "rarity": "legendary",
-    "modelPath": null,
-    "iconPath": "asset://icons/amulet-of-fury.png",
-    "bonuses": {
-      "attack": 10,
-      "strength": 8,
-      "defense": 10,
-      "attackRanged": 10,
-      "attackMagic": 10,
-      "defenseRanged": 10,
-      "defenseMagic": 10
-    },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+{
+  "id": "amulet_of_fury",
+  "name": "Amulet of Fury",
+  "type": "armor",
+  "tier": "basic",
+  "value": 75000,
+  "weight": 0.1,
+  "description": "An onyx amulet of fury.",
+  "examine": "One of the most powerful amulets in existence.",
+  "tradeable": true,
+  "rarity": "rare",
+  "bonuses": {
+    "attackStab": 10,
+    "attackSlash": 10,
+    "attackCrush": 10,
+    "attackMagic": 10,
+    "attackRanged": 10,
+    "defenseStab": 15,
+    "defenseSlash": 15,
+    "defenseCrush": 15,
+    "defenseMagic": 15,
+    "defenseRanged": 15,
+    "meleeStrength": 8,
+    "prayer": 5
   }
+},
+{
+  "id": "gold_ring",
+  "name": "Gold Ring",
+  "type": "armor",
+  "tier": "basic",
+  "equipSlot": "ring",
+  "value": 500,
+  "weight": 0.01,
+  "description": "A simple gold ring.",
+  "examine": "A plain gold ring.",
+  "tradeable": true,
+  "rarity": "common",
+  "bonuses": {}
+},
+{
+  "id": "warrior_ring",
+  "name": "Warrior Ring",
+  "type": "armor",
+  "tier": "basic",
+  "equipSlot": "ring",
+  "value": 15000,
+  "weight": 0.01,
+  "description": "A ring imbued with the power of a warrior.",
+  "examine": "Improves your slash accuracy.",
+  "tradeable": true,
+  "rarity": "uncommon",
+  "bonuses": {
+    "attackSlash": 4,
+    "defenseSlash": 4
+  }
+},
+{
+  "id": "berserker_ring",
+  "name": "Berserker Ring",
+  "type": "armor",
+  "tier": "basic",
+  "equipSlot": "ring",
+  "value": 20000,
+  "weight": 0.01,
+  "description": "A ring imbued with the power of a berserker.",
+  "examine": "Improves your melee damage.",
+  "tradeable": true,
+  "rarity": "rare",
+  "bonuses": {
+    "defenseCrush": 4,
+    "meleeStrength": 4
+  }
+},
+{
+  "id": "archers_ring",
+  "name": "Archer's Ring",
+  "type": "armor",
+  "tier": "basic",
+  "equipSlot": "ring",
+  "value": 20000,
+  "weight": 0.01,
+  "description": "A ring imbued with the power of an archer.",
+  "examine": "Improves your ranged accuracy.",
+  "tradeable": true,
+  "rarity": "rare",
+  "bonuses": {
+    "attackRanged": 4,
+    "defenseRanged": 4
+  }
+},
+{
+  "id": "seers_ring",
+  "name": "Seer's Ring",
+  "type": "armor",
+  "tier": "basic",
+  "equipSlot": "ring",
+  "value": 20000,
+  "weight": 0.01,
+  "description": "A ring imbued with the power of a seer.",
+  "examine": "Improves your magic accuracy.",
+  "tradeable": true,
+  "rarity": "rare",
+  "bonuses": {
+    "attackMagic": 6,
+    "defenseMagic": 6
+  }
+}
 ]

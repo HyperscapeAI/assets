@@ -19,16 +19,21 @@
     "examine": "A basic hatchet for chopping trees",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
-    "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze-aligned.glb",
-    "iconPath": "asset://models/hatchet-bronze/concept-art.png",
+    "modelPath": "asset://models/hatchets/hatchet-bronze/hatchet-bronze.glb",
+    "equippedModelPath": "asset://models/hatchets/hatchet-bronze/hatchet-bronze-aligned.glb",
+    "iconPath": "asset://icons/hatchet-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 3,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_hatchet",
@@ -59,7 +64,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_hatchet",
@@ -90,7 +100,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_hatchet",
@@ -121,7 +136,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_hatchet",
@@ -152,7 +172,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_hatchet",
@@ -183,7 +208,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bronze_pickaxe",
@@ -206,16 +236,21 @@
     "examine": "A basic pickaxe for mining",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
-    "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze-aligned.glb",
-    "iconPath": "asset://models/pickaxe-bronze/concept-art.png",
+    "modelPath": "asset://models/pickaxes/pickaxe-bronze/pickaxe-bronze.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-bronze/pickaxe-bronze-aligned.glb",
+    "iconPath": "asset://icons/pickaxe-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 2,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_pickaxe",
@@ -247,7 +282,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_pickaxe",
@@ -270,8 +310,8 @@
     "examine": "A pickaxe made of steel",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/pickaxe-steel/pickaxe-steel.glb",
-    "equippedModelPath": "asset://models/pickaxe-steel/pickaxe-steel-aligned.glb",
+    "modelPath": "asset://models/pickaxes/pickaxe-steel/pickaxe-steel.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-steel/pickaxe-steel-aligned.glb",
     "iconPath": "asset://icons/pickaxe-steel.png",
     "bonuses": {
       "attack": 9,
@@ -279,7 +319,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_pickaxe",
@@ -302,8 +347,8 @@
     "examine": "A pickaxe made of mithril",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": "asset://models/pickaxe-mithril/pickaxe-mithril.glb",
-    "equippedModelPath": "asset://models/pickaxe-mithril/pickaxe-mithril-aligned.glb",
+    "modelPath": "asset://models/pickaxes/pickaxe-mithril/pickaxe-mithril.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-mithril/pickaxe-mithril-aligned.glb",
     "iconPath": "asset://icons/pickaxe-mithril.png",
     "bonuses": {
       "attack": 13,
@@ -311,7 +356,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_pickaxe",
@@ -343,7 +393,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_pickaxe",
@@ -375,7 +430,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "hammer",
@@ -389,7 +449,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/hammer.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "tinderbox",
@@ -403,7 +467,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/tools.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fishing_rod",
@@ -419,10 +487,14 @@
     "examine": "A basic fishing rod for catching fish",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bait-fishing-rod/bait-fishing-rod.glb",
-    "equippedModelPath": "asset://models/bait-fishing-rod/bait-fishing-rod-aligned.glb",
-    "iconPath": "asset://models/bait-fishing-rod/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "modelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod.glb",
+    "equippedModelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod-aligned.glb",
+    "iconPath": "asset://icons/bait-fishing-rod.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fly_fishing_rod",
@@ -434,9 +506,13 @@
     "examine": "A specialized rod for fly fishing in rivers.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
-    "iconPath": "asset://models/fishing-rod-standard/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "modelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod.glb",
+    "iconPath": "asset://icons/fishing-rod-standard.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "small_fishing_net",
@@ -450,7 +526,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/small-fishing-net.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "harpoon",
@@ -468,7 +548,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/harpoon.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "lobster_pot",
@@ -486,76 +570,119 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/lobster-pot.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
-  },
-  {
-    "id": "knife",
-    "name": "Knife",
-    "type": "tool",
-    "value": 5,
-    "weight": 0.1,
-    "description": "A sharp blade for fletching and crafting",
-    "examine": "A sharp knife for carving wood and leather.",
-    "tradeable": true,
-    "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/knife.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "needle",
     "name": "Needle",
     "type": "tool",
-    "value": 3,
-    "weight": 0.05,
-    "description": "A needle for sewing leather",
-    "examine": "Useful for crafting leather armor.",
+    "value": 5,
+    "weight": 0.01,
+    "description": "A needle for crafting leather armor",
+    "examine": "A small needle used for sewing leather.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/needle.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "thread",
+    "name": "Thread",
+    "type": "tool",
+    "value": 4,
+    "weight": 0.01,
+    "stackable": true,
+    "description": "Thread for sewing leather armor",
+    "examine": "A reel of thread. Has 5 uses before it runs out.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/thread.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "chisel",
     "name": "Chisel",
     "type": "tool",
-    "value": 6,
-    "weight": 0.2,
+    "value": 10,
+    "weight": 0.1,
     "description": "A chisel for cutting gems",
-    "examine": "A chisel used for gem cutting.",
+    "examine": "A small chisel used for cutting gemstones.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/chisel.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "ring_mould",
-    "name": "Ring Mould",
+    "name": "Ring mould",
     "type": "tool",
-    "value": 12,
-    "weight": 0.2,
+    "value": 15,
+    "weight": 0.5,
     "description": "A mould for crafting rings",
-    "examine": "Used to shape rings from gold.",
+    "examine": "A mould used to shape rings at a furnace.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ring-mould.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "amulet_mould",
-    "name": "Amulet Mould",
+    "name": "Amulet mould",
     "type": "tool",
     "value": 15,
-    "weight": 0.2,
+    "weight": 0.5,
     "description": "A mould for crafting amulets",
-    "examine": "Used to shape amulets from gold.",
+    "examine": "A mould used to shape amulets at a furnace.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/amulet-mould.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
-  }
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+{
+  "id": "knife",
+  "name": "Knife",
+  "type": "tool",
+  "value": 6,
+  "weight": 0.1,
+  "description": "A knife for cutting and fletching",
+  "examine": "A small knife. Useful for whittling wood.",
+  "tradeable": true,
+  "rarity": "common",
+  "modelPath": null,
+  "iconPath": "asset://icons/knife.png",
+  "inventoryActions": [
+    "Use",
+    "Drop",
+    "Examine"
+  ]
+}
 ]

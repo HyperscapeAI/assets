@@ -13,16 +13,24 @@
     "examine": "Arrows with bronze heads.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/bronze-arrow.png",
+    "modelPath": "asset://models/arrows/arrows-bronze/arrows-bronze.glb",
+    "equippedModelPath": "asset://models/arrows/arrows-bronze/arrows-bronze.glb",
+    "iconPath": "asset://icons/arrows-bronze.png",
     "bonuses": {
       "rangedStrength": 7
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_arrow",
@@ -44,9 +52,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_arrow",
@@ -68,9 +83,16 @@
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_arrow",
@@ -92,9 +114,16 @@
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_arrow",
@@ -116,9 +145,16 @@
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_arrow",
@@ -126,22 +162,29 @@
     "type": "ammunition",
     "stackable": true,
     "maxStackSize": 10000,
-    "value": 64,
+    "value": 80,
     "weight": 0,
     "equipSlot": "arrows",
-    "description": "Arrows with rune heads",
-    "examine": "Arrows with rune heads.",
+    "description": "Arrows with runite heads",
+    "examine": "Arrows with runite heads.",
     "tradeable": true,
-    "rarity": "epic",
+    "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/rune-arrow.png",
     "bonuses": {
       "rangedStrength": 49
     },
     "requirements": {
-      "level": 50,
-      "skills": { "ranged": 50 }
+      "level": 40,
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

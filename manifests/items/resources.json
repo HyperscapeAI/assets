@@ -12,9 +12,16 @@
     "examine": "These bones could be buried for prayer experience.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/misc/bones/bones.glb",
+    "modelScale": 0.25,
+    "groundOffset": 1.0,
     "iconPath": "asset://icons/bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "big_bones",
@@ -31,7 +38,12 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/big-bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "dragon_bones",
@@ -48,7 +60,12 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/dragon-bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "logs",
@@ -62,9 +79,13 @@
     "examine": "Wood logs from trees",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "modelPath": "asset://models/logs/logs-wood/logs-wood.glb",
+    "iconPath": "asset://icons/logs-wood.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_logs",
@@ -78,9 +99,13 @@
     "examine": "Logs cut from an oak tree. More valuable than regular logs.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "modelPath": "asset://models/logs/logs-wood/logs-wood.glb",
+    "iconPath": "asset://icons/logs-wood.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "copper_ore",
@@ -96,7 +121,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-copper.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "tin_ore",
@@ -112,7 +141,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-tin.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_ore",
@@ -128,7 +161,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-iron.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "coal",
@@ -144,7 +181,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/coal.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_ore",
@@ -160,7 +201,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/ore-mithril.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamantite_ore",
@@ -176,7 +221,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/ore-adamant.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "runite_ore",
@@ -192,7 +241,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/ore-rune.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bronze_bar",
@@ -208,7 +261,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-bronze.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_bar",
@@ -224,7 +281,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-iron.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_bar",
@@ -240,7 +301,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-steel.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_bar",
@@ -256,7 +321,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/bar-mithril.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_bar",
@@ -272,7 +341,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/bar-adamant.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_bar",
@@ -288,7 +361,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/bar-rune.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_shrimp",
@@ -304,7 +381,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-shrimp.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_anchovies",
@@ -320,7 +401,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-anchovies.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_trout",
@@ -336,7 +421,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-trout.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_salmon",
@@ -352,7 +441,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-salmon.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_tuna",
@@ -368,7 +461,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-tuna.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fishing_bait",
@@ -384,7 +481,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/fishing-bait.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "feathers",
@@ -400,7 +501,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/feathers.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_sardine",
@@ -416,7 +521,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-sardine.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_herring",
@@ -432,7 +541,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-herring.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_pike",
@@ -448,7 +561,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-pike.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_lobster",
@@ -464,7 +581,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-lobster.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_swordfish",
@@ -480,7 +601,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-swordfish.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_monkfish",
@@ -496,7 +621,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-monkfish.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_shark",
@@ -512,7 +641,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/raw-shark.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_logs",
@@ -528,7 +661,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "teak_logs",
@@ -544,7 +681,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/teak-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_logs",
@@ -560,7 +701,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mahogany_logs",
@@ -576,7 +721,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/mahogany-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_logs",
@@ -592,7 +741,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_logs",
@@ -608,7 +761,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "cowhide",
@@ -617,14 +774,18 @@
     "stackable": false,
     "maxStackSize": 100,
     "value": 2,
-    "weight": 0.5,
-    "description": "Raw cowhide used for tanning",
-    "examine": "This could be tanned into leather.",
+    "weight": 2.0,
+    "description": "A fresh cowhide",
+    "examine": "A cowhide that can be tanned into leather.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/cowhide.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "leather",
@@ -633,14 +794,18 @@
     "stackable": false,
     "maxStackSize": 100,
     "value": 5,
-    "weight": 0.4,
-    "description": "Tanned leather for crafting armor",
-    "examine": "Soft leather ready for crafting.",
+    "weight": 0.5,
+    "description": "Tanned leather",
+    "examine": "Leather that can be crafted into armor with a needle and thread.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/leather.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "green_dragonhide",
@@ -648,15 +813,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 60,
-    "weight": 1.0,
-    "description": "Tough hide from a green dragon",
-    "examine": "This could be tanned into dragon leather.",
+    "value": 1500,
+    "weight": 2.0,
+    "description": "The hide of a green dragon",
+    "examine": "A green dragonhide that can be tanned into dragon leather.",
     "tradeable": true,
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/green-dragonhide.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "green_dragon_leather",
@@ -664,15 +833,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 120,
-    "weight": 0.8,
-    "description": "Tanned green dragonhide for crafting armor",
-    "examine": "Flexible dragon leather ready for crafting.",
+    "value": 1800,
+    "weight": 0.5,
+    "description": "Tanned green dragon leather",
+    "examine": "Dragon leather that can be crafted into dragonhide armor.",
     "tradeable": true,
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/green-dragon-leather.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_studs",
@@ -688,7 +861,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/steel-studs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "thread",
@@ -704,7 +881,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/thread.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "gold_bar",
@@ -720,7 +901,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/gold-bar.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "arrow_shaft",
@@ -736,7 +921,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/arrow-shaft.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "headless_arrow",
@@ -752,7 +941,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/headless-arrow.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bowstring",
@@ -768,7 +961,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bowstring.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bronze_arrowtips",
@@ -784,7 +981,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bronze-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_arrowtips",
@@ -800,7 +1001,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/iron-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_arrowtips",
@@ -816,7 +1021,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/steel-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_arrowtips",
@@ -832,7 +1041,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/mithril-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_arrowtips",
@@ -848,7 +1061,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/adamant-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_arrowtips",
@@ -864,7 +1081,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/rune-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "shortbow_u",
@@ -880,7 +1101,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow_u",
@@ -896,7 +1121,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow_u",
@@ -912,7 +1141,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow_u",
@@ -928,7 +1161,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow_u",
@@ -944,7 +1181,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow_u",
@@ -960,7 +1201,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/magic-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "longbow_u",
@@ -976,7 +1221,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow_u",
@@ -992,7 +1241,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow_u",
@@ -1008,7 +1261,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow_u",
@@ -1024,7 +1281,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow_u",
@@ -1040,7 +1301,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow_u",
@@ -1056,7 +1321,31 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/magic-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "gold_bar",
+    "name": "Gold bar",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 300,
+    "weight": 1.8,
+    "description": "A bar of gold",
+    "examine": "A bar of gold. Can be used to craft jewelry at a furnace.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/bar-gold.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_sapphire",
@@ -1064,31 +1353,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 20,
-    "weight": 0.2,
+    "value": 125,
+    "weight": 0.01,
     "description": "An uncut sapphire",
-    "examine": "This gem could be cut.",
+    "examine": "An uncut sapphire. I should cut this with a chisel.",
     "tradeable": true,
-    "rarity": "common",
+    "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-sapphire.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
-  },
-  {
-    "id": "sapphire",
-    "name": "Sapphire",
-    "type": "resource",
-    "stackable": false,
-    "maxStackSize": 100,
-    "value": 80,
-    "weight": 0.2,
-    "description": "A cut sapphire",
-    "examine": "A sparkling blue sapphire.",
-    "tradeable": true,
-    "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/sapphire.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_emerald",
@@ -1096,31 +1373,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 40,
-    "weight": 0.2,
+    "value": 250,
+    "weight": 0.01,
     "description": "An uncut emerald",
-    "examine": "This gem could be cut.",
+    "examine": "An uncut emerald. I should cut this with a chisel.",
     "tradeable": true,
-    "rarity": "common",
+    "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-emerald.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
-  },
-  {
-    "id": "emerald",
-    "name": "Emerald",
-    "type": "resource",
-    "stackable": false,
-    "maxStackSize": 100,
-    "value": 160,
-    "weight": 0.2,
-    "description": "A cut emerald",
-    "examine": "A sparkling green emerald.",
-    "tradeable": true,
-    "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/emerald.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_ruby",
@@ -1128,15 +1393,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 80,
-    "weight": 0.2,
+    "value": 500,
+    "weight": 0.01,
     "description": "An uncut ruby",
-    "examine": "This gem could be cut.",
+    "examine": "An uncut ruby. I should cut this with a chisel.",
     "tradeable": true,
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-ruby.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "ruby",
@@ -1152,7 +1421,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/ruby.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_diamond",
@@ -1160,15 +1433,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 160,
-    "weight": 0.2,
+    "value": 1500,
+    "weight": 0.01,
     "description": "An uncut diamond",
-    "examine": "This gem could be cut.",
+    "examine": "An uncut diamond. I should cut this with a chisel.",
     "tradeable": true,
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-diamond.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "diamond",
@@ -1184,7 +1461,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/diamond.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_dragonstone",
@@ -1192,31 +1473,19 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 500,
-    "weight": 0.2,
+    "value": 10000,
+    "weight": 0.01,
     "description": "An uncut dragonstone",
-    "examine": "This rare gem could be cut.",
+    "examine": "An uncut dragonstone. I should cut this with a chisel.",
     "tradeable": true,
-    "rarity": "epic",
+    "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-dragonstone.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
-  },
-  {
-    "id": "dragonstone",
-    "name": "Dragonstone",
-    "type": "resource",
-    "stackable": false,
-    "maxStackSize": 100,
-    "value": 1200,
-    "weight": 0.2,
-    "description": "A cut dragonstone",
-    "examine": "A rare and powerful gem.",
-    "tradeable": true,
-    "rarity": "epic",
-    "modelPath": null,
-    "iconPath": "asset://icons/dragonstone.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_onyx",
@@ -1224,15 +1493,119 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 1500,
-    "weight": 0.2,
+    "value": 50000,
+    "weight": 0.01,
     "description": "An uncut onyx",
-    "examine": "A very rare gem that can be cut.",
+    "examine": "An uncut onyx. I should cut this with a chisel.",
     "tradeable": true,
-    "rarity": "legendary",
+    "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-onyx.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 250,
+    "weight": 0.01,
+    "description": "A cut sapphire",
+    "examine": "A sparkling blue gem. Used in jewelry crafting.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/sapphire.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "emerald",
+    "name": "Emerald",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 500,
+    "weight": 0.01,
+    "description": "A cut emerald",
+    "examine": "A sparkling green gem. Used in jewelry crafting.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/emerald.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 1000,
+    "weight": 0.01,
+    "description": "A cut ruby",
+    "examine": "A sparkling red gem. Used in jewelry crafting.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/ruby.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "diamond",
+    "name": "Diamond",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 3000,
+    "weight": 0.01,
+    "description": "A cut diamond",
+    "examine": "A sparkling white gem. Used in jewelry crafting.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/diamond.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "dragonstone",
+    "name": "Dragonstone",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 20000,
+    "weight": 0.01,
+    "description": "A cut dragonstone",
+    "examine": "A mysterious purple gem. Used in jewelry crafting.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/dragonstone.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "onyx",
@@ -1240,46 +1613,261 @@
     "type": "resource",
     "stackable": false,
     "maxStackSize": 100,
-    "value": 3000,
-    "weight": 0.2,
-    "description": "A cut onyx",
-    "examine": "An extremely valuable gem.",
+    "value": 50000,
+    "weight": 0.01,
+    "description": "An uncut onyx",
+    "examine": "An uncut onyx. I should cut this with a chisel.",
     "tradeable": true,
-    "rarity": "legendary",
+    "rarity": "epic",
     "modelPath": null,
-    "iconPath": "asset://icons/onyx.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "iconPath": "asset://icons/uncut-onyx.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
-    "id": "rune_essence",
-    "name": "Rune essence",
+    "id": "steel_studs",
+    "name": "Steel studs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 20,
+    "weight": 0.1,
+    "description": "Steel studs for reinforcing leather armor",
+    "examine": "Steel studs. Used to make studded leather armor.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/steel-studs.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "_comment": "=== FLETCHING RESOURCES ===",
+    "id": "arrow_shaft",
+    "name": "Arrow shaft",
     "type": "resource",
     "stackable": true,
     "maxStackSize": 10000,
-    "value": 5,
-    "weight": 0.01,
-    "description": "Essence used to craft basic runes",
-    "examine": "Essence used in runecrafting.",
+    "value": 1,
+    "weight": 0,
+    "description": "A wooden shaft for making arrows",
+    "examine": "Wooden shafts. I need to attach feathers and arrowtips.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/arrow-shaft.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "headless_arrow",
+    "name": "Headless arrow",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 1,
+    "weight": 0,
+    "description": "A feathered arrow shaft without a tip",
+    "examine": "A headless arrow. I need to attach arrowtips.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/headless-arrow.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "bowstring",
+    "name": "Bowstring",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 10,
+    "weight": 0,
+    "description": "A string for stringing bows",
+    "examine": "A bowstring. I can use this to string an unstrung bow.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/bowstring.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "_comment": "=== ARROWTIPS ===",
+    "id": "bronze_arrowtips",
+    "name": "Bronze arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 1,
+    "weight": 0,
+    "description": "Arrowtips made of bronze",
+    "examine": "Bronze arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/bronze-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "iron_arrowtips",
+    "name": "Iron arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 2,
+    "weight": 0,
+    "description": "Arrowtips made of iron",
+    "examine": "Iron arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/iron-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "steel_arrowtips",
+    "name": "Steel arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 6,
+    "weight": 0,
+    "description": "Arrowtips made of steel",
+    "examine": "Steel arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/steel-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "mithril_arrowtips",
+    "name": "Mithril arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 20,
+    "weight": 0,
+    "description": "Arrowtips made of mithril",
+    "examine": "Mithril arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/mithril-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "adamant_arrowtips",
+    "name": "Adamant arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 40,
+    "weight": 0,
+    "description": "Arrowtips made of adamantite",
+    "examine": "Adamant arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/adamant-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "rune_arrowtips",
+    "name": "Rune arrowtips",
+    "type": "resource",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 100,
+    "weight": 0,
+    "description": "Arrowtips made of runite",
+    "examine": "Rune arrowtips. I can attach these to headless arrows.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/rune-arrowtips.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "_comment": "=== RUNECRAFTING RESOURCES ===",
+    "id": "rune_essence",
+    "name": "Rune essence",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 4,
+    "weight": 0,
+    "description": "An essence for crafting basic runes",
+    "examine": "A blank rune stone. Can be crafted into basic runes at a runecrafting altar.",
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/rune-essence.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "pure_essence",
     "name": "Pure essence",
     "type": "resource",
-    "stackable": true,
-    "maxStackSize": 10000,
-    "value": 15,
-    "weight": 0.01,
-    "description": "Essence used to craft higher runes",
-    "examine": "Purified essence for runecrafting.",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 6,
+    "weight": 0,
+    "description": "A pure essence for crafting any rune",
+    "examine": "A concentrated rune stone. Can be crafted into any rune at a runecrafting altar.",
     "tradeable": true,
-    "rarity": "uncommon",
+    "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/pure-essence.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

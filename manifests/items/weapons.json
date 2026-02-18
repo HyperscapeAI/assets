@@ -15,16 +15,21 @@
     "examine": "A basic sword made of bronze",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/sword-bronze/sword-bronze.glb",
-    "equippedModelPath": "asset://models/sword-bronze/sword-bronze-aligned.glb",
-    "iconPath": "asset://models/sword-bronze/concept-art.png",
+    "modelPath": "asset://models/swords/sword-bronze/sword-bronze.glb",
+    "equippedModelPath": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb",
+    "iconPath": "asset://icons/sword-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 3,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_sword",
@@ -43,7 +48,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
+    "equippedModelPath": "asset://models/swords/sword-steel/sword-steel-aligned.glb",
     "iconPath": "asset://icons/sword-iron.png",
     "bonuses": {
       "attack": 8,
@@ -51,7 +56,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_sword",
@@ -69,16 +79,21 @@
     "examine": "A sturdy sword made of steel",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/sword-steel/sword-steel.glb",
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
-    "iconPath": "asset://models/sword-steel/concept-art.png",
+    "modelPath": "asset://models/swords/sword-steel/sword-steel.glb",
+    "equippedModelPath": "asset://models/swords/sword-steel/sword-steel-aligned.glb",
+    "iconPath": "asset://icons/sword-steel.png",
     "bonuses": {
       "attack": 12,
       "strength": 10,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_sword",
@@ -96,16 +111,21 @@
     "examine": "A legendary sword made of mithril",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/sword-mithril/sword-mithril.glb",
-    "equippedModelPath": "asset://models/sword-mithril/sword-mithril-aligned.glb",
-    "iconPath": "asset://models/sword-mithril/concept-art.png",
+    "modelPath": "asset://models/swords/sword-mithril/sword-mithril.glb",
+    "equippedModelPath": "asset://models/swords/sword-mithril/sword-mithril-aligned.glb",
+    "iconPath": "asset://icons/sword-mithril.png",
     "bonuses": {
       "attack": 25,
       "strength": 22,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_sword",
@@ -132,7 +152,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_sword",
@@ -159,9 +184,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== RANGED WEAPONS (Standard Bows) ===",
     "id": "shortbow",
@@ -179,17 +208,24 @@
     "examine": "Short but effective.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/shortbow.png",
     "bonuses": {
       "attackRanged": 8
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow",
@@ -207,17 +243,24 @@
     "examine": "A shortbow made of oak.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/oak-shortbow.png",
     "bonuses": {
       "attackRanged": 14
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow",
@@ -235,17 +278,24 @@
     "examine": "A shortbow made of willow.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/willow-shortbow.png",
     "bonuses": {
       "attackRanged": 20
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow",
@@ -263,24 +313,31 @@
     "examine": "A shortbow made of maple.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/maple-shortbow.png",
     "bonuses": {
       "attackRanged": 29
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow",
     "name": "Yew shortbow",
     "type": "weapon",
     "tier": "yew",
-    "value": 650,
+    "value": 800,
     "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
@@ -291,24 +348,31 @@
     "examine": "A shortbow made of yew.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/yew-shortbow.png",
     "bonuses": {
-      "attackRanged": 40
+      "attackRanged": 47
     },
     "requirements": {
       "level": 40,
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow",
     "name": "Magic shortbow",
     "type": "weapon",
     "tier": "magic",
-    "value": 1100,
+    "value": 1600,
     "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
@@ -318,186 +382,453 @@
     "description": "A shortbow made of magic wood",
     "examine": "A shortbow made of magic wood.",
     "tradeable": true,
-    "rarity": "epic",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "rarity": "rare",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/magic-shortbow.png",
     "bonuses": {
-      "attackRanged": 45
+      "attackRanged": 69
     },
     "requirements": {
       "level": 50,
-      "skills": { "ranged": 50 }
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
+    "_comment": "=== LONGBOWS ===",
     "id": "longbow",
     "name": "Longbow",
     "type": "weapon",
     "tier": "normal",
     "value": 80,
-    "weight": 1.1,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A simple longbow",
-    "examine": "A longbow with extra range.",
+    "examine": "A longbow. Slow but long range.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/longbow.png",
     "bonuses": {
-      "attackRanged": 10
+      "attackRanged": 8
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow",
     "name": "Oak longbow",
     "type": "weapon",
     "tier": "oak",
-    "value": 140,
-    "weight": 1.1,
+    "value": 160,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A longbow made of oak",
     "examine": "A longbow made of oak.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/oak-longbow.png",
     "bonuses": {
-      "attackRanged": 16
+      "attackRanged": 14
     },
     "requirements": {
-      "level": 10,
-      "skills": { "ranged": 10 }
+      "level": 5,
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow",
     "name": "Willow longbow",
     "type": "weapon",
     "tier": "willow",
-    "value": 240,
-    "weight": 1.1,
+    "value": 320,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A longbow made of willow",
     "examine": "A longbow made of willow.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/willow-longbow.png",
     "bonuses": {
-      "attackRanged": 22
+      "attackRanged": 20
     },
     "requirements": {
-      "level": 25,
-      "skills": { "ranged": 25 }
+      "level": 20,
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow",
     "name": "Maple longbow",
     "type": "weapon",
     "tier": "maple",
-    "value": 420,
-    "weight": 1.1,
+    "value": 640,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A longbow made of maple",
     "examine": "A longbow made of maple.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/maple-longbow.png",
     "bonuses": {
-      "attackRanged": 31
+      "attackRanged": 29
     },
     "requirements": {
-      "level": 35,
-      "skills": { "ranged": 35 }
+      "level": 30,
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow",
     "name": "Yew longbow",
     "type": "weapon",
     "tier": "yew",
-    "value": 720,
-    "weight": 1.1,
+    "value": 1280,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A longbow made of yew",
     "examine": "A longbow made of yew.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/yew-longbow.png",
     "bonuses": {
-      "attackRanged": 38
+      "attackRanged": 47
     },
     "requirements": {
-      "level": 45,
-      "skills": { "ranged": 45 }
+      "level": 40,
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow",
     "name": "Magic longbow",
     "type": "weapon",
     "tier": "magic",
-    "value": 1400,
-    "weight": 1.1,
+    "value": 2560,
+    "weight": 0.9,
     "equipSlot": "2h",
     "weaponType": "BOW",
     "attackType": "RANGED",
-    "attackSpeed": 5,
-    "attackRange": 8,
+    "attackSpeed": 6,
+    "attackRange": 9,
     "description": "A longbow made of magic wood",
     "examine": "A longbow made of magic wood.",
     "tradeable": true,
-    "rarity": "epic",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "rarity": "rare",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/magic-longbow.png",
     "bonuses": {
-      "attackRanged": 44
+      "attackRanged": 69
     },
     "requirements": {
-      "level": 55,
-      "skills": { "ranged": 55 }
+      "level": 50,
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "_comment": "=== UNSTRUNG BOWS (Fletching Intermediates) ===",
+    "id": "shortbow_u",
+    "name": "Shortbow (u)",
+    "type": "resource",
+    "value": 25,
+    "weight": 0.9,
+    "description": "An unstrung shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "longbow_u",
+    "name": "Longbow (u)",
+    "type": "resource",
+    "value": 40,
+    "weight": 0.9,
+    "description": "An unstrung longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "oak_shortbow_u",
+    "name": "Oak shortbow (u)",
+    "type": "resource",
+    "value": 50,
+    "weight": 0.9,
+    "description": "An unstrung oak shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/oak-shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "oak_longbow_u",
+    "name": "Oak longbow (u)",
+    "type": "resource",
+    "value": 80,
+    "weight": 0.9,
+    "description": "An unstrung oak longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/oak-longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "willow_shortbow_u",
+    "name": "Willow shortbow (u)",
+    "type": "resource",
+    "value": 100,
+    "weight": 0.9,
+    "description": "An unstrung willow shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/willow-shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "willow_longbow_u",
+    "name": "Willow longbow (u)",
+    "type": "resource",
+    "value": 160,
+    "weight": 0.9,
+    "description": "An unstrung willow longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/willow-longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "maple_shortbow_u",
+    "name": "Maple shortbow (u)",
+    "type": "resource",
+    "value": 200,
+    "weight": 0.9,
+    "description": "An unstrung maple shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/maple-shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "maple_longbow_u",
+    "name": "Maple longbow (u)",
+    "type": "resource",
+    "value": 320,
+    "weight": 0.9,
+    "description": "An unstrung maple longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/maple-longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "yew_shortbow_u",
+    "name": "Yew shortbow (u)",
+    "type": "resource",
+    "value": 400,
+    "weight": 0.9,
+    "description": "An unstrung yew shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/yew-shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "yew_longbow_u",
+    "name": "Yew longbow (u)",
+    "type": "resource",
+    "value": 640,
+    "weight": 0.9,
+    "description": "An unstrung yew longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/yew-longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "magic_shortbow_u",
+    "name": "Magic shortbow (u)",
+    "type": "resource",
+    "value": 800,
+    "weight": 0.9,
+    "description": "An unstrung magic shortbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/magic-shortbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
+  },
+  {
+    "id": "magic_longbow_u",
+    "name": "Magic longbow (u)",
+    "type": "resource",
+    "value": 1280,
+    "weight": 0.9,
+    "description": "An unstrung magic longbow",
+    "examine": "I need a bowstring to finish this.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/magic-longbow-u.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
 
   {
@@ -523,7 +854,12 @@
     "bonuses": {
       "attackMagic": 4
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_staff",
@@ -549,9 +885,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_air",
@@ -569,18 +912,27 @@
     "examine": "A magical staff providing infinite air runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/air-staff/air-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-air.png",
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["air_rune"],
+    "providesInfiniteRunes": [
+      "air_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_water",
@@ -598,18 +950,27 @@
     "examine": "A magical staff providing infinite water runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/water-staff/water-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/water-staff/water-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-water.png",
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["water_rune"],
+    "providesInfiniteRunes": [
+      "water_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_earth",
@@ -627,18 +988,27 @@
     "examine": "A magical staff providing infinite earth runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/earth-staff/earth-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/earth-staff/earth-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-earth.png",
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["earth_rune"],
+    "providesInfiniteRunes": [
+      "earth_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_fire",
@@ -656,17 +1026,26 @@
     "examine": "A magical staff providing infinite fire runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/fire-staff/fire-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/fire-staff/fire-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-fire.png",
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["fire_rune"],
+    "providesInfiniteRunes": [
+      "fire_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

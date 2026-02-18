@@ -7,8 +7,8 @@
       "name": "Copper Rock",
       "type": "ore",
       "examine": "A rock containing copper ore.",
-      "modelPath": "asset://models/copper-rock/copper-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
+      "modelPath": "asset://models/mining-rocks/copper-rock/copper-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
       "scale": 1.0,
       "depletedScale": 1.0,
       "harvestSkill": "mining",
@@ -25,6 +25,14 @@
           "chance": 1.0,
           "xpAmount": 17.5,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -33,8 +41,8 @@
       "name": "Tin Rock",
       "type": "ore",
       "examine": "A rock containing tin ore.",
-      "modelPath": "asset://models/copper-rock/copper-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
+      "modelPath": "asset://models/mining-rocks/tin-rock/tin-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
       "scale": 1.0,
       "depletedScale": 1.0,
       "harvestSkill": "mining",
@@ -51,6 +59,14 @@
           "chance": 1.0,
           "xpAmount": 17.5,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -59,8 +75,8 @@
       "name": "Iron Rock",
       "type": "ore",
       "examine": "A rock containing iron ore.",
-      "modelPath": "asset://models/copper-rock/copper-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
+      "modelPath": "asset://models/mining-rocks/iron-rock/iron-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
       "scale": 1.0,
       "depletedScale": 1.0,
       "harvestSkill": "mining",
@@ -77,6 +93,48 @@
           "chance": 1.0,
           "xpAmount": 35,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
+        }
+      ]
+    },
+    {
+      "id": "ore_gold",
+      "name": "Gold Rock",
+      "type": "ore",
+      "examine": "A rock containing gold ore.",
+      "modelPath": "asset://models/mining-rocks/gold-rock/gold-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "mining",
+      "toolRequired": "pickaxe",
+      "levelRequired": 40,
+      "baseCycleTicks": 4,
+      "depleteChance": 1.0,
+      "respawnTicks": 30,
+      "harvestYield": [
+        {
+          "itemId": "gold_ore",
+          "itemName": "Gold Ore",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 65,
+          "stackable": true
+        },
+        {
+          "itemId": "uncut_emerald",
+          "itemName": "Uncut Emerald",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -85,13 +143,8 @@
       "name": "Coal Rock",
       "type": "ore",
       "examine": "A rock containing coal.",
-      "modelPath": "asset://models/copper-rock/copper-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
-      "scale": 1.0,
-      "depletedScale": 1.0,
       "harvestSkill": "mining",
       "toolRequired": "pickaxe",
-      "levelRequired": 30,
       "baseCycleTicks": 4,
       "depleteChance": 1.0,
       "respawnTicks": 50,
@@ -103,6 +156,14 @@
           "chance": 1.0,
           "xpAmount": 50,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_emerald",
+          "itemName": "Uncut Emerald",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -111,15 +172,11 @@
       "name": "Mithril Rock",
       "type": "ore",
       "examine": "A rock containing mithril ore.",
-      "modelPath": "asset://models/mithril-rock/mithril-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
+      "modelPath": "asset://models/mining-rocks/mithril-rock/mithril-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
       "scale": 1.0,
       "depletedScale": 1.0,
       "harvestSkill": "mining",
-      "toolRequired": "pickaxe",
-      "levelRequired": 55,
-      "baseCycleTicks": 4,
-      "depleteChance": 1.0,
       "respawnTicks": 200,
       "harvestYield": [
         {
@@ -129,6 +186,14 @@
           "chance": 1.0,
           "xpAmount": 80,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_emerald",
+          "itemName": "Uncut Emerald",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -137,52 +202,63 @@
       "name": "Adamantite Rock",
       "type": "ore",
       "examine": "A rock containing adamantite ore.",
-      "modelPath": "asset://models/copper-rock/copper-rock.glb",
-      "depletedModelPath": "asset://models/copper-rock/copper-rock-depleted.glb",
+      "modelPath": "asset://models/mining-rocks/adamant-rock/adamant-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
       "scale": 1.0,
       "depletedScale": 1.0,
       "harvestSkill": "mining",
       "toolRequired": "pickaxe",
-      "levelRequired": 70,
+      "levelRequired": 80,
       "baseCycleTicks": 4,
       "depleteChance": 1.0,
       "respawnTicks": 400,
-      "harvestYield": [
-        {
-          "itemId": "adamantite_ore",
-          "itemName": "Adamantite Ore",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 95,
-          "stackable": true
-        }
-      ]
+      "quantity": 1,
+      "chance": 1.0,
+      "stackable": true
     },
     {
-      "id": "ore_runite",
-      "name": "Runite Rock",
-      "type": "ore",
-      "examine": "A rock containing runite ore.",
-      "modelPath": "asset://models/runite-rock/runite-rock.glb",
-      "depletedModelPath": "asset://models/runite-rock/runite-rock-depleted.glb",
-      "scale": 1.0,
-      "depletedScale": 1.0,
-      "harvestSkill": "mining",
-      "toolRequired": "pickaxe",
-      "levelRequired": 85,
-      "baseCycleTicks": 4,
-      "depleteChance": 1.0,
-      "respawnTicks": 1200,
-      "harvestYield": [
-        {
-          "itemId": "runite_ore",
-          "itemName": "Runite Ore",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 125,
-          "stackable": true
-        }
-      ]
+      "itemId": "uncut_ruby",
+      "itemName": "Uncut Ruby",
+      "quantity": 1,
+      "chance": 0.004,
+      "xpAmount": 0,
+      "stackable": false
     }
   ]
+},
+{
+  "id": "ore_runite",
+  "name": "Runite Rock",
+  "type": "ore",
+  "examine": "A rock containing runite ore.",
+  "modelPath": "asset://models/mining-rocks/runite-rock/runite-rock.glb",
+  "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
+  "scale": 1.0,
+  "depletedScale": 1.0,
+  "harvestSkill": "mining",
+  "toolRequired": "pickaxe",
+  "levelRequired": 90,
+  "baseCycleTicks": 4,
+  "depleteChance": 1.0,
+  "respawnTicks": 1200,
+  "harvestYield": [
+    {
+      "itemId": "runite_ore",
+      "itemName": "Runite Ore",
+      "quantity": 1,
+      "chance": 1.0,
+      "xpAmount": 125,
+      "stackable": true
+    },
+    {
+      "itemId": "uncut_diamond",
+      "itemName": "Uncut Diamond",
+      "quantity": 1,
+      "chance": 0.004,
+      "xpAmount": 0,
+      "stackable": false
+    }
+  ]
+}
+]
 }
