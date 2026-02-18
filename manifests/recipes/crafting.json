@@ -1,0 +1,287 @@
+{
+  "_comment": "OSRS-accurate crafting recipes. Leather, studded, dragonhide, jewelry, and gem cutting.",
+  "recipes": [
+    {
+      "output": "leather_gloves",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 1,
+      "xp": 13.8,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "leather_boots",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 7,
+      "xp": 16.3,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "leather_cowl",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 9,
+      "xp": 18.5,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "leather_vambraces",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 11,
+      "xp": 22,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "leather_body",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 14,
+      "xp": 25,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "leather_chaps",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 18,
+      "xp": 27,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "coif",
+      "category": "leather",
+      "inputs": [{ "item": "leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 38,
+      "xp": 37,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "studded_body",
+      "category": "studded",
+      "inputs": [
+        { "item": "leather_body", "amount": 1 },
+        { "item": "steel_studs", "amount": 1 }
+      ],
+      "tools": [],
+      "consumables": [],
+      "level": 41,
+      "xp": 40,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "studded_chaps",
+      "category": "studded",
+      "inputs": [
+        { "item": "leather_chaps", "amount": 1 },
+        { "item": "steel_studs", "amount": 1 }
+      ],
+      "tools": [],
+      "consumables": [],
+      "level": 44,
+      "xp": 42,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "green_dhide_vambraces",
+      "category": "dragonhide",
+      "inputs": [{ "item": "green_dragon_leather", "amount": 1 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 57,
+      "xp": 62,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "green_dhide_chaps",
+      "category": "dragonhide",
+      "inputs": [{ "item": "green_dragon_leather", "amount": 2 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 60,
+      "xp": 124,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "green_dhide_body",
+      "category": "dragonhide",
+      "inputs": [{ "item": "green_dragon_leather", "amount": 3 }],
+      "tools": ["needle"],
+      "consumables": [{ "item": "thread", "uses": 5 }],
+      "level": 63,
+      "xp": 186,
+      "ticks": 3,
+      "station": "none"
+    },
+    {
+      "output": "gold_ring",
+      "category": "jewelry",
+      "inputs": [{ "item": "gold_bar", "amount": 1 }],
+      "tools": ["ring_mould"],
+      "consumables": [],
+      "level": 5,
+      "xp": 15,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "amulet_of_accuracy",
+      "category": "jewelry",
+      "inputs": [{ "item": "gold_bar", "amount": 1 }],
+      "tools": ["amulet_mould"],
+      "consumables": [],
+      "level": 8,
+      "xp": 30,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "amulet_of_strength",
+      "category": "jewelry",
+      "inputs": [
+        { "item": "gold_bar", "amount": 1 },
+        { "item": "ruby", "amount": 1 }
+      ],
+      "tools": ["amulet_mould"],
+      "consumables": [],
+      "level": 50,
+      "xp": 85,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "amulet_of_power",
+      "category": "jewelry",
+      "inputs": [
+        { "item": "gold_bar", "amount": 1 },
+        { "item": "diamond", "amount": 1 }
+      ],
+      "tools": ["amulet_mould"],
+      "consumables": [],
+      "level": 70,
+      "xp": 100,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "amulet_of_glory",
+      "category": "jewelry",
+      "inputs": [
+        { "item": "gold_bar", "amount": 1 },
+        { "item": "dragonstone", "amount": 1 }
+      ],
+      "tools": ["amulet_mould"],
+      "consumables": [],
+      "level": 80,
+      "xp": 150,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "amulet_of_fury",
+      "category": "jewelry",
+      "inputs": [
+        { "item": "gold_bar", "amount": 1 },
+        { "item": "onyx", "amount": 1 }
+      ],
+      "tools": ["amulet_mould"],
+      "consumables": [],
+      "level": 90,
+      "xp": 165,
+      "ticks": 3,
+      "station": "furnace"
+    },
+    {
+      "output": "sapphire",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_sapphire", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 20,
+      "xp": 50,
+      "ticks": 2,
+      "station": "none"
+    },
+    {
+      "output": "emerald",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_emerald", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 27,
+      "xp": 67.5,
+      "ticks": 2,
+      "station": "none"
+    },
+    {
+      "output": "ruby",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_ruby", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 34,
+      "xp": 85,
+      "ticks": 2,
+      "station": "none"
+    },
+    {
+      "output": "diamond",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_diamond", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 43,
+      "xp": 107.5,
+      "ticks": 2,
+      "station": "none"
+    },
+    {
+      "output": "dragonstone",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_dragonstone", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 55,
+      "xp": 137.5,
+      "ticks": 2,
+      "station": "none"
+    },
+    {
+      "output": "onyx",
+      "category": "gem_cutting",
+      "inputs": [{ "item": "uncut_onyx", "amount": 1 }],
+      "tools": ["chisel"],
+      "consumables": [],
+      "level": 67,
+      "xp": 167.5,
+      "ticks": 2,
+      "station": "none"
+    }
+  ]
+}

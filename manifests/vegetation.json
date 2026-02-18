@@ -2,29 +2,6 @@
   "version": 1,
   "description": "Vegetation asset definitions for procedural world generation",
   "assets": [
-    {
-      "id": "tree1",
-      "model": "trees/tree1.glb",
-      "category": "tree",
-      "baseScale": 4.0,
-      "scaleVariation": [0.8, 1.5],
-      "randomRotation": true,
-      "weight": 10,
-      "maxSlope": 0.4,
-      "alignToNormal": false,
-      "yOffset": 0
-    },
-    {
-      "id": "mushroom",
-      "model": "trees/mushroom.glb",
-      "category": "mushroom",
-      "baseScale": 0.15,
-      "scaleVariation": [0.8, 1.2],
-      "randomRotation": true,
-      "weight": 5,
-      "maxSlope": 0.5,
-      "alignToNormal": true,
-      "yOffset": 0
-    }
+
   ]
 }

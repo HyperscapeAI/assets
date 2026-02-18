@@ -275,6 +275,230 @@
     },
     "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
+  {
+    "id": "yew_shortbow",
+    "name": "Yew shortbow",
+    "type": "weapon",
+    "tier": "yew",
+    "value": 650,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A shortbow made of yew",
+    "examine": "A shortbow made of yew.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/yew-shortbow.png",
+    "bonuses": {
+      "attackRanged": 40
+    },
+    "requirements": {
+      "level": 40,
+      "skills": { "ranged": 40 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "magic_shortbow",
+    "name": "Magic shortbow",
+    "type": "weapon",
+    "tier": "magic",
+    "value": 1100,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A shortbow made of magic wood",
+    "examine": "A shortbow made of magic wood.",
+    "tradeable": true,
+    "rarity": "epic",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/magic-shortbow.png",
+    "bonuses": {
+      "attackRanged": 45
+    },
+    "requirements": {
+      "level": 50,
+      "skills": { "ranged": 50 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "longbow",
+    "name": "Longbow",
+    "type": "weapon",
+    "tier": "normal",
+    "value": 80,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A simple longbow",
+    "examine": "A longbow with extra range.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/longbow.png",
+    "bonuses": {
+      "attackRanged": 10
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "ranged": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "oak_longbow",
+    "name": "Oak longbow",
+    "type": "weapon",
+    "tier": "oak",
+    "value": 140,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A longbow made of oak",
+    "examine": "A longbow made of oak.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/oak-longbow.png",
+    "bonuses": {
+      "attackRanged": 16
+    },
+    "requirements": {
+      "level": 10,
+      "skills": { "ranged": 10 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "willow_longbow",
+    "name": "Willow longbow",
+    "type": "weapon",
+    "tier": "willow",
+    "value": 240,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A longbow made of willow",
+    "examine": "A longbow made of willow.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/willow-longbow.png",
+    "bonuses": {
+      "attackRanged": 22
+    },
+    "requirements": {
+      "level": 25,
+      "skills": { "ranged": 25 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "maple_longbow",
+    "name": "Maple longbow",
+    "type": "weapon",
+    "tier": "maple",
+    "value": 420,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A longbow made of maple",
+    "examine": "A longbow made of maple.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/maple-longbow.png",
+    "bonuses": {
+      "attackRanged": 31
+    },
+    "requirements": {
+      "level": 35,
+      "skills": { "ranged": 35 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "yew_longbow",
+    "name": "Yew longbow",
+    "type": "weapon",
+    "tier": "yew",
+    "value": 720,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A longbow made of yew",
+    "examine": "A longbow made of yew.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/yew-longbow.png",
+    "bonuses": {
+      "attackRanged": 38
+    },
+    "requirements": {
+      "level": 45,
+      "skills": { "ranged": 45 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "magic_longbow",
+    "name": "Magic longbow",
+    "type": "weapon",
+    "tier": "magic",
+    "value": 1400,
+    "weight": 1.1,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 5,
+    "attackRange": 8,
+    "description": "A longbow made of magic wood",
+    "examine": "A longbow made of magic wood.",
+    "tradeable": true,
+    "rarity": "epic",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/magic-longbow.png",
+    "bonuses": {
+      "attackRanged": 44
+    },
+    "requirements": {
+      "level": 55,
+      "skills": { "ranged": 55 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
 
   {
     "_comment": "=== MAGIC WEAPONS (Staves) ===",

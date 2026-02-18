@@ -1,0 +1,17 @@
+{
+  "_comment": "OSRS-accurate tanning recipes. Cowhide and dragonhide tanning at tanner NPC.",
+  "recipes": [
+    {
+      "input": "cowhide",
+      "output": "leather",
+      "cost": 1,
+      "name": "Leather"
+    },
+    {
+      "input": "green_dragonhide",
+      "output": "green_dragon_leather",
+      "cost": 20,
+      "name": "Green dragon leather"
+    }
+  ]
+}

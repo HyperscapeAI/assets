@@ -1,0 +1,480 @@
+{
+  "_comment": "OSRS-accurate fletching recipes. Knife+logs for shafts/bows, stringing, arrow assembly.",
+  "recipes": [
+    {
+      "_comment": "=== ARROW SHAFTS (Knife + Logs) ===",
+      "output": "arrow_shaft",
+      "outputQuantity": 15,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 1,
+      "xp": 5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "arrow_shaft",
+      "outputQuantity": 30,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "oak_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 15,
+      "xp": 10,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "arrow_shaft",
+      "outputQuantity": 45,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "willow_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 30,
+      "xp": 15,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "arrow_shaft",
+      "outputQuantity": 60,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "maple_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 45,
+      "xp": 20,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "arrow_shaft",
+      "outputQuantity": 75,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "yew_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 60,
+      "xp": 25,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "arrow_shaft",
+      "outputQuantity": 90,
+      "category": "arrow_shafts",
+      "inputs": [{ "item": "magic_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 75,
+      "xp": 30,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+
+    {
+      "_comment": "=== HEADLESS ARROWS (Arrow Shafts + Feathers) ===",
+      "output": "headless_arrow",
+      "outputQuantity": 15,
+      "category": "headless_arrows",
+      "inputs": [
+        { "item": "arrow_shaft", "amount": 15 },
+        { "item": "feathers", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 1,
+      "xp": 15,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+
+    {
+      "_comment": "=== UNSTRUNG SHORTBOWS (Knife + Logs) ===",
+      "output": "shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 5,
+      "xp": 5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "oak_shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "oak_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 20,
+      "xp": 16.5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "willow_shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "willow_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 35,
+      "xp": 33.3,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "maple_shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "maple_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 50,
+      "xp": 50,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "yew_shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "yew_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 65,
+      "xp": 67.5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "magic_shortbow_u",
+      "outputQuantity": 1,
+      "category": "shortbows",
+      "inputs": [{ "item": "magic_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 80,
+      "xp": 83.3,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+
+    {
+      "_comment": "=== UNSTRUNG LONGBOWS (Knife + Logs) ===",
+      "output": "longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 10,
+      "xp": 10,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "oak_longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "oak_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 25,
+      "xp": 25,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "willow_longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "willow_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 40,
+      "xp": 41.5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "maple_longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "maple_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 55,
+      "xp": 58.3,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "yew_longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "yew_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 70,
+      "xp": 75,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+    {
+      "output": "magic_longbow_u",
+      "outputQuantity": 1,
+      "category": "longbows",
+      "inputs": [{ "item": "magic_logs", "amount": 1 }],
+      "tools": ["knife"],
+      "level": 85,
+      "xp": 91.5,
+      "ticks": 3,
+      "skill": "fletching"
+    },
+
+    {
+      "_comment": "=== BOW STRINGING (Bowstring + Unstrung Bow) ===",
+      "output": "shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 5,
+      "xp": 5,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 10,
+      "xp": 10,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "oak_shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "oak_shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 20,
+      "xp": 16.5,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "oak_longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "oak_longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 25,
+      "xp": 25,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "willow_shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "willow_shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 35,
+      "xp": 33.3,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "willow_longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "willow_longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 40,
+      "xp": 41.5,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "maple_shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "maple_shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 50,
+      "xp": 50,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "maple_longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "maple_longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 55,
+      "xp": 58.3,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "yew_shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "yew_shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 65,
+      "xp": 67.5,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "yew_longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "yew_longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 70,
+      "xp": 75,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "magic_shortbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "magic_shortbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 80,
+      "xp": 83.3,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+    {
+      "output": "magic_longbow",
+      "outputQuantity": 1,
+      "category": "stringing",
+      "inputs": [
+        { "item": "bowstring", "amount": 1 },
+        { "item": "magic_longbow_u", "amount": 1 }
+      ],
+      "tools": [],
+      "level": 85,
+      "xp": 91.5,
+      "ticks": 2,
+      "skill": "fletching"
+    },
+
+    {
+      "_comment": "=== ARROW TIPPING (Arrowtips + Headless Arrows) ===",
+      "output": "bronze_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "bronze_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 1,
+      "xp": 19.5,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+    {
+      "output": "iron_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "iron_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 15,
+      "xp": 37.5,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+    {
+      "output": "steel_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "steel_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 30,
+      "xp": 75,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+    {
+      "output": "mithril_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "mithril_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 45,
+      "xp": 112.5,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+    {
+      "output": "adamant_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "adamant_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 60,
+      "xp": 150,
+      "ticks": 1,
+      "skill": "fletching"
+    },
+    {
+      "output": "rune_arrow",
+      "outputQuantity": 15,
+      "category": "arrows",
+      "inputs": [
+        { "item": "rune_arrowtips", "amount": 15 },
+        { "item": "headless_arrow", "amount": 15 }
+      ],
+      "tools": [],
+      "level": 75,
+      "xp": 187.5,
+      "ticks": 1,
+      "skill": "fletching"
+    }
+  ]
+}

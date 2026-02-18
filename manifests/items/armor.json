@@ -1,0 +1,439 @@
+[
+  {
+    "id": "leather_gloves",
+    "name": "Leather Gloves",
+    "type": "armor",
+    "value": 10,
+    "weight": 0.4,
+    "equipSlot": "gloves",
+    "description": "Basic leather gloves",
+    "examine": "A pair of simple leather gloves.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-gloves.png",
+    "bonuses": {
+      "defenseStab": 1,
+      "defenseSlash": 2,
+      "defenseCrush": 1,
+      "defenseRanged": 2,
+      "magicDefense": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "leather_boots",
+    "name": "Leather Boots",
+    "type": "armor",
+    "value": 12,
+    "weight": 0.5,
+    "equipSlot": "boots",
+    "description": "Basic leather boots",
+    "examine": "A pair of simple leather boots.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-boots.png",
+    "bonuses": {
+      "defenseStab": 1,
+      "defenseSlash": 2,
+      "defenseCrush": 1,
+      "defenseRanged": 2,
+      "magicDefense": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "leather_cowl",
+    "name": "Leather Cowl",
+    "type": "armor",
+    "value": 15,
+    "weight": 0.6,
+    "equipSlot": "helmet",
+    "description": "A simple leather cowl",
+    "examine": "A leather cowl for basic protection.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-cowl.png",
+    "bonuses": {
+      "defenseStab": 2,
+      "defenseSlash": 3,
+      "defenseCrush": 2,
+      "defenseRanged": 3,
+      "magicDefense": 0
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "leather_vambraces",
+    "name": "Leather Vambraces",
+    "type": "armor",
+    "value": 12,
+    "weight": 0.4,
+    "equipSlot": "gloves",
+    "description": "Leather vambraces for archers",
+    "examine": "Leather armguards for basic protection.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-vambraces.png",
+    "bonuses": {
+      "defenseStab": 2,
+      "defenseSlash": 3,
+      "defenseCrush": 2,
+      "defenseRanged": 4,
+      "magicDefense": 1
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "leather_body",
+    "name": "Leather Body",
+    "type": "armor",
+    "value": 30,
+    "weight": 2,
+    "equipSlot": "body",
+    "description": "Leather body armor",
+    "examine": "A leather body for basic protection.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-body.png",
+    "bonuses": {
+      "defenseStab": 5,
+      "defenseSlash": 8,
+      "defenseCrush": 6,
+      "defenseRanged": 8,
+      "magicDefense": 1
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "leather_chaps",
+    "name": "Leather Chaps",
+    "type": "armor",
+    "value": 25,
+    "weight": 1.6,
+    "equipSlot": "legs",
+    "description": "Leather chaps for protection",
+    "examine": "Leather chaps for basic defense.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/leather-chaps.png",
+    "bonuses": {
+      "defenseStab": 4,
+      "defenseSlash": 6,
+      "defenseCrush": 5,
+      "defenseRanged": 6,
+      "magicDefense": 1
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "defence": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "coif",
+    "name": "Coif",
+    "type": "armor",
+    "value": 55,
+    "weight": 0.8,
+    "equipSlot": "helmet",
+    "description": "A protective leather coif",
+    "examine": "A coif made of leather.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/coif.png",
+    "bonuses": {
+      "defenseStab": 4,
+      "defenseSlash": 5,
+      "defenseCrush": 4,
+      "defenseRanged": 6,
+      "magicDefense": 2
+    },
+    "requirements": {
+      "level": 20,
+      "skills": { "defence": 20 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "studded_body",
+    "name": "Studded Body",
+    "type": "armor",
+    "value": 85,
+    "weight": 2.2,
+    "equipSlot": "body",
+    "description": "Studded leather body armor",
+    "examine": "Leather armor reinforced with steel studs.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/studded-body.png",
+    "bonuses": {
+      "defenseStab": 8,
+      "defenseSlash": 10,
+      "defenseCrush": 8,
+      "defenseRanged": 12,
+      "magicDefense": 3
+    },
+    "requirements": {
+      "level": 20,
+      "skills": { "defence": 20 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "studded_chaps",
+    "name": "Studded Chaps",
+    "type": "armor",
+    "value": 75,
+    "weight": 1.8,
+    "equipSlot": "legs",
+    "description": "Studded leather chaps",
+    "examine": "Leather chaps reinforced with studs.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/studded-chaps.png",
+    "bonuses": {
+      "defenseStab": 7,
+      "defenseSlash": 9,
+      "defenseCrush": 7,
+      "defenseRanged": 11,
+      "magicDefense": 3
+    },
+    "requirements": {
+      "level": 20,
+      "skills": { "defence": 20 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "green_dhide_vambraces",
+    "name": "Green d'hide vambraces",
+    "type": "armor",
+    "value": 140,
+    "weight": 0.5,
+    "equipSlot": "gloves",
+    "description": "Vambraces made from green dragonhide",
+    "examine": "Tough dragonhide vambraces.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/green-dhide-vambraces.png",
+    "bonuses": {
+      "defenseStab": 10,
+      "defenseSlash": 12,
+      "defenseCrush": 10,
+      "defenseRanged": 15,
+      "magicDefense": 5
+    },
+    "requirements": {
+      "level": 40,
+      "skills": { "defence": 40, "ranged": 40 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "green_dhide_chaps",
+    "name": "Green d'hide chaps",
+    "type": "armor",
+    "value": 260,
+    "weight": 1.6,
+    "equipSlot": "legs",
+    "description": "Chaps made from green dragonhide",
+    "examine": "Tough dragonhide chaps.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/green-dhide-chaps.png",
+    "bonuses": {
+      "defenseStab": 14,
+      "defenseSlash": 16,
+      "defenseCrush": 14,
+      "defenseRanged": 20,
+      "magicDefense": 7
+    },
+    "requirements": {
+      "level": 40,
+      "skills": { "defence": 40, "ranged": 40 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "green_dhide_body",
+    "name": "Green d'hide body",
+    "type": "armor",
+    "value": 420,
+    "weight": 2.2,
+    "equipSlot": "body",
+    "description": "Body armor made from green dragonhide",
+    "examine": "Tough dragonhide body armor.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/green-dhide-body.png",
+    "bonuses": {
+      "defenseStab": 20,
+      "defenseSlash": 22,
+      "defenseCrush": 20,
+      "defenseRanged": 26,
+      "magicDefense": 9
+    },
+    "requirements": {
+      "level": 40,
+      "skills": { "defence": 40, "ranged": 40 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "gold_ring",
+    "name": "Gold Ring",
+    "type": "armor",
+    "value": 80,
+    "weight": 0.1,
+    "equipSlot": "ring",
+    "description": "A simple gold ring",
+    "examine": "A plain gold ring.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/gold-ring.png",
+    "bonuses": {
+      "defense": 1
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "amulet_of_accuracy",
+    "name": "Amulet of Accuracy",
+    "type": "armor",
+    "value": 200,
+    "weight": 0.2,
+    "equipSlot": "amulet",
+    "description": "An amulet that improves accuracy",
+    "examine": "An amulet that improves accuracy.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-accuracy.png",
+    "bonuses": {
+      "attack": 4,
+      "attackRanged": 4
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "amulet_of_strength",
+    "name": "Amulet of Strength",
+    "type": "armor",
+    "value": 220,
+    "weight": 0.2,
+    "equipSlot": "amulet",
+    "description": "An amulet that enhances strength",
+    "examine": "An amulet that enhances strength.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-strength.png",
+    "bonuses": {
+      "strength": 8
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "amulet_of_power",
+    "name": "Amulet of Power",
+    "type": "armor",
+    "value": 450,
+    "weight": 0.2,
+    "equipSlot": "amulet",
+    "description": "A balanced amulet of power",
+    "examine": "An amulet that boosts many stats.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-power.png",
+    "bonuses": {
+      "attack": 6,
+      "strength": 6,
+      "defense": 6,
+      "attackRanged": 6,
+      "attackMagic": 6
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "amulet_of_glory",
+    "name": "Amulet of Glory",
+    "type": "armor",
+    "value": 1100,
+    "weight": 0.2,
+    "equipSlot": "amulet",
+    "description": "A powerful amulet of glory",
+    "examine": "An amulet prized by adventurers.",
+    "tradeable": true,
+    "rarity": "epic",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-glory.png",
+    "bonuses": {
+      "attack": 8,
+      "strength": 6,
+      "defense": 8,
+      "attackRanged": 8,
+      "attackMagic": 8,
+      "defenseRanged": 8,
+      "defenseMagic": 8
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "amulet_of_fury",
+    "name": "Amulet of Fury",
+    "type": "armor",
+    "value": 2200,
+    "weight": 0.2,
+    "equipSlot": "amulet",
+    "description": "An exceptionally powerful amulet",
+    "examine": "An amulet of unmatched power.",
+    "tradeable": true,
+    "rarity": "legendary",
+    "modelPath": null,
+    "iconPath": "asset://icons/amulet-of-fury.png",
+    "bonuses": {
+      "attack": 10,
+      "strength": 8,
+      "defense": 10,
+      "attackRanged": 10,
+      "attackMagic": 10,
+      "defenseRanged": 10,
+      "defenseMagic": 10
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  }
+]

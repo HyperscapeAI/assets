@@ -17,117 +17,169 @@
         {
           "id": "bank_clerk",
           "type": "bank",
-          "position": { "x": 8, "y": 0, "z": 5 }
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": -5
+          }
         },
         {
           "id": "shopkeeper",
           "type": "general_store",
           "storeId": "central_store",
-          "position": { "x": -8, "y": 0, "z": 5 }
-        },
-        {
-          "id": "captain_rowan",
-          "type": "quest_giver",
-          "position": { "x": 20, "y": 0, "z": 14 }
-        },
-        {
-          "id": "forester_wilma",
-          "type": "quest_giver",
-          "position": { "x": 18, "y": 0, "z": -8 }
-        },
-        {
-          "id": "fisherman_pete",
-          "type": "quest_giver",
-          "position": { "x": -30, "y": 0, "z": -8 }
-        },
-        {
-          "id": "torvin",
-          "type": "quest_giver",
-          "position": { "x": -28, "y": 0, "z": 24 }
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -5
+          }
         }
       ],
       "resources": [
         {
           "type": "tree",
-          "position": { "x": 22, "y": 0, "z": -10 },
+          "position": {
+            "x": 15,
+            "y": 0,
+            "z": -10
+          },
           "resourceId": "tree_normal"
         },
         {
           "type": "tree",
-          "position": { "x": 28, "y": 0, "z": -14 },
+          "position": {
+            "x": 22,
+            "y": 0,
+            "z": -12
+          },
           "resourceId": "tree_oak"
         },
         {
           "type": "tree",
-          "position": { "x": 26, "y": 0, "z": -20 },
+          "position": {
+            "x": 29,
+            "y": 0,
+            "z": -14
+          },
           "resourceId": "tree_willow"
         },
         {
           "type": "tree",
-          "position": { "x": 34, "y": 0, "z": -16 },
+          "position": {
+            "x": 36,
+            "y": 0,
+            "z": -16
+          },
           "resourceId": "tree_teak"
         },
         {
           "type": "tree",
-          "position": { "x": 32, "y": 0, "z": -24 },
+          "position": {
+            "x": 43,
+            "y": 0,
+            "z": -18
+          },
           "resourceId": "tree_maple"
         },
         {
           "type": "tree",
-          "position": { "x": 40, "y": 0, "z": -18 },
+          "position": {
+            "x": 50,
+            "y": 0,
+            "z": -20
+          },
           "resourceId": "tree_mahogany"
         },
         {
           "type": "tree",
-          "position": { "x": 38, "y": 0, "z": -28 },
+          "position": {
+            "x": 57,
+            "y": 0,
+            "z": -22
+          },
           "resourceId": "tree_yew"
         },
         {
           "type": "tree",
-          "position": { "x": 45, "y": 0, "z": -22 },
+          "position": {
+            "x": 64,
+            "y": 0,
+            "z": -24
+          },
           "resourceId": "tree_magic"
         },
         {
           "type": "ore",
-          "position": { "x": -18, "y": 0, "z": 32 },
+          "position": {
+            "x": -12,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_copper"
         },
         {
           "type": "ore",
-          "position": { "x": -14, "y": 0, "z": 35 },
+          "position": {
+            "x": -8,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_tin"
         },
         {
           "type": "ore",
-          "position": { "x": -10, "y": 0, "z": 32 },
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_iron"
         },
         {
           "type": "ore",
-          "position": { "x": -6, "y": 0, "z": 36 },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_coal"
         },
         {
           "type": "ore",
-          "position": { "x": -2, "y": 0, "z": 33 },
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_mithril"
         },
         {
           "type": "ore",
-          "position": { "x": 2, "y": 0, "z": 38 },
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_adamant"
         },
         {
           "type": "ore",
-          "position": { "x": 6, "y": 0, "z": 35 },
+          "position": {
+            "x": 12,
+            "y": 0,
+            "z": 10
+          },
           "resourceId": "ore_runite"
         }
       ],
       "mobSpawns": [
         {
           "mobId": "goblin",
-          "position": { "x": 25, "y": 0, "z": 18 },
-          "spawnRadius": 6,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 5
+          },
+          "spawnRadius": 0,
           "maxCount": 3
         }
       ],
@@ -135,35 +187,7 @@
         "enabled": true,
         "spotCount": 8,
         "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly", "fishing_spot_cage", "fishing_spot_harpoon"]
-      },
-      "stations": [
-        {
-          "id": "bank_spawn",
-          "type": "bank",
-          "position": { "x": 0, "y": 0, "z": 0 },
-          "bankId": "spawn_bank"
-        },
-        {
-          "id": "furnace_spawn",
-          "type": "furnace",
-          "position": { "x": -24, "y": 0, "z": 28 }
-        },
-        {
-          "id": "anvil_spawn",
-          "type": "anvil",
-          "position": { "x": -21, "y": 0, "z": 28 }
-        },
-        {
-          "id": "altar_spawn",
-          "type": "altar",
-          "position": { "x": 0, "y": 0, "z": -25 }
-        },
-        {
-          "id": "range_spawn",
-          "type": "range",
-          "position": { "x": -26, "y": 0, "z": -4 }
-        }
-      ]
+      }
     }
   },
   "level1Areas": {
@@ -192,160 +216,5 @@
     }
   },
   "level2Areas": {},
-  "level3Areas": {},
-  "specialAreas": {
-    "duel_arena": {
-      "id": "duel_arena",
-      "name": "Duel Arena",
-      "description": "A grand arena where warriors settle disputes through honorable combat. Challenge other players to duels with agreed-upon rules and stakes.",
-      "difficultyLevel": 0,
-      "bounds": {
-        "minX": 50,
-        "maxX": 150,
-        "minZ": 50,
-        "maxZ": 150
-      },
-      "biomeType": "desert",
-      "safeZone": true,
-      "pvpEnabled": false,
-      "npcs": [
-        {
-          "id": "duel_arena_nurse",
-          "type": "healer",
-          "name": "Nurse Sarah",
-          "position": { "x": 55, "y": 0, "z": 55 },
-          "dialogue": {
-            "greeting": "Welcome to the Duel Arena hospital. Let me restore your health and prayer.",
-            "heal": "There you go, fully restored!"
-          }
-        },
-        {
-          "id": "duel_arena_scoreboard",
-          "type": "scoreboard",
-          "name": "Duel Scoreboard",
-          "position": { "x": 100, "y": 0, "z": 55 },
-          "dialogue": {
-            "greeting": "View the duel arena rankings and statistics."
-          }
-        },
-        {
-          "id": "duel_arena_guide",
-          "type": "guide",
-          "name": "Duel Master Marcus",
-          "position": { "x": 110, "y": 0, "z": 60 },
-          "dialogue": {
-            "greeting": "Welcome to the Duel Arena! Right-click another player and select 'Challenge to Duel' to begin. You can set rules and stake items before fighting."
-          }
-        }
-      ],
-      "resources": [],
-      "mobSpawns": [],
-      "stations": [
-        {
-          "id": "duel_arena_bank",
-          "type": "bank",
-          "position": { "x": 135, "y": 0, "z": 65 },
-          "bankId": "duel_arena_bank"
-        }
-      ],
-      "subZones": {
-        "lobby": {
-          "name": "Duel Arena Lobby",
-          "bounds": { "minX": 90, "maxX": 130, "minZ": 50, "maxZ": 75 },
-          "safeZone": true,
-          "spawnPoint": { "x": 105, "y": 0, "z": 60 }
-        },
-        "hospital": {
-          "name": "Duel Arena Hospital",
-          "bounds": { "minX": 50, "maxX": 80, "minZ": 50, "maxZ": 75 },
-          "safeZone": true,
-          "spawnPoint": { "x": 60, "y": 0, "z": 60 }
-        },
-        "arenas": {
-          "name": "Combat Arenas",
-          "bounds": { "minX": 60, "maxX": 140, "minZ": 80, "maxZ": 145 },
-          "safeZone": false,
-          "duelOnly": true,
-          "arenaCount": 6,
-          "arenaLayout": "2x3",
-          "arenaSize": { "width": 20, "length": 24 },
-          "arenaGap": 4
-        }
-      },
-      "flatZones": [
-        {
-          "id": "duel_arena_1",
-          "centerX": 70,
-          "centerZ": 92,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_2",
-          "centerX": 94,
-          "centerZ": 92,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_3",
-          "centerX": 70,
-          "centerZ": 120,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_4",
-          "centerX": 94,
-          "centerZ": 120,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_5",
-          "centerX": 70,
-          "centerZ": 148,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_6",
-          "centerX": 94,
-          "centerZ": 148,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_lobby",
-          "centerX": 105,
-          "centerZ": 62,
-          "width": 40,
-          "depth": 25,
-          "heightOffset": 0.4,
-          "blendRadius": 1.0
-        },
-        {
-          "id": "duel_arena_hospital",
-          "centerX": 65,
-          "centerZ": 62,
-          "width": 30,
-          "depth": 25,
-          "heightOffset": 0.4,
-          "blendRadius": 1.0
-        }
-      ]
-    }
-  }
+  "level3Areas": {}
 }

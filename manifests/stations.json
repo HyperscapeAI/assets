@@ -6,10 +6,7 @@
       "model": "asset://models/anvil/anvil.glb",
       "modelScale": 0.5,
       "modelYOffset": 0.2,
-      "examine": "An anvil for smithing metal bars into weapons and tools.",
-      "flattenGround": true,
-      "flattenPadding": 2.0,
-      "flattenBlendRadius": 2.0
+      "examine": "An anvil for smithing metal bars into weapons and tools."
     },
     {
       "type": "furnace",
@@ -17,43 +14,31 @@
       "model": "asset://models/furnace/furnace.glb",
       "modelScale": 1.5,
       "modelYOffset": 1.0,
-      "examine": "A furnace for smelting ores into metal bars.",
-      "flattenGround": true,
-      "flattenPadding": 2.5,
-      "flattenBlendRadius": 2.5
+      "examine": "A furnace for smelting ores into metal bars."
     },
     {
       "type": "range",
       "name": "Cooking Range",
-      "model": "asset://models/cooking-range/cooking-range.glb",
+      "model": null,
       "modelScale": 1.0,
-      "modelYOffset": 0.3,
-      "examine": "A range for cooking food. Reduces burn chance.",
-      "flattenGround": true,
-      "flattenPadding": 2.0,
-      "flattenBlendRadius": 2.0
+      "modelYOffset": 0,
+      "examine": "A range for cooking food. Reduces burn chance."
     },
     {
       "type": "bank",
-      "name": "Bank Chest",
-      "model": "asset://models/bank-chest/bank-chest.glb",
-      "modelScale": 0.5,
-      "modelYOffset": 0.10,
-      "examine": "A bank chest for storing items.",
-      "flattenGround": true,
-      "flattenPadding": 2.0,
-      "flattenBlendRadius": 2.0
+      "name": "Bank Booth",
+      "model": null,
+      "modelScale": 1.0,
+      "modelYOffset": 0,
+      "examine": "A bank booth for storing items."
     },
     {
       "type": "altar",
       "name": "Altar",
-      "model": "asset://models/prayer-alter/prayer-alter.glb",
+      "model": null,
       "modelScale": 1.0,
-      "modelYOffset": 0.25,
-      "examine": "An altar to the gods. Pray here to restore prayer points.",
-      "flattenGround": true,
-      "flattenPadding": 2.5,
-      "flattenBlendRadius": 2.5
+      "modelYOffset": 0,
+      "examine": "An altar to the gods. Pray here to restore prayer points."
     }
   ]
 }

@@ -105,6 +105,21 @@
     "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
+    "id": "burnt_tuna",
+    "name": "Burnt Tuna",
+    "type": "junk",
+    "stackable": false,
+    "value": 0,
+    "weight": 0.4,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
     "id": "burnt_lobster",
     "name": "Burnt Lobster",
     "type": "junk",

@@ -5,6 +5,12 @@
     "description": "Open grasslands with gentle rolling hills.",
     "difficultyLevel": 0,
     "terrain": "plains",
+    "grass": {
+      "enabled": true,
+      "densityMultiplier": 1.0,
+      "heightMultiplier": 1.0,
+      "windMultiplier": 1.0
+    },
     "resources": [
       "trees",
       "fishing_spots"
@@ -48,7 +54,7 @@
           "noiseThreshold": 0.4,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 6
+          "minHeight": 12
         },
         {
           "category": "bush",
@@ -60,7 +66,7 @@
           "noiseScale": 0.05,
           "noiseThreshold": 0.3,
           "avoidWater": true,
-          "minHeight": 6
+          "minHeight": 12
         },
         {
           "category": "grass",
@@ -72,7 +78,7 @@
           "noiseThreshold": 0.05,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 6
+          "minHeight": 10
         },
         {
           "category": "flower",
@@ -84,7 +90,7 @@
           "noiseScale": 0.08,
           "noiseThreshold": 0.5,
           "avoidWater": true,
-          "minHeight": 6
+          "minHeight": 8
         },
         {
           "category": "rock",
@@ -92,7 +98,7 @@
           "assets": ["pathway_rock_1", "pathway_rock_2", "round_rock_1", "round_rock_2"],
           "minSpacing": 15,
           "clustering": false,
-          "minHeight": 6,
+          "minHeight": 8,
           "noiseScale": 0.03,
           "noiseThreshold": 0.6,
           "avoidWater": true
@@ -107,7 +113,7 @@
           "noiseScale": 0.04,
           "noiseThreshold": 0.45,
           "avoidWater": true,
-          "minHeight": 6
+          "minHeight": 8
         }
       ]
     }
@@ -118,13 +124,18 @@
     "description": "Dense woodland areas with abundant trees.",
     "difficultyLevel": 1,
     "terrain": "forest",
+    "grass": {
+      "enabled": true,
+      "densityMultiplier": 0.6,
+      "heightMultiplier": 0.8,
+      "windMultiplier": 0.7
+    },
     "resources": [
       "trees",
       "fishing_spots"
     ],
     "mobs": [
-      "goblin",
-      "bandit"
+      "goblin"
     ],
     "fogIntensity": 0.4,
     "ambientSound": "forest_mysterious",
@@ -142,8 +153,7 @@
     "waterLevel": 0.0,
     "maxSlope": 0.8,
     "mobTypes": [
-      "goblin",
-      "bandit"
+      "goblin"
     ],
     "difficulty": 1,
     "baseHeight": 0.0,
@@ -158,16 +168,16 @@
       "layers": [
         {
           "category": "tree",
-          "density": 35,
+          "density": 10,
           "assets": ["tree1"],
-          "minSpacing": 6,
+          "minSpacing": 16,
           "clustering": true,
-          "clusterSize": 8,
+          "clusterSize": 4,
           "noiseScale": 0.015,
           "noiseThreshold": 0.2,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 6
+          "minHeight": 12
         },
         {
           "category": "rock",
@@ -189,7 +199,7 @@
           "noiseScale": 0.03,
           "noiseThreshold": 0.35,
           "avoidWater": true,
-          "minHeight": 6
+          "minHeight": 10
         }
       ]
     }
@@ -200,6 +210,12 @@
     "description": "Low-lying areas between hills and mountains.",
     "difficultyLevel": 0,
     "terrain": "plains",
+    "grass": {
+      "enabled": true,
+      "densityMultiplier": 1.2,
+      "heightMultiplier": 1.1,
+      "windMultiplier": 1.0
+    },
     "resources": [
       "trees",
       "fishing_spots"
@@ -234,16 +250,16 @@
       "layers": [
         {
           "category": "tree",
-          "density": 15,
+          "density": 5,
           "assets": ["tree1"],
-          "minSpacing": 10,
+          "minSpacing": 18,
           "clustering": true,
-          "clusterSize": 4,
+          "clusterSize": 3,
           "noiseScale": 0.025,
           "noiseThreshold": 0.35,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 6
+          "minHeight": 12
         },
         {
           "category": "bush",
@@ -287,7 +303,7 @@
           "noiseScale": 0.04,
           "noiseThreshold": 0.4,
           "avoidWater": true,
-          "minHeight": 6
+          "minHeight": 8
         }
       ]
     }
@@ -470,9 +486,7 @@
       "trees"
     ],
     "mobs": [
-      "goblin",
-      "bandit",
-      "barbarian"
+      "goblin"
     ],
     "fogIntensity": 0.3,
     "ambientSound": "wind_desolate",
@@ -490,9 +504,7 @@
     "waterLevel": 0.0,
     "maxSlope": 0.6,
     "mobTypes": [
-      "goblin",
-      "bandit",
-      "barbarian"
+      "goblin"
     ],
     "difficulty": 2,
     "baseHeight": 0.0,
@@ -615,12 +627,18 @@
     "description": "Murky wetlands with shallow water and twisted vegetation.",
     "difficultyLevel": 1,
     "terrain": "swamp",
+    "grass": {
+      "enabled": true,
+      "densityMultiplier": 0.4,
+      "heightMultiplier": 0.6,
+      "windMultiplier": 0.5
+    },
     "resources": [
       "trees",
       "fishing_spots"
     ],
     "mobs": [
-      "bandit"
+      "goblin"
     ],
     "fogIntensity": 0.7,
     "ambientSound": "swamp_ambient",
@@ -638,7 +656,7 @@
     "waterLevel": 0.0,
     "maxSlope": 0.5,
     "mobTypes": [
-      "bandit"
+      "goblin"
     ],
     "difficulty": 1,
     "baseHeight": 0.0,
@@ -653,11 +671,11 @@
       "layers": [
         {
           "category": "tree",
-          "density": 20,
+          "density": 6,
           "assets": ["tree1"],
-          "minSpacing": 8,
+          "minSpacing": 18,
           "clustering": true,
-          "clusterSize": 4,
+          "clusterSize": 3,
           "noiseScale": 0.02,
           "noiseThreshold": 0.3,
           "avoidWater": false,

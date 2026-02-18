@@ -1,0 +1,1415 @@
+{
+  "Tree_3_2": {
+    "assetId": "Tree_3_2",
+    "name": "Tree 3 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_2.glb",
+        "vertices": 9399,
+        "faces": 10404,
+        "fileSize": 8560604,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_2_lod1.glb",
+        "vertices": 4772,
+        "faces": 3120,
+        "fileSize": 8368896,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_2_lod2.glb",
+        "vertices": 2205,
+        "faces": 1039,
+        "fileSize": 8274256,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25203756,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:25.967Z"
+    }
+  },
+  "Tree_1_1": {
+    "assetId": "Tree_1_1",
+    "name": "Tree 1 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_1.glb",
+        "vertices": 22632,
+        "faces": 17178,
+        "fileSize": 9024728,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_1_lod1.glb",
+        "vertices": 10531,
+        "faces": 5152,
+        "fileSize": 8565380,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_1_lod2.glb",
+        "vertices": 3495,
+        "faces": 1717,
+        "fileSize": 8319612,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25909720,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:25.984Z"
+    }
+  },
+  "Tree_3_1": {
+    "assetId": "Tree_3_1",
+    "name": "Tree 3 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_1.glb",
+        "vertices": 10150,
+        "faces": 10522,
+        "fileSize": 8585224,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_1_lod1.glb",
+        "vertices": 5446,
+        "faces": 3156,
+        "fileSize": 8390556,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_3_1_lod2.glb",
+        "vertices": 2140,
+        "faces": 1052,
+        "fileSize": 8272132,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25247912,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.006Z"
+    }
+  },
+  "Tree_1_2": {
+    "assetId": "Tree_1_2",
+    "name": "Tree 1 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_2.glb",
+        "vertices": 19682,
+        "faces": 13632,
+        "fileSize": 8909052,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_2_lod1.glb",
+        "vertices": 8430,
+        "faces": 4089,
+        "fileSize": 8491768,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_2_lod2.glb",
+        "vertices": 2799,
+        "faces": 1363,
+        "fileSize": 8295212,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25696032,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.034Z"
+    }
+  },
+  "Tree_5_2": {
+    "assetId": "Tree_5_2",
+    "name": "Tree 5 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_2.glb",
+        "vertices": 7007,
+        "faces": 6892,
+        "fileSize": 8463008,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_2_lod1.glb",
+        "vertices": 3489,
+        "faces": 2067,
+        "fileSize": 8321524,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_2_lod2.glb",
+        "vertices": 1416,
+        "faces": 688,
+        "fileSize": 8246908,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25031440,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.057Z"
+    }
+  },
+  "Tree_1": {
+    "assetId": "Tree_1",
+    "name": "Tree 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1.glb",
+        "vertices": 1923,
+        "faces": 778,
+        "fileSize": 943564,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_lod1.glb",
+        "vertices": 695,
+        "faces": 233,
+        "fileSize": 901032,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_1_lod2.glb",
+        "vertices": 231,
+        "faces": 77,
+        "fileSize": 885244,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 2729840,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.074Z"
+    }
+  },
+  "jungle_tree_1": {
+    "assetId": "jungle_tree_1",
+    "name": "jungle tree 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_1.glb",
+        "vertices": 2550,
+        "faces": 2292,
+        "fileSize": 9090184,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_1_lod1.glb",
+        "vertices": 944,
+        "faces": 686,
+        "fileSize": 9029160,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_1_lod2.glb",
+        "vertices": 453,
+        "faces": 229,
+        "fileSize": 9010704,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 27130048,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.351Z"
+    }
+  },
+  "jungle_tree_3": {
+    "assetId": "jungle_tree_3",
+    "name": "jungle tree 3",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_3.glb",
+        "vertices": 2550,
+        "faces": 2292,
+        "fileSize": 9090188,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_3_lod1.glb",
+        "vertices": 958,
+        "faces": 687,
+        "fileSize": 9029612,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_3_lod2.glb",
+        "vertices": 465,
+        "faces": 229,
+        "fileSize": 9011088,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 27130888,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.382Z"
+    }
+  },
+  "Tree_5_1": {
+    "assetId": "Tree_5_1",
+    "name": "Tree 5 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_1.glb",
+        "vertices": 6338,
+        "faces": 6510,
+        "fileSize": 8439232,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_1_lod1.glb",
+        "vertices": 2996,
+        "faces": 1952,
+        "fileSize": 8305000,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_5_1_lod2.glb",
+        "vertices": 1328,
+        "faces": 650,
+        "fileSize": 8243804,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 24988036,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.117Z"
+    }
+  },
+  "garden-trees": {
+    "assetId": "garden-trees",
+    "name": "garden-trees",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/garden-trees.glb",
+        "vertices": 164221,
+        "faces": 149264,
+        "fileSize": 35794052,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/garden-trees_lod1.glb",
+        "vertices": 81561,
+        "faces": 44768,
+        "fileSize": 32522012,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/garden-trees_lod2.glb",
+        "vertices": 30303,
+        "faces": 15148,
+        "fileSize": 30703984,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 99020048,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.154Z"
+    }
+  },
+  "garden-trees_compressed": {
+    "assetId": "garden-trees_compressed",
+    "name": "garden-trees compressed",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/garden-trees_compressed.glb",
+        "vertices": 164221,
+        "faces": 149264,
+        "fileSize": 4965436,
+        "distanceThreshold": 0,
+        "method": "original"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 4965436,
+      "isComplete": false,
+      "missingLevels": [
+        "lod1",
+        "lod2",
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.159Z"
+    }
+  },
+  "jungle_tree_2": {
+    "assetId": "jungle_tree_2",
+    "name": "jungle tree 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_2.glb",
+        "vertices": 1613,
+        "faces": 1449,
+        "fileSize": 9055144,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_2_lod1.glb",
+        "vertices": 608,
+        "faces": 433,
+        "fileSize": 9016888,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/jungle_tree_2_lod2.glb",
+        "vertices": 284,
+        "faces": 144,
+        "fileSize": 9004776,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 27076808,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.401Z"
+    }
+  },
+  "Tree_2_1": {
+    "assetId": "Tree_2_1",
+    "name": "Tree 2 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_1.glb",
+        "vertices": 16933,
+        "faces": 16830,
+        "fileSize": 8840192,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_1_lod1.glb",
+        "vertices": 8139,
+        "faces": 5047,
+        "fileSize": 8488124,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_1_lod2.glb",
+        "vertices": 3403,
+        "faces": 1682,
+        "fileSize": 8316396,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25644712,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.176Z"
+    }
+  },
+  "Tree_2_2": {
+    "assetId": "Tree_2_2",
+    "name": "Tree 2 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_2.glb",
+        "vertices": 16743,
+        "faces": 15406,
+        "fileSize": 8825624,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_2_lod1.glb",
+        "vertices": 8587,
+        "faces": 4620,
+        "fileSize": 8499976,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_2_2_lod2.glb",
+        "vertices": 3113,
+        "faces": 1540,
+        "fileSize": 8306320,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25631920,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.196Z"
+    }
+  },
+  "Tree_4_1": {
+    "assetId": "Tree_4_1",
+    "name": "Tree 4 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_1.glb",
+        "vertices": 20075,
+        "faces": 15382,
+        "fileSize": 8931984,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_1_lod1.glb",
+        "vertices": 10864,
+        "faces": 4614,
+        "fileSize": 8572688,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_1_lod2.glb",
+        "vertices": 4299,
+        "faces": 1537,
+        "fileSize": 8344140,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25848812,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.211Z"
+    }
+  },
+  "Tree_6_2": {
+    "assetId": "Tree_6_2",
+    "name": "Tree 6 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_2.glb",
+        "vertices": 7648,
+        "faces": 6908,
+        "fileSize": 8483616,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_2_lod1.glb",
+        "vertices": 3209,
+        "faces": 2072,
+        "fileSize": 8312592,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_2_lod2.glb",
+        "vertices": 591,
+        "faces": 805,
+        "fileSize": 8221204,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25017412,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.227Z"
+    }
+  },
+  "Tree_4_2": {
+    "assetId": "Tree_4_2",
+    "name": "Tree 4 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_2.glb",
+        "vertices": 28119,
+        "faces": 18824,
+        "fileSize": 9210192,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_2_lod1.glb",
+        "vertices": 11874,
+        "faces": 5646,
+        "fileSize": 8611324,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_2_lod2.glb",
+        "vertices": 5255,
+        "faces": 1881,
+        "fileSize": 8376920,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 26198436,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.239Z"
+    }
+  },
+  "Tree_4_3": {
+    "assetId": "Tree_4_3",
+    "name": "Tree 4 3",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_3.glb",
+        "vertices": 26535,
+        "faces": 18974,
+        "fileSize": 9160400,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_3_lod1.glb",
+        "vertices": 11887,
+        "faces": 5691,
+        "fileSize": 8612012,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_4_3_lod2.glb",
+        "vertices": 3487,
+        "faces": 1897,
+        "fileSize": 8320436,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 26092848,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.255Z"
+    }
+  },
+  "Tree_6_1": {
+    "assetId": "Tree_6_1",
+    "name": "Tree 6 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_1.glb",
+        "vertices": 8747,
+        "faces": 7764,
+        "fileSize": 8523920,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_1_lod1.glb",
+        "vertices": 3552,
+        "faces": 2329,
+        "fileSize": 8325108,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Tree_6_1_lod2.glb",
+        "vertices": 658,
+        "faces": 891,
+        "fileSize": 8223860,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 25072888,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.301Z"
+    }
+  },
+  "Bush_1": {
+    "assetId": "Bush_1",
+    "name": "Bush 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Bush_1.glb",
+        "vertices": 4188,
+        "faces": 1396,
+        "fileSize": 1637728,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Bush_1_lod1.glb",
+        "vertices": 1254,
+        "faces": 418,
+        "fileSize": 1538008,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/garden-trees/Bush_1_lod2.glb",
+        "vertices": 417,
+        "faces": 139,
+        "fileSize": 1509544,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 4685280,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.316Z"
+    }
+  },
+  "tree_large": {
+    "assetId": "tree_large",
+    "name": "tree large",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_large.glb",
+        "vertices": 3156,
+        "faces": 1576,
+        "fileSize": 1184804,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_large_lod1.glb",
+        "vertices": 944,
+        "faces": 472,
+        "fileSize": 1089688,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_large_lod2.glb",
+        "vertices": 315,
+        "faces": 157,
+        "fileSize": 1062636,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 3337128,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.319Z"
+    }
+  },
+  "tree_small": {
+    "assetId": "tree_small",
+    "name": "tree small",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_small.glb",
+        "vertices": 1710,
+        "faces": 852,
+        "fileSize": 1122620,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_small_lod1.glb",
+        "vertices": 511,
+        "faces": 255,
+        "fileSize": 1071064,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_small_lod2.glb",
+        "vertices": 171,
+        "faces": 85,
+        "fileSize": 1056440,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 3250124,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.325Z"
+    }
+  },
+  "palm_tree_2": {
+    "assetId": "palm_tree_2",
+    "name": "palm tree 2",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_2.glb",
+        "vertices": 242,
+        "faces": 182,
+        "fileSize": 1557816,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_2_lod1.glb",
+        "vertices": 150,
+        "faces": 75,
+        "fileSize": 1554212,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_2_lod2.glb",
+        "vertices": 150,
+        "faces": 75,
+        "fileSize": 1554212,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 4666240,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.415Z"
+    }
+  },
+  "palm_tree_3": {
+    "assetId": "palm_tree_3",
+    "name": "palm tree 3",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_3.glb",
+        "vertices": 242,
+        "faces": 182,
+        "fileSize": 1557816,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_3_lod1.glb",
+        "vertices": 146,
+        "faces": 75,
+        "fileSize": 1554084,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_3_lod2.glb",
+        "vertices": 146,
+        "faces": 75,
+        "fileSize": 1554084,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 4665984,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.427Z"
+    }
+  },
+  "palm_tree_1": {
+    "assetId": "palm_tree_1",
+    "name": "palm tree 1",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_1.glb",
+        "vertices": 242,
+        "faces": 182,
+        "fileSize": 1557816,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_1_lod1.glb",
+        "vertices": 148,
+        "faces": 75,
+        "fileSize": 1554148,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/palm_tree_1_lod2.glb",
+        "vertices": 148,
+        "faces": 75,
+        "fileSize": 1554148,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 4666112,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.432Z"
+    }
+  },
+  "tree_medium": {
+    "assetId": "tree_medium",
+    "name": "tree medium",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_medium.glb",
+        "vertices": 2298,
+        "faces": 1146,
+        "fileSize": 1147888,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_medium_lod1.glb",
+        "vertices": 687,
+        "faces": 343,
+        "fileSize": 1078624,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/vegetation/jungle-trees/tree_medium_lod2.glb",
+        "vertices": 228,
+        "faces": 114,
+        "fileSize": 1058880,
+        "distanceThreshold": 150,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 3285392,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.437Z"
+    }
+  },
+  "mushroom": {
+    "assetId": "mushroom",
+    "name": "mushroom",
+    "category": "tree",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/assets/trees/backups/mushroom.glb",
+        "vertices": 10966,
+        "faces": 20052,
+        "fileSize": 96472,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/assets/trees/backups/mushroom_lod1.glb",
+        "vertices": 0,
+        "faces": 0,
+        "fileSize": 3200,
+        "distanceThreshold": 80,
+        "targetPercent": 30,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 99672,
+      "isComplete": false,
+      "missingLevels": [
+        "lod2",
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-27T05:35:26.447Z"
+    }
+  },
+  "copper-rock": {
+    "assetId": "copper-rock",
+    "name": "Copper Rock",
+    "category": "rock_resource",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock.glb",
+        "vertices": 2483,
+        "faces": 3211,
+        "fileSize": 149888,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock_lod1.glb",
+        "vertices": 1084,
+        "faces": 962,
+        "fileSize": 54884,
+        "distanceThreshold": 50,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock_lod2.glb",
+        "vertices": 440,
+        "faces": 320,
+        "fileSize": 22684,
+        "distanceThreshold": 100,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 227456,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-30T22:50:21.828Z"
+    }
+  },
+  "copper-rock-depleted": {
+    "assetId": "copper-rock-depleted",
+    "name": "Copper Rock Depleted",
+    "category": "rock_resource",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock-depleted.glb",
+        "vertices": 2025,
+        "faces": 2736,
+        "fileSize": 124052,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock-depleted_lod1.glb",
+        "vertices": 896,
+        "faces": 820,
+        "fileSize": 45752,
+        "distanceThreshold": 50,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/copper-rock/copper-rock-depleted_lod2.glb",
+        "vertices": 358,
+        "faces": 272,
+        "fileSize": 18792,
+        "distanceThreshold": 100,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 188596,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-30T22:50:21.833Z"
+    }
+  },
+  "mithril-rock": {
+    "assetId": "mithril-rock",
+    "name": "Mithril Rock",
+    "category": "rock_resource",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/mithril-rock/mithril-rock.glb",
+        "vertices": 2483,
+        "faces": 3211,
+        "fileSize": 149880,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/mithril-rock/mithril-rock_lod1.glb",
+        "vertices": 1084,
+        "faces": 962,
+        "fileSize": 54884,
+        "distanceThreshold": 50,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/mithril-rock/mithril-rock_lod2.glb",
+        "vertices": 440,
+        "faces": 320,
+        "fileSize": 22684,
+        "distanceThreshold": 100,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 227448,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-30T22:50:21.833Z"
+    }
+  },
+  "runite-rock": {
+    "assetId": "runite-rock",
+    "name": "Runite Rock",
+    "category": "rock_resource",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock.glb",
+        "vertices": 2483,
+        "faces": 3211,
+        "fileSize": 149888,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock_lod1.glb",
+        "vertices": 1084,
+        "faces": 962,
+        "fileSize": 54884,
+        "distanceThreshold": 50,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock_lod2.glb",
+        "vertices": 440,
+        "faces": 320,
+        "fileSize": 22684,
+        "distanceThreshold": 100,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 227456,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-30T22:50:21.833Z"
+    }
+  },
+  "runite-rock-depleted": {
+    "assetId": "runite-rock-depleted",
+    "name": "Runite Rock Depleted",
+    "category": "rock_resource",
+    "variants": [
+      {
+        "level": "lod0",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock-depleted.glb",
+        "vertices": 2025,
+        "faces": 2736,
+        "fileSize": 124076,
+        "distanceThreshold": 0,
+        "method": "original"
+      },
+      {
+        "level": "lod1",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock-depleted_lod1.glb",
+        "vertices": 896,
+        "faces": 820,
+        "fileSize": 45752,
+        "distanceThreshold": 50,
+        "targetPercent": 30,
+        "method": "decimated"
+      },
+      {
+        "level": "lod2",
+        "modelPath": "/Users/shawwalters/hyperscape2/packages/server/world/assets/models/runite-rock/runite-rock-depleted_lod2.glb",
+        "vertices": 358,
+        "faces": 272,
+        "fileSize": 18792,
+        "distanceThreshold": 100,
+        "targetPercent": 10,
+        "method": "decimated"
+      }
+    ],
+    "settings": {},
+    "metadata": {
+      "totalSize": 188620,
+      "isComplete": false,
+      "missingLevels": [
+        "imposter"
+      ],
+      "lastUpdated": "2026-01-30T22:50:21.833Z"
+    }
+  }
+}

@@ -163,6 +163,66 @@
       "xp": 150,
       "ticks": 4,
       "category": "pickaxe"
+    },
+    {
+      "output": "bronze_arrowtips",
+      "bar": "bronze_bar",
+      "barsRequired": 1,
+      "level": 1,
+      "xp": 12.5,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
+    },
+    {
+      "output": "iron_arrowtips",
+      "bar": "iron_bar",
+      "barsRequired": 1,
+      "level": 15,
+      "xp": 25,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
+    },
+    {
+      "output": "steel_arrowtips",
+      "bar": "steel_bar",
+      "barsRequired": 1,
+      "level": 30,
+      "xp": 37.5,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
+    },
+    {
+      "output": "mithril_arrowtips",
+      "bar": "mithril_bar",
+      "barsRequired": 1,
+      "level": 45,
+      "xp": 50,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
+    },
+    {
+      "output": "adamant_arrowtips",
+      "bar": "adamant_bar",
+      "barsRequired": 1,
+      "level": 75,
+      "xp": 62.5,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
+    },
+    {
+      "output": "rune_arrowtips",
+      "bar": "rune_bar",
+      "barsRequired": 1,
+      "level": 90,
+      "xp": 75,
+      "ticks": 4,
+      "category": "arrowtips",
+      "outputQuantity": 15
     }
   ]
 }

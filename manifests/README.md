@@ -845,7 +845,7 @@ interface NPCData {
         { "id": "farewell", "text": "Take care, adventurer!" }
       ]
     },
-    "appearance": { "modelPath": "asset://avatars/avatar-male-01.vrm", "scale": 1.0 }
+    "appearance": { "modelPath": "asset://avatars/avatar-male-01_optimized.vrm", "scale": 1.0 }
   }
 ]
 ```

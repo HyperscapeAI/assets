@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "distances": {
+    "lod0ToLod1": 50,
+    "lod1ToLod2": 150,
+    "lod2ToCull": 400
+  },
+  "dissolve": {
+    "enabled": true,
+    "range": 10,
+    "noiseScale": 0.05
+  },
+  "vertexBudgets": {
+    "tree": {
+      "lod0": 8000,
+      "lod1": 2000,
+      "lod2": 500
+    },
+    "bush": {
+      "lod0": 2000,
+      "lod1": 500,
+      "lod2": 150
+    },
+    "rock": {
+      "lod0": 3000,
+      "lod1": 800,
+      "lod2": 200
+    },
+    "grass": {
+      "lod0": 100,
+      "lod1": 50,
+      "lod2": 20
+    },
+    "building": {
+      "lod0": 15000,
+      "lod1": 5000,
+      "lod2": 1500
+    }
+  },
+  "imposter": {
+    "enabled": true,
+    "categories": ["tree", "bush"],
+    "startDistance": 200,
+    "atlasResolution": 2048,
+    "frameCount": 16,
+    "hemisphereFrames": 4
+  },
+  "batching": {
+    "enabled": true,
+    "maxBatchSize": 1000,
+    "staticBatchRadius": 100
+  }
+}

@@ -66,66 +66,6 @@
         "strengthMultiplier": 1.10
       },
       "conflicts": ["burst_of_strength", "ultimate_strength", "chivalry", "piety"]
-    },
-
-    {
-      "_comment": "=== RANGED PRAYERS ===",
-      "id": "sharp_eye",
-      "name": "Sharp Eye",
-      "description": "Increases your Ranged by 5%",
-      "icon": "prayer_sharp_eye",
-      "level": 8,
-      "category": "offensive",
-      "drainEffect": 1,
-      "bonuses": {
-        "rangedAttackMultiplier": 1.05,
-        "rangedStrengthMultiplier": 1.05
-      },
-      "conflicts": ["hawk_eye", "eagle_eye", "rigour"]
-    },
-    {
-      "id": "hawk_eye",
-      "name": "Hawk Eye",
-      "description": "Increases your Ranged by 10%",
-      "icon": "prayer_hawk_eye",
-      "level": 26,
-      "category": "offensive",
-      "drainEffect": 6,
-      "bonuses": {
-        "rangedAttackMultiplier": 1.10,
-        "rangedStrengthMultiplier": 1.10
-      },
-      "conflicts": ["sharp_eye", "eagle_eye", "rigour"]
-    },
-
-    {
-      "_comment": "=== MAGIC PRAYERS ===",
-      "id": "mystic_will",
-      "name": "Mystic Will",
-      "description": "Increases your Magic attack and defence by 5%",
-      "icon": "prayer_mystic_will",
-      "level": 9,
-      "category": "offensive",
-      "drainEffect": 1,
-      "bonuses": {
-        "magicAttackMultiplier": 1.05,
-        "magicDefenseMultiplier": 1.05
-      },
-      "conflicts": ["mystic_lore", "mystic_might", "augury"]
-    },
-    {
-      "id": "mystic_lore",
-      "name": "Mystic Lore",
-      "description": "Increases your Magic attack and defence by 10%",
-      "icon": "prayer_mystic_lore",
-      "level": 27,
-      "category": "offensive",
-      "drainEffect": 6,
-      "bonuses": {
-        "magicAttackMultiplier": 1.10,
-        "magicDefenseMultiplier": 1.10
-      },
-      "conflicts": ["mystic_will", "mystic_might", "augury"]
     }
   ]
 }

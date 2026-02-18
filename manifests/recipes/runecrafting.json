@@ -1,0 +1,52 @@
+{
+  "recipes": [
+    {
+      "runeType": "air",
+      "runeItemId": "air_rune",
+      "levelRequired": 1,
+      "xpPerEssence": 5.0,
+      "essenceTypes": ["rune_essence", "pure_essence"],
+      "multiRuneLevels": [11, 22, 33, 44, 55, 66, 77, 88, 99]
+    },
+    {
+      "runeType": "mind",
+      "runeItemId": "mind_rune",
+      "levelRequired": 2,
+      "xpPerEssence": 5.5,
+      "essenceTypes": ["rune_essence", "pure_essence"],
+      "multiRuneLevels": [14, 28, 42, 56, 70, 84, 98]
+    },
+    {
+      "runeType": "water",
+      "runeItemId": "water_rune",
+      "levelRequired": 5,
+      "xpPerEssence": 6.0,
+      "essenceTypes": ["rune_essence", "pure_essence"],
+      "multiRuneLevels": [19, 38, 57, 76, 95]
+    },
+    {
+      "runeType": "earth",
+      "runeItemId": "earth_rune",
+      "levelRequired": 9,
+      "xpPerEssence": 6.5,
+      "essenceTypes": ["rune_essence", "pure_essence"],
+      "multiRuneLevels": [26, 52, 78]
+    },
+    {
+      "runeType": "fire",
+      "runeItemId": "fire_rune",
+      "levelRequired": 14,
+      "xpPerEssence": 7.0,
+      "essenceTypes": ["rune_essence", "pure_essence"],
+      "multiRuneLevels": [35, 70, 95]
+    },
+    {
+      "runeType": "chaos",
+      "runeItemId": "chaos_rune",
+      "levelRequired": 35,
+      "xpPerEssence": 8.5,
+      "essenceTypes": ["pure_essence"],
+      "multiRuneLevels": [74]
+    }
+  ]
+}

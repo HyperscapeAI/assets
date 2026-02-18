@@ -553,38 +553,6 @@
         "description": "Rune bar",
         "type": "item"
       }
-    ],
-    "agility": [
-      {
-        "level": 1,
-        "description": "Stamina regeneration scales with level (+1% per level)",
-        "type": "ability"
-      },
-      {
-        "level": 10,
-        "description": "Stamina regen now +10% faster",
-        "type": "ability"
-      },
-      {
-        "level": 25,
-        "description": "Stamina regen now +25% faster",
-        "type": "ability"
-      },
-      {
-        "level": 50,
-        "description": "Stamina regen now +50% faster",
-        "type": "ability"
-      },
-      {
-        "level": 75,
-        "description": "Stamina regen now +75% faster",
-        "type": "ability"
-      },
-      {
-        "level": 99,
-        "description": "Agility mastered! Stamina regen +99% faster",
-        "type": "item"
-      }
     ]
   }
 }
