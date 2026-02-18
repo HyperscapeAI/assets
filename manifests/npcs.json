@@ -271,7 +271,11 @@
       "modelPath": "asset://models/npcs/banker/banker.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "shopkeeper",
@@ -325,7 +329,11 @@
       "modelPath": "asset://models/npcs/shopkeeper/shopkeeper.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "captain_rowan",
@@ -425,7 +433,11 @@
       "modelPath": "asset://models/npcs/captain-rowan/captain-rowan.vrm",
       "iconPath": "asset://icons/npcs/captain.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "forester_wilma",
@@ -517,7 +529,11 @@
       "modelPath": "asset://models/npcs/forester-wilma/forester-wilma.vrm",
       "iconPath": "asset://icons/npcs/forester.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "fisherman_pete",
@@ -624,7 +640,11 @@
       "modelPath": "asset://models/npcs/fisherman-pete/fisherman-pete.vrm",
       "iconPath": "asset://icons/npcs/fisherman.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "torvin",
@@ -731,7 +751,11 @@
       "modelPath": "asset://models/npcs/torvin/torvin.vrm",
       "iconPath": "asset://icons/npcs/smith.png",
       "scale": 0.9
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "tanner",
@@ -779,7 +803,11 @@
       "modelPath": "asset://models/npcs/tanner-ellis/tanner-ellis.vrm",
       "iconPath": "asset://icons/npcs/tanner.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "cow",
@@ -840,6 +868,10 @@
     "spawnBiomes": [
       "plains",
       "forest"
+    ],
+    "levelRange": [
+      1,
+      3
     ]
   },
   {
@@ -947,6 +979,10 @@
     "spawnBiomes": [
       "plains",
       "forest"
+    ],
+    "levelRange": [
+      5,
+      10
     ]
   },
   {
@@ -1040,6 +1076,10 @@
     "spawnBiomes": [
       "plains",
       "forest"
+    ],
+    "levelRange": [
+      8,
+      15
     ]
   },
   {
@@ -1094,7 +1134,11 @@
       "modelPath": "asset://models/npcs/Zamorin/Zamorin.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "bowyer",
@@ -1148,7 +1192,11 @@
       "modelPath": "asset://models/npcs/Lowe/Lowe.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "armorer",
@@ -1202,7 +1250,11 @@
       "modelPath": "asset://models/npcs/horvik/Horvik.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "crafting_supplier",
@@ -1256,7 +1308,11 @@
       "modelPath": "asset://models/npcs/dommik/Dommik.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
-    }
+    },
+    "levelRange": [
+      1,
+      1
+    ]
   },
   {
     "id": "guard",
@@ -1362,6 +1418,10 @@
     "spawnBiomes": [
       "plains",
       "forest"
+    ],
+    "levelRange": [
+      15,
+      25
     ]
   }
 ]
