@@ -329,145 +329,144 @@
           "fishing_spot_cage",
           "fishing_spot_harpoon"
         ]
-      }
-    },
-    "stations": [
-      {
-        "id": "bank_spawn",
-        "type": "bank",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+      },
+      "stations": [
+        {
+          "id": "bank_spawn",
+          "type": "bank",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "bankId": "spawn_bank"
         },
-        "bankId": "spawn_bank"
-      },
-      {
-        "id": "furnace_spawn",
-        "type": "furnace",
-        "position": {
-          "x": -24,
-          "y": 0,
-          "z": 28
+        {
+          "id": "furnace_spawn",
+          "type": "furnace",
+          "position": {
+            "x": -24,
+            "y": 0,
+            "z": 28
+          }
+        },
+        {
+          "id": "anvil_spawn",
+          "type": "anvil",
+          "position": {
+            "x": -21,
+            "y": 0,
+            "z": 28
+          }
+        },
+        {
+          "id": "altar_spawn",
+          "type": "altar",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -25
+          }
+        },
+        {
+          "id": "range_spawn",
+          "type": "range",
+          "position": {
+            "x": -26,
+            "y": 0,
+            "z": -4
+          }
+        },
+        {
+          "id": "air_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "air",
+          "position": {
+            "x": 35,
+            "y": 0,
+            "z": -53
+          }
+        },
+        {
+          "id": "mind_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "mind",
+          "position": {
+            "x": 42,
+            "y": 0,
+            "z": -49
+          }
+        },
+        {
+          "id": "water_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "water",
+          "position": {
+            "x": 42,
+            "y": 0,
+            "z": -41
+          }
+        },
+        {
+          "id": "earth_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "earth",
+          "position": {
+            "x": 35,
+            "y": 0,
+            "z": -37
+          }
+        },
+        {
+          "id": "fire_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "fire",
+          "position": {
+            "x": 28,
+            "y": 0,
+            "z": -41
+          }
+        },
+        {
+          "id": "chaos_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "chaos",
+          "position": {
+            "x": 28,
+            "y": 0,
+            "z": -49
+          }
         }
-      },
-      {
-        "id": "anvil_spawn",
-        "type": "anvil",
-        "position": {
-          "x": -21,
-          "y": 0,
-          "z": 28
-        }
-      },
-      {
-        "id": "altar_spawn",
-        "type": "altar",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": -25
-        }
-      },
-      {
-        "id": "range_spawn",
-        "type": "range",
-        "position": {
-          "x": -26,
-          "y": 0,
-          "z": -4
-        }
-      },
-      {
-        "id": "air_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "air",
-        "position": {
-          "x": 35,
-          "y": 0,
-          "z": -53
-        }
-      },
-      {
-        "id": "mind_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "mind",
-        "position": {
-          "x": 42,
-          "y": 0,
-          "z": -49
-        }
-      },
-      {
-        "id": "water_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "water",
-        "position": {
-          "x": 42,
-          "y": 0,
-          "z": -41
-        }
-      },
-      {
-        "id": "earth_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "earth",
-        "position": {
-          "x": 35,
-          "y": 0,
-          "z": -37
-        }
-      },
-      {
-        "id": "fire_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "fire",
-        "position": {
-          "x": 28,
-          "y": 0,
-          "z": -41
-        }
-      },
-      {
-        "id": "chaos_altar_spawn",
-        "type": "runecrafting_altar",
-        "runeType": "chaos",
-        "position": {
-          "x": 28,
-          "y": 0,
-          "z": -49
-        }
-      }
-    ]
+      ]
     }
   },
   "level1Areas": {
     "wilderness_test": {
-    "id": "wilderness_test",
-    "name": "The Wastes",
-    "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
-    "difficultyLevel": 1,
-    "bounds": {
-      "minX": 200,
-      "maxX": 300,
-      "minZ": -50,
-      "maxZ": 50
-    },
-    "biomeType": "wastes",
-    "safeZone": false,
-    "pvpEnabled": true,
-    "npcs": [],
-    "resources": [],
-    "mobSpawns": [],
-    "fishing": {
-      "enabled": true,
-      "spotCount": 2,
-      "spotTypes": [
-        "fishing_spot_fly"
-      ]
+      "id": "wilderness_test",
+      "name": "The Wastes",
+      "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
+      "difficultyLevel": 1,
+      "bounds": {
+        "minX": 200,
+        "maxX": 300,
+        "minZ": -50,
+        "maxZ": 50
+      },
+      "biomeType": "wastes",
+      "safeZone": false,
+      "pvpEnabled": true,
+      "npcs": [],
+      "resources": [],
+      "mobSpawns": [],
+      "fishing": {
+        "enabled": true,
+        "spotCount": 2,
+        "spotTypes": [
+          "fishing_spot_fly"
+        ]
+      }
     }
-  }
-},
-"level2Areas": {},
-"level3Areas": {}
+  },
+  "level2Areas": {},
+  "level3Areas": {}
 }
