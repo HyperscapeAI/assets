@@ -354,6 +354,179 @@
       "xp": {}
     }
   },
+  "roads_run_red": {
+    "id": "roads_run_red",
+    "name": "Roads Run Red",
+    "description": "Bandits are attacking merchant caravans on the north road — and Captain Rowan suspects someone is organising them.",
+    "difficulty": "intermediate",
+    "questPoints": 1,
+    "replayable": false,
+    "requirements": {
+      "quests": ["goblin_slayer"],
+      "skills": {},
+      "items": []
+    },
+    "startNpc": "captain_rowan",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Captain Rowan",
+        "npcId": "captain_rowan"
+      },
+      {
+        "id": "kill_bandits",
+        "type": "kill",
+        "description": "Eliminate 15 bandits on the north road and search their camp for clues",
+        "target": "bandit",
+        "count": 15
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Captain Rowan with your findings",
+        "npcId": "captain_rowan"
+      }
+    ],
+    "onStart": {
+      "items": [
+        { "itemId": "iron_shortsword", "quantity": 1 }
+      ],
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 1,
+      "items": [
+        { "itemId": "iron_kiteshield", "quantity": 1 },
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": { "attack": 200, "strength": 150 }
+    }
+  },
+  "iron_will": {
+    "id": "iron_will",
+    "name": "Iron Will",
+    "description": "Torvin believes bronze won't hold against the clan warriors. He wants you armed in iron — and he wants to see it tested on the outriders threatening the south road.",
+    "difficulty": "intermediate",
+    "questPoints": 1,
+    "replayable": false,
+    "requirements": {
+      "quests": ["roads_run_red"],
+      "skills": { "smithing": 15 },
+      "items": []
+    },
+    "startNpc": "torvin",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Torvin — Rowan sent you",
+        "npcId": "torvin"
+      },
+      {
+        "id": "mine_iron",
+        "type": "gather",
+        "description": "Mine 8 iron ore — it's the only metal worth bringing against clan warriors",
+        "target": "iron_ore",
+        "count": 8
+      },
+      {
+        "id": "smelt_iron",
+        "type": "interact",
+        "description": "Smelt 3 iron bars at the furnace",
+        "target": "iron_bar",
+        "count": 3
+      },
+      {
+        "id": "smith_scimitar",
+        "type": "interact",
+        "description": "Forge your iron scimitar at Torvin's anvil",
+        "target": "iron_scimitar",
+        "count": 1
+      },
+      {
+        "id": "kill_outriders",
+        "type": "kill",
+        "description": "Test your blade on the 8 barbarian outriders threatening the south road",
+        "target": "barbarian",
+        "count": 8
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Torvin with news from the south road",
+        "npcId": "torvin"
+      }
+    ],
+    "onStart": {
+      "items": [
+        { "itemId": "hammer", "quantity": 1 }
+      ],
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 1,
+      "items": [
+        { "itemId": "iron_platelegs", "quantity": 1 },
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": { "mining": 200, "smithing": 300, "strength": 200 }
+    }
+  },
+  "warchiefs_fury": {
+    "id": "warchiefs_fury",
+    "name": "Warchief's Fury",
+    "description": "The outriders were scouts. Grundar has united four barbarian clans and is two days from launching a full raid on the town. Horvik needs someone to end it.",
+    "difficulty": "experienced",
+    "questPoints": 2,
+    "replayable": false,
+    "requirements": {
+      "quests": ["iron_will"],
+      "skills": { "attack": 10 },
+      "items": []
+    },
+    "startNpc": "armorer",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Horvik — Torvin sent you",
+        "npcId": "armorer"
+      },
+      {
+        "id": "kill_warcamp",
+        "type": "kill",
+        "description": "Fight through Grundar's war camp — cut down 15 of his warriors to reach him",
+        "target": "barbarian",
+        "count": 15
+      },
+      {
+        "id": "kill_warchief",
+        "type": "kill",
+        "description": "Defeat Grundar the Warchief before the raid launches",
+        "target": "barbarian_warchief",
+        "count": 1
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Horvik",
+        "npcId": "armorer"
+      }
+    ],
+    "onStart": {
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 2,
+      "items": [
+        { "itemId": "steel_scimitar", "quantity": 1 },
+        { "itemId": "steel_kiteshield", "quantity": 1 },
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": { "attack": 500, "strength": 300, "defense": 200 }
+    }
+  },
   "fletchers_introduction": {
     "id": "fletchers_introduction",
     "name": "Fletcher's Introduction",
@@ -405,8 +578,8 @@
     "onStart": {
       "items": [
         { "itemId": "knife", "quantity": 1 },
-        { "itemId": "logs", "quantity": 2 },
-        { "itemId": "feather", "quantity": 15 },
+        { "itemId": "logs", "quantity": 3 },
+        { "itemId": "feathers", "quantity": 15 },
         { "itemId": "bowstring", "quantity": 1 }
       ],
       "dialogue": "quest_accepted"
