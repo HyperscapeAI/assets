@@ -1597,15 +1597,7 @@
         "itemId": "bones",
         "quantity": 1
       },
-      "always": [
-        {
-          "itemId": "grundars_waraxe",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 1.0,
-          "rarity": "unique"
-        }
-      ],
+      "always": [],
       "common": [
         {
           "itemId": "coins",
