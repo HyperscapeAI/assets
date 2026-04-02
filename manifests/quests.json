@@ -35,14 +35,20 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "bronze_shortsword", "quantity": 1 }
+        {
+          "itemId": "bronze_shortsword",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -90,15 +96,24 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "bronze_hatchet", "quantity": 1 },
-        { "itemId": "tinderbox", "quantity": 1 }
+        {
+          "itemId": "bronze_hatchet",
+          "quantity": 1
+        },
+        {
+          "itemId": "tinderbox",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -146,14 +161,20 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "small_fishing_net", "quantity": 1 }
+        {
+          "itemId": "small_fishing_net",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -229,15 +250,24 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "bronze_pickaxe", "quantity": 1 },
-        { "itemId": "hammer", "quantity": 1 }
+        {
+          "itemId": "bronze_pickaxe",
+          "quantity": 1
+        },
+        {
+          "itemId": "hammer",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -285,14 +315,20 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "bronze_pickaxe", "quantity": 1 }
+        {
+          "itemId": "bronze_pickaxe",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -340,16 +376,28 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "needle", "quantity": 1 },
-        { "itemId": "thread", "quantity": 5 },
-        { "itemId": "leather", "quantity": 10 }
+        {
+          "itemId": "needle",
+          "quantity": 1
+        },
+        {
+          "itemId": "thread",
+          "quantity": 5
+        },
+        {
+          "itemId": "leather",
+          "quantity": 10
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }
@@ -357,12 +405,14 @@
   "roads_run_red": {
     "id": "roads_run_red",
     "name": "Roads Run Red",
-    "description": "Bandits are attacking merchant caravans on the north road — and Captain Rowan suspects someone is organising them.",
+    "description": "Three merchant caravans. Same stretch of north road. Same hour of night. Captain Rowan has seen organised violence before \u2014 and whoever is behind this left a mark.",
     "difficulty": "intermediate",
     "questPoints": 1,
     "replayable": false,
     "requirements": {
-      "quests": ["goblin_slayer"],
+      "quests": [
+        "goblin_slayer"
+      ],
       "skills": {},
       "items": []
     },
@@ -377,42 +427,59 @@
       {
         "id": "kill_bandits",
         "type": "kill",
-        "description": "Eliminate 15 bandits on the north road and search their camp for clues",
+        "description": "Eliminate 15 bandits on the north road \u2014 and search the camp for whoever is giving the orders",
         "target": "bandit",
         "count": 15
       },
       {
         "id": "return",
         "type": "dialogue",
-        "description": "Return to Captain Rowan with your findings",
+        "description": "Return to Captain Rowan with what you found in the camp",
         "npcId": "captain_rowan"
       }
     ],
     "onStart": {
       "items": [
-        { "itemId": "iron_shortsword", "quantity": 1 }
+        {
+          "itemId": "iron_shortsword",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "iron_kiteshield", "quantity": 1 },
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "ironwatch_shield",
+          "quantity": 1
+        },
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
-      "xp": { "attack": 200, "strength": 150 }
+      "xp": {
+        "attack": 350,
+        "strength": 250,
+        "defense": 100
+      }
     }
   },
   "iron_will": {
     "id": "iron_will",
     "name": "Iron Will",
-    "description": "Torvin believes bronze won't hold against the clan warriors. He wants you armed in iron — and he wants to see it tested on the outriders threatening the south road.",
+    "description": "The bandits were just the opening move. Torvin knows what's coming next, and bronze won't be enough. If you're going to face clan warriors, you'll forge the blade yourself.",
     "difficulty": "intermediate",
     "questPoints": 1,
     "replayable": false,
     "requirements": {
-      "quests": ["roads_run_red"],
-      "skills": { "smithing": 15 },
+      "quests": [
+        "roads_run_red"
+      ],
+      "skills": {
+        "smithing": 1
+      },
       "items": []
     },
     "startNpc": "torvin",
@@ -420,13 +487,13 @@
       {
         "id": "start",
         "type": "dialogue",
-        "description": "Speak to Torvin — Rowan sent you",
+        "description": "Speak to Torvin \u2014 Rowan sent you",
         "npcId": "torvin"
       },
       {
         "id": "mine_iron",
         "type": "gather",
-        "description": "Mine 8 iron ore — it's the only metal worth bringing against clan warriors",
+        "description": "Mine 8 iron ore \u2014 Torvin won't accept anything less than what you dug yourself",
         "target": "iron_ore",
         "count": 8
       },
@@ -440,49 +507,70 @@
       {
         "id": "smith_scimitar",
         "type": "interact",
-        "description": "Forge your iron scimitar at Torvin's anvil",
+        "description": "Forge your iron scimitar at Torvin's anvil \u2014 this blade has a name",
         "target": "iron_scimitar",
         "count": 1
       },
       {
         "id": "kill_outriders",
         "type": "kill",
-        "description": "Test your blade on the 8 barbarian outriders threatening the south road",
+        "description": "Test it on the 8 barbarian outriders threatening the south road",
         "target": "barbarian",
         "count": 8
       },
       {
         "id": "return",
         "type": "dialogue",
-        "description": "Return to Torvin with news from the south road",
+        "description": "Return to Torvin \u2014 he'll want to know what the outriders were carrying",
         "npcId": "torvin"
       }
     ],
     "onStart": {
       "items": [
-        { "itemId": "hammer", "quantity": 1 }
+        {
+          "itemId": "hammer",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "iron_platelegs", "quantity": 1 },
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "torvins_promise",
+          "quantity": 1
+        },
+        {
+          "itemId": "iron_platelegs",
+          "quantity": 1
+        },
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
-      "xp": { "mining": 200, "smithing": 300, "strength": 200 }
+      "xp": {
+        "mining": 350,
+        "smithing": 500,
+        "strength": 300
+      }
     }
   },
   "warchiefs_fury": {
     "id": "warchiefs_fury",
     "name": "Warchief's Fury",
-    "description": "The outriders were scouts. Grundar has united four barbarian clans and is two days from launching a full raid on the town. Horvik needs someone to end it.",
+    "description": "Grundar united four clans under one banner \u2014 not from ambition, but from desperation. Someone handed him a war and called it salvation. The raid is two days out. Horvik has one request: end it before it starts.",
     "difficulty": "experienced",
     "questPoints": 2,
     "replayable": false,
     "requirements": {
-      "quests": ["iron_will"],
-      "skills": { "attack": 10 },
+      "quests": [
+        "iron_will"
+      ],
+      "skills": {
+        "attack": 1
+      },
       "items": []
     },
     "startNpc": "armorer",
@@ -490,27 +578,27 @@
       {
         "id": "start",
         "type": "dialogue",
-        "description": "Speak to Horvik — Torvin sent you",
+        "description": "Speak to Horvik \u2014 Torvin sent you",
         "npcId": "armorer"
       },
       {
         "id": "kill_warcamp",
         "type": "kill",
-        "description": "Fight through Grundar's war camp — cut down 15 of his warriors to reach him",
+        "description": "Fight through Grundar's war camp \u2014 cut down 15 of his warriors to reach the centre",
         "target": "barbarian",
         "count": 15
       },
       {
         "id": "kill_warchief",
         "type": "kill",
-        "description": "Defeat Grundar the Warchief before the raid launches",
+        "description": "Face Grundar the Warchief. He knows what he became. He chose it anyway.",
         "target": "barbarian_warchief",
         "count": 1
       },
       {
         "id": "return",
         "type": "dialogue",
-        "description": "Return to Horvik",
+        "description": "Return to Horvik with what Grundar told you before the end",
         "npcId": "armorer"
       }
     ],
@@ -520,11 +608,24 @@
     "rewards": {
       "questPoints": 2,
       "items": [
-        { "itemId": "steel_scimitar", "quantity": 1 },
-        { "itemId": "steel_kiteshield", "quantity": 1 },
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "grundars_waraxe",
+          "quantity": 1
+        },
+        {
+          "itemId": "steel_kiteshield",
+          "quantity": 1
+        },
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
-      "xp": { "attack": 500, "strength": 300, "defense": 200 }
+      "xp": {
+        "attack": 750,
+        "strength": 500,
+        "defense": 350
+      }
     }
   },
   "fletchers_introduction": {
@@ -577,17 +678,32 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "knife", "quantity": 1 },
-        { "itemId": "logs", "quantity": 3 },
-        { "itemId": "feathers", "quantity": 15 },
-        { "itemId": "bowstring", "quantity": 1 }
+        {
+          "itemId": "knife",
+          "quantity": 1
+        },
+        {
+          "itemId": "logs",
+          "quantity": 3
+        },
+        {
+          "itemId": "feathers",
+          "quantity": 15
+        },
+        {
+          "itemId": "bowstring",
+          "quantity": 1
+        }
       ],
       "dialogue": "quest_accepted"
     },
     "rewards": {
       "questPoints": 1,
       "items": [
-        { "itemId": "xp_lamp_100", "quantity": 1 }
+        {
+          "itemId": "xp_lamp_100",
+          "quantity": 1
+        }
       ],
       "xp": {}
     }

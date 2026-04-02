@@ -1601,5 +1601,27 @@
       "attackMagic": 6,
       "defenseMagic": 6
     }
+  },
+  {
+    "id": "ironwatch_shield",
+    "name": "Ironwatch Shield",
+    "type": "armor",
+    "tier": "iron",
+    "equipSlot": "shield",
+    "value": 0,
+    "weight": 3.62,
+    "description": "Made to Rowan's specification \u2014 the shield that stands between the town and what comes next.",
+    "examine": "Heavier than a standard iron kiteshield. Someone cared about the person carrying it.",
+    "tradeable": false,
+    "rarity": "unique",
+    "bonuses": {
+      "defenseStab": 13,
+      "defenseSlash": 15,
+      "defenseCrush": 14,
+      "defenseMagic": 0,
+      "defenseRanged": 13,
+      "attackMagic": -8,
+      "attackRanged": -3
+    }
   }
 ]
