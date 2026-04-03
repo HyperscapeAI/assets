@@ -1563,8 +1563,8 @@
     "category": "boss",
     "faction": "monster",
     "levelRange": [
-      28,
-      28
+      35,
+      35
     ],
     "stats": {
       "level": 35,
