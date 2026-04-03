@@ -2,7 +2,7 @@
   "goblin_slayer": {
     "id": "goblin_slayer",
     "name": "Goblin Slayer",
-    "description": "Captain Rowan needs help dealing with the goblin threat.",
+    "description": "Goblins have been hitting travelers on the east road. Captain Rowan needs someone capable enough to make them stop \u2014 and prove they can handle worse.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -56,7 +56,7 @@
   "lumberjacks_first_lesson": {
     "id": "lumberjacks_first_lesson",
     "name": "Lumberjack's First Lesson",
-    "description": "Forester Wilma needs help gathering and burning firewood.",
+    "description": "Forester Wilma has a simple test for anyone who wants to work the woods: cut the timber yourself, burn it yourself. Prove you know which end of a hatchet to hold.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -121,7 +121,7 @@
   "fresh_catch": {
     "id": "fresh_catch",
     "name": "Fresh Catch",
-    "description": "Fisherman Pete needs help catching and cooking fish.",
+    "description": "Fisherman Pete's usual hands haven't shown up and the morning market won't wait. He needs someone who can actually catch something \u2014 and knows what to do with it after.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -182,7 +182,7 @@
   "torvins_tools": {
     "id": "torvins_tools",
     "name": "Torvin's Tools",
-    "description": "The dwarf Torvin needs help forging a set of bronze tools.",
+    "description": "The dwarf Torvin is behind on orders and short on patience. Mine the ore, work the furnace, hammer the bars into shape. He'll tell you when it's good enough.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -275,7 +275,7 @@
   "rune_mysteries": {
     "id": "rune_mysteries",
     "name": "Rune Mysteries",
-    "description": "Wizard Zamorin needs help gathering rune essence and crafting air runes.",
+    "description": "Wizard Zamorin has been waiting for a capable pair of hands. The essence won't mine itself, and the altar won't walk to you. He wants air runes \u2014 and he wants you to make them.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -336,7 +336,7 @@
   "crafting_basics": {
     "id": "crafting_basics",
     "name": "Crafting Basics",
-    "description": "Dommik the crafting supplier wants you to prove your skill by crafting leather goods.",
+    "description": "Dommik the crafting supplier doesn't take apprentices who can't prove themselves first. Leather, needle, thread. Make something wearable and he'll consider you worth his time.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -475,7 +475,8 @@
     "replayable": false,
     "requirements": {
       "quests": [
-        "roads_run_red"
+        "roads_run_red",
+        "torvins_tools"
       ],
       "skills": {
         "smithing": 1
@@ -631,7 +632,7 @@
   "fletchers_introduction": {
     "id": "fletchers_introduction",
     "name": "Fletcher's Introduction",
-    "description": "Lowe the bowyer wants you to learn the basics of fletching.",
+    "description": "Lowe the bowyer has one rule: you don't sell what you haven't made. Learn to fletch properly or don't bother coming back.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
