@@ -2,7 +2,7 @@
   "goblin_slayer": {
     "id": "goblin_slayer",
     "name": "Goblin Slayer",
-    "description": "Goblins have been hitting travelers on the east road. Captain Rowan needs someone capable enough to make them stop \u2014 and prove they can handle worse.",
+    "description": "Captain Rowan needs help dealing with the goblin threat.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -56,7 +56,7 @@
   "lumberjacks_first_lesson": {
     "id": "lumberjacks_first_lesson",
     "name": "Lumberjack's First Lesson",
-    "description": "Forester Wilma has a simple test for anyone who wants to work the woods: cut the timber yourself, burn it yourself. Prove you know which end of a hatchet to hold.",
+    "description": "Forester Wilma needs help gathering and burning firewood.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -121,7 +121,7 @@
   "fresh_catch": {
     "id": "fresh_catch",
     "name": "Fresh Catch",
-    "description": "Fisherman Pete's usual hands haven't shown up and the morning market won't wait. He needs someone who can actually catch something \u2014 and knows what to do with it after.",
+    "description": "Fisherman Pete needs help catching and cooking fish.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -182,7 +182,7 @@
   "torvins_tools": {
     "id": "torvins_tools",
     "name": "Torvin's Tools",
-    "description": "The dwarf Torvin is behind on orders and short on patience. Mine the ore, work the furnace, hammer the bars into shape. He'll tell you when it's good enough.",
+    "description": "The dwarf Torvin needs help forging a set of bronze tools.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -275,7 +275,7 @@
   "rune_mysteries": {
     "id": "rune_mysteries",
     "name": "Rune Mysteries",
-    "description": "Wizard Zamorin has been waiting for a capable pair of hands. The essence won't mine itself, and the altar won't walk to you. He wants air runes \u2014 and he wants you to make them.",
+    "description": "Wizard Zamorin needs help gathering rune essence and crafting air runes.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -336,7 +336,7 @@
   "crafting_basics": {
     "id": "crafting_basics",
     "name": "Crafting Basics",
-    "description": "Dommik the crafting supplier doesn't take apprentices who can't prove themselves first. Leather, needle, thread. Make something wearable and he'll consider you worth his time.",
+    "description": "Dommik the crafting supplier wants you to prove your skill by crafting leather goods.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
@@ -451,7 +451,7 @@
       "questPoints": 1,
       "items": [
         {
-          "itemId": "ironwatch_shield",
+          "itemId": "iron_kiteshield",
           "quantity": 1
         },
         {
@@ -460,9 +460,8 @@
         }
       ],
       "xp": {
-        "attack": 350,
-        "strength": 250,
-        "defense": 100
+        "attack": 200,
+        "strength": 150
       }
     }
   },
@@ -539,10 +538,6 @@
       "questPoints": 1,
       "items": [
         {
-          "itemId": "torvins_promise",
-          "quantity": 1
-        },
-        {
           "itemId": "iron_platelegs",
           "quantity": 1
         },
@@ -552,16 +547,16 @@
         }
       ],
       "xp": {
-        "mining": 350,
-        "smithing": 500,
-        "strength": 300
+        "mining": 200,
+        "smithing": 300,
+        "strength": 200
       }
     }
   },
   "warchiefs_fury": {
     "id": "warchiefs_fury",
     "name": "Warchief's Fury",
-    "description": "Grundar united four clans under one banner \u2014 not from ambition, but from desperation. Someone handed him a war and called it salvation. The raid is two days out. Horvik has one request: end it before it starts.",
+    "description": "Grundar united four clans under one banner. The raid is two days out. Horvik needs someone to end it before it starts.",
     "difficulty": "experienced",
     "questPoints": 2,
     "replayable": false,
@@ -610,7 +605,7 @@
       "questPoints": 2,
       "items": [
         {
-          "itemId": "grundars_waraxe",
+          "itemId": "steel_scimitar",
           "quantity": 1
         },
         {
@@ -623,16 +618,16 @@
         }
       ],
       "xp": {
-        "attack": 750,
-        "strength": 500,
-        "defense": 350
+        "attack": 500,
+        "strength": 300,
+        "defense": 200
       }
     }
   },
   "fletchers_introduction": {
     "id": "fletchers_introduction",
     "name": "Fletcher's Introduction",
-    "description": "Lowe the bowyer has one rule: you don't sell what you haven't made. Learn to fletch properly or don't bother coming back.",
+    "description": "Lowe the bowyer wants you to learn the basics of fletching.",
     "difficulty": "novice",
     "questPoints": 1,
     "replayable": false,
