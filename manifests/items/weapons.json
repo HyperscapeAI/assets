@@ -24,7 +24,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_shortsword",
@@ -51,7 +56,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_shortsword",
@@ -78,7 +88,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_shortsword",
@@ -105,7 +120,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_shortsword",
@@ -132,7 +152,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_shortsword",
@@ -159,9 +184,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== DAGGERS ===",
     "id": "bronze_dagger",
@@ -188,7 +217,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_dagger",
@@ -215,7 +249,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_dagger",
@@ -242,7 +281,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_dagger",
@@ -269,7 +313,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_dagger",
@@ -296,7 +345,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_dagger",
@@ -323,9 +377,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== LONGSWORDS ===",
     "id": "bronze_longsword",
@@ -352,7 +410,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_longsword",
@@ -379,7 +442,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_longsword",
@@ -406,7 +474,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_longsword",
@@ -433,7 +506,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_longsword",
@@ -460,7 +538,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_longsword",
@@ -487,9 +570,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== SCIMITARS ===",
     "id": "bronze_scimitar",
@@ -516,7 +603,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_scimitar",
@@ -543,7 +635,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_scimitar",
@@ -570,7 +667,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_scimitar",
@@ -597,7 +699,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_scimitar",
@@ -624,7 +731,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_scimitar",
@@ -651,9 +763,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== TWO-HANDED SWORDS ===",
     "id": "bronze_2h_sword",
@@ -680,7 +796,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_2h_sword",
@@ -707,7 +828,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_2h_sword",
@@ -734,7 +860,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_2h_sword",
@@ -761,7 +892,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_2h_sword",
@@ -788,7 +924,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_2h_sword",
@@ -815,9 +956,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== RANGED WEAPONS (Standard Bows) ===",
     "id": "shortbow",
@@ -843,9 +988,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow",
@@ -871,9 +1023,16 @@
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow",
@@ -899,9 +1058,16 @@
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow",
@@ -927,9 +1093,16 @@
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow",
@@ -955,9 +1128,16 @@
     },
     "requirements": {
       "level": 40,
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow",
@@ -983,11 +1163,17 @@
     },
     "requirements": {
       "level": 50,
-      "skills": { "ranged": 50 }
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== LONGBOWS ===",
     "id": "longbow",
@@ -1013,9 +1199,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow",
@@ -1041,9 +1234,16 @@
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow",
@@ -1069,9 +1269,16 @@
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow",
@@ -1097,9 +1304,16 @@
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow",
@@ -1125,9 +1339,16 @@
     },
     "requirements": {
       "level": 40,
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow",
@@ -1153,11 +1374,17 @@
     },
     "requirements": {
       "level": 50,
-      "skills": { "ranged": 50 }
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== UNSTRUNG BOWS (Fletching Intermediates) ===",
     "id": "shortbow_u",
@@ -1171,7 +1398,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "longbow_u",
@@ -1185,7 +1416,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow_u",
@@ -1199,7 +1434,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow_u",
@@ -1213,7 +1452,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow_u",
@@ -1227,7 +1470,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow_u",
@@ -1241,7 +1488,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow_u",
@@ -1255,7 +1506,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow_u",
@@ -1269,7 +1524,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow_u",
@@ -1283,7 +1542,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow_u",
@@ -1297,7 +1560,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow_u",
@@ -1311,7 +1578,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow_u",
@@ -1325,9 +1596,12 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== MAGIC WEAPONS (Staves) ===",
     "id": "staff",
@@ -1351,7 +1625,12 @@
     "bonuses": {
       "attackMagic": 4
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_staff",
@@ -1377,9 +1656,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_air",
@@ -1403,12 +1689,21 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["air_rune"],
+    "providesInfiniteRunes": [
+      "air_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_water",
@@ -1432,12 +1727,21 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["water_rune"],
+    "providesInfiniteRunes": [
+      "water_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_earth",
@@ -1461,12 +1765,21 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["earth_rune"],
+    "providesInfiniteRunes": [
+      "earth_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_fire",
@@ -1490,11 +1803,20 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["fire_rune"],
+    "providesInfiniteRunes": [
+      "fire_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

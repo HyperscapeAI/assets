@@ -281,7 +281,7 @@
   {
     "id": "captain_rowan",
     "name": "Captain Rowan",
-    "description": "The captain of the town guard, concerned about the goblin threat",
+    "description": "Captain of the town guard. Methodical, haunted, and rarely surprised \u2014 but this has him worried.",
     "category": "neutral",
     "faction": "town",
     "combat": {
@@ -294,8 +294,13 @@
     },
     "services": {
       "enabled": true,
-      "types": ["quest"],
-      "questIds": ["goblin_slayer"]
+      "types": [
+        "quest"
+      ],
+      "questIds": [
+        "goblin_slayer",
+        "roads_run_red"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -303,7 +308,12 @@
         "goblin_slayer": {
           "in_progress": "progress_check",
           "ready_to_complete": "quest_complete",
-          "completed": "post_quest"
+          "completed": "post_quest_goblin"
+        },
+        "roads_run_red": {
+          "in_progress": "rrr_progress_check",
+          "ready_to_complete": "rrr_quest_complete",
+          "completed": "rrr_post_quest"
         }
       },
       "nodes": [
@@ -345,7 +355,7 @@
           "text": "How goes the goblin hunt? Have you slain fifteen of them yet?",
           "responses": [
             {
-              "text": "Not yet, but I'm working on it.",
+              "text": "Still working on it.",
               "nextNodeId": "encouragement"
             },
             {
@@ -368,8 +378,68 @@
           "effect": "completeQuest:goblin_slayer"
         },
         {
-          "id": "post_quest",
-          "text": "The town owes you a debt, adventurer. The goblin attacks have decreased since your efforts."
+          "id": "post_quest_goblin",
+          "text": "You handled the goblins well. There's a harder problem now. Three merchant caravans hit this week \u2014 same stretch of north road, same hour of night. Bandits don't operate that precisely without someone directing them. Someone with money and a plan.",
+          "responses": [
+            {
+              "text": "What do you need?",
+              "nextNodeId": "rrr_offer"
+            },
+            {
+              "text": "Farewell.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "rrr_offer",
+          "text": "Someone is supplying them, paying them. I need you to clear them out \u2014 and keep your eyes open while you do it. If you find anything in their camp that tells us who's behind this, I need to know. Here, take this iron sword. You've earned an upgrade.",
+          "responses": [
+            {
+              "text": "I'll find out who's behind it.",
+              "nextNodeId": "rrr_accepted",
+              "effect": "startQuest:roads_run_red"
+            },
+            {
+              "text": "Not right now.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "rrr_accepted",
+          "text": "Fifteen should do it. Don't just kill them \u2014 look at what they're carrying. Evidence matters as much as the bodies."
+        },
+        {
+          "id": "rrr_progress_check",
+          "text": "Any sign of who's organising the bandits? Have you cleared enough of them to search the camp?",
+          "responses": [
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "rrr_encouragement"
+            },
+            {
+              "text": "Where is their camp?",
+              "nextNodeId": "rrr_location"
+            }
+          ]
+        },
+        {
+          "id": "rrr_encouragement",
+          "text": "Every one you take down is a merchant family that gets home safely. Keep at it."
+        },
+        {
+          "id": "rrr_location",
+          "text": "They've made camp in the rocky passes north-east of town. The leader stays near the back \u2014 watch for better-equipped fighters."
+        },
+        {
+          "id": "rrr_quest_complete",
+          "text": "A barbarian war standard. Inside a bandit camp. That's not a coincidence \u2014 someone from the clans is funding them. This is bigger than I thought. Go see Torvin at the forge and tell him what you found. He's been worried about the clans for months.",
+          "effect": "completeQuest:roads_run_red"
+        },
+        {
+          "id": "rrr_post_quest",
+          "text": "Torvin will know what to make of a war standard in a bandit camp. The north road is safer now, but I have a feeling we've only seen the beginning of this."
         },
         {
           "id": "farewell",
@@ -399,8 +469,12 @@
     },
     "services": {
       "enabled": true,
-      "types": ["quest"],
-      "questIds": ["lumberjacks_first_lesson"]
+      "types": [
+        "quest"
+      ],
+      "questIds": [
+        "lumberjacks_first_lesson"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -500,7 +574,9 @@
         "shop",
         "quest"
       ],
-      "questIds": ["fresh_catch"]
+      "questIds": [
+        "fresh_catch"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -592,7 +668,7 @@
   {
     "id": "torvin",
     "name": "Torvin",
-    "description": "A gruff dwarven smith who runs the local forge",
+    "description": "Dwarven smith. Gruff, precise, and quietly terrified by what the Ashen Hand's involvement means.",
     "category": "neutral",
     "faction": "town",
     "combat": {
@@ -609,7 +685,10 @@
         "shop",
         "quest"
       ],
-      "questIds": ["torvins_tools"]
+      "questIds": [
+        "torvins_tools",
+        "iron_will"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -617,7 +696,12 @@
         "torvins_tools": {
           "in_progress": "progress_check",
           "ready_to_complete": "quest_complete",
-          "completed": "post_quest"
+          "completed": "post_quest_bronze"
+        },
+        "iron_will": {
+          "in_progress": "iw_progress_check",
+          "ready_to_complete": "iw_quest_complete",
+          "completed": "iw_post_quest"
         }
       },
       "nodes": [
@@ -679,8 +763,78 @@
           "effect": "completeQuest:torvins_tools"
         },
         {
-          "id": "post_quest",
-          "text": "Good to see you again! Feel free to use the forge anytime."
+          "id": "post_quest_bronze",
+          "text": "Good work on the bronze. Come back when Rowan sends you \u2014 I have a feeling he will.",
+          "responses": [
+            {
+              "text": "Rowan actually did send me.",
+              "nextNodeId": "iw_rowan_intro"
+            },
+            {
+              "text": "Not yet.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "iw_rowan_intro",
+          "text": "A war standard in a bandit camp. Aye, that's what I feared. Someone from the clans is moving pieces. Those bandits weren't robbing merchants \u2014 they were testing our response. Scouting us.",
+          "responses": [
+            {
+              "text": "What do we do?",
+              "nextNodeId": "iw_offer"
+            }
+          ]
+        },
+        {
+          "id": "iw_offer",
+          "text": "Bronze won't hold against clan warriors \u2014 their armour is too thick. You need iron. Mine it yourself, smelt it, forge a scimitar. Then go find the outriders they've posted on the south road and test whether my theory about the metalwork holds. I need to know before we face more of them.",
+          "responses": [
+            {
+              "text": "I'll do it.",
+              "nextNodeId": "iw_accepted",
+              "effect": "startQuest:iron_will"
+            },
+            {
+              "text": "Not ready yet.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "iw_accepted",
+          "text": "Eight pieces of ore \u2014 iron fails the furnace half the time so you'll need extra. Three bars smelted gives you enough for a scimitar. Find the outriders on the south road and come back with news."
+        },
+        {
+          "id": "iw_progress_check",
+          "text": "Have you forged the scimitar and found the outriders yet?",
+          "responses": [
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "iw_encouragement"
+            },
+            {
+              "text": "What level do I need to smelt iron?",
+              "nextNodeId": "iw_tip"
+            }
+          ]
+        },
+        {
+          "id": "iw_encouragement",
+          "text": "Iron rewards patience. Don't rush the furnace \u2014 a bad bar makes a brittle blade."
+        },
+        {
+          "id": "iw_tip",
+          "text": "Level fifteen at the furnace, level twenty at the anvil for a scimitar. If you're not there, spend more time on bronze first."
+        },
+        {
+          "id": "iw_quest_complete",
+          "text": "The iron held, and the outriders are down. Good. They were scouts for a warchief named Grundar \u2014 he's the one uniting the clans. I've told Horvik everything I know. He has the location of Grundar's war camp. Go find him \u2014 the armorer's shop, north end of town.",
+          "effect": "completeQuest:iron_will"
+        },
+        {
+          "id": "iw_post_quest",
+          "text": "Horvik is waiting for you. Don't delay \u2014 Grundar won't."
         },
         {
           "id": "trade",
@@ -688,7 +842,7 @@
         },
         {
           "id": "farewell",
-          "text": "Come back when you're ready to work."
+          "text": "Don't rush the furnace."
         }
       ]
     },
@@ -717,7 +871,7 @@
       "nodes": [
         {
           "id": "greeting",
-          "text": "Greetings, friend. I'm a tanner — I can tan any hides you bring me.",
+          "text": "Greetings, friend. I'm a tanner \u2014 I can tan any hides you bring me.",
           "responses": [
             {
               "text": "I'd like some leather, please.",
@@ -1039,7 +1193,9 @@
         "shop",
         "quest"
       ],
-      "questIds": ["rune_mysteries"]
+      "questIds": [
+        "rune_mysteries"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1164,7 +1320,9 @@
         "shop",
         "quest"
       ],
-      "questIds": ["fletchers_introduction"]
+      "questIds": [
+        "fletchers_introduction"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1272,7 +1430,7 @@
   {
     "id": "armorer",
     "name": "Horvik",
-    "description": "A burly armorer who sells helms, platebodies, shields, and other protective gear",
+    "description": "Old armorer. Has seen more wars than he'll speak of. Knows Grundar personally, and that makes this harder.",
     "category": "neutral",
     "faction": "town",
     "combat": {
@@ -1286,16 +1444,31 @@
     "services": {
       "enabled": true,
       "types": [
-        "shop"
+        "shop",
+        "quest"
+      ],
+      "questIds": [
+        "warchiefs_fury"
       ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
+      "questOverrides": {
+        "warchiefs_fury": {
+          "in_progress": "wf_progress_check",
+          "ready_to_complete": "wf_quest_complete",
+          "completed": "wf_post_quest"
+        }
+      },
       "nodes": [
         {
           "id": "greeting",
-          "text": "Need some armour? I've got the best protection in town.",
+          "text": "Need armour? Come back later \u2014 I'm in the middle of something. Unless Torvin sent you.",
           "responses": [
+            {
+              "text": "Torvin sent me.",
+              "nextNodeId": "wf_torvin_intro"
+            },
             {
               "text": "Show me your armour.",
               "nextNodeId": "trade",
@@ -1306,6 +1479,66 @@
               "nextNodeId": "farewell"
             }
           ]
+        },
+        {
+          "id": "wf_torvin_intro",
+          "text": "Then you know about Grundar. I've had scouts watching his camp for two weeks. He's united four clans \u2014 more than anyone has managed in thirty years. They're two days from the raid.",
+          "responses": [
+            {
+              "text": "Tell me where he is.",
+              "nextNodeId": "wf_offer"
+            }
+          ]
+        },
+        {
+          "id": "wf_offer",
+          "text": "His war camp is north of the barbarian village, past the rocky outcrops. You'll need to cut through fifteen of his warriors to reach him \u2014 he keeps his best fighters as a perimeter. Grundar himself doesn't go down easy. If Torvin armed you in iron, you've got a chance. If not, go back to him first.",
+          "responses": [
+            {
+              "text": "I have the iron blade. I'll end it.",
+              "nextNodeId": "wf_accepted",
+              "effect": "startQuest:warchiefs_fury"
+            },
+            {
+              "text": "I need more time to prepare.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "wf_accepted",
+          "text": "Fifteen warriors, then Grundar. Without him, the four clans fall back to fighting each other. That's how barbarian politics works \u2014 one warchief, one hold on power. Kill him and the raid dies with him."
+        },
+        {
+          "id": "wf_progress_check",
+          "text": "Is Grundar dead? Every hour we wait is an hour closer to that raid.",
+          "responses": [
+            {
+              "text": "Still fighting through the camp.",
+              "nextNodeId": "wf_encouragement"
+            },
+            {
+              "text": "Remind me where the camp is.",
+              "nextNodeId": "wf_location"
+            }
+          ]
+        },
+        {
+          "id": "wf_encouragement",
+          "text": "Keep pushing. The warriors are the shield \u2014 Grundar is the sword. Cut through them and you reach him."
+        },
+        {
+          "id": "wf_location",
+          "text": "North of the barbarian village, past the rocky outcrops. Grundar camps at the centre \u2014 bigger than the rest, better armed. You'll know him when you see him."
+        },
+        {
+          "id": "wf_quest_complete",
+          "text": "Grundar is dead. I've already had word from the scouts \u2014 the clans are arguing over who leads now. The raid is over before it started. Rowan, Torvin, this whole town \u2014 none of them know how close it came. Take these. I've been forging them since Torvin first told me about you.",
+          "effect": "completeQuest:warchiefs_fury"
+        },
+        {
+          "id": "wf_post_quest",
+          "text": "The camp has broken apart. Four clans, four warlords, all pointing fingers at each other. That's the way of it without a strong hand to hold them together. You bought this town a long peace."
         },
         {
           "id": "trade",
@@ -1322,6 +1555,115 @@
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
     }
+  },
+  {
+    "id": "barbarian_warchief",
+    "name": "Barbarian Warchief",
+    "description": "Grundar \u2014 warchief of four united clans. Not a monster by nature. Made into one by necessity and by the Ashen Hand's offer.",
+    "category": "boss",
+    "faction": "monster",
+    "levelRange": [
+      35,
+      35
+    ],
+    "stats": {
+      "level": 35,
+      "health": 80,
+      "attack": 26,
+      "strength": 28,
+      "defense": 22,
+      "defenseBonus": 8,
+      "ranged": 1,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": true,
+      "retaliates": true,
+      "aggroRange": 5,
+      "combatRange": 1,
+      "leashRange": 10,
+      "attackSpeedTicks": 5,
+      "respawnTicks": 500
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 3.33,
+      "wanderRadius": 5
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [],
+      "common": [
+        {
+          "itemId": "coins",
+          "minQuantity": 50,
+          "maxQuantity": 150,
+          "chance": 1.0,
+          "rarity": "common"
+        }
+      ],
+      "uncommon": [
+        {
+          "itemId": "iron_full_helm",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.15,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_scimitar",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.12,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_kiteshield",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "coins",
+          "minQuantity": 200,
+          "maxQuantity": 400,
+          "chance": 1.0,
+          "rarity": "uncommon"
+        }
+      ],
+      "rare": [
+        {
+          "itemId": "steel_scimitar",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.05,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "steel_platelegs",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.04,
+          "rarity": "rare"
+        }
+      ],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/mobs/barbarian/barbarian.vrm",
+      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "scale": 1.35,
+      "heldWeaponModel": "asset://models/swords/scimitars/scimitar-iron-aligned.glb"
+    },
+    "spawnBiomes": [
+      "desert"
+    ]
   },
   {
     "id": "crafting_supplier",
@@ -1343,7 +1685,9 @@
         "shop",
         "quest"
       ],
-      "questIds": ["crafting_basics"]
+      "questIds": [
+        "crafting_basics"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
