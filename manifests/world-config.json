@@ -1,0 +1,153 @@
+{
+  "terrain": {
+    "worldSize": 10000,
+    "waterThreshold": 9.0,
+    "tileSize": 100
+  },
+  "towns": {
+    "townCount": 25,
+    "minTownSpacing": 800,
+    "flatnessSampleRadius": 40,
+    "flatnessSampleCount": 16,
+    "optimalWaterDistanceMin": 30,
+    "optimalWaterDistanceMax": 150,
+    "sizes": {
+      "hamlet": { "buildingCountMin": 3, "buildingCountMax": 5, "radius": 25, "safeZoneRadius": 40 },
+      "village": { "buildingCountMin": 5, "buildingCountMax": 8, "radius": 40, "safeZoneRadius": 60 },
+      "town": { "buildingCountMin": 8, "buildingCountMax": 12, "radius": 60, "safeZoneRadius": 80 },
+      "city": { "buildingCountMin": 12, "buildingCountMax": 18, "radius": 80, "safeZoneRadius": 120 }
+    }
+  },
+  "roads": {
+    "extraConnectionRatio": 0.3,
+    "smoothingPasses": 3,
+    "maxSlopeGrade": 0.4,
+    "decorations": {
+      "signpostSpacing": 200,
+      "waystationSpacing": 500
+    }
+  },
+  "pois": {
+    "minDistanceFromTown": 100,
+    "minPoiSpacing": 200,
+    "maxRoadExtension": 500,
+    "counts": {
+      "dungeon": 8,
+      "shrine": 12,
+      "ruin": 6,
+      "camp": 8,
+      "crossing": 5,
+      "waystation": 10,
+      "fishing_spot": 12,
+      "landmark": 15,
+      "resource_area": 10
+    }
+  },
+  "zoneGeneration": {
+    "tiers": [
+      {
+        "name": "Safe",
+        "scalarRange": [0.00, 0.05],
+        "levelRange": [0, 0],
+        "resourceLevelRange": [1, 5],
+        "color": "#2e7d32",
+        "mobDensityMultiplier": 0,
+        "resourceDensityMultiplier": 2.0,
+        "mobResourceBuffer": 30
+      },
+      {
+        "name": "Beginner",
+        "scalarRange": [0.05, 0.15],
+        "levelRange": [1, 10],
+        "resourceLevelRange": [1, 20],
+        "color": "#66bb6a",
+        "mobDensityMultiplier": 0.4,
+        "resourceDensityMultiplier": 1.5,
+        "mobResourceBuffer": 25
+      },
+      {
+        "name": "Low",
+        "scalarRange": [0.15, 0.30],
+        "levelRange": [5, 25],
+        "resourceLevelRange": [10, 45],
+        "color": "#fdd835",
+        "mobDensityMultiplier": 0.8,
+        "resourceDensityMultiplier": 1.0,
+        "mobResourceBuffer": 20
+      },
+      {
+        "name": "Mid",
+        "scalarRange": [0.30, 0.50],
+        "levelRange": [15, 45],
+        "resourceLevelRange": [30, 65],
+        "color": "#ff9800",
+        "mobDensityMultiplier": 1.2,
+        "resourceDensityMultiplier": 0.6,
+        "mobResourceBuffer": 12
+      },
+      {
+        "name": "High",
+        "scalarRange": [0.50, 0.75],
+        "levelRange": [25, 60],
+        "resourceLevelRange": [50, 85],
+        "color": "#d32f2f",
+        "mobDensityMultiplier": 2.0,
+        "resourceDensityMultiplier": 0.3,
+        "mobResourceBuffer": 8
+      },
+      {
+        "name": "Extreme",
+        "scalarRange": [0.75, 1.00],
+        "levelRange": [40, 200],
+        "resourceLevelRange": [65, 99],
+        "color": "#6a1b9a",
+        "mobDensityMultiplier": 3.0,
+        "resourceDensityMultiplier": 0.15,
+        "mobResourceBuffer": 3
+      }
+    ],
+    "spacing": {
+      "minMob": 15,
+      "minResource": 8,
+      "minStation": 20
+    },
+    "density": {
+      "baseMob": 0.0004,
+      "baseResource": 0.0004
+    },
+    "noise": {
+      "scale": 0.0007,
+      "amplitude": 0.08
+    },
+    "worldRadiusFraction": 0.75,
+    "gridResolution": 10,
+    "minZoneArea": 5000,
+    "maxZoneSpan": 500
+  },
+  "defaultSpawn": {
+    "position": [0, 50, 0],
+    "fallbackAreaId": "lumbridge"
+  },
+  "deathSettings": {
+    "gravestoneModel": "models/environment/gravestone.glb",
+    "gravestoneDuration": 300,
+    "safeZoneRespawnDelay": 3
+  },
+  "boundaryMarkers": {
+    "enabled": true,
+    "signpostModel": "models/environment/signpost.glb",
+    "spacing": 50
+  },
+  "docks": {
+    "targetCount": 6,
+    "minDockSpacing": 200,
+    "maxTownDistance": 500,
+    "searchStepSize": 10
+  },
+  "teleportNetwork": {
+    "homeNode": "central_haven_lodestone",
+    "unlockType": "visit",
+    "cooldownSeconds": 30,
+    "unlockRadius": 5
+  }
+}

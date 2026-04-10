@@ -1,0 +1,4446 @@
+{
+  "regions": [
+    {
+      "id": "autogen-zone-0",
+      "name": "Northern Tundra (Extreme)",
+      "description": "Auto-generated tundra zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -665,
+          "maxX": -345,
+          "minZ": -645,
+          "maxZ": -305
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-1",
+      "name": "Northwestern Tundra (Extreme)",
+      "description": "Auto-generated tundra zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -335,
+          "maxX": -5,
+          "minZ": -745,
+          "maxZ": -275
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-2",
+      "name": "Northern Tundra (Extreme) 2",
+      "description": "Auto-generated tundra zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 335,
+          "minZ": -785,
+          "maxZ": -565
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-3",
+      "name": "Northeastern Tundra (Extreme)",
+      "description": "Auto-generated tundra zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 345,
+          "maxX": 675,
+          "minZ": -675,
+          "maxZ": -315
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-4",
+      "name": "Northern Tundra (High)",
+      "description": "Auto-generated tundra zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -505,
+          "maxX": -255,
+          "minZ": -315,
+          "maxZ": -195
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-5",
+      "name": "Western Tundra (High)",
+      "description": "Auto-generated tundra zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -245,
+          "maxX": 5,
+          "minZ": -555,
+          "maxZ": -175
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-6",
+      "name": "Northern Tundra (High) 2",
+      "description": "Auto-generated tundra zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 15,
+          "maxX": 265,
+          "minZ": -625,
+          "maxZ": -475
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-7",
+      "name": "Northeastern Tundra (High)",
+      "description": "Auto-generated tundra zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 275,
+          "maxX": 525,
+          "minZ": -625,
+          "maxZ": -275
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-8",
+      "name": "Northwestern Tundra (Mid)",
+      "description": "Auto-generated tundra zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -405,
+          "maxX": 15,
+          "minZ": -465,
+          "maxZ": -115
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-9",
+      "name": "Northeastern Tundra (Mid)",
+      "description": "Auto-generated tundra zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 25,
+          "maxX": 455,
+          "minZ": -555,
+          "maxZ": -225
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-10",
+      "name": "Western Tundra (Low)",
+      "description": "Auto-generated tundra zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -175,
+          "maxX": 105,
+          "minZ": -455,
+          "maxZ": -95
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-11",
+      "name": "Northeastern Tundra (Low)",
+      "description": "Auto-generated tundra zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 115,
+          "maxX": 395,
+          "minZ": -485,
+          "maxZ": -105
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-12",
+      "name": "Southeastern Tundra (Beginner)",
+      "description": "Auto-generated tundra zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_windPine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 75,
+          "maxX": 345,
+          "minZ": -435,
+          "maxZ": -135
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-13",
+      "name": "Southeastern Tundra (Safe)",
+      "description": "Auto-generated tundra zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_windPine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": 105,
+          "maxX": 305,
+          "minZ": -395,
+          "maxZ": -195
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-14",
+      "name": "Northeastern Forest (Extreme)",
+      "description": "Auto-generated forest zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 605,
+          "maxX": 735,
+          "minZ": -395,
+          "maxZ": -105
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-15",
+      "name": "Southeastern Forest (Extreme)",
+      "description": "Auto-generated forest zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 485,
+          "maxX": 535,
+          "minZ": 525,
+          "maxZ": 605
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-16",
+      "name": "Northwestern Canyon (Extreme)",
+      "description": "Auto-generated canyon zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -765,
+          "maxX": -565,
+          "minZ": -375,
+          "maxZ": -115
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-17",
+      "name": "Northeastern Forest (High)",
+      "description": "Auto-generated forest zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 505,
+          "maxX": 725,
+          "minZ": -335,
+          "maxZ": -55
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-18",
+      "name": "Eastern Forest (High)",
+      "description": "Auto-generated forest zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 665,
+          "maxX": 765,
+          "minZ": -45,
+          "maxZ": 235
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-19",
+      "name": "Northwestern Canyon (High)",
+      "description": "Auto-generated canyon zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -755,
+          "maxX": -465,
+          "minZ": -315,
+          "maxZ": 115
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-20",
+      "name": "Northeastern Forest (Mid)",
+      "description": "Auto-generated forest zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 385,
+          "maxX": 705,
+          "minZ": -285,
+          "maxZ": 165
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-21",
+      "name": "Southern Forest (Mid)",
+      "description": "Auto-generated forest zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 215,
+          "maxX": 695,
+          "minZ": 175,
+          "maxZ": 635
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-22",
+      "name": "Northwestern Canyon (Mid)",
+      "description": "Auto-generated canyon zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -655,
+          "maxX": -205,
+          "minZ": -255,
+          "maxZ": -75
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-23",
+      "name": "Northern Forest (Low)",
+      "description": "Auto-generated forest zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 145,
+          "maxX": 625,
+          "minZ": -235,
+          "maxZ": 185
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-24",
+      "name": "Southeastern Forest (Low)",
+      "description": "Auto-generated forest zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 305,
+          "minZ": 195,
+          "maxZ": 625
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-25",
+      "name": "Southern Forest (Low)",
+      "description": "Auto-generated forest zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 315,
+          "maxX": 615,
+          "minZ": 195,
+          "maxZ": 525
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103978
+      }
+    },
+    {
+      "id": "autogen-zone-26",
+      "name": "Western Canyon (Low)",
+      "description": "Auto-generated canyon zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -595,
+          "maxX": -345,
+          "minZ": -185,
+          "maxZ": 185
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-27",
+      "name": "Eastern Canyon (Low)",
+      "description": "Auto-generated canyon zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -335,
+          "maxX": -85,
+          "minZ": -165,
+          "maxZ": 185
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-28",
+      "name": "Western Canyon (Low) 2",
+      "description": "Auto-generated canyon zone (Low tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "low"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.8
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.2,
+          0.35
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -455,
+          "maxX": 5,
+          "minZ": 195,
+          "maxZ": 575
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-29",
+      "name": "Northern Tundra (Beginner)",
+      "description": "Auto-generated tundra zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_windPine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -145,
+          "maxX": 155,
+          "minZ": -165,
+          "maxZ": -75
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-30",
+      "name": "Northern Tundra (Safe)",
+      "description": "Auto-generated tundra zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "tundra",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_windPine",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "tundra",
+        "boundingBox": {
+          "minX": -105,
+          "maxX": 125,
+          "minZ": -135,
+          "maxZ": -5
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-31",
+      "name": "Southern Canyon (Beginner)",
+      "description": "Auto-generated canyon zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_coconut",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_palm",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_dead",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_cactus",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -535,
+          "maxX": -265,
+          "minZ": -125,
+          "maxZ": 135
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-32",
+      "name": "Southeastern Forest (Beginner)",
+      "description": "Auto-generated forest zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 275,
+          "minZ": -105,
+          "maxZ": 225
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-33",
+      "name": "Northeastern Forest (Beginner)",
+      "description": "Auto-generated forest zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 285,
+          "maxX": 565,
+          "minZ": -75,
+          "maxZ": 225
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-34",
+      "name": "Eastern Forest (Beginner)",
+      "description": "Auto-generated forest zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 255,
+          "minZ": 235,
+          "maxZ": 565
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-35",
+      "name": "Southern Forest (Beginner)",
+      "description": "Auto-generated forest zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_oak",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 265,
+          "maxX": 515,
+          "minZ": 235,
+          "maxZ": 485
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-36",
+      "name": "Southern Canyon (Safe)",
+      "description": "Auto-generated canyon zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_coconut",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_palm",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_dead",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_cactus",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -485,
+          "maxX": -315,
+          "minZ": -85,
+          "maxZ": 95
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-37",
+      "name": "Southwestern Canyon (Beginner)",
+      "description": "Auto-generated canyon zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_coconut",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_palm",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_dead",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_cactus",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -175,
+          "maxX": -5,
+          "minZ": -75,
+          "maxZ": 205
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-38",
+      "name": "Southeastern Forest (Safe)",
+      "description": "Auto-generated forest zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 165,
+          "minZ": -75,
+          "maxZ": 165
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-39",
+      "name": "Southwestern Canyon (Safe)",
+      "description": "Auto-generated canyon zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_coconut",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_palm",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_dead",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_cactus",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -135,
+          "maxX": -5,
+          "minZ": -65,
+          "maxZ": 155
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-40",
+      "name": "Western Canyon (Mid)",
+      "description": "Auto-generated canyon zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -665,
+          "maxX": -555,
+          "minZ": -55,
+          "maxZ": 185
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-41",
+      "name": "Southwestern Forest (Safe)",
+      "description": "Auto-generated forest zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 265,
+          "maxX": 525,
+          "minZ": -25,
+          "maxZ": 235
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-42",
+      "name": "Southern Canyon (Mid)",
+      "description": "Auto-generated canyon zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -565,
+          "maxX": -295,
+          "minZ": 145,
+          "maxZ": 275
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-43",
+      "name": "Southwestern Canyon (Mid)",
+      "description": "Auto-generated canyon zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -285,
+          "maxX": -75,
+          "minZ": 105,
+          "maxZ": 375
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-44",
+      "name": "Southwestern Canyon (Mid) 2",
+      "description": "Auto-generated canyon zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -185,
+          "maxX": -5,
+          "minZ": 385,
+          "maxZ": 655
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-45",
+      "name": "Southern Canyon (High)",
+      "description": "Auto-generated canyon zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -575,
+          "maxX": -255,
+          "minZ": 235,
+          "maxZ": 495
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-46",
+      "name": "Western Canyon (High)",
+      "description": "Auto-generated canyon zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -245,
+          "maxX": -175,
+          "minZ": 235,
+          "maxZ": 485
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-47",
+      "name": "Southwestern Canyon (High)",
+      "description": "Auto-generated canyon zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -245,
+          "maxX": 85,
+          "minZ": 495,
+          "maxZ": 745
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-48",
+      "name": "Northeastern Forest (Safe)",
+      "description": "Auto-generated forest zone (Safe tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "safe"
+      ],
+      "spawnRules": {
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_fir",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_pine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_birch",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_bamboo",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_chinaPine",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_knotwood",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 2
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0,
+          0.08
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": -25,
+          "maxX": 235,
+          "minZ": 265,
+          "maxZ": 525
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-49",
+      "name": "Southern Canyon (Extreme)",
+      "description": "Auto-generated canyon zone (Extreme tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "extreme"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 3
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_mithril",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_runite",
+              "weight": 10,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.15
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.78,
+          1
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -575,
+          "maxX": -115,
+          "minZ": 355,
+          "maxZ": 705
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-50",
+      "name": "Southern Forest (High)",
+      "description": "Auto-generated forest zone (High tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "high"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "ore_adamant",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_shark",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.3
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.55,
+          0.78
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 355,
+          "maxX": 685,
+          "minZ": 245,
+          "maxZ": 625
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-51",
+      "name": "Western Canyon (Beginner)",
+      "description": "Auto-generated canyon zone (Beginner tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "canyon",
+        "beginner"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "goblin",
+              "weight": 10
+            },
+            {
+              "mobId": "cow",
+              "weight": 10
+            },
+            {
+              "mobId": "bandit",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 0.4
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_copper",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_tin",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_iron",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_essence",
+              "weight": 10,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "tree_coconut",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_palm",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_dead",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "tree_cactus",
+              "weight": 10,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_net",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_bait",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_fly",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 1.5
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.08,
+          0.2
+        ],
+        "biomeFilter": "canyon",
+        "boundingBox": {
+          "minX": -65,
+          "maxX": -5,
+          "minZ": 265,
+          "maxZ": 515
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    },
+    {
+      "id": "autogen-zone-52",
+      "name": "Southern Forest (Mid) 2",
+      "description": "Auto-generated forest zone (Mid tier)",
+      "tileKeys": [],
+      "tags": [
+        "autogen",
+        "forest",
+        "mid"
+      ],
+      "spawnRules": {
+        "mobs": {
+          "mode": "replace",
+          "table": [
+            {
+              "mobId": "dark_wizard",
+              "weight": 10
+            },
+            {
+              "mobId": "dark_ranger",
+              "weight": 10
+            },
+            {
+              "mobId": "guard",
+              "weight": 10
+            },
+            {
+              "mobId": "barbarian",
+              "weight": 10
+            }
+          ],
+          "densityMultiplier": 1.2
+        },
+        "resources": {
+          "mode": "replace",
+          "table": [
+            {
+              "resourceId": "ore_gold",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_coal",
+              "weight": 5,
+              "clusterSize": 2
+            },
+            {
+              "resourceId": "ore_mithril",
+              "weight": 5,
+              "clusterSize": 1
+            },
+            {
+              "resourceId": "tree_maple",
+              "weight": 20,
+              "clusterSize": 3
+            },
+            {
+              "resourceId": "fishing_spot_cage",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_harpoon",
+              "weight": 10,
+              "affinity": "water"
+            },
+            {
+              "resourceId": "fishing_spot_monkfish",
+              "weight": 10,
+              "affinity": "water"
+            }
+          ],
+          "densityMultiplier": 0.6
+        }
+      },
+      "autoGenBounds": {
+        "difficultyRange": [
+          0.35,
+          0.55
+        ],
+        "biomeFilter": "forest",
+        "boundingBox": {
+          "minX": 5,
+          "maxX": 155,
+          "minZ": 615,
+          "maxZ": 705
+        },
+        "generationSeed": 0,
+        "generatedAt": 1775408103979
+      }
+    }
+  ]
+}

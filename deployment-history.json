@@ -1,0 +1,779 @@
+[
+  {
+    "id": "deploy-1775408147600-dcfd9441",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T16:55:47.600Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "ee91c55fd3f3",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "e72e1f7f9e74"
+    }
+  },
+  {
+    "id": "deploy-1775407527325-9cb2531b",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T16:45:27.325Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "54a0661a95db",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "7e14813a9386"
+    }
+  },
+  {
+    "id": "deploy-1775406865751-d6becdf6",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T16:34:25.752Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "6889f9782260",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "9b8e9c908f8e"
+    }
+  },
+  {
+    "id": "deploy-1775405250131-ee632fc4",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T16:07:30.131Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "b4494ef5a5cc",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "4f066c3fc57f"
+    }
+  },
+  {
+    "id": "deploy-1775403261671-06b6c921",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T15:34:21.671Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "612f4d1b1c9d",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "8b3722bed619"
+    }
+  },
+  {
+    "id": "deploy-1775402339709-e4f8a49a",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T15:18:59.709Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "6a605b3dedc0",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "8be007ce4e4a"
+    }
+  },
+  {
+    "id": "deploy-1775401456909-5e48b4c4",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T15:04:16.909Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "736755392e79",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "f017976a197c"
+    }
+  },
+  {
+    "id": "deploy-1775399518420-bc9e6f2c",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T14:31:58.420Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "89a4ee235914",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "02d5a1c8dbd8"
+    }
+  },
+  {
+    "id": "deploy-1775397848297-08d5625e",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T14:04:08.297Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "891711b5fe31",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "c037448dc9ad"
+    }
+  },
+  {
+    "id": "deploy-1775396771637-1b86bca3",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T13:46:11.637Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "5ef6cbec5916",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "145c841f0f90"
+    }
+  },
+  {
+    "id": "deploy-1775395998070-1a4dde14",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T13:33:18.070Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "0d9bda180a43",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "d36914b87966"
+    }
+  },
+  {
+    "id": "deploy-1775394840502-ecb06a62",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-05T13:14:00.502Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "2970febb52d2",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "2c048fa1c975"
+    }
+  },
+  {
+    "id": "deploy-1775339018563-25b468f1",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T21:43:38.563Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "edf92c2ad1b9",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "b393f826aa01"
+    }
+  },
+  {
+    "id": "deploy-1775338863809-5bf4e7d8",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T21:41:03.810Z",
+    "manifestCount": 6,
+    "diffSummary": {
+      "added": 2,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "9dc378bfaf8b",
+      "music.json": "4d32d3ae88be",
+      "roads.json": "8a1f2695d643",
+      "world-areas.json": "5119fb8f741b",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "41911fc236a2"
+    }
+  },
+  {
+    "id": "deploy-1775338121207-482a7328",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T21:28:41.208Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "18a57a5b60cb",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "70c73a670632"
+    }
+  },
+  {
+    "id": "deploy-1775333777743-ffa0ceae",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T20:16:17.743Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "e03eecca04f0",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "47205fcbf1d8",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "59964e380d87"
+    }
+  },
+  {
+    "id": "deploy-1775331482711-7af1d15e",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T19:38:02.711Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "22611f9388a5",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "a6934480ca0a",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "7f8d122b8c2c"
+    }
+  },
+  {
+    "id": "deploy-1775329725663-5edf8829",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T19:08:45.663Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "1c539b974d89",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "6d203691c68b"
+    }
+  },
+  {
+    "id": "deploy-1775325615790-e24deb73",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T18:00:15.790Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "efc35684a0d1",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "33d65cba5cff"
+    }
+  },
+  {
+    "id": "deploy-1775324399962-a4de0285",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T17:39:59.962Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "d12351d079f6",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "8ffa22c7edb6"
+    }
+  },
+  {
+    "id": "deploy-1775323989059-0ba11f84",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T17:33:09.059Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "019b576fcc8e",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "ea4de4c54c55"
+    }
+  },
+  {
+    "id": "deploy-1775322890121-70f6149a",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T17:14:50.121Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "51fed8b5b8aa",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "3a5578be4fd4"
+    }
+  },
+  {
+    "id": "deploy-1775322206878-7684ef1f",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T17:03:26.878Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "9f1cda56038c",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "de0fe427ed49"
+    }
+  },
+  {
+    "id": "deploy-1775321577640-3cc32129",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T16:52:57.640Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "6c973ee41abd",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "dcb5e7009347"
+    }
+  },
+  {
+    "id": "deploy-1775318833074-bbdfeabd",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T16:07:13.074Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "7f33dc011236",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "011eb0d46d64"
+    }
+  },
+  {
+    "id": "deploy-1775318498660-275a3f04",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T16:01:38.660Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "21deb0f8fcf8",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "c1b7bd4233b6"
+    }
+  },
+  {
+    "id": "deploy-1775317903105-2b31a194",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T15:51:43.105Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "65b489028938",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "63970e4af157"
+    }
+  },
+  {
+    "id": "deploy-1775317150988-173ea229",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T15:39:10.988Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "2ecdb7f50c50",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "d468c9b23bcc",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "02b7dc657b19",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "07a80f9038a7"
+    }
+  },
+  {
+    "id": "deploy-1775316025667-40f39132",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T15:20:25.667Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "bc943f376bbe",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "0ac0363e98c1",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "217b4b3e98cc"
+    }
+  },
+  {
+    "id": "deploy-1775315261642-cdfbf7f4",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T15:07:41.642Z",
+    "manifestCount": 7,
+    "diffSummary": {
+      "added": 3,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "bc943f376bbe",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "320e247c08d9",
+      "roads.json": "8f2c09b947ce",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "4d6f06ac90eb"
+    }
+  },
+  {
+    "id": "deploy-1775314611342-c50ecc80",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T14:56:51.342Z",
+    "manifestCount": 6,
+    "diffSummary": {
+      "added": 2,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "bc943f376bbe",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "ea78fb78dcdf",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "2a3cf8068628"
+    }
+  },
+  {
+    "id": "deploy-1775312885352-e06ea118",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T14:28:05.354Z",
+    "manifestCount": 6,
+    "diffSummary": {
+      "added": 2,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "70b0321c2117",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "1abb95930b93",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "cc138f082650"
+    }
+  },
+  {
+    "id": "deploy-1775311694837-7bcab43d",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T14:08:14.837Z",
+    "manifestCount": 6,
+    "diffSummary": {
+      "added": 2,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "907e69018108",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "2afbbc910331",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "754573fb4e37"
+    }
+  },
+  {
+    "id": "deploy-1775311048110-0b76310d",
+    "target": "staging",
+    "status": "active",
+    "deployedBy": "930650d6-b653-4579-bc59-b9b5be8f81bc",
+    "deployedAt": "2026-04-04T13:57:28.110Z",
+    "manifestCount": 6,
+    "diffSummary": {
+      "added": 2,
+      "modified": 5,
+      "removed": 34
+    },
+    "fileHashes": {
+      "biomes.json": "98bc615afb7e",
+      "buildings.json": "907e69018108",
+      "music.json": "4d32d3ae88be",
+      "regions.json": "f8175cf3a12f",
+      "world-areas.json": "058ae3f75b7e",
+      "world-config.json": "ec64b2fef9b7",
+      "world.json": "2ccc4dfa65af"
+    }
+  }
+]

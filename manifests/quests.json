@@ -12,6 +12,7 @@
       "items": []
     },
     "startNpc": "captain_rowan",
+    "placementRules": { "placement": "town_interior" },
     "stages": [
       {
         "id": "start",
@@ -60,6 +61,7 @@
       "items": []
     },
     "startNpc": "forester_wilma",
+    "placementRules": { "biomePreference": "forest", "placement": "biome_edge", "maxDistFromTown": 100 },
     "stages": [
       {
         "id": "start",

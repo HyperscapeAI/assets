@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T01:53:14.628Z",
+  "generatedAt": "2026-04-08T14:59:38.590Z",
   "tileSize": 1,
   "models": [
     {
@@ -324,6 +324,31 @@
       },
       "footprint": {
         "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "torsos/bronze_platebody",
+      "assetPath": "asset://models/torsos/bronze_platebody/bronze_platebody.glb",
+      "bounds": {
+        "min": {
+          "x": -1.936990737915039,
+          "y": 3.2100038528442383,
+          "z": -0.5734734535217285
+        },
+        "max": {
+          "x": 1.9394378662109375,
+          "y": 4.88022518157959,
+          "z": 0.4341849088668823
+        }
+      },
+      "dimensions": {
+        "x": 3.8764286041259766,
+        "y": 1.6702213287353516,
+        "z": 1.0076583623886108
+      },
+      "footprint": {
+        "width": 4,
         "depth": 1
       }
     },
@@ -1078,6 +1103,31 @@
       }
     },
     {
+      "id": "boots/bronze_boots",
+      "assetPath": "asset://models/boots/bronze_boots/bronze_boots.glb",
+      "bounds": {
+        "min": {
+          "x": -0.8597661256790161,
+          "y": -0.02236884832382202,
+          "z": -0.5345009565353394
+        },
+        "max": {
+          "x": 0.8571871519088745,
+          "y": 0.6539735794067383,
+          "z": 0.5632469654083252
+        }
+      },
+      "dimensions": {
+        "x": 1.7169532775878906,
+        "y": 0.6763424277305603,
+        "z": 1.0977479219436646
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
       "id": "trees/wood-tree-stump",
       "assetPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
       "bounds": {
@@ -1250,6 +1300,31 @@
       "footprint": {
         "width": 2,
         "depth": 2
+      }
+    },
+    {
+      "id": "helmets/bronze_full_helm",
+      "assetPath": "asset://models/helmets/bronze_full_helm/bronze_full_helm.glb",
+      "bounds": {
+        "min": {
+          "x": -0.3154781460762024,
+          "y": 4.623559951782227,
+          "z": -0.3611491322517395
+        },
+        "max": {
+          "x": 0.31968528032302856,
+          "y": 5.59816312789917,
+          "z": 0.42135292291641235
+        }
+      },
+      "dimensions": {
+        "x": 0.635163426399231,
+        "y": 0.9746031761169434,
+        "z": 0.7825020551681519
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
       }
     },
     {
@@ -2953,6 +3028,31 @@
       }
     },
     {
+      "id": "legs/bronze_platelegs",
+      "assetPath": "asset://models/legs/bronze_platelegs/bronze_platelegs.glb",
+      "bounds": {
+        "min": {
+          "x": -0.6982248425483704,
+          "y": 0.6078142523765564,
+          "z": -0.539978563785553
+        },
+        "max": {
+          "x": 0.6941010355949402,
+          "y": 3.3113231658935547,
+          "z": 0.3891444206237793
+        }
+      },
+      "dimensions": {
+        "x": 1.3923258781433105,
+        "y": 2.7035089135169983,
+        "z": 0.9291229844093323
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
       "id": "logs/logs-base",
       "assetPath": "asset://models/logs/logs-base/logs-base.glb",
       "bounds": {
@@ -2999,6 +3099,31 @@
       },
       "footprint": {
         "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "gloves/bronze_gloves",
+      "assetPath": "asset://models/gloves/bronze_gloves/bronze_gloves.glb",
+      "bounds": {
+        "min": {
+          "x": -2.644869804382324,
+          "y": 4.245110988616943,
+          "z": -0.3496134281158447
+        },
+        "max": {
+          "x": 2.645260810852051,
+          "y": 4.563480854034424,
+          "z": 0.2749236226081848
+        }
+      },
+      "dimensions": {
+        "x": 5.290130615234375,
+        "y": 0.31836986541748047,
+        "z": 0.6245370507240295
+      },
+      "footprint": {
+        "width": 5,
         "depth": 1
       }
     },

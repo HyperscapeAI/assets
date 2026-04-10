@@ -5,21 +5,14 @@
     "type": "armor",
     "tier": "bronze",
     "equipSlot": "helmet",
-    "value": 44,
-    "weight": 2.2,
-    "description": "A full face helmet made of bronze.",
-    "examine": "A full face helmet made of bronze.",
+    "value": 100,
+    "weight": 5,
+    "description": "Bronze Full Helm.",
+    "examine": "A piece of bronze armor.",
     "tradeable": true,
     "rarity": "common",
-    "bonuses": {
-      "defenseStab": 4,
-      "defenseSlash": 5,
-      "defenseCrush": 3,
-      "defenseMagic": -1,
-      "defenseRanged": 4,
-      "attackMagic": -6,
-      "attackRanged": -3
-    }
+    "bonuses": {},
+    "equippedModelPath": "asset://models/helmets/bronze_full_helm/bronze_full_helm.glb"
   },
   {
     "id": "bronze_platebody",
@@ -27,21 +20,14 @@
     "type": "armor",
     "tier": "bronze",
     "equipSlot": "body",
-    "value": 160,
-    "weight": 9.07,
-    "description": "A body made of bronze.",
-    "examine": "Provides some protection.",
+    "value": 100,
+    "weight": 5,
+    "description": "Bronze Platebody.",
+    "examine": "A piece of bronze armor.",
     "tradeable": true,
     "rarity": "common",
-    "bonuses": {
-      "defenseStab": 15,
-      "defenseSlash": 14,
-      "defenseCrush": 9,
-      "defenseMagic": -6,
-      "defenseRanged": 14,
-      "attackMagic": -30,
-      "attackRanged": -15
-    }
+    "bonuses": {},
+    "equippedModelPath": "asset://models/torsos/bronze_platebody/bronze_platebody.glb"
   },
   {
     "id": "bronze_platelegs",
@@ -49,21 +35,14 @@
     "type": "armor",
     "tier": "bronze",
     "equipSlot": "legs",
-    "value": 80,
-    "weight": 8.16,
-    "description": "Platelegs made of bronze.",
-    "examine": "These look pretty strong.",
+    "value": 100,
+    "weight": 5,
+    "description": "Bronze Platelegs.",
+    "examine": "A piece of bronze armor.",
     "tradeable": true,
     "rarity": "common",
-    "bonuses": {
-      "defenseStab": 8,
-      "defenseSlash": 7,
-      "defenseCrush": 6,
-      "defenseMagic": -4,
-      "defenseRanged": 7,
-      "attackMagic": -21,
-      "attackRanged": -11
-    }
+    "bonuses": {},
+    "equippedModelPath": "asset://models/legs/bronze_platelegs/bronze_platelegs.glb"
   },
   {
     "id": "iron_full_helm",
@@ -707,7 +686,7 @@
     "tier": "studded",
     "equipSlot": "body",
     "value": 850,
-    "weight": 5.0,
+    "weight": 5,
     "description": "A studded leather body.",
     "examine": "Studded leather armour.",
     "tradeable": true,
@@ -891,7 +870,7 @@
     "tier": "mystic",
     "equipSlot": "body",
     "value": 120000,
-    "weight": 2.0,
+    "weight": 2,
     "description": "A robe imbued with mystic energy.",
     "examine": "A robe imbued with powerful mystic energy.",
     "tradeable": true,
@@ -953,19 +932,14 @@
     "type": "armor",
     "tier": "bronze",
     "equipSlot": "boots",
-    "value": 26,
-    "weight": 1.8,
-    "description": "A pair of bronze boots.",
-    "examine": "Bronze plated boots.",
+    "value": 100,
+    "weight": 5,
+    "description": "Bronze Boots.",
+    "examine": "A piece of bronze armor.",
     "tradeable": true,
     "rarity": "common",
-    "bonuses": {
-      "defenseStab": 1,
-      "defenseSlash": 2,
-      "defenseCrush": 3,
-      "defenseMagic": -1,
-      "defenseRanged": 0
-    }
+    "bonuses": {},
+    "equippedModelPath": "asset://models/boots/bronze_boots/bronze_boots.glb"
   },
   {
     "id": "iron_boots",
@@ -1134,20 +1108,14 @@
     "type": "armor",
     "tier": "bronze",
     "equipSlot": "gloves",
-    "value": 26,
-    "weight": 0.5,
-    "description": "A pair of bronze gloves.",
-    "examine": "Bronze gauntlets.",
+    "value": 100,
+    "weight": 5,
+    "description": "Bronze Gloves.",
+    "examine": "A piece of bronze armor.",
     "tradeable": true,
     "rarity": "common",
-    "bonuses": {
-      "attackStab": 2,
-      "attackSlash": 2,
-      "attackCrush": 2,
-      "defenseStab": 2,
-      "defenseSlash": 3,
-      "defenseCrush": 1
-    }
+    "bonuses": {},
+    "equippedModelPath": "asset://models/gloves/bronze_gloves/bronze_gloves.glb"
   },
   {
     "id": "iron_gloves",

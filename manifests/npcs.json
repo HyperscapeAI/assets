@@ -230,6 +230,8 @@
     "description": "A friendly merchant who buys and sells goods",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "store",
+    "storeId": "general_store",
     "combat": {
       "attackable": false
     },
@@ -486,6 +488,9 @@
     "description": "A weathered fisherman who supplies the local market",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "fishing-shop",
+    "storeId": "fishing_store",
+    "placementRules": { "biomePreference": "forest", "placement": "near_water", "maxDistFromTown": 50 },
     "combat": {
       "attackable": false
     },
@@ -595,6 +600,8 @@
     "description": "A gruff dwarven smith who runs the local forge",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "smithy",
+    "storeId": "sword_store",
     "combat": {
       "attackable": false
     },
@@ -1025,6 +1032,8 @@
     "description": "A mysterious wizard who deals in runes, staves, and magical equipment",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "magic-shop",
+    "storeId": "magic_store",
     "combat": {
       "attackable": false
     },
@@ -1150,6 +1159,8 @@
     "description": "A skilled bowyer and fletcher who sells ranged weapons and supplies",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "range-shop",
+    "storeId": "range_store",
     "combat": {
       "attackable": false
     },
@@ -1275,6 +1286,8 @@
     "description": "A burly armorer who sells helms, platebodies, shields, and other protective gear",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "armor-shop",
+    "storeId": "armor_store",
     "combat": {
       "attackable": false
     },
@@ -1329,6 +1342,8 @@
     "description": "A crafting supplier who sells leather, gems, moulds, and other crafting materials",
     "category": "neutral",
     "faction": "town",
+    "buildingRole": "crafting-shop",
+    "storeId": "crafting_store",
     "combat": {
       "attackable": false
     },

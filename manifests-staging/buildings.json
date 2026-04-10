@@ -1,0 +1,1208 @@
+{
+  "version": 1,
+  "towns": [
+    {
+      "id": "town_0",
+      "name": "Starter Town",
+      "position": {
+        "x": 0,
+        "y": 26.11940607615341,
+        "z": 0
+      },
+      "size": "lg",
+      "keep": true,
+      "safeZoneRadius": 120,
+      "buildings": [
+        {
+          "id": "town_0_building_0",
+          "type": "bank",
+          "position": {
+            "x": -40,
+            "y": -4.940438390722612,
+            "z": 20
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 12,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_0_building_1",
+          "type": "store",
+          "position": {
+            "x": -40,
+            "y": 1.3608297850944773,
+            "z": -18
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_0_building_2",
+          "type": "smithy",
+          "position": {
+            "x": 40,
+            "y": -0.24574313807521975,
+            "z": 18
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_3",
+          "type": "inn",
+          "position": {
+            "x": 40,
+            "y": -0.22603802438169396,
+            "z": -20
+          },
+          "rotation": 0,
+          "size": {
+            "width": 12,
+            "depth": 16
+          }
+        },
+        {
+          "id": "town_0_building_4",
+          "type": "church",
+          "position": {
+            "x": 38,
+            "y": -1.0939611965049814,
+            "z": 36
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_0_building_5",
+          "type": "cathedral",
+          "position": {
+            "x": -36,
+            "y": -1.7977105269335674,
+            "z": 36
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 24,
+            "depth": 32
+          }
+        },
+        {
+          "id": "town_0_building_6",
+          "type": "guild-hall",
+          "position": {
+            "x": 36,
+            "y": 0.3813294192844445,
+            "z": -44
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_0_building_7",
+          "type": "manor",
+          "position": {
+            "x": -38,
+            "y": 1.8806505978685557,
+            "z": -44
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_0_building_8",
+          "type": "long-house",
+          "position": {
+            "x": 38,
+            "y": -1.087888028164457,
+            "z": 52
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_0_building_9",
+          "type": "simple-house",
+          "position": {
+            "x": -36,
+            "y": -0.3174055736136552,
+            "z": 52
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_10",
+          "type": "simple-house",
+          "position": {
+            "x": -56,
+            "y": 0.36592978623552597,
+            "z": 20
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_11",
+          "type": "simple-house",
+          "position": {
+            "x": -56,
+            "y": 1.3115641794271937,
+            "z": -18
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_12",
+          "type": "long-house",
+          "position": {
+            "x": 56,
+            "y": -0.31248680493882475,
+            "z": 18
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_0_building_13",
+          "type": "long-house",
+          "position": {
+            "x": 56,
+            "y": -0.9043490615173937,
+            "z": -20
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_0_building_14",
+          "type": "long-house",
+          "position": {
+            "x": -72,
+            "y": -2.341312330575448,
+            "z": 20
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_0_building_15",
+          "type": "long-house",
+          "position": {
+            "x": -72,
+            "y": 1.0527285207135364,
+            "z": -18
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_0_building_16",
+          "type": "simple-house",
+          "position": {
+            "x": 72,
+            "y": 0.27274527214257915,
+            "z": 18
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_17",
+          "type": "simple-house",
+          "position": {
+            "x": 72,
+            "y": -0.805532061345513,
+            "z": -20
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_18",
+          "type": "simple-house",
+          "position": {
+            "x": -88,
+            "y": -16.407258190099146,
+            "z": 20
+          },
+          "rotation": -3.141592653589793,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_0_building_19",
+          "type": "long-house",
+          "position": {
+            "x": -88,
+            "y": 0.620060332111322,
+            "z": -18
+          },
+          "rotation": 0,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "town_1",
+      "name": "Eastcrest",
+      "position": {
+        "x": 200,
+        "y": 26.3022537333516,
+        "z": -300
+      },
+      "size": "md",
+      "keep": true,
+      "safeZoneRadius": 80,
+      "buildings": [
+        {
+          "id": "town_1_building_0",
+          "type": "bank",
+          "position": {
+            "x": -18,
+            "y": 0.49277514455270577,
+            "z": 12
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_1_building_1",
+          "type": "store",
+          "position": {
+            "x": 20,
+            "y": -0.9231063876179562,
+            "z": 12
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_1_building_2",
+          "type": "smithy",
+          "position": {
+            "x": -18,
+            "y": 1.1028219829033254,
+            "z": -20
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_1_building_3",
+          "type": "inn",
+          "position": {
+            "x": 20,
+            "y": -0.26981272778371945,
+            "z": -20
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 16
+          }
+        },
+        {
+          "id": "town_1_building_4",
+          "type": "church",
+          "position": {
+            "x": -18,
+            "y": 1.2935185735605756,
+            "z": 28
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_1_building_5",
+          "type": "guild-hall",
+          "position": {
+            "x": 20,
+            "y": -1.765241193417875,
+            "z": 28
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_1_building_6",
+          "type": "simple-house",
+          "position": {
+            "x": -18,
+            "y": 0.7215231234781427,
+            "z": -36
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_1_building_7",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": -0.8713859465873774,
+            "z": -36
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_1_building_8",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": 1.5456173253322056,
+            "z": 44
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_1_building_9",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": -1.190093966074155,
+            "z": 44
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_1_building_10",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": 0.6612740049346044,
+            "z": -52
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_1_building_11",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.7264569364281428,
+            "z": -52
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "town_2",
+      "name": "Sunhaven",
+      "position": {
+        "x": -400,
+        "y": 26.48070564858578,
+        "z": 0
+      },
+      "size": "md",
+      "keep": true,
+      "safeZoneRadius": 80,
+      "buildings": [
+        {
+          "id": "town_2_building_0",
+          "type": "bank",
+          "position": {
+            "x": -18,
+            "y": 2.208432115821793,
+            "z": 12
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_2_building_1",
+          "type": "store",
+          "position": {
+            "x": 20,
+            "y": 0.1759818732132814,
+            "z": 12
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_2_building_2",
+          "type": "smithy",
+          "position": {
+            "x": -18,
+            "y": -4.734425049944605,
+            "z": -20
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_2_building_3",
+          "type": "inn",
+          "position": {
+            "x": 20,
+            "y": -7.15102596705437,
+            "z": -20
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 16
+          }
+        },
+        {
+          "id": "town_2_building_4",
+          "type": "church",
+          "position": {
+            "x": -18,
+            "y": 3.036779981585358,
+            "z": 28
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_2_building_5",
+          "type": "guild-hall",
+          "position": {
+            "x": 20,
+            "y": 0.4517109733404112,
+            "z": 28
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_2_building_6",
+          "type": "simple-house",
+          "position": {
+            "x": -18,
+            "y": -1.5112363144967773,
+            "z": -36
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_2_building_7",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.5903006285617387,
+            "z": -36
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_2_building_8",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": 1.6674802705852905,
+            "z": 44
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_2_building_9",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": -0.5076534117701605,
+            "z": 44
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_2_building_10",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": -0.7176963762040423,
+            "z": -52
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_2_building_11",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.440473180403,
+            "z": -52
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "town_3",
+      "name": "Thundermarsh",
+      "position": {
+        "x": 400,
+        "y": 26.179538679461157,
+        "z": 100
+      },
+      "size": "md",
+      "keep": true,
+      "safeZoneRadius": 80,
+      "buildings": [
+        {
+          "id": "town_3_building_0",
+          "type": "bank",
+          "position": {
+            "x": -18,
+            "y": -0.007544786880231413,
+            "z": 12
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_3_building_1",
+          "type": "store",
+          "position": {
+            "x": 20,
+            "y": 0.8551414541337827,
+            "z": 12
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_3_building_2",
+          "type": "smithy",
+          "position": {
+            "x": -18,
+            "y": -0.38905753643531327,
+            "z": -20
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_3_building_3",
+          "type": "inn",
+          "position": {
+            "x": 20,
+            "y": 0.6594459045490098,
+            "z": -20
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 16
+          }
+        },
+        {
+          "id": "town_3_building_4",
+          "type": "church",
+          "position": {
+            "x": -18,
+            "y": -0.1052508711508402,
+            "z": 28
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_3_building_5",
+          "type": "guild-hall",
+          "position": {
+            "x": 20,
+            "y": 0.44741647428801556,
+            "z": 28
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_3_building_6",
+          "type": "simple-house",
+          "position": {
+            "x": -18,
+            "y": -0.09777922873902511,
+            "z": -36
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_3_building_7",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.933099306869817,
+            "z": -36
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_3_building_8",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": -0.05149896291991496,
+            "z": 44
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_3_building_9",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": -0.4961193647151525,
+            "z": 44
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_3_building_10",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": -0.37040009018443243,
+            "z": -52
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_3_building_11",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.4055060764978755,
+            "z": -52
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "town_4",
+      "name": "Thundermarsh",
+      "position": {
+        "x": 100,
+        "y": 23.664861126060014,
+        "z": 400
+      },
+      "size": "md",
+      "keep": true,
+      "safeZoneRadius": 80,
+      "buildings": [
+        {
+          "id": "town_4_building_0",
+          "type": "bank",
+          "position": {
+            "x": -18,
+            "y": 0.090021297510269,
+            "z": 12
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_4_building_1",
+          "type": "store",
+          "position": {
+            "x": 20,
+            "y": -1.0724008005878538,
+            "z": 12
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 12
+          }
+        },
+        {
+          "id": "town_4_building_2",
+          "type": "smithy",
+          "position": {
+            "x": -18,
+            "y": -0.2178592086197355,
+            "z": -20
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_4_building_3",
+          "type": "inn",
+          "position": {
+            "x": 20,
+            "y": -0.624647035856519,
+            "z": -20
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 16
+          }
+        },
+        {
+          "id": "town_4_building_4",
+          "type": "church",
+          "position": {
+            "x": -18,
+            "y": -0.8060496638590671,
+            "z": 28
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 12,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_4_building_5",
+          "type": "guild-hall",
+          "position": {
+            "x": 20,
+            "y": -1.4792335663192127,
+            "z": 28
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 20,
+            "depth": 24
+          }
+        },
+        {
+          "id": "town_4_building_6",
+          "type": "simple-house",
+          "position": {
+            "x": -18,
+            "y": -0.3226008231783446,
+            "z": -36
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_4_building_7",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": 0.0007198549918427943,
+            "z": -36
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_4_building_8",
+          "type": "long-house",
+          "position": {
+            "x": -18,
+            "y": -1.1572158151216172,
+            "z": 44
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_4_building_9",
+          "type": "simple-house",
+          "position": {
+            "x": 20,
+            "y": -1.607660440440739,
+            "z": 44
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        },
+        {
+          "id": "town_4_building_10",
+          "type": "long-house",
+          "position": {
+            "x": -20,
+            "y": -0.4513809135605058,
+            "z": -52
+          },
+          "rotation": 1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 20
+          }
+        },
+        {
+          "id": "town_4_building_11",
+          "type": "simple-house",
+          "position": {
+            "x": 18,
+            "y": 0.09092475594742666,
+            "z": -52
+          },
+          "rotation": -1.5707963267948966,
+          "size": {
+            "width": 8,
+            "depth": 8
+          }
+        }
+      ]
+    }
+  ],
+  "buildingTypes": {
+    "bank": {
+      "label": "Bank",
+      "widthRange": [
+        3,
+        4
+      ],
+      "depthRange": [
+        3,
+        4
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "store": {
+      "label": "Store",
+      "widthRange": [
+        3,
+        5
+      ],
+      "depthRange": [
+        3,
+        5
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "anvil": {
+      "label": "Anvil",
+      "widthRange": [
+        2,
+        3
+      ],
+      "depthRange": [
+        2,
+        3
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "house": {
+      "label": "House",
+      "widthRange": [
+        3,
+        5
+      ],
+      "depthRange": [
+        3,
+        5
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "well": {
+      "label": "Well",
+      "widthRange": [
+        1,
+        2
+      ],
+      "depthRange": [
+        1,
+        2
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "inn": {
+      "label": "Inn",
+      "widthRange": [
+        4,
+        6
+      ],
+      "depthRange": [
+        4,
+        6
+      ],
+      "floors": 2,
+      "hasBasement": false
+    },
+    "smithy": {
+      "label": "Smithy",
+      "widthRange": [
+        3,
+        5
+      ],
+      "depthRange": [
+        3,
+        5
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "simple-house": {
+      "label": "Simple House",
+      "widthRange": [
+        2,
+        4
+      ],
+      "depthRange": [
+        2,
+        4
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "long-house": {
+      "label": "Long House",
+      "widthRange": [
+        4,
+        7
+      ],
+      "depthRange": [
+        3,
+        4
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "church": {
+      "label": "Church",
+      "widthRange": [
+        4,
+        6
+      ],
+      "depthRange": [
+        5,
+        8
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "chapel": {
+      "label": "Chapel",
+      "widthRange": [
+        3,
+        4
+      ],
+      "depthRange": [
+        4,
+        6
+      ],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "keep": {
+      "label": "Keep",
+      "widthRange": [
+        5,
+        7
+      ],
+      "depthRange": [
+        5,
+        7
+      ],
+      "floors": 2,
+      "hasBasement": true
+    }
+  },
+  "sizeDefinitions": {
+    "sm": {
+      "label": "Hamlet",
+      "minBuildings": 2,
+      "maxBuildings": 4,
+      "radius": 30,
+      "safeZoneRadius": 50
+    },
+    "md": {
+      "label": "Village",
+      "minBuildings": 4,
+      "maxBuildings": 8,
+      "radius": 50,
+      "safeZoneRadius": 80
+    },
+    "lg": {
+      "label": "Town",
+      "minBuildings": 8,
+      "maxBuildings": 16,
+      "radius": 80,
+      "safeZoneRadius": 120
+    }
+  }
+}
