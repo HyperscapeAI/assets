@@ -1,39 +1,7 @@
 {
   "$schema": "../schemas/gathering-woodcutting.schema.json",
-  "_comment": "Woodcutting resource data. Trees and their log yields. OSRS-accurate levels and XP.",
+  "_comment": "Woodcutting trees. modelVariants use LOD0 GLBs under models/trees/<type>/ (LOD1/2 inferred).",
   "trees": [
-    {
-      "id": "tree_fir",
-      "name": "Fir Tree",
-      "type": "tree",
-      "examine": "A tall fir tree with strong, durable wood.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/fir_01.glb",
-        "asset://models/trees/fir_02.glb",
-        "asset://models/trees/fir_03.glb",
-        "asset://models/trees/fir_04.glb"
-      ],
-      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.01,
-      "depletedScale": 0.1,
-      "harvestSkill": "woodcutting",
-      "toolRequired": "bronze_hatchet",
-      "levelRequired": 1,
-      "baseCycleTicks": 4,
-      "depleteChance": 0.125,
-      "respawnTicks": 80,
-      "harvestYield": [
-        {
-          "itemId": "logs",
-          "itemName": "Logs",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 25,
-          "stackable": true
-        }
-      ]
-    },
     {
       "id": "tree_pine",
       "name": "Pine Tree",
@@ -41,12 +9,14 @@
       "examine": "A sturdy pine tree with fragrant wood.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/pine_01.glb",
-        "asset://models/trees/pine_02.glb",
-        "asset://models/trees/pine_03.glb"
+        "asset://models/trees/pine/pine_01.glb",
+        "asset://models/trees/pine/pine_02.glb",
+        "asset://models/trees/pine/pine_03.glb",
+        "asset://models/trees/pine/pine_04.glb",
+        "asset://models/trees/pine/pine_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -72,13 +42,11 @@
       "examine": "A large oak tree with thick, strong wood.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/oak_01.glb",
-        "asset://models/trees/oak_02.glb",
-        "asset://models/trees/oak_03.glb",
-        "asset://models/trees/oak_04.glb"
+        "asset://models/trees/oak/oak_01.glb",
+        "asset://models/trees/oak/oak_02.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -98,115 +66,19 @@
       ]
     },
     {
-      "id": "tree_birch",
-      "name": "Birch Tree",
-      "type": "tree",
-      "examine": "A slender birch tree with distinctive white bark.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/birch_01.glb",
-        "asset://models/trees/birch_02.glb",
-        "asset://models/trees/birch_03.glb",
-        "asset://models/trees/birch_04.glb",
-        "asset://models/trees/birch_05.glb"
-      ],
-      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
-      "depletedScale": 0.1,
-      "harvestSkill": "woodcutting",
-      "toolRequired": "bronze_hatchet",
-      "levelRequired": 1,
-      "baseCycleTicks": 4,
-      "depleteChance": 0.125,
-      "respawnTicks": 80,
-      "harvestYield": [
-        {
-          "itemId": "logs",
-          "itemName": "Logs",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 25,
-          "stackable": true
-        }
-      ]
-    },
-    {
-      "id": "tree_bamboo",
-      "name": "Bamboo Tree",
-      "type": "tree",
-      "examine": "A tall bamboo stalk swaying in the breeze.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/bamboo_01.glb",
-        "asset://models/trees/bamboo_02.glb",
-        "asset://models/trees/bamboo_03.glb",
-        "asset://models/trees/bamboo_04.glb"
-      ],
-      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.8,
-      "depletedScale": 0.1,
-      "harvestSkill": "woodcutting",
-      "toolRequired": "bronze_hatchet",
-      "levelRequired": 1,
-      "baseCycleTicks": 4,
-      "depleteChance": 0.125,
-      "respawnTicks": 80,
-      "harvestYield": [
-        {
-          "itemId": "logs",
-          "itemName": "Logs",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 25,
-          "stackable": true
-        }
-      ]
-    },
-    {
-      "id": "tree_chinaPine",
-      "name": "China Pine",
-      "type": "tree",
-      "examine": "An elegant china pine with spreading branches.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/chinaPine_01.glb",
-        "asset://models/trees/chinaPine_02.glb",
-        "asset://models/trees/chinaPine_03.glb",
-        "asset://models/trees/chinaPine_04.glb"
-      ],
-      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
-      "depletedScale": 0.1,
-      "harvestSkill": "woodcutting",
-      "toolRequired": "bronze_hatchet",
-      "levelRequired": 1,
-      "baseCycleTicks": 4,
-      "depleteChance": 0.125,
-      "respawnTicks": 80,
-      "harvestYield": [
-        {
-          "itemId": "logs",
-          "itemName": "Logs",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 25,
-          "stackable": true
-        }
-      ]
-    },
-    {
       "id": "tree_maple",
       "name": "Maple Tree",
       "type": "tree",
       "examine": "A beautiful maple tree with vibrant red leaves.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/maple_01.glb",
-        "asset://models/trees/maple_02.glb",
-        "asset://models/trees/maple_03.glb"
+        "asset://models/trees/maple/maple_01.glb",
+        "asset://models/trees/maple/maple_02.glb",
+        "asset://models/trees/maple/maple_03.glb",
+        "asset://models/trees/maple/maple_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -226,20 +98,20 @@
       ]
     },
     {
-      "id": "tree_coconut",
-      "name": "Coconut Palm",
+      "id": "tree_palm",
+      "name": "Desert Palm",
       "type": "tree",
-      "examine": "A tall coconut palm swaying gently.",
+      "examine": "A hardy desert palm with fan-shaped leaves.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/coconut_01.glb",
-        "asset://models/trees/coconut_02.glb",
-        "asset://models/trees/coconut_03.glb",
-        "asset://models/trees/coconut_04.glb",
-        "asset://models/trees/coconut_05.glb"
+        "asset://models/trees/palm/palm_01.glb",
+        "asset://models/trees/palm/palm_02.glb",
+        "asset://models/trees/palm/palm_03.glb",
+        "asset://models/trees/palm/palm_04.glb",
+        "asset://models/trees/palm/palm_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -259,20 +131,20 @@
       ]
     },
     {
-      "id": "tree_palm",
-      "name": "Desert Palm",
+      "id": "tree_banana",
+      "name": "Banana Tree",
       "type": "tree",
-      "examine": "A hardy desert palm with fan-shaped leaves.",
+      "examine": "A tropical banana tree with large, broad leaves.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/palm_01.glb",
-        "asset://models/trees/palm_02.glb",
-        "asset://models/trees/palm_03.glb",
-        "asset://models/trees/palm_04.glb",
-        "asset://models/trees/palm_05.glb"
+        "asset://models/trees/banana/banana_01.glb",
+        "asset://models/trees/banana/banana_02.glb",
+        "asset://models/trees/banana/banana_03.glb",
+        "asset://models/trees/banana/banana_04.glb",
+        "asset://models/trees/banana/banana_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.012,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -298,14 +170,13 @@
       "examine": "A withered, lifeless tree.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/dead_01.glb",
-        "asset://models/trees/dead_02.glb",
-        "asset://models/trees/dead_03.glb",
-        "asset://models/trees/dead_04.glb",
-        "asset://models/trees/dead_05.glb"
+        "asset://models/trees/dead/dead_01.glb",
+        "asset://models/trees/dead/dead_02.glb",
+        "asset://models/trees/dead/dead_03.glb",
+        "asset://models/trees/dead/dead_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -325,23 +196,18 @@
       ]
     },
     {
-      "id": "tree_cactus",
-      "name": "Cactus",
+      "id": "tree_pineDead",
+      "name": "Dead Pine",
       "type": "tree",
-      "examine": "A prickly desert cactus.",
+      "examine": "A weathered pine, stripped bare by harsh tundra winds.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/cactus01.glb",
-        "asset://models/trees/cactus02.glb",
-        "asset://models/trees/cactus03.glb",
-        "asset://models/trees/cactus04.glb",
-        "asset://models/trees/cactus05.glb",
-        "asset://models/trees/cactus06.glb",
-        "asset://models/trees/cactus07.glb",
-        "asset://models/trees/cactus08.glb"
+        "asset://models/trees/pine_dead/pine_dead_01.glb",
+        "asset://models/trees/pine_dead/pine_dead_02.glb",
+        "asset://models/trees/pine_dead/pine_dead_03.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -361,19 +227,19 @@
       ]
     },
     {
-      "id": "tree_knotwood",
-      "name": "Knotwood Tree",
+      "id": "tree_bamboo",
+      "name": "Bamboo",
       "type": "tree",
-      "examine": "A gnarled knotwood tree with twisted, dense wood.",
+      "examine": "Tall bamboo stalks creak gently in the breeze.",
       "modelPath": null,
       "modelVariants": [
-        "asset://models/trees/knotwood_01.glb",
-        "asset://models/trees/knotwood_02.glb",
-        "asset://models/trees/knotwood_03.glb",
-        "asset://models/trees/knotwood_04.glb"
+        "asset://models/trees/bamboo/bamboo_01.glb",
+        "asset://models/trees/bamboo/bamboo_02.glb",
+        "asset://models/trees/bamboo/bamboo_03.glb",
+        "asset://models/trees/bamboo/bamboo_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -393,13 +259,54 @@
       ]
     },
     {
-      "id": "tree_windPine",
-      "name": "Wind Pine",
+      "id": "tree_eucalyptus",
+      "name": "Eucalyptus Tree",
       "type": "tree",
-      "examine": "A wind-battered pine, bent and stripped by harsh tundra gales.",
-      "modelPath": "asset://models/trees/dead_06.glb",
+      "examine": "A tall eucalyptus with peeling bark and long leaves.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/eucalyptus/eucalyptus_01.glb",
+        "asset://models/trees/eucalyptus/eucalyptus_02.glb",
+        "asset://models/trees/eucalyptus/eucalyptus_03.glb",
+        "asset://models/trees/eucalyptus/eucalyptus_04.glb",
+        "asset://models/trees/eucalyptus/eucalyptus_05.glb"
+      ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
+      "scale": 1,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 30,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "logs",
+          "itemName": "Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 67.5,
+          "stackable": true
+        }
+      ]
+    },
+    {
+      "id": "tree_general",
+      "name": "Tree",
+      "type": "tree",
+      "examine": "A common tree. I can chop it down with a hatchet.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/general/general_01.glb",
+        "asset://models/trees/general/general_02.glb",
+        "asset://models/trees/general/general_03.glb",
+        "asset://models/trees/general/general_04.glb",
+        "asset://models/trees/general/general_05.glb",
+        "asset://models/trees/general/general_06.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 1,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -414,6 +321,66 @@
           "quantity": 1,
           "chance": 1.0,
           "xpAmount": 25,
+          "stackable": true
+        }
+      ]
+    },
+    {
+      "id": "tree_magic",
+      "name": "Magic Tree",
+      "type": "tree",
+      "examine": "A tree infused with magical energy.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/magic/magic_01.glb",
+        "asset://models/trees/magic/magic_02.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 1,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 60,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "magic_logs",
+          "itemName": "Magic Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 250,
+          "stackable": true
+        }
+      ]
+    },
+    {
+      "id": "tree_mahogany",
+      "name": "Mahogany Tree",
+      "type": "tree",
+      "examine": "A mahogany tree with rich, reddish-brown timber.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/mahogany/mahogany_01.glb",
+        "asset://models/trees/mahogany/mahogany_02.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 1,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 50,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "mahogany_logs",
+          "itemName": "Mahogany Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 125,
           "stackable": true
         }
       ]

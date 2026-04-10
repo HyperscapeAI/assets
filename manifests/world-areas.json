@@ -6,10 +6,10 @@
       "description": "The central hub of Hyperscape, a peaceful sanctuary protected by ancient wards.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": -150,
-        "maxX": 150,
-        "minZ": -150,
-        "maxZ": 150
+        "minX": 294,
+        "maxX": 594,
+        "minZ": 180,
+        "maxZ": 480
       },
       "biomeType": "starter_town",
       "safeZone": true,
@@ -352,10 +352,10 @@
       "description": "A grand arena where warriors settle disputes through honorable combat. Challenge other players to duels with agreed-upon rules and stakes.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": 50,
-        "maxX": 150,
-        "minZ": 50,
-        "maxZ": 150
+        "minX": 316,
+        "maxX": 420,
+        "minZ": 349,
+        "maxZ": 489
       },
       "biomeType": "desert",
       "safeZone": true,
@@ -365,7 +365,7 @@
           "id": "duel_arena_nurse",
           "type": "healer",
           "name": "Nurse Sarah",
-          "position": { "x": 55, "y": 0, "z": 55 },
+          "position": { "x": 55, "y": 0, "z": 105 },
           "dialogue": {
             "greeting": "Welcome to the Duel Arena hospital. Let me restore your health and prayer.",
             "heal": "There you go, fully restored!"
@@ -375,7 +375,7 @@
           "id": "duel_arena_scoreboard",
           "type": "scoreboard",
           "name": "Duel Scoreboard",
-          "position": { "x": 100, "y": 0, "z": 55 },
+          "position": { "x": 100, "y": 0, "z": 105 },
           "dialogue": {
             "greeting": "View the duel arena rankings and statistics."
           }
@@ -384,7 +384,7 @@
           "id": "duel_arena_guide",
           "type": "guide",
           "name": "Duel Master Marcus",
-          "position": { "x": 110, "y": 0, "z": 60 },
+          "position": { "x": 110, "y": 0, "z": 110 },
           "dialogue": {
             "greeting": "Welcome to the Duel Arena! Right-click another player and select 'Challenge to Duel' to begin. You can set rules and stake items before fighting."
           }
@@ -396,106 +396,8 @@
         {
           "id": "duel_arena_bank",
           "type": "bank",
-          "position": { "x": 135, "y": 0, "z": 65 },
+          "position": { "x": 135, "y": 0, "z": 115 },
           "bankId": "duel_arena_bank"
-        }
-      ],
-      "subZones": {
-        "lobby": {
-          "name": "Duel Arena Lobby",
-          "bounds": { "minX": 90, "maxX": 130, "minZ": 50, "maxZ": 75 },
-          "safeZone": true,
-          "spawnPoint": { "x": 105, "y": 0, "z": 60 }
-        },
-        "hospital": {
-          "name": "Duel Arena Hospital",
-          "bounds": { "minX": 50, "maxX": 80, "minZ": 50, "maxZ": 75 },
-          "safeZone": true,
-          "spawnPoint": { "x": 60, "y": 0, "z": 60 }
-        },
-        "arenas": {
-          "name": "Combat Arenas",
-          "bounds": { "minX": 60, "maxX": 140, "minZ": 80, "maxZ": 145 },
-          "safeZone": false,
-          "duelOnly": true,
-          "arenaCount": 6,
-          "arenaLayout": "2x3",
-          "arenaSize": { "width": 20, "length": 24 },
-          "arenaGap": 4
-        }
-      },
-      "flatZones": [
-        {
-          "id": "duel_arena_1",
-          "centerX": 70,
-          "centerZ": 92,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_2",
-          "centerX": 94,
-          "centerZ": 92,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_3",
-          "centerX": 70,
-          "centerZ": 120,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_4",
-          "centerX": 94,
-          "centerZ": 120,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_5",
-          "centerX": 70,
-          "centerZ": 148,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_6",
-          "centerX": 94,
-          "centerZ": 148,
-          "width": 22,
-          "depth": 26,
-          "heightOffset": 0.4,
-          "blendRadius": 0.5
-        },
-        {
-          "id": "duel_arena_lobby",
-          "centerX": 105,
-          "centerZ": 62,
-          "width": 40,
-          "depth": 25,
-          "heightOffset": 0.4,
-          "blendRadius": 1.0
-        },
-        {
-          "id": "duel_arena_hospital",
-          "centerX": 65,
-          "centerZ": 62,
-          "width": 30,
-          "depth": 25,
-          "heightOffset": 0.4,
-          "blendRadius": 1.0
         }
       ]
     }
