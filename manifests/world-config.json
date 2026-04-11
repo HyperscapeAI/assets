@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "seed": 42,
+  "terrain": {
+    "tileSize": 100,
+    "worldSize": 100,
+    "tileResolution": 64,
+    "maxHeight": 50,
+    "waterThreshold": 8,
+    "biomeScale": 1.0,
+    "fogNear": 150,
+    "fogFar": 350,
+    "cameraFar": 400
+  },
+  "towns": {
+    "townCount": 25,
+    "minTownSpacing": 800,
+    "flatnessSampleRadius": 40,
+    "flatnessSampleCount": 16,
+    "waterThreshold": 8,
+    "optimalWaterDistanceMin": 30,
+    "optimalWaterDistanceMax": 150,
+    "townSizes": {
+      "hamlet": { "minBuildings": 3, "maxBuildings": 5, "radius": 25, "safeZoneRadius": 40 },
+      "village": { "minBuildings": 6, "maxBuildings": 10, "radius": 40, "safeZoneRadius": 60 },
+      "town": { "minBuildings": 11, "maxBuildings": 16, "radius": 60, "safeZoneRadius": 80 }
+    },
+    "buildingTypes": {},
+    "biomeSuitability": {}
+  },
+  "roads": {
+    "roadWidth": 6,
+    "pathStepSize": 20,
+    "maxPathIterations": 10000,
+    "extraConnectionsRatio": 0.25,
+    "smoothingIterations": 2,
+    "noiseDisplacementScale": 0.01,
+    "noiseDisplacementStrength": 3,
+    "minPointSpacing": 4,
+    "costBiomeMultipliers": {},
+    "costBase": 1,
+    "costSlopeMultiplier": 5,
+    "costWaterPenalty": 1000,
+    "heuristicWeight": 2.5
+  }
+}
