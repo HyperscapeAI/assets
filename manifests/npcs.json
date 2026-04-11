@@ -143,7 +143,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/goblin/goblin.vrm",
-      "iconPath": "asset://icons/npcs/goblin.png",
+      "iconPath": "asset://icons/goblin.png",
       "scale": 0.75
     },
     "spawnBiomes": [
@@ -220,7 +220,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/banker/banker.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -274,7 +274,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/shopkeeper/shopkeeper.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -379,7 +379,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/captain-rowan/captain-rowan.vrm",
-      "iconPath": "asset://icons/npcs/captain.png",
+      "iconPath": "asset://icons/captain.png",
       "scale": 1.0
     }
   },
@@ -476,7 +476,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/forester-wilma/forester-wilma.vrm",
-      "iconPath": "asset://icons/npcs/forester.png",
+      "iconPath": "asset://icons/forester.png",
       "scale": 1.0
     }
   },
@@ -585,7 +585,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/fisherman-pete/fisherman-pete.vrm",
-      "iconPath": "asset://icons/npcs/fisherman.png",
+      "iconPath": "asset://icons/fisherman.png",
       "scale": 1.0
     }
   },
@@ -694,7 +694,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/torvin/torvin.vrm",
-      "iconPath": "asset://icons/npcs/smith.png",
+      "iconPath": "asset://icons/smith.png",
       "scale": 0.9
     }
   },
@@ -742,7 +742,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/tanner-ellis/tanner-ellis.vrm",
-      "iconPath": "asset://icons/npcs/tanner.png",
+      "iconPath": "asset://icons/tanner.png",
       "scale": 1.0
     }
   },
@@ -802,8 +802,8 @@
       "veryRare": []
     },
     "appearance": {
-      "modelPath": "asset://models/cow/cow.vrm",
-      "iconPath": "asset://icons/npcs/cow.png",
+      "modelPath": "asset://models/cow/cow.glb",
+      "iconPath": "asset://icons/cow.png",
       "scale": 1.0
     },
     "spawnBiomes": [
@@ -913,7 +913,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/dark-wizard/dark-wizard.vrm",
-      "iconPath": "asset://icons/npcs/dark_wizard.png",
+      "iconPath": "asset://icons/dark_wizard.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb"
     },
@@ -1010,7 +1010,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/dark-ranger/dark-ranger.vrm",
-      "iconPath": "asset://icons/npcs/dark_ranger.png",
+      "iconPath": "asset://icons/dark_ranger.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/bows/bow-wood/bow-wood-aligned.glb"
     },
@@ -1140,7 +1140,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/Zamorin/Zamorin.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -1265,7 +1265,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/Lowe/Lowe.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -1319,7 +1319,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/horvik/Horvik.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -1444,7 +1444,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/npcs/dommik/Dommik.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -1577,7 +1577,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/gaurd/gaurd.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/swords/long-swords/longsword-iron-aligned.glb"
     },
@@ -1680,7 +1680,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/bandit/bandit.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/swords/scimitars/scimitar-bronze-aligned.glb"
     },
@@ -1784,7 +1784,7 @@
     },
     "appearance": {
       "modelPath": "asset://models/mobs/barbarian/barbarian.vrm",
-      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "iconPath": "asset://icons/shopkeeper.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/swords/scimitars/scimitar-iron-aligned.glb"
     },

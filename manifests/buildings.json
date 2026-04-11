@@ -1,1 +1,96 @@
-[]
+{
+  "version": 1,
+  "towns": [],
+  "buildingTypes": {
+    "bank": {
+      "label": "Bank",
+      "widthRange": [8, 8],
+      "depthRange": [6, 6],
+      "floors": 1,
+      "hasBasement": true,
+      "props": ["banker"]
+    },
+    "store": {
+      "label": "General Store",
+      "widthRange": [7, 7],
+      "depthRange": [5, 5],
+      "floors": 1,
+      "hasBasement": false,
+      "props": ["shopkeeper"]
+    },
+    "inn": {
+      "label": "Inn",
+      "widthRange": [10, 10],
+      "depthRange": [12, 12],
+      "floors": 2,
+      "hasBasement": false,
+      "props": ["innkeeper"]
+    },
+    "smithy": {
+      "label": "Smithy",
+      "widthRange": [7, 7],
+      "depthRange": [7, 7],
+      "floors": 1,
+      "hasBasement": false,
+      "props": ["blacksmith", "anvil"]
+    },
+    "house": {
+      "label": "House",
+      "widthRange": [6, 6],
+      "depthRange": [5, 5],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "simple-house": {
+      "label": "Simple House",
+      "widthRange": [6, 6],
+      "depthRange": [6, 6],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "long-house": {
+      "label": "Long House",
+      "widthRange": [5, 5],
+      "depthRange": [12, 12],
+      "floors": 1,
+      "hasBasement": false
+    },
+    "well": {
+      "label": "Well",
+      "widthRange": [3, 3],
+      "depthRange": [3, 3],
+      "floors": 0,
+      "hasBasement": false
+    },
+    "anvil": {
+      "label": "Anvil",
+      "widthRange": [2, 2],
+      "depthRange": [2, 2],
+      "floors": 0,
+      "hasBasement": false
+    }
+  },
+  "sizeDefinitions": {
+    "sm": {
+      "label": "Hamlet",
+      "minBuildings": 3,
+      "maxBuildings": 5,
+      "radius": 25,
+      "safeZoneRadius": 40
+    },
+    "md": {
+      "label": "Village",
+      "minBuildings": 6,
+      "maxBuildings": 10,
+      "radius": 40,
+      "safeZoneRadius": 60
+    },
+    "lg": {
+      "label": "Town",
+      "minBuildings": 11,
+      "maxBuildings": 16,
+      "radius": 60,
+      "safeZoneRadius": 80
+    }
+  }
+}
